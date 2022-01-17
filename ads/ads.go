@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	defaultVersion string = "v0"
+	defaultVersion string = "v9"
 )
 
 type GoogleAdsClient struct {
