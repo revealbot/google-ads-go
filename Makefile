@@ -1,9 +1,9 @@
 ADS_VERSION=v9
 PROTO_ROOT_DIR=googleapis/
-PROTO_SRC_DIR=/google/ads/googleads/$(ADS_VERSION)/**/*.proto
+PROTO_SRC_DIR=google/ads/googleads/$(ADS_VERSION)/**/*.proto
 PROTO_OUT_DIR=$$GOPATH/src/github.com/revealbot/google-ads-go/
 PKG_PATH=paths=source_relative
-PROTOC_GO_ARGS=--go_out=plugins=grpc,$(PKG_PATH):$(PROTO_OUT_DIR)
+PROTOC_GO_ARGS=--go_out=$(PROTO_OUT_DIR) --go_opt=paths=source_relative --go-grpc_out=$(PROTO_OUT_DIR) --go-grpc_opt=paths=source_relative
 
 ENTRY=main.go
 BIN=gads
