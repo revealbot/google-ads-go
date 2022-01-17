@@ -8,7 +8,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	_ "github.com/golang/protobuf/ptypes/wrappers"
-	resources "github.com/kritzware/google-ads-go/resources"
+	resources "github.com/revealbot/google-ads-go/resources"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	field_mask "google.golang.org/genproto/protobuf/field_mask"
@@ -211,11 +211,14 @@ type KeywordPlanNegativeKeywordOperation_Remove struct {
 	Remove string `protobuf:"bytes,3,opt,name=remove,proto3,oneof"`
 }
 
-func (*KeywordPlanNegativeKeywordOperation_Create) isKeywordPlanNegativeKeywordOperation_Operation() {}
+func (*KeywordPlanNegativeKeywordOperation_Create) isKeywordPlanNegativeKeywordOperation_Operation() {
+}
 
-func (*KeywordPlanNegativeKeywordOperation_Update) isKeywordPlanNegativeKeywordOperation_Operation() {}
+func (*KeywordPlanNegativeKeywordOperation_Update) isKeywordPlanNegativeKeywordOperation_Operation() {
+}
 
-func (*KeywordPlanNegativeKeywordOperation_Remove) isKeywordPlanNegativeKeywordOperation_Operation() {}
+func (*KeywordPlanNegativeKeywordOperation_Remove) isKeywordPlanNegativeKeywordOperation_Operation() {
+}
 
 func (m *KeywordPlanNegativeKeywordOperation) GetOperation() isKeywordPlanNegativeKeywordOperation_Operation {
 	if m != nil {
@@ -271,8 +274,10 @@ type MutateKeywordPlanNegativeKeywordsResponse struct {
 func (m *MutateKeywordPlanNegativeKeywordsResponse) Reset() {
 	*m = MutateKeywordPlanNegativeKeywordsResponse{}
 }
-func (m *MutateKeywordPlanNegativeKeywordsResponse) String() string { return proto.CompactTextString(m) }
-func (*MutateKeywordPlanNegativeKeywordsResponse) ProtoMessage()    {}
+func (m *MutateKeywordPlanNegativeKeywordsResponse) String() string {
+	return proto.CompactTextString(m)
+}
+func (*MutateKeywordPlanNegativeKeywordsResponse) ProtoMessage() {}
 func (*MutateKeywordPlanNegativeKeywordsResponse) Descriptor() ([]byte, []int) {
 	return fileDescriptor_c2704c37385d6e1d, []int{3}
 }

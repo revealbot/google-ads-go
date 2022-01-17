@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	enums "github.com/kritzware/google-ads-go/enums"
+	enums "github.com/revealbot/google-ads-go/enums"
 	math "math"
 )
 

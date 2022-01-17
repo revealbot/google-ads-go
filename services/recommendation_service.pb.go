@@ -8,8 +8,8 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	enums "github.com/kritzware/google-ads-go/enums"
-	resources "github.com/kritzware/google-ads-go/resources"
+	enums "github.com/revealbot/google-ads-go/enums"
+	resources "github.com/revealbot/google-ads-go/resources"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	grpc "google.golang.org/grpc"
@@ -203,13 +203,15 @@ type ApplyRecommendationOperation_TargetCpaOptIn struct {
 	TargetCpaOptIn *ApplyRecommendationOperation_TargetCpaOptInParameters `protobuf:"bytes,5,opt,name=target_cpa_opt_in,json=targetCpaOptIn,proto3,oneof"`
 }
 
-func (*ApplyRecommendationOperation_CampaignBudget) isApplyRecommendationOperation_ApplyParameters() {}
+func (*ApplyRecommendationOperation_CampaignBudget) isApplyRecommendationOperation_ApplyParameters() {
+}
 
 func (*ApplyRecommendationOperation_TextAd) isApplyRecommendationOperation_ApplyParameters() {}
 
 func (*ApplyRecommendationOperation_Keyword) isApplyRecommendationOperation_ApplyParameters() {}
 
-func (*ApplyRecommendationOperation_TargetCpaOptIn) isApplyRecommendationOperation_ApplyParameters() {}
+func (*ApplyRecommendationOperation_TargetCpaOptIn) isApplyRecommendationOperation_ApplyParameters() {
+}
 
 func (m *ApplyRecommendationOperation) GetApplyParameters() isApplyRecommendationOperation_ApplyParameters {
 	if m != nil {

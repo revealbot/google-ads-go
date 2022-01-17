@@ -7,8 +7,8 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	common "github.com/kritzware/google-ads-go/common"
-	enums "github.com/kritzware/google-ads-go/enums"
+	common "github.com/revealbot/google-ads-go/common"
+	enums "github.com/revealbot/google-ads-go/enums"
 	math "math"
 )
 
@@ -228,8 +228,10 @@ type ConversionAction_AttributionModelSettings struct {
 func (m *ConversionAction_AttributionModelSettings) Reset() {
 	*m = ConversionAction_AttributionModelSettings{}
 }
-func (m *ConversionAction_AttributionModelSettings) String() string { return proto.CompactTextString(m) }
-func (*ConversionAction_AttributionModelSettings) ProtoMessage()    {}
+func (m *ConversionAction_AttributionModelSettings) String() string {
+	return proto.CompactTextString(m)
+}
+func (*ConversionAction_AttributionModelSettings) ProtoMessage() {}
 func (*ConversionAction_AttributionModelSettings) Descriptor() ([]byte, []int) {
 	return fileDescriptor_586b22e1c4805e0c, []int{0, 0}
 }

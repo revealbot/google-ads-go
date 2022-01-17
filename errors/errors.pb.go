@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	common "github.com/kritzware/google-ads-go/common"
+	common "github.com/revealbot/google-ads-go/common"
 	math "math"
 )
 

@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	enums "github.com/kritzware/google-ads-go/enums"
+	enums "github.com/revealbot/google-ads-go/enums"
 	math "math"
 )
 
@@ -600,7 +600,8 @@ func (*PolicyTopicConstraint_ResellerConstraint_) isPolicyTopicConstraint_Value(
 
 func (*PolicyTopicConstraint_CertificateMissingInCountryList) isPolicyTopicConstraint_Value() {}
 
-func (*PolicyTopicConstraint_CertificateDomainMismatchInCountryList) isPolicyTopicConstraint_Value() {}
+func (*PolicyTopicConstraint_CertificateDomainMismatchInCountryList) isPolicyTopicConstraint_Value() {
+}
 
 func (m *PolicyTopicConstraint) GetValue() isPolicyTopicConstraint_Value {
 	if m != nil {
