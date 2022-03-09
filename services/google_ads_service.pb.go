@@ -677,7 +677,7 @@ type GoogleAdsRow struct {
 	// The experiment referenced in the query.
 	Experiment *resources.Experiment `protobuf:"bytes,133,opt,name=experiment,proto3" json:"experiment,omitempty"`
 	// The experiment arm referenced in the query.
-	ExperimentArm *resources.ExperimentArm `protobuf:"bytes,183,opt,name=experiment_arm,json=experimentArm,proto3" json:"experiment_arm,omitempty"`
+	// ExperimentArm *resources.ExperimentArm `protobuf:"bytes,183,opt,name=experiment_arm,json=experimentArm,proto3" json:"experiment_arm,omitempty"`
 	// The user interest referenced in the query.
 	UserInterest *resources.UserInterest `protobuf:"bytes,59,opt,name=user_interest,json=userInterest,proto3" json:"user_interest,omitempty"`
 	// The life event referenced in the query.
@@ -1712,12 +1712,12 @@ func (x *GoogleAdsRow) GetExperiment() *resources.Experiment {
 	return nil
 }
 
-func (x *GoogleAdsRow) GetExperimentArm() *resources.ExperimentArm {
-	if x != nil {
-		return x.ExperimentArm
-	}
-	return nil
-}
+// func (x *GoogleAdsRow) GetExperimentArm() *resources.ExperimentArm {
+// 	if x != nil {
+// 		return x.ExperimentArm
+// 	}
+// 	return nil
+// }
 
 func (x *GoogleAdsRow) GetUserInterest() *resources.UserInterest {
 	if x != nil {
@@ -7668,7 +7668,7 @@ var file_services_google_ads_service_proto_goTypes = []interface{}{
 	(*resources.ThirdPartyAppAnalyticsLink)(nil),           // 148: google.ads.googleads.v10.resources.ThirdPartyAppAnalyticsLink
 	(*resources.TopicView)(nil),                            // 149: google.ads.googleads.v10.resources.TopicView
 	(*resources.Experiment)(nil),                           // 150: google.ads.googleads.v10.resources.Experiment
-	(*resources.ExperimentArm)(nil),                        // 151: google.ads.googleads.v10.resources.ExperimentArm
+	// (*resources.ExperimentArm)(nil),                        // 151: google.ads.googleads.v10.resources.ExperimentArm
 	(*resources.UserInterest)(nil),                         // 152: google.ads.googleads.v10.resources.UserInterest
 	(*resources.LifeEvent)(nil),                            // 153: google.ads.googleads.v10.resources.LifeEvent
 	(*resources.UserList)(nil),                             // 154: google.ads.googleads.v10.resources.UserList

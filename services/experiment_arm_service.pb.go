@@ -22,7 +22,7 @@ package services
 
 import (
 	enums "github.com/revealbot/google-ads-go/enums"
-	resources "github.com/revealbot/google-ads-go/resources"
+	// resources "github.com/revealbot/google-ads-go/resources"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -192,19 +192,19 @@ func (m *ExperimentArmOperation) GetOperation() isExperimentArmOperation_Operati
 	return nil
 }
 
-func (x *ExperimentArmOperation) GetCreate() *resources.ExperimentArm {
-	if x, ok := x.GetOperation().(*ExperimentArmOperation_Create); ok {
-		return x.Create
-	}
-	return nil
-}
+// func (x *ExperimentArmOperation) GetCreate() *resources.ExperimentArm {
+// 	if x, ok := x.GetOperation().(*ExperimentArmOperation_Create); ok {
+// 		return x.Create
+// 	}
+// 	return nil
+// }
 
-func (x *ExperimentArmOperation) GetUpdate() *resources.ExperimentArm {
-	if x, ok := x.GetOperation().(*ExperimentArmOperation_Update); ok {
-		return x.Update
-	}
-	return nil
-}
+// func (x *ExperimentArmOperation) GetUpdate() *resources.ExperimentArm {
+// 	if x, ok := x.GetOperation().(*ExperimentArmOperation_Update); ok {
+// 		return x.Update
+// 	}
+// 	return nil
+// }
 
 func (x *ExperimentArmOperation) GetRemove() string {
 	if x, ok := x.GetOperation().(*ExperimentArmOperation_Remove); ok {
@@ -219,13 +219,13 @@ type isExperimentArmOperation_Operation interface {
 
 type ExperimentArmOperation_Create struct {
 	// Create operation
-	Create *resources.ExperimentArm `protobuf:"bytes,1,opt,name=create,proto3,oneof"`
+	// Create *resources.ExperimentArm `protobuf:"bytes,1,opt,name=create,proto3,oneof"`
 }
 
 type ExperimentArmOperation_Update struct {
 	// Update operation: The experiment arm is expected to have a valid
 	// resource name.
-	Update *resources.ExperimentArm `protobuf:"bytes,2,opt,name=update,proto3,oneof"`
+	// Update *resources.ExperimentArm `protobuf:"bytes,2,opt,name=update,proto3,oneof"`
 }
 
 type ExperimentArmOperation_Remove struct {
@@ -314,7 +314,7 @@ type MutateExperimentArmResult struct {
 	// The mutated experiment arm with only mutable fields after mutate. The
 	// field will only be returned when response_content_type is set to
 	// "MUTABLE_RESOURCE".
-	ExperimentArm *resources.ExperimentArm `protobuf:"bytes,2,opt,name=experiment_arm,json=experimentArm,proto3" json:"experiment_arm,omitempty"`
+	// ExperimentArm *resources.ExperimentArm `protobuf:"bytes,2,opt,name=experiment_arm,json=experimentArm,proto3" json:"experiment_arm,omitempty"`
 }
 
 func (x *MutateExperimentArmResult) Reset() {
@@ -356,12 +356,12 @@ func (x *MutateExperimentArmResult) GetResourceName() string {
 	return ""
 }
 
-func (x *MutateExperimentArmResult) GetExperimentArm() *resources.ExperimentArm {
-	if x != nil {
-		return x.ExperimentArm
-	}
-	return nil
-}
+// func (x *MutateExperimentArmResult) GetExperimentArm() *resources.ExperimentArm {
+// 	if x != nil {
+// 		return x.ExperimentArm
+// 	}
+// 	return nil
+// }
 
 var File_services_experiment_arm_service_proto protoreflect.FileDescriptor
 
@@ -519,7 +519,7 @@ var file_services_experiment_arm_service_proto_goTypes = []interface{}{
 	(*MutateExperimentArmResult)(nil),                      // 3: google.ads.googleads.v10.services.MutateExperimentArmResult
 	(enums.ResponseContentTypeEnum_ResponseContentType)(0), // 4: google.ads.googleads.v10.enums.ResponseContentTypeEnum.ResponseContentType
 	(*fieldmaskpb.FieldMask)(nil),                          // 5: google.protobuf.FieldMask
-	(*resources.ExperimentArm)(nil),                        // 6: google.ads.googleads.v10.resources.ExperimentArm
+	// (*resources.ExperimentArm)(nil),                        // 6: google.ads.googleads.v10.resources.ExperimentArm
 	(*status.Status)(nil),                                  // 7: google.rpc.Status
 }
 var file_services_experiment_arm_service_proto_depIdxs = []int32{
