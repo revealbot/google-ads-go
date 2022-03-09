@@ -26,11 +26,11 @@ proto_library(
     name = "googleads_proto",
     srcs = [],
     deps = [
-        "//google/ads/googleads/v9/common:common_proto",
-        "//google/ads/googleads/v9/enums:enums_proto",
-        "//google/ads/googleads/v9/errors:errors_proto",
-        "//google/ads/googleads/v9/resources:resources_proto",
-        "//google/ads/googleads/v9/services:services_proto",
+        "//google/ads/googleads/v10/common:common_proto",
+        "//google/ads/googleads/v10/enums:enums_proto",
+        "//google/ads/googleads/v10/errors:errors_proto",
+        "//google/ads/googleads/v10/resources:resources_proto",
+        "//google/ads/googleads/v10/services:services_proto",
     ],
 )
 
@@ -59,11 +59,11 @@ java_gapic_library(
     gapic_yaml = "googleads_gapic.yaml",
     grpc_service_config = ":googleads_grpc_service_config.json",
     deps = [
-        "//google/ads/googleads/v9/common:common_java_proto",
-        "//google/ads/googleads/v9/enums:enums_java_proto",
-        "//google/ads/googleads/v9/resources:resources_java_proto",
-        "//google/ads/googleads/v9/services:services_java_grpc",
-        "//google/ads/googleads/v9/services:services_java_proto",
+        "//google/ads/googleads/v10/common:common_java_proto",
+        "//google/ads/googleads/v10/enums:enums_java_proto",
+        "//google/ads/googleads/v10/resources:resources_java_proto",
+        "//google/ads/googleads/v10/services:services_java_grpc",
+        "//google/ads/googleads/v10/services:services_java_proto",
     ],
 )
 
@@ -72,7 +72,7 @@ java_gapic_library(
 java_gapic_test(
     name = "googleads_java_gapic_suite",
     test_classes = [
-        "com.google.ads.googleads.v9.services.CampaignServiceClientTest",
+        "com.google.ads.googleads.v10.services.CampaignServiceClientTest",
     ],
     runtime_deps = [":googleads_java_gapic_test"],
 )
@@ -81,13 +81,13 @@ java_gapic_assembly_gradle_pkg(
     name = "googleads-java",
     deps = [
         ":googleads_java_gapic",
-        "//google/ads/googleads/v9:googleads_proto",
-        "//google/ads/googleads/v9/common:common_java_proto",
-        "//google/ads/googleads/v9/enums:enums_java_proto",
-        "//google/ads/googleads/v9/errors:errors_java_proto",
-        "//google/ads/googleads/v9/resources:resources_java_proto",
-        "//google/ads/googleads/v9/services:services_java_grpc",
-        "//google/ads/googleads/v9/services:services_java_proto",
+        "//google/ads/googleads/v10:googleads_proto",
+        "//google/ads/googleads/v10/common:common_java_proto",
+        "//google/ads/googleads/v10/enums:enums_java_proto",
+        "//google/ads/googleads/v10/errors:errors_java_proto",
+        "//google/ads/googleads/v10/resources:resources_java_proto",
+        "//google/ads/googleads/v10/services:services_java_grpc",
+        "//google/ads/googleads/v10/services:services_java_proto",
     ],
 )
 
@@ -119,7 +119,7 @@ php_gapic_library(
     srcs = [":googleads_proto"],
     gapic_yaml = "googleads_gapic.yaml",
     grpc_service_config = "googleads_grpc_service_config.json",
-    service_yaml = "googleads_v9.yaml",
+    service_yaml = "googleads_v10.yaml",
     deps = [
         ":googleads_php_grpc",
         ":googleads_php_proto",
@@ -148,7 +148,7 @@ csharp_gapic_library(
     ],
     grpc_service_config = "googleads_grpc_service_config.json",
     deps = [
-        "//google/ads/googleads/v9/services:services_csharp_grpc",
+        "//google/ads/googleads/v10/services:services_csharp_grpc",
     ],
 )
 
@@ -156,12 +156,12 @@ csharp_gapic_assembly_pkg(
     name = "googleads-csharp",
     deps = [
         ":googleads_csharp_gapic",
-        "//google/ads/googleads/v9/common:common_csharp_proto",
-        "//google/ads/googleads/v9/enums:enums_csharp_proto",
-        "//google/ads/googleads/v9/errors:errors_csharp_proto",
-        "//google/ads/googleads/v9/resources:resources_csharp_proto",
-        "//google/ads/googleads/v9/services:services_csharp_grpc",
-        "//google/ads/googleads/v9/services:services_csharp_proto",
+        "//google/ads/googleads/v10/common:common_csharp_proto",
+        "//google/ads/googleads/v10/enums:enums_csharp_proto",
+        "//google/ads/googleads/v10/errors:errors_csharp_proto",
+        "//google/ads/googleads/v10/resources:resources_csharp_proto",
+        "//google/ads/googleads/v10/services:services_csharp_grpc",
+        "//google/ads/googleads/v10/services:services_csharp_proto",
     ],
 )
 
@@ -189,12 +189,12 @@ ruby_gapic_assembly_pkg(
     name = "googleads-ruby",
     deps = [
         ":googleads_ruby_gapic",
-        "//google/ads/googleads/v9/common:common_ruby_proto",
-        "//google/ads/googleads/v9/enums:enums_ruby_proto",
-        "//google/ads/googleads/v9/errors:errors_ruby_proto",
-        "//google/ads/googleads/v9/resources:resources_ruby_proto",
-        "//google/ads/googleads/v9/services:services_ruby_grpc",
-        "//google/ads/googleads/v9/services:services_ruby_proto",
+        "//google/ads/googleads/v10/common:common_ruby_proto",
+        "//google/ads/googleads/v10/enums:enums_ruby_proto",
+        "//google/ads/googleads/v10/errors:errors_ruby_proto",
+        "//google/ads/googleads/v10/resources:resources_ruby_proto",
+        "//google/ads/googleads/v10/services:services_ruby_grpc",
+        "//google/ads/googleads/v10/services:services_ruby_proto",
     ],
 )
 
@@ -224,12 +224,12 @@ py_gapic_assembly_pkg(
     name = "googleads-py",
     deps = [
         ":googleads_py_gapic",
-        "//google/ads/googleads/v9/common:common_py_proto",
-        "//google/ads/googleads/v9/enums:enums_py_proto",
-        "//google/ads/googleads/v9/errors:errors_py_proto",
-        "//google/ads/googleads/v9/resources:resources_py_proto",
-        "//google/ads/googleads/v9/services:services_py_grpc",
-        "//google/ads/googleads/v9/services:services_py_proto",
+        "//google/ads/googleads/v10/common:common_py_proto",
+        "//google/ads/googleads/v10/enums:enums_py_proto",
+        "//google/ads/googleads/v10/errors:errors_py_proto",
+        "//google/ads/googleads/v10/resources:resources_py_proto",
+        "//google/ads/googleads/v10/services:services_py_grpc",
+        "//google/ads/googleads/v10/services:services_py_proto",
     ],
 )
 
@@ -249,8 +249,8 @@ nodejs_gapic_library(
     extra_protoc_parameters = ["metadata"],
     grpc_service_config = "googleads_grpc_service_config.json",
     main_service = "GoogleAdsService",
-    package = "google.ads.googleads.v9",
-    service_yaml = "googleads_v9.yaml",
+    package = "google.ads.googleads.v10",
+    service_yaml = "googleads_v10.yaml",
     deps = [],
 )
 
