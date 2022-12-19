@@ -2,21 +2,21 @@ type: com.google.api.codegen.ConfigProto
 config_schema_version: 2.0.0
 language_settings:
   csharp:
-    package_name: Google.Ads.GoogleAds.V11.Services
+    package_name: Google.Ads.GoogleAds.V12.Services
   go:
-    package_name: google.golang.org/google/ads/googleads/v11/services
+    package_name: google.golang.org/google/ads/googleads/v12/services
   java:
-    package_name: com.google.ads.googleads.v11.services
+    package_name: com.google.ads.googleads.v12.services
   nodejs:
-    package_name: v11.services
+    package_name: v12.services
   php:
-    package_name: Google\Ads\GoogleAds\V11\Services
+    package_name: Google\Ads\GoogleAds\V12\Services
   python:
-    package_name: google.ads.googleads_v11.gapic.services
+    package_name: google.ads.googleads_v12.gapic.services
   ruby:
-    package_name: Google::Ads::Googleads::V11::Services
+    package_name: Google::Ads::Googleads::V12::Services
 interfaces:
-- name: google.ads.googleads.v11.services.OfflineUserDataJobService
+- name: google.ads.googleads.v12.services.OfflineUserDataJobService
   methods:
   - name: RunOfflineUserDataJob
     long_running:

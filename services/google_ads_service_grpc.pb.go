@@ -65,7 +65,7 @@ type GoogleAdsServiceClient interface {
 	//
 	// Atomicity makes error handling much easier. If you're making a series of
 	// changes and one fails, it can leave your account in an inconsistent state.
-	// With atomicity, you either reach the desired state directly, or the request
+	// With atomicity, you either reach the chosen state directly, or the request
 	// fails and you can retry.
 	//
 	// ## Temp Resource Names
@@ -171,7 +171,7 @@ func NewGoogleAdsServiceClient(cc grpc.ClientConnInterface) GoogleAdsServiceClie
 
 func (c *googleAdsServiceClient) Search(ctx context.Context, in *SearchGoogleAdsRequest, opts ...grpc.CallOption) (*SearchGoogleAdsResponse, error) {
 	out := new(SearchGoogleAdsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v11.services.GoogleAdsService/Search", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v12.services.GoogleAdsService/Search", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -179,7 +179,7 @@ func (c *googleAdsServiceClient) Search(ctx context.Context, in *SearchGoogleAds
 }
 
 func (c *googleAdsServiceClient) SearchStream(ctx context.Context, in *SearchGoogleAdsStreamRequest, opts ...grpc.CallOption) (GoogleAdsService_SearchStreamClient, error) {
-	stream, err := c.cc.NewStream(ctx, &GoogleAdsService_ServiceDesc.Streams[0], "/google.ads.googleads.v11.services.GoogleAdsService/SearchStream", opts...)
+	stream, err := c.cc.NewStream(ctx, &GoogleAdsService_ServiceDesc.Streams[0], "/google.ads.googleads.v12.services.GoogleAdsService/SearchStream", opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -212,7 +212,7 @@ func (x *googleAdsServiceSearchStreamClient) Recv() (*SearchGoogleAdsStreamRespo
 
 func (c *googleAdsServiceClient) Mutate(ctx context.Context, in *MutateGoogleAdsRequest, opts ...grpc.CallOption) (*MutateGoogleAdsResponse, error) {
 	out := new(MutateGoogleAdsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v11.services.GoogleAdsService/Mutate", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v12.services.GoogleAdsService/Mutate", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -270,7 +270,7 @@ type GoogleAdsServiceServer interface {
 	//
 	// Atomicity makes error handling much easier. If you're making a series of
 	// changes and one fails, it can leave your account in an inconsistent state.
-	// With atomicity, you either reach the desired state directly, or the request
+	// With atomicity, you either reach the chosen state directly, or the request
 	// fails and you can retry.
 	//
 	// ## Temp Resource Names
@@ -403,7 +403,7 @@ func _GoogleAdsService_Search_Handler(srv interface{}, ctx context.Context, dec 
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v11.services.GoogleAdsService/Search",
+		FullMethod: "/google.ads.googleads.v12.services.GoogleAdsService/Search",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(GoogleAdsServiceServer).Search(ctx, req.(*SearchGoogleAdsRequest))
@@ -442,7 +442,7 @@ func _GoogleAdsService_Mutate_Handler(srv interface{}, ctx context.Context, dec 
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v11.services.GoogleAdsService/Mutate",
+		FullMethod: "/google.ads.googleads.v12.services.GoogleAdsService/Mutate",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(GoogleAdsServiceServer).Mutate(ctx, req.(*MutateGoogleAdsRequest))
@@ -454,7 +454,7 @@ func _GoogleAdsService_Mutate_Handler(srv interface{}, ctx context.Context, dec 
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var GoogleAdsService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v11.services.GoogleAdsService",
+	ServiceName: "google.ads.googleads.v12.services.GoogleAdsService",
 	HandlerType: (*GoogleAdsServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -473,5 +473,5 @@ var GoogleAdsService_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "google/ads/googleads/v11/services/google_ads_service.proto",
+	Metadata: "google/ads/googleads/v12/services/google_ads_service.proto",
 }

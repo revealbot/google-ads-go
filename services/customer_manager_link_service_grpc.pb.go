@@ -35,7 +35,7 @@ type CustomerManagerLinkServiceClient interface {
 	MutateCustomerManagerLink(ctx context.Context, in *MutateCustomerManagerLinkRequest, opts ...grpc.CallOption) (*MutateCustomerManagerLinkResponse, error)
 	// Moves a client customer to a new manager customer.
 	// This simplifies the complex request that requires two operations to move
-	// a client customer to a new manager. i.e:
+	// a client customer to a new manager, for example:
 	// 1. Update operation with Status INACTIVE (previous manager) and,
 	// 2. Update operation with Status ACTIVE (new manager).
 	//
@@ -62,7 +62,7 @@ func NewCustomerManagerLinkServiceClient(cc grpc.ClientConnInterface) CustomerMa
 
 func (c *customerManagerLinkServiceClient) MutateCustomerManagerLink(ctx context.Context, in *MutateCustomerManagerLinkRequest, opts ...grpc.CallOption) (*MutateCustomerManagerLinkResponse, error) {
 	out := new(MutateCustomerManagerLinkResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v11.services.CustomerManagerLinkService/MutateCustomerManagerLink", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v12.services.CustomerManagerLinkService/MutateCustomerManagerLink", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -71,7 +71,7 @@ func (c *customerManagerLinkServiceClient) MutateCustomerManagerLink(ctx context
 
 func (c *customerManagerLinkServiceClient) MoveManagerLink(ctx context.Context, in *MoveManagerLinkRequest, opts ...grpc.CallOption) (*MoveManagerLinkResponse, error) {
 	out := new(MoveManagerLinkResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v11.services.CustomerManagerLinkService/MoveManagerLink", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v12.services.CustomerManagerLinkService/MoveManagerLink", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -99,7 +99,7 @@ type CustomerManagerLinkServiceServer interface {
 	MutateCustomerManagerLink(context.Context, *MutateCustomerManagerLinkRequest) (*MutateCustomerManagerLinkResponse, error)
 	// Moves a client customer to a new manager customer.
 	// This simplifies the complex request that requires two operations to move
-	// a client customer to a new manager. i.e:
+	// a client customer to a new manager, for example:
 	// 1. Update operation with Status INACTIVE (previous manager) and,
 	// 2. Update operation with Status ACTIVE (new manager).
 	//
@@ -151,7 +151,7 @@ func _CustomerManagerLinkService_MutateCustomerManagerLink_Handler(srv interface
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v11.services.CustomerManagerLinkService/MutateCustomerManagerLink",
+		FullMethod: "/google.ads.googleads.v12.services.CustomerManagerLinkService/MutateCustomerManagerLink",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CustomerManagerLinkServiceServer).MutateCustomerManagerLink(ctx, req.(*MutateCustomerManagerLinkRequest))
@@ -169,7 +169,7 @@ func _CustomerManagerLinkService_MoveManagerLink_Handler(srv interface{}, ctx co
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v11.services.CustomerManagerLinkService/MoveManagerLink",
+		FullMethod: "/google.ads.googleads.v12.services.CustomerManagerLinkService/MoveManagerLink",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CustomerManagerLinkServiceServer).MoveManagerLink(ctx, req.(*MoveManagerLinkRequest))
@@ -181,7 +181,7 @@ func _CustomerManagerLinkService_MoveManagerLink_Handler(srv interface{}, ctx co
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var CustomerManagerLinkService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v11.services.CustomerManagerLinkService",
+	ServiceName: "google.ads.googleads.v12.services.CustomerManagerLinkService",
 	HandlerType: (*CustomerManagerLinkServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -194,5 +194,5 @@ var CustomerManagerLinkService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v11/services/customer_manager_link_service.proto",
+	Metadata: "google/ads/googleads/v12/services/customer_manager_link_service.proto",
 }

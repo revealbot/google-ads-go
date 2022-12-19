@@ -1,4 +1,4 @@
-ADS_VERSION=v11
+ADS_VERSION=v12
 PROTO_ROOT_DIR=googleapis/
 PROTO_SRC_DIR=google/ads/googleads/$(ADS_VERSION)/**/*.proto
 PROTO_OUT_DIR=$(GOPATH)/src/github.com/revealbot/google-ads-go/
