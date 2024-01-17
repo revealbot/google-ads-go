@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v14/services/audience_insights_service.proto
+// source: google/ads/googleads/v15/services/audience_insights_service.proto
 
 package services
 
@@ -77,6 +77,21 @@ type AudienceInsightsServiceClient interface {
 	//	[RangeError]()
 	//	[RequestError]()
 	GenerateAudienceCompositionInsights(ctx context.Context, in *GenerateAudienceCompositionInsightsRequest, opts ...grpc.CallOption) (*GenerateAudienceCompositionInsightsResponse, error)
+	// Returns a collection of targeting insights (e.g. targetable audiences) that
+	// are relevant to the requested audience.
+	//
+	// List of thrown errors:
+	//
+	//	[AudienceInsightsError]()
+	//	[AuthenticationError]()
+	//	[AuthorizationError]()
+	//	[FieldError]()
+	//	[HeaderError]()
+	//	[InternalError]()
+	//	[QuotaError]()
+	//	[RangeError]()
+	//	[RequestError]()
+	GenerateSuggestedTargetingInsights(ctx context.Context, in *GenerateSuggestedTargetingInsightsRequest, opts ...grpc.CallOption) (*GenerateSuggestedTargetingInsightsResponse, error)
 }
 
 type audienceInsightsServiceClient struct {
@@ -89,7 +104,7 @@ func NewAudienceInsightsServiceClient(cc grpc.ClientConnInterface) AudienceInsig
 
 func (c *audienceInsightsServiceClient) GenerateInsightsFinderReport(ctx context.Context, in *GenerateInsightsFinderReportRequest, opts ...grpc.CallOption) (*GenerateInsightsFinderReportResponse, error) {
 	out := new(GenerateInsightsFinderReportResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v14.services.AudienceInsightsService/GenerateInsightsFinderReport", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.AudienceInsightsService/GenerateInsightsFinderReport", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -98,7 +113,7 @@ func (c *audienceInsightsServiceClient) GenerateInsightsFinderReport(ctx context
 
 func (c *audienceInsightsServiceClient) ListAudienceInsightsAttributes(ctx context.Context, in *ListAudienceInsightsAttributesRequest, opts ...grpc.CallOption) (*ListAudienceInsightsAttributesResponse, error) {
 	out := new(ListAudienceInsightsAttributesResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v14.services.AudienceInsightsService/ListAudienceInsightsAttributes", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.AudienceInsightsService/ListAudienceInsightsAttributes", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -107,7 +122,7 @@ func (c *audienceInsightsServiceClient) ListAudienceInsightsAttributes(ctx conte
 
 func (c *audienceInsightsServiceClient) ListInsightsEligibleDates(ctx context.Context, in *ListInsightsEligibleDatesRequest, opts ...grpc.CallOption) (*ListInsightsEligibleDatesResponse, error) {
 	out := new(ListInsightsEligibleDatesResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v14.services.AudienceInsightsService/ListInsightsEligibleDates", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.AudienceInsightsService/ListInsightsEligibleDates", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -116,7 +131,16 @@ func (c *audienceInsightsServiceClient) ListInsightsEligibleDates(ctx context.Co
 
 func (c *audienceInsightsServiceClient) GenerateAudienceCompositionInsights(ctx context.Context, in *GenerateAudienceCompositionInsightsRequest, opts ...grpc.CallOption) (*GenerateAudienceCompositionInsightsResponse, error) {
 	out := new(GenerateAudienceCompositionInsightsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v14.services.AudienceInsightsService/GenerateAudienceCompositionInsights", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.AudienceInsightsService/GenerateAudienceCompositionInsights", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *audienceInsightsServiceClient) GenerateSuggestedTargetingInsights(ctx context.Context, in *GenerateSuggestedTargetingInsightsRequest, opts ...grpc.CallOption) (*GenerateSuggestedTargetingInsightsResponse, error) {
+	out := new(GenerateSuggestedTargetingInsightsResponse)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.AudienceInsightsService/GenerateSuggestedTargetingInsights", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -182,6 +206,21 @@ type AudienceInsightsServiceServer interface {
 	//	[RangeError]()
 	//	[RequestError]()
 	GenerateAudienceCompositionInsights(context.Context, *GenerateAudienceCompositionInsightsRequest) (*GenerateAudienceCompositionInsightsResponse, error)
+	// Returns a collection of targeting insights (e.g. targetable audiences) that
+	// are relevant to the requested audience.
+	//
+	// List of thrown errors:
+	//
+	//	[AudienceInsightsError]()
+	//	[AuthenticationError]()
+	//	[AuthorizationError]()
+	//	[FieldError]()
+	//	[HeaderError]()
+	//	[InternalError]()
+	//	[QuotaError]()
+	//	[RangeError]()
+	//	[RequestError]()
+	GenerateSuggestedTargetingInsights(context.Context, *GenerateSuggestedTargetingInsightsRequest) (*GenerateSuggestedTargetingInsightsResponse, error)
 	mustEmbedUnimplementedAudienceInsightsServiceServer()
 }
 
@@ -200,6 +239,9 @@ func (UnimplementedAudienceInsightsServiceServer) ListInsightsEligibleDates(cont
 }
 func (UnimplementedAudienceInsightsServiceServer) GenerateAudienceCompositionInsights(context.Context, *GenerateAudienceCompositionInsightsRequest) (*GenerateAudienceCompositionInsightsResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GenerateAudienceCompositionInsights not implemented")
+}
+func (UnimplementedAudienceInsightsServiceServer) GenerateSuggestedTargetingInsights(context.Context, *GenerateSuggestedTargetingInsightsRequest) (*GenerateSuggestedTargetingInsightsResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method GenerateSuggestedTargetingInsights not implemented")
 }
 func (UnimplementedAudienceInsightsServiceServer) mustEmbedUnimplementedAudienceInsightsServiceServer() {
 }
@@ -225,7 +267,7 @@ func _AudienceInsightsService_GenerateInsightsFinderReport_Handler(srv interface
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v14.services.AudienceInsightsService/GenerateInsightsFinderReport",
+		FullMethod: "/google.ads.googleads.v15.services.AudienceInsightsService/GenerateInsightsFinderReport",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AudienceInsightsServiceServer).GenerateInsightsFinderReport(ctx, req.(*GenerateInsightsFinderReportRequest))
@@ -243,7 +285,7 @@ func _AudienceInsightsService_ListAudienceInsightsAttributes_Handler(srv interfa
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v14.services.AudienceInsightsService/ListAudienceInsightsAttributes",
+		FullMethod: "/google.ads.googleads.v15.services.AudienceInsightsService/ListAudienceInsightsAttributes",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AudienceInsightsServiceServer).ListAudienceInsightsAttributes(ctx, req.(*ListAudienceInsightsAttributesRequest))
@@ -261,7 +303,7 @@ func _AudienceInsightsService_ListInsightsEligibleDates_Handler(srv interface{},
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v14.services.AudienceInsightsService/ListInsightsEligibleDates",
+		FullMethod: "/google.ads.googleads.v15.services.AudienceInsightsService/ListInsightsEligibleDates",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AudienceInsightsServiceServer).ListInsightsEligibleDates(ctx, req.(*ListInsightsEligibleDatesRequest))
@@ -279,10 +321,28 @@ func _AudienceInsightsService_GenerateAudienceCompositionInsights_Handler(srv in
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v14.services.AudienceInsightsService/GenerateAudienceCompositionInsights",
+		FullMethod: "/google.ads.googleads.v15.services.AudienceInsightsService/GenerateAudienceCompositionInsights",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AudienceInsightsServiceServer).GenerateAudienceCompositionInsights(ctx, req.(*GenerateAudienceCompositionInsightsRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _AudienceInsightsService_GenerateSuggestedTargetingInsights_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(GenerateSuggestedTargetingInsightsRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(AudienceInsightsServiceServer).GenerateSuggestedTargetingInsights(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/google.ads.googleads.v15.services.AudienceInsightsService/GenerateSuggestedTargetingInsights",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(AudienceInsightsServiceServer).GenerateSuggestedTargetingInsights(ctx, req.(*GenerateSuggestedTargetingInsightsRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
@@ -291,7 +351,7 @@ func _AudienceInsightsService_GenerateAudienceCompositionInsights_Handler(srv in
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var AudienceInsightsService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v14.services.AudienceInsightsService",
+	ServiceName: "google.ads.googleads.v15.services.AudienceInsightsService",
 	HandlerType: (*AudienceInsightsServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -310,7 +370,11 @@ var AudienceInsightsService_ServiceDesc = grpc.ServiceDesc{
 			MethodName: "GenerateAudienceCompositionInsights",
 			Handler:    _AudienceInsightsService_GenerateAudienceCompositionInsights_Handler,
 		},
+		{
+			MethodName: "GenerateSuggestedTargetingInsights",
+			Handler:    _AudienceInsightsService_GenerateSuggestedTargetingInsights_Handler,
+		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v14/services/audience_insights_service.proto",
+	Metadata: "google/ads/googleads/v15/services/audience_insights_service.proto",
 }

@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v14/services/customer_sk_ad_network_conversion_value_schema_service.proto
+// source: google/ads/googleads/v15/services/customer_sk_ad_network_conversion_value_schema_service.proto
 
 package services
 
@@ -44,7 +44,7 @@ func NewCustomerSkAdNetworkConversionValueSchemaServiceClient(cc grpc.ClientConn
 
 func (c *customerSkAdNetworkConversionValueSchemaServiceClient) MutateCustomerSkAdNetworkConversionValueSchema(ctx context.Context, in *MutateCustomerSkAdNetworkConversionValueSchemaRequest, opts ...grpc.CallOption) (*MutateCustomerSkAdNetworkConversionValueSchemaResponse, error) {
 	out := new(MutateCustomerSkAdNetworkConversionValueSchemaResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v14.services.CustomerSkAdNetworkConversionValueSchemaService/MutateCustomerSkAdNetworkConversionValueSchema", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.CustomerSkAdNetworkConversionValueSchemaService/MutateCustomerSkAdNetworkConversionValueSchema", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -99,7 +99,7 @@ func _CustomerSkAdNetworkConversionValueSchemaService_MutateCustomerSkAdNetworkC
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v14.services.CustomerSkAdNetworkConversionValueSchemaService/MutateCustomerSkAdNetworkConversionValueSchema",
+		FullMethod: "/google.ads.googleads.v15.services.CustomerSkAdNetworkConversionValueSchemaService/MutateCustomerSkAdNetworkConversionValueSchema",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CustomerSkAdNetworkConversionValueSchemaServiceServer).MutateCustomerSkAdNetworkConversionValueSchema(ctx, req.(*MutateCustomerSkAdNetworkConversionValueSchemaRequest))
@@ -111,7 +111,7 @@ func _CustomerSkAdNetworkConversionValueSchemaService_MutateCustomerSkAdNetworkC
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var CustomerSkAdNetworkConversionValueSchemaService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v14.services.CustomerSkAdNetworkConversionValueSchemaService",
+	ServiceName: "google.ads.googleads.v15.services.CustomerSkAdNetworkConversionValueSchemaService",
 	HandlerType: (*CustomerSkAdNetworkConversionValueSchemaServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -120,5 +120,5 @@ var CustomerSkAdNetworkConversionValueSchemaService_ServiceDesc = grpc.ServiceDe
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v14/services/customer_sk_ad_network_conversion_value_schema_service.proto",
+	Metadata: "google/ads/googleads/v15/services/customer_sk_ad_network_conversion_value_schema_service.proto",
 }
