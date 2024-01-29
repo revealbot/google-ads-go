@@ -12,3 +12,7 @@
 *.out
 
 google-ads.json
+
+.DS_Store
+/.vscode
+.idea
