@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v15/services/recommendation_subscription_service.proto
+// source: google/ads/googleads/v16/services/recommendation_subscription_service.proto
 
 package services
 
@@ -50,7 +50,7 @@ func NewRecommendationSubscriptionServiceClient(cc grpc.ClientConnInterface) Rec
 
 func (c *recommendationSubscriptionServiceClient) MutateRecommendationSubscription(ctx context.Context, in *MutateRecommendationSubscriptionRequest, opts ...grpc.CallOption) (*MutateRecommendationSubscriptionResponse, error) {
 	out := new(MutateRecommendationSubscriptionResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.RecommendationSubscriptionService/MutateRecommendationSubscription", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.RecommendationSubscriptionService/MutateRecommendationSubscription", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -111,7 +111,7 @@ func _RecommendationSubscriptionService_MutateRecommendationSubscription_Handler
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v15.services.RecommendationSubscriptionService/MutateRecommendationSubscription",
+		FullMethod: "/google.ads.googleads.v16.services.RecommendationSubscriptionService/MutateRecommendationSubscription",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(RecommendationSubscriptionServiceServer).MutateRecommendationSubscription(ctx, req.(*MutateRecommendationSubscriptionRequest))
@@ -123,7 +123,7 @@ func _RecommendationSubscriptionService_MutateRecommendationSubscription_Handler
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var RecommendationSubscriptionService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v15.services.RecommendationSubscriptionService",
+	ServiceName: "google.ads.googleads.v16.services.RecommendationSubscriptionService",
 	HandlerType: (*RecommendationSubscriptionServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -132,5 +132,5 @@ var RecommendationSubscriptionService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v15/services/recommendation_subscription_service.proto",
+	Metadata: "google/ads/googleads/v16/services/recommendation_subscription_service.proto",
 }

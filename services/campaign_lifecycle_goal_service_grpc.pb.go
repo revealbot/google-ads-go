@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v15/services/campaign_lifecycle_goal_service.proto
+// source: google/ads/googleads/v16/services/campaign_lifecycle_goal_service.proto
 
 package services
 
@@ -18,10 +18,10 @@ import (
 // Requires gRPC-Go v1.32.0 or later.
 const _ = grpc.SupportPackageIsVersion7
 
-// CampaignLifecycleServiceClient is the client API for CampaignLifecycleService service.
+// CampaignLifecycleGoalServiceClient is the client API for CampaignLifecycleGoalService service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
-type CampaignLifecycleServiceClient interface {
+type CampaignLifecycleGoalServiceClient interface {
 	// Process the given campaign lifecycle configurations.
 	//
 	// List of thrown errors:
@@ -36,27 +36,27 @@ type CampaignLifecycleServiceClient interface {
 	ConfigureCampaignLifecycleGoals(ctx context.Context, in *ConfigureCampaignLifecycleGoalsRequest, opts ...grpc.CallOption) (*ConfigureCampaignLifecycleGoalsResponse, error)
 }
 
-type campaignLifecycleServiceClient struct {
+type campaignLifecycleGoalServiceClient struct {
 	cc grpc.ClientConnInterface
 }
 
-func NewCampaignLifecycleServiceClient(cc grpc.ClientConnInterface) CampaignLifecycleServiceClient {
-	return &campaignLifecycleServiceClient{cc}
+func NewCampaignLifecycleGoalServiceClient(cc grpc.ClientConnInterface) CampaignLifecycleGoalServiceClient {
+	return &campaignLifecycleGoalServiceClient{cc}
 }
 
-func (c *campaignLifecycleServiceClient) ConfigureCampaignLifecycleGoals(ctx context.Context, in *ConfigureCampaignLifecycleGoalsRequest, opts ...grpc.CallOption) (*ConfigureCampaignLifecycleGoalsResponse, error) {
+func (c *campaignLifecycleGoalServiceClient) ConfigureCampaignLifecycleGoals(ctx context.Context, in *ConfigureCampaignLifecycleGoalsRequest, opts ...grpc.CallOption) (*ConfigureCampaignLifecycleGoalsResponse, error) {
 	out := new(ConfigureCampaignLifecycleGoalsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v15.services.CampaignLifecycleService/ConfigureCampaignLifecycleGoals", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.CampaignLifecycleGoalService/ConfigureCampaignLifecycleGoals", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-// CampaignLifecycleServiceServer is the server API for CampaignLifecycleService service.
-// All implementations must embed UnimplementedCampaignLifecycleServiceServer
+// CampaignLifecycleGoalServiceServer is the server API for CampaignLifecycleGoalService service.
+// All implementations must embed UnimplementedCampaignLifecycleGoalServiceServer
 // for forward compatibility
-type CampaignLifecycleServiceServer interface {
+type CampaignLifecycleGoalServiceServer interface {
 	// Process the given campaign lifecycle configurations.
 	//
 	// List of thrown errors:
@@ -69,60 +69,60 @@ type CampaignLifecycleServiceServer interface {
 	//	[QuotaError]()
 	//	[RequestError]()
 	ConfigureCampaignLifecycleGoals(context.Context, *ConfigureCampaignLifecycleGoalsRequest) (*ConfigureCampaignLifecycleGoalsResponse, error)
-	mustEmbedUnimplementedCampaignLifecycleServiceServer()
+	mustEmbedUnimplementedCampaignLifecycleGoalServiceServer()
 }
 
-// UnimplementedCampaignLifecycleServiceServer must be embedded to have forward compatible implementations.
-type UnimplementedCampaignLifecycleServiceServer struct {
+// UnimplementedCampaignLifecycleGoalServiceServer must be embedded to have forward compatible implementations.
+type UnimplementedCampaignLifecycleGoalServiceServer struct {
 }
 
-func (UnimplementedCampaignLifecycleServiceServer) ConfigureCampaignLifecycleGoals(context.Context, *ConfigureCampaignLifecycleGoalsRequest) (*ConfigureCampaignLifecycleGoalsResponse, error) {
+func (UnimplementedCampaignLifecycleGoalServiceServer) ConfigureCampaignLifecycleGoals(context.Context, *ConfigureCampaignLifecycleGoalsRequest) (*ConfigureCampaignLifecycleGoalsResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method ConfigureCampaignLifecycleGoals not implemented")
 }
-func (UnimplementedCampaignLifecycleServiceServer) mustEmbedUnimplementedCampaignLifecycleServiceServer() {
+func (UnimplementedCampaignLifecycleGoalServiceServer) mustEmbedUnimplementedCampaignLifecycleGoalServiceServer() {
 }
 
-// UnsafeCampaignLifecycleServiceServer may be embedded to opt out of forward compatibility for this service.
-// Use of this interface is not recommended, as added methods to CampaignLifecycleServiceServer will
+// UnsafeCampaignLifecycleGoalServiceServer may be embedded to opt out of forward compatibility for this service.
+// Use of this interface is not recommended, as added methods to CampaignLifecycleGoalServiceServer will
 // result in compilation errors.
-type UnsafeCampaignLifecycleServiceServer interface {
-	mustEmbedUnimplementedCampaignLifecycleServiceServer()
+type UnsafeCampaignLifecycleGoalServiceServer interface {
+	mustEmbedUnimplementedCampaignLifecycleGoalServiceServer()
 }
 
-func RegisterCampaignLifecycleServiceServer(s grpc.ServiceRegistrar, srv CampaignLifecycleServiceServer) {
-	s.RegisterService(&CampaignLifecycleService_ServiceDesc, srv)
+func RegisterCampaignLifecycleGoalServiceServer(s grpc.ServiceRegistrar, srv CampaignLifecycleGoalServiceServer) {
+	s.RegisterService(&CampaignLifecycleGoalService_ServiceDesc, srv)
 }
 
-func _CampaignLifecycleService_ConfigureCampaignLifecycleGoals_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _CampaignLifecycleGoalService_ConfigureCampaignLifecycleGoals_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ConfigureCampaignLifecycleGoalsRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(CampaignLifecycleServiceServer).ConfigureCampaignLifecycleGoals(ctx, in)
+		return srv.(CampaignLifecycleGoalServiceServer).ConfigureCampaignLifecycleGoals(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v15.services.CampaignLifecycleService/ConfigureCampaignLifecycleGoals",
+		FullMethod: "/google.ads.googleads.v16.services.CampaignLifecycleGoalService/ConfigureCampaignLifecycleGoals",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(CampaignLifecycleServiceServer).ConfigureCampaignLifecycleGoals(ctx, req.(*ConfigureCampaignLifecycleGoalsRequest))
+		return srv.(CampaignLifecycleGoalServiceServer).ConfigureCampaignLifecycleGoals(ctx, req.(*ConfigureCampaignLifecycleGoalsRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-// CampaignLifecycleService_ServiceDesc is the grpc.ServiceDesc for CampaignLifecycleService service.
+// CampaignLifecycleGoalService_ServiceDesc is the grpc.ServiceDesc for CampaignLifecycleGoalService service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
-var CampaignLifecycleService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v15.services.CampaignLifecycleService",
-	HandlerType: (*CampaignLifecycleServiceServer)(nil),
+var CampaignLifecycleGoalService_ServiceDesc = grpc.ServiceDesc{
+	ServiceName: "google.ads.googleads.v16.services.CampaignLifecycleGoalService",
+	HandlerType: (*CampaignLifecycleGoalServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
 			MethodName: "ConfigureCampaignLifecycleGoals",
-			Handler:    _CampaignLifecycleService_ConfigureCampaignLifecycleGoals_Handler,
+			Handler:    _CampaignLifecycleGoalService_ConfigureCampaignLifecycleGoals_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v15/services/campaign_lifecycle_goal_service.proto",
+	Metadata: "google/ads/googleads/v16/services/campaign_lifecycle_goal_service.proto",
 }
