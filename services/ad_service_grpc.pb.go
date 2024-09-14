@@ -2,13 +2,12 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v16/services/ad_service.proto
+// source: google/ads/googleads/v17/services/ad_service.proto
 
 package services
 
 import (
 	context "context"
-	resources "github.com/revealbot/google-ads-go/resources"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -23,17 +22,6 @@ const _ = grpc.SupportPackageIsVersion7
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type AdServiceClient interface {
-	// Returns the requested ad in full detail.
-	//
-	// List of thrown errors:
-	//
-	//	[AuthenticationError]()
-	//	[AuthorizationError]()
-	//	[HeaderError]()
-	//	[InternalError]()
-	//	[QuotaError]()
-	//	[RequestError]()
-	GetAd(ctx context.Context, in *GetAdRequest, opts ...grpc.CallOption) (*resources.Ad, error)
 	// Updates ads. Operation statuses are returned. Updating ads is not supported
 	// for TextAd, ExpandedDynamicSearchAd, GmailAd and ImageAd.
 	//
@@ -88,18 +76,9 @@ func NewAdServiceClient(cc grpc.ClientConnInterface) AdServiceClient {
 	return &adServiceClient{cc}
 }
 
-func (c *adServiceClient) GetAd(ctx context.Context, in *GetAdRequest, opts ...grpc.CallOption) (*resources.Ad, error) {
-	out := new(resources.Ad)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.AdService/GetAd", in, out, opts...)
-	if err != nil {
-		return nil, err
-	}
-	return out, nil
-}
-
 func (c *adServiceClient) MutateAds(ctx context.Context, in *MutateAdsRequest, opts ...grpc.CallOption) (*MutateAdsResponse, error) {
 	out := new(MutateAdsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.AdService/MutateAds", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.AdService/MutateAds", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -110,17 +89,6 @@ func (c *adServiceClient) MutateAds(ctx context.Context, in *MutateAdsRequest, o
 // All implementations must embed UnimplementedAdServiceServer
 // for forward compatibility
 type AdServiceServer interface {
-	// Returns the requested ad in full detail.
-	//
-	// List of thrown errors:
-	//
-	//	[AuthenticationError]()
-	//	[AuthorizationError]()
-	//	[HeaderError]()
-	//	[InternalError]()
-	//	[QuotaError]()
-	//	[RequestError]()
-	GetAd(context.Context, *GetAdRequest) (*resources.Ad, error)
 	// Updates ads. Operation statuses are returned. Updating ads is not supported
 	// for TextAd, ExpandedDynamicSearchAd, GmailAd and ImageAd.
 	//
@@ -172,9 +140,6 @@ type AdServiceServer interface {
 type UnimplementedAdServiceServer struct {
 }
 
-func (UnimplementedAdServiceServer) GetAd(context.Context, *GetAdRequest) (*resources.Ad, error) {
-	return nil, status.Errorf(codes.Unimplemented, "method GetAd not implemented")
-}
 func (UnimplementedAdServiceServer) MutateAds(context.Context, *MutateAdsRequest) (*MutateAdsResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method MutateAds not implemented")
 }
@@ -191,24 +156,6 @@ func RegisterAdServiceServer(s grpc.ServiceRegistrar, srv AdServiceServer) {
 	s.RegisterService(&AdService_ServiceDesc, srv)
 }
 
-func _AdService_GetAd_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
-	in := new(GetAdRequest)
-	if err := dec(in); err != nil {
-		return nil, err
-	}
-	if interceptor == nil {
-		return srv.(AdServiceServer).GetAd(ctx, in)
-	}
-	info := &grpc.UnaryServerInfo{
-		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.AdService/GetAd",
-	}
-	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(AdServiceServer).GetAd(ctx, req.(*GetAdRequest))
-	}
-	return interceptor(ctx, in, info, handler)
-}
-
 func _AdService_MutateAds_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(MutateAdsRequest)
 	if err := dec(in); err != nil {
@@ -219,7 +166,7 @@ func _AdService_MutateAds_Handler(srv interface{}, ctx context.Context, dec func
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.AdService/MutateAds",
+		FullMethod: "/google.ads.googleads.v17.services.AdService/MutateAds",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AdServiceServer).MutateAds(ctx, req.(*MutateAdsRequest))
@@ -231,18 +178,14 @@ func _AdService_MutateAds_Handler(srv interface{}, ctx context.Context, dec func
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var AdService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v16.services.AdService",
+	ServiceName: "google.ads.googleads.v17.services.AdService",
 	HandlerType: (*AdServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
-		{
-			MethodName: "GetAd",
-			Handler:    _AdService_GetAd_Handler,
-		},
 		{
 			MethodName: "MutateAds",
 			Handler:    _AdService_MutateAds_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v16/services/ad_service.proto",
+	Metadata: "google/ads/googleads/v17/services/ad_service.proto",
 }

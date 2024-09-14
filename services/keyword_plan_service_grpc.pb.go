@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v16/services/keyword_plan_service.proto
+// source: google/ads/googleads/v17/services/keyword_plan_service.proto
 
 package services
 
@@ -53,7 +53,7 @@ func NewKeywordPlanServiceClient(cc grpc.ClientConnInterface) KeywordPlanService
 
 func (c *keywordPlanServiceClient) MutateKeywordPlans(ctx context.Context, in *MutateKeywordPlansRequest, opts ...grpc.CallOption) (*MutateKeywordPlansResponse, error) {
 	out := new(MutateKeywordPlansResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.KeywordPlanService/MutateKeywordPlans", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.KeywordPlanService/MutateKeywordPlans", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -116,7 +116,7 @@ func _KeywordPlanService_MutateKeywordPlans_Handler(srv interface{}, ctx context
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.KeywordPlanService/MutateKeywordPlans",
+		FullMethod: "/google.ads.googleads.v17.services.KeywordPlanService/MutateKeywordPlans",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(KeywordPlanServiceServer).MutateKeywordPlans(ctx, req.(*MutateKeywordPlansRequest))
@@ -128,7 +128,7 @@ func _KeywordPlanService_MutateKeywordPlans_Handler(srv interface{}, ctx context
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var KeywordPlanService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v16.services.KeywordPlanService",
+	ServiceName: "google.ads.googleads.v17.services.KeywordPlanService",
 	HandlerType: (*KeywordPlanServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -137,5 +137,5 @@ var KeywordPlanService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v16/services/keyword_plan_service.proto",
+	Metadata: "google/ads/googleads/v17/services/keyword_plan_service.proto",
 }

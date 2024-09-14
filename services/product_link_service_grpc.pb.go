@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v16/services/product_link_service.proto
+// source: google/ads/googleads/v17/services/product_link_service.proto
 
 package services
 
@@ -61,7 +61,7 @@ func NewProductLinkServiceClient(cc grpc.ClientConnInterface) ProductLinkService
 
 func (c *productLinkServiceClient) CreateProductLink(ctx context.Context, in *CreateProductLinkRequest, opts ...grpc.CallOption) (*CreateProductLinkResponse, error) {
 	out := new(CreateProductLinkResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.ProductLinkService/CreateProductLink", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.ProductLinkService/CreateProductLink", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -70,7 +70,7 @@ func (c *productLinkServiceClient) CreateProductLink(ctx context.Context, in *Cr
 
 func (c *productLinkServiceClient) RemoveProductLink(ctx context.Context, in *RemoveProductLinkRequest, opts ...grpc.CallOption) (*RemoveProductLinkResponse, error) {
 	out := new(RemoveProductLinkResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.ProductLinkService/RemoveProductLink", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.ProductLinkService/RemoveProductLink", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -144,7 +144,7 @@ func _ProductLinkService_CreateProductLink_Handler(srv interface{}, ctx context.
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.ProductLinkService/CreateProductLink",
+		FullMethod: "/google.ads.googleads.v17.services.ProductLinkService/CreateProductLink",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(ProductLinkServiceServer).CreateProductLink(ctx, req.(*CreateProductLinkRequest))
@@ -162,7 +162,7 @@ func _ProductLinkService_RemoveProductLink_Handler(srv interface{}, ctx context.
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.ProductLinkService/RemoveProductLink",
+		FullMethod: "/google.ads.googleads.v17.services.ProductLinkService/RemoveProductLink",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(ProductLinkServiceServer).RemoveProductLink(ctx, req.(*RemoveProductLinkRequest))
@@ -174,7 +174,7 @@ func _ProductLinkService_RemoveProductLink_Handler(srv interface{}, ctx context.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var ProductLinkService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v16.services.ProductLinkService",
+	ServiceName: "google.ads.googleads.v17.services.ProductLinkService",
 	HandlerType: (*ProductLinkServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -187,5 +187,5 @@ var ProductLinkService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v16/services/product_link_service.proto",
+	Metadata: "google/ads/googleads/v17/services/product_link_service.proto",
 }

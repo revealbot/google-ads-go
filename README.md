@@ -1,6 +1,6 @@
 # google-ads-go
 
-| Google Ads API version 	| [`v0_7_0`](https://developers.google.com/google-ads/api/docs/release-notes#070_2019-01-30) |
+| Google Ads API version 	| [`v0_11_0`](https://developers.google.com/google-ads/api/docs/release-notes#070_2019-01-30) |
 |-|:-:|
 | Build | [![CircleCI](https://circleci.com/gh/revealbot/google-ads-go.svg?style=shield)](https://circleci.com/gh/revealbot/google-ads-go) |
 | Release | ![Release](https://img.shields.io/github/release/revealbot/google-ads-go.svg) |

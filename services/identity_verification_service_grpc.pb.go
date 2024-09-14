@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v16/services/identity_verification_service.proto
+// source: google/ads/googleads/v17/services/identity_verification_service.proto
 
 package services
 
@@ -59,7 +59,7 @@ func NewIdentityVerificationServiceClient(cc grpc.ClientConnInterface) IdentityV
 
 func (c *identityVerificationServiceClient) StartIdentityVerification(ctx context.Context, in *StartIdentityVerificationRequest, opts ...grpc.CallOption) (*emptypb.Empty, error) {
 	out := new(emptypb.Empty)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.IdentityVerificationService/StartIdentityVerification", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.IdentityVerificationService/StartIdentityVerification", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -68,7 +68,7 @@ func (c *identityVerificationServiceClient) StartIdentityVerification(ctx contex
 
 func (c *identityVerificationServiceClient) GetIdentityVerification(ctx context.Context, in *GetIdentityVerificationRequest, opts ...grpc.CallOption) (*GetIdentityVerificationResponse, error) {
 	out := new(GetIdentityVerificationResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.IdentityVerificationService/GetIdentityVerification", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.IdentityVerificationService/GetIdentityVerification", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -140,7 +140,7 @@ func _IdentityVerificationService_StartIdentityVerification_Handler(srv interfac
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.IdentityVerificationService/StartIdentityVerification",
+		FullMethod: "/google.ads.googleads.v17.services.IdentityVerificationService/StartIdentityVerification",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(IdentityVerificationServiceServer).StartIdentityVerification(ctx, req.(*StartIdentityVerificationRequest))
@@ -158,7 +158,7 @@ func _IdentityVerificationService_GetIdentityVerification_Handler(srv interface{
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.IdentityVerificationService/GetIdentityVerification",
+		FullMethod: "/google.ads.googleads.v17.services.IdentityVerificationService/GetIdentityVerification",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(IdentityVerificationServiceServer).GetIdentityVerification(ctx, req.(*GetIdentityVerificationRequest))
@@ -170,7 +170,7 @@ func _IdentityVerificationService_GetIdentityVerification_Handler(srv interface{
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var IdentityVerificationService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v16.services.IdentityVerificationService",
+	ServiceName: "google.ads.googleads.v17.services.IdentityVerificationService",
 	HandlerType: (*IdentityVerificationServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -183,5 +183,5 @@ var IdentityVerificationService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v16/services/identity_verification_service.proto",
+	Metadata: "google/ads/googleads/v17/services/identity_verification_service.proto",
 }

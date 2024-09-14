@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v16/services/campaign_lifecycle_goal_service.proto
+// source: google/ads/googleads/v17/services/campaign_lifecycle_goal_service.proto
 
 package services
 
@@ -46,7 +46,7 @@ func NewCampaignLifecycleGoalServiceClient(cc grpc.ClientConnInterface) Campaign
 
 func (c *campaignLifecycleGoalServiceClient) ConfigureCampaignLifecycleGoals(ctx context.Context, in *ConfigureCampaignLifecycleGoalsRequest, opts ...grpc.CallOption) (*ConfigureCampaignLifecycleGoalsResponse, error) {
 	out := new(ConfigureCampaignLifecycleGoalsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.CampaignLifecycleGoalService/ConfigureCampaignLifecycleGoals", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.CampaignLifecycleGoalService/ConfigureCampaignLifecycleGoals", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -103,7 +103,7 @@ func _CampaignLifecycleGoalService_ConfigureCampaignLifecycleGoals_Handler(srv i
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.CampaignLifecycleGoalService/ConfigureCampaignLifecycleGoals",
+		FullMethod: "/google.ads.googleads.v17.services.CampaignLifecycleGoalService/ConfigureCampaignLifecycleGoals",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CampaignLifecycleGoalServiceServer).ConfigureCampaignLifecycleGoals(ctx, req.(*ConfigureCampaignLifecycleGoalsRequest))
@@ -115,7 +115,7 @@ func _CampaignLifecycleGoalService_ConfigureCampaignLifecycleGoals_Handler(srv i
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var CampaignLifecycleGoalService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v16.services.CampaignLifecycleGoalService",
+	ServiceName: "google.ads.googleads.v17.services.CampaignLifecycleGoalService",
 	HandlerType: (*CampaignLifecycleGoalServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -124,5 +124,5 @@ var CampaignLifecycleGoalService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v16/services/campaign_lifecycle_goal_service.proto",
+	Metadata: "google/ads/googleads/v17/services/campaign_lifecycle_goal_service.proto",
 }

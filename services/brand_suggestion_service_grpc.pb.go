@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v16/services/brand_suggestion_service.proto
+// source: google/ads/googleads/v17/services/brand_suggestion_service.proto
 
 package services
 
@@ -37,7 +37,7 @@ func NewBrandSuggestionServiceClient(cc grpc.ClientConnInterface) BrandSuggestio
 
 func (c *brandSuggestionServiceClient) SuggestBrands(ctx context.Context, in *SuggestBrandsRequest, opts ...grpc.CallOption) (*SuggestBrandsResponse, error) {
 	out := new(SuggestBrandsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v16.services.BrandSuggestionService/SuggestBrands", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.BrandSuggestionService/SuggestBrands", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -85,7 +85,7 @@ func _BrandSuggestionService_SuggestBrands_Handler(srv interface{}, ctx context.
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v16.services.BrandSuggestionService/SuggestBrands",
+		FullMethod: "/google.ads.googleads.v17.services.BrandSuggestionService/SuggestBrands",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(BrandSuggestionServiceServer).SuggestBrands(ctx, req.(*SuggestBrandsRequest))
@@ -97,7 +97,7 @@ func _BrandSuggestionService_SuggestBrands_Handler(srv interface{}, ctx context.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var BrandSuggestionService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v16.services.BrandSuggestionService",
+	ServiceName: "google.ads.googleads.v17.services.BrandSuggestionService",
 	HandlerType: (*BrandSuggestionServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -106,5 +106,5 @@ var BrandSuggestionService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v16/services/brand_suggestion_service.proto",
+	Metadata: "google/ads/googleads/v17/services/brand_suggestion_service.proto",
 }
