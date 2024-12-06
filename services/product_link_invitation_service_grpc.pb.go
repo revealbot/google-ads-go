@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v17/services/product_link_invitation_service.proto
+// source: google/ads/googleads/v18/services/product_link_invitation_service.proto
 
 package services
 
@@ -40,7 +40,7 @@ func NewProductLinkInvitationServiceClient(cc grpc.ClientConnInterface) ProductL
 
 func (c *productLinkInvitationServiceClient) CreateProductLinkInvitation(ctx context.Context, in *CreateProductLinkInvitationRequest, opts ...grpc.CallOption) (*CreateProductLinkInvitationResponse, error) {
 	out := new(CreateProductLinkInvitationResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.ProductLinkInvitationService/CreateProductLinkInvitation", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.ProductLinkInvitationService/CreateProductLinkInvitation", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -49,7 +49,7 @@ func (c *productLinkInvitationServiceClient) CreateProductLinkInvitation(ctx con
 
 func (c *productLinkInvitationServiceClient) UpdateProductLinkInvitation(ctx context.Context, in *UpdateProductLinkInvitationRequest, opts ...grpc.CallOption) (*UpdateProductLinkInvitationResponse, error) {
 	out := new(UpdateProductLinkInvitationResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.ProductLinkInvitationService/UpdateProductLinkInvitation", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.ProductLinkInvitationService/UpdateProductLinkInvitation", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -58,7 +58,7 @@ func (c *productLinkInvitationServiceClient) UpdateProductLinkInvitation(ctx con
 
 func (c *productLinkInvitationServiceClient) RemoveProductLinkInvitation(ctx context.Context, in *RemoveProductLinkInvitationRequest, opts ...grpc.CallOption) (*RemoveProductLinkInvitationResponse, error) {
 	out := new(RemoveProductLinkInvitationResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.ProductLinkInvitationService/RemoveProductLinkInvitation", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.ProductLinkInvitationService/RemoveProductLinkInvitation", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -115,7 +115,7 @@ func _ProductLinkInvitationService_CreateProductLinkInvitation_Handler(srv inter
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.ProductLinkInvitationService/CreateProductLinkInvitation",
+		FullMethod: "/google.ads.googleads.v18.services.ProductLinkInvitationService/CreateProductLinkInvitation",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(ProductLinkInvitationServiceServer).CreateProductLinkInvitation(ctx, req.(*CreateProductLinkInvitationRequest))
@@ -133,7 +133,7 @@ func _ProductLinkInvitationService_UpdateProductLinkInvitation_Handler(srv inter
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.ProductLinkInvitationService/UpdateProductLinkInvitation",
+		FullMethod: "/google.ads.googleads.v18.services.ProductLinkInvitationService/UpdateProductLinkInvitation",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(ProductLinkInvitationServiceServer).UpdateProductLinkInvitation(ctx, req.(*UpdateProductLinkInvitationRequest))
@@ -151,7 +151,7 @@ func _ProductLinkInvitationService_RemoveProductLinkInvitation_Handler(srv inter
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.ProductLinkInvitationService/RemoveProductLinkInvitation",
+		FullMethod: "/google.ads.googleads.v18.services.ProductLinkInvitationService/RemoveProductLinkInvitation",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(ProductLinkInvitationServiceServer).RemoveProductLinkInvitation(ctx, req.(*RemoveProductLinkInvitationRequest))
@@ -163,7 +163,7 @@ func _ProductLinkInvitationService_RemoveProductLinkInvitation_Handler(srv inter
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var ProductLinkInvitationService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v17.services.ProductLinkInvitationService",
+	ServiceName: "google.ads.googleads.v18.services.ProductLinkInvitationService",
 	HandlerType: (*ProductLinkInvitationServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -180,5 +180,5 @@ var ProductLinkInvitationService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v17/services/product_link_invitation_service.proto",
+	Metadata: "google/ads/googleads/v18/services/product_link_invitation_service.proto",
 }

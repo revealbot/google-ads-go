@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v17/services/shareable_preview_service.proto
+// source: google/ads/googleads/v18/services/shareable_preview_service.proto
 
 package services
 
@@ -36,7 +36,7 @@ func NewShareablePreviewServiceClient(cc grpc.ClientConnInterface) ShareablePrev
 
 func (c *shareablePreviewServiceClient) GenerateShareablePreviews(ctx context.Context, in *GenerateShareablePreviewsRequest, opts ...grpc.CallOption) (*GenerateShareablePreviewsResponse, error) {
 	out := new(GenerateShareablePreviewsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.ShareablePreviewService/GenerateShareablePreviews", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.ShareablePreviewService/GenerateShareablePreviews", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -83,7 +83,7 @@ func _ShareablePreviewService_GenerateShareablePreviews_Handler(srv interface{},
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.ShareablePreviewService/GenerateShareablePreviews",
+		FullMethod: "/google.ads.googleads.v18.services.ShareablePreviewService/GenerateShareablePreviews",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(ShareablePreviewServiceServer).GenerateShareablePreviews(ctx, req.(*GenerateShareablePreviewsRequest))
@@ -95,7 +95,7 @@ func _ShareablePreviewService_GenerateShareablePreviews_Handler(srv interface{},
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var ShareablePreviewService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v17.services.ShareablePreviewService",
+	ServiceName: "google.ads.googleads.v18.services.ShareablePreviewService",
 	HandlerType: (*ShareablePreviewServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -104,5 +104,5 @@ var ShareablePreviewService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v17/services/shareable_preview_service.proto",
+	Metadata: "google/ads/googleads/v18/services/shareable_preview_service.proto",
 }

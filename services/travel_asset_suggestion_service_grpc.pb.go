@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v17/services/travel_asset_suggestion_service.proto
+// source: google/ads/googleads/v18/services/travel_asset_suggestion_service.proto
 
 package services
 
@@ -39,7 +39,7 @@ func NewTravelAssetSuggestionServiceClient(cc grpc.ClientConnInterface) TravelAs
 
 func (c *travelAssetSuggestionServiceClient) SuggestTravelAssets(ctx context.Context, in *SuggestTravelAssetsRequest, opts ...grpc.CallOption) (*SuggestTravelAssetsResponse, error) {
 	out := new(SuggestTravelAssetsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.TravelAssetSuggestionService/SuggestTravelAssets", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.TravelAssetSuggestionService/SuggestTravelAssets", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -89,7 +89,7 @@ func _TravelAssetSuggestionService_SuggestTravelAssets_Handler(srv interface{}, 
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.TravelAssetSuggestionService/SuggestTravelAssets",
+		FullMethod: "/google.ads.googleads.v18.services.TravelAssetSuggestionService/SuggestTravelAssets",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(TravelAssetSuggestionServiceServer).SuggestTravelAssets(ctx, req.(*SuggestTravelAssetsRequest))
@@ -101,7 +101,7 @@ func _TravelAssetSuggestionService_SuggestTravelAssets_Handler(srv interface{}, 
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var TravelAssetSuggestionService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v17.services.TravelAssetSuggestionService",
+	ServiceName: "google.ads.googleads.v18.services.TravelAssetSuggestionService",
 	HandlerType: (*TravelAssetSuggestionServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -110,5 +110,5 @@ var TravelAssetSuggestionService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v17/services/travel_asset_suggestion_service.proto",
+	Metadata: "google/ads/googleads/v18/services/travel_asset_suggestion_service.proto",
 }

@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v17/services/user_list_customer_type_service.proto
+// source: google/ads/googleads/v18/services/user_list_customer_type_service.proto
 
 package services
 
@@ -47,7 +47,7 @@ func NewUserListCustomerTypeServiceClient(cc grpc.ClientConnInterface) UserListC
 
 func (c *userListCustomerTypeServiceClient) MutateUserListCustomerTypes(ctx context.Context, in *MutateUserListCustomerTypesRequest, opts ...grpc.CallOption) (*MutateUserListCustomerTypesResponse, error) {
 	out := new(MutateUserListCustomerTypesResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.UserListCustomerTypeService/MutateUserListCustomerTypes", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.UserListCustomerTypeService/MutateUserListCustomerTypes", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -105,7 +105,7 @@ func _UserListCustomerTypeService_MutateUserListCustomerTypes_Handler(srv interf
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.UserListCustomerTypeService/MutateUserListCustomerTypes",
+		FullMethod: "/google.ads.googleads.v18.services.UserListCustomerTypeService/MutateUserListCustomerTypes",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(UserListCustomerTypeServiceServer).MutateUserListCustomerTypes(ctx, req.(*MutateUserListCustomerTypesRequest))
@@ -117,7 +117,7 @@ func _UserListCustomerTypeService_MutateUserListCustomerTypes_Handler(srv interf
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var UserListCustomerTypeService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v17.services.UserListCustomerTypeService",
+	ServiceName: "google.ads.googleads.v18.services.UserListCustomerTypeService",
 	HandlerType: (*UserListCustomerTypeServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -126,5 +126,5 @@ var UserListCustomerTypeService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v17/services/user_list_customer_type_service.proto",
+	Metadata: "google/ads/googleads/v18/services/user_list_customer_type_service.proto",
 }

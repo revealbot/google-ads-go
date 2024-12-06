@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v17/services/local_services_lead_service.proto
+// source: google/ads/googleads/v18/services/local_services_lead_service.proto
 
 package services
 
@@ -37,7 +37,7 @@ func NewLocalServicesLeadServiceClient(cc grpc.ClientConnInterface) LocalService
 
 func (c *localServicesLeadServiceClient) AppendLeadConversation(ctx context.Context, in *AppendLeadConversationRequest, opts ...grpc.CallOption) (*AppendLeadConversationResponse, error) {
 	out := new(AppendLeadConversationResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.LocalServicesLeadService/AppendLeadConversation", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.LocalServicesLeadService/AppendLeadConversation", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -85,7 +85,7 @@ func _LocalServicesLeadService_AppendLeadConversation_Handler(srv interface{}, c
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.LocalServicesLeadService/AppendLeadConversation",
+		FullMethod: "/google.ads.googleads.v18.services.LocalServicesLeadService/AppendLeadConversation",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(LocalServicesLeadServiceServer).AppendLeadConversation(ctx, req.(*AppendLeadConversationRequest))
@@ -97,7 +97,7 @@ func _LocalServicesLeadService_AppendLeadConversation_Handler(srv interface{}, c
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var LocalServicesLeadService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v17.services.LocalServicesLeadService",
+	ServiceName: "google.ads.googleads.v18.services.LocalServicesLeadService",
 	HandlerType: (*LocalServicesLeadServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -106,5 +106,5 @@ var LocalServicesLeadService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v17/services/local_services_lead_service.proto",
+	Metadata: "google/ads/googleads/v18/services/local_services_lead_service.proto",
 }

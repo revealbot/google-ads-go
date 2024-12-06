@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.12
-// source: google/ads/googleads/v17/services/ad_group_ad_service.proto
+// source: google/ads/googleads/v18/services/ad_group_ad_service.proto
 
 package services
 
@@ -97,7 +97,7 @@ func NewAdGroupAdServiceClient(cc grpc.ClientConnInterface) AdGroupAdServiceClie
 
 func (c *adGroupAdServiceClient) MutateAdGroupAds(ctx context.Context, in *MutateAdGroupAdsRequest, opts ...grpc.CallOption) (*MutateAdGroupAdsResponse, error) {
 	out := new(MutateAdGroupAdsResponse)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.AdGroupAdService/MutateAdGroupAds", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.AdGroupAdService/MutateAdGroupAds", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -106,7 +106,7 @@ func (c *adGroupAdServiceClient) MutateAdGroupAds(ctx context.Context, in *Mutat
 
 func (c *adGroupAdServiceClient) RemoveAutomaticallyCreatedAssets(ctx context.Context, in *RemoveAutomaticallyCreatedAssetsRequest, opts ...grpc.CallOption) (*emptypb.Empty, error) {
 	out := new(emptypb.Empty)
-	err := c.cc.Invoke(ctx, "/google.ads.googleads.v17.services.AdGroupAdService/RemoveAutomaticallyCreatedAssets", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/google.ads.googleads.v18.services.AdGroupAdService/RemoveAutomaticallyCreatedAssets", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -215,7 +215,7 @@ func _AdGroupAdService_MutateAdGroupAds_Handler(srv interface{}, ctx context.Con
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.AdGroupAdService/MutateAdGroupAds",
+		FullMethod: "/google.ads.googleads.v18.services.AdGroupAdService/MutateAdGroupAds",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AdGroupAdServiceServer).MutateAdGroupAds(ctx, req.(*MutateAdGroupAdsRequest))
@@ -233,7 +233,7 @@ func _AdGroupAdService_RemoveAutomaticallyCreatedAssets_Handler(srv interface{},
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/google.ads.googleads.v17.services.AdGroupAdService/RemoveAutomaticallyCreatedAssets",
+		FullMethod: "/google.ads.googleads.v18.services.AdGroupAdService/RemoveAutomaticallyCreatedAssets",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(AdGroupAdServiceServer).RemoveAutomaticallyCreatedAssets(ctx, req.(*RemoveAutomaticallyCreatedAssetsRequest))
@@ -245,7 +245,7 @@ func _AdGroupAdService_RemoveAutomaticallyCreatedAssets_Handler(srv interface{},
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var AdGroupAdService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v17.services.AdGroupAdService",
+	ServiceName: "google.ads.googleads.v18.services.AdGroupAdService",
 	HandlerType: (*AdGroupAdServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -258,5 +258,5 @@ var AdGroupAdService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v17/services/ad_group_ad_service.proto",
+	Metadata: "google/ads/googleads/v18/services/ad_group_ad_service.proto",
 }
