@@ -106,3 +106,15 @@ Build `.pb.go` protos:
 ```bash
 $ make protos
 ```
+
+### Generate Google Ads API protos
+Make sure that `protoc-gen-go-grpc` and `protoc-gen-go` and available in PATH.
+Update previous version to new version in Makefile and shell files, for example, change v18 to v19.
+Then do the following:
+```bash
+make clone-googleapis
+make update-googleapis
+make protos
+```
+Script should be executed without errors.
+After that rename `resources/experiment_arm.pb.go` to `resources/experiment_arm0.pb.go`, add all new files from common, enums, errors, resources, services. Then commit changes.
