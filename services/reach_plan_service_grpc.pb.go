@@ -16,7 +16,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.5.1
 // - protoc             v3.21.12
-// source: google/ads/googleads/v19/services/reach_plan_service.proto
+// source: google/ads/googleads/v21/services/reach_plan_service.proto
 
 package services
 
@@ -33,10 +33,12 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	ReachPlanService_GenerateConversionRates_FullMethodName = "/google.ads.googleads.v19.services.ReachPlanService/GenerateConversionRates"
-	ReachPlanService_ListPlannableLocations_FullMethodName  = "/google.ads.googleads.v19.services.ReachPlanService/ListPlannableLocations"
-	ReachPlanService_ListPlannableProducts_FullMethodName   = "/google.ads.googleads.v19.services.ReachPlanService/ListPlannableProducts"
-	ReachPlanService_GenerateReachForecast_FullMethodName   = "/google.ads.googleads.v19.services.ReachPlanService/GenerateReachForecast"
+	ReachPlanService_GenerateConversionRates_FullMethodName    = "/google.ads.googleads.v21.services.ReachPlanService/GenerateConversionRates"
+	ReachPlanService_ListPlannableLocations_FullMethodName     = "/google.ads.googleads.v21.services.ReachPlanService/ListPlannableLocations"
+	ReachPlanService_ListPlannableProducts_FullMethodName      = "/google.ads.googleads.v21.services.ReachPlanService/ListPlannableProducts"
+	ReachPlanService_GenerateReachForecast_FullMethodName      = "/google.ads.googleads.v21.services.ReachPlanService/GenerateReachForecast"
+	ReachPlanService_ListPlannableUserLists_FullMethodName     = "/google.ads.googleads.v21.services.ReachPlanService/ListPlannableUserLists"
+	ReachPlanService_ListPlannableUserInterests_FullMethodName = "/google.ads.googleads.v21.services.ReachPlanService/ListPlannableUserInterests"
 )
 
 // ReachPlanServiceClient is the client API for ReachPlanService service.
@@ -98,6 +100,41 @@ type ReachPlanServiceClient interface {
 	//	[ReachPlanError]()
 	//	[RequestError]()
 	GenerateReachForecast(ctx context.Context, in *GenerateReachForecastRequest, opts ...grpc.CallOption) (*GenerateReachForecastResponse, error)
+	// Returns the list of plannable user lists with their plannable status.
+	// User lists may not be plannable for a number of reasons, including:
+	// - They are less than 10 days old.
+	// - They have a membership lifespan that is less than 30 days
+	// - They have less than 10,000 or more than 700,000 users.
+	//
+	// List of thrown errors:
+	//
+	//	[AuthenticationError]()
+	//	[AuthorizationError]()
+	//	[FieldError]()
+	//	[HeaderError]()
+	//	[InternalError]()
+	//	[QuotaError]()
+	//	[RangeError]()
+	//	[ReachPlanError]()
+	//	[RequestError]()
+	ListPlannableUserLists(ctx context.Context, in *ListPlannableUserListsRequest, opts ...grpc.CallOption) (*ListPlannableUserListsResponse, error)
+	// Returns the list of plannable user interests.
+	// A plannable user interest is one that can be targeted in a reach forecast
+	// using
+	// [ReachPlanService.GenerateReachForecast][google.ads.googleads.v21.services.ReachPlanService.GenerateReachForecast].
+	//
+	// List of thrown errors:
+	//
+	//	[AuthenticationError]()
+	//	[AuthorizationError]()
+	//	[FieldError]()
+	//	[HeaderError]()
+	//	[InternalError]()
+	//	[ListOperationError]()
+	//	[QuotaError]()
+	//	[RequestError]()
+	//	[StringLengthError]()
+	ListPlannableUserInterests(ctx context.Context, in *ListPlannableUserInterestsRequest, opts ...grpc.CallOption) (*ListPlannableUserInterestsResponse, error)
 }
 
 type reachPlanServiceClient struct {
@@ -142,6 +179,26 @@ func (c *reachPlanServiceClient) GenerateReachForecast(ctx context.Context, in *
 	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
 	out := new(GenerateReachForecastResponse)
 	err := c.cc.Invoke(ctx, ReachPlanService_GenerateReachForecast_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *reachPlanServiceClient) ListPlannableUserLists(ctx context.Context, in *ListPlannableUserListsRequest, opts ...grpc.CallOption) (*ListPlannableUserListsResponse, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(ListPlannableUserListsResponse)
+	err := c.cc.Invoke(ctx, ReachPlanService_ListPlannableUserLists_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *reachPlanServiceClient) ListPlannableUserInterests(ctx context.Context, in *ListPlannableUserInterestsRequest, opts ...grpc.CallOption) (*ListPlannableUserInterestsResponse, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(ListPlannableUserInterestsResponse)
+	err := c.cc.Invoke(ctx, ReachPlanService_ListPlannableUserInterests_FullMethodName, in, out, cOpts...)
 	if err != nil {
 		return nil, err
 	}
@@ -207,6 +264,41 @@ type ReachPlanServiceServer interface {
 	//	[ReachPlanError]()
 	//	[RequestError]()
 	GenerateReachForecast(context.Context, *GenerateReachForecastRequest) (*GenerateReachForecastResponse, error)
+	// Returns the list of plannable user lists with their plannable status.
+	// User lists may not be plannable for a number of reasons, including:
+	// - They are less than 10 days old.
+	// - They have a membership lifespan that is less than 30 days
+	// - They have less than 10,000 or more than 700,000 users.
+	//
+	// List of thrown errors:
+	//
+	//	[AuthenticationError]()
+	//	[AuthorizationError]()
+	//	[FieldError]()
+	//	[HeaderError]()
+	//	[InternalError]()
+	//	[QuotaError]()
+	//	[RangeError]()
+	//	[ReachPlanError]()
+	//	[RequestError]()
+	ListPlannableUserLists(context.Context, *ListPlannableUserListsRequest) (*ListPlannableUserListsResponse, error)
+	// Returns the list of plannable user interests.
+	// A plannable user interest is one that can be targeted in a reach forecast
+	// using
+	// [ReachPlanService.GenerateReachForecast][google.ads.googleads.v21.services.ReachPlanService.GenerateReachForecast].
+	//
+	// List of thrown errors:
+	//
+	//	[AuthenticationError]()
+	//	[AuthorizationError]()
+	//	[FieldError]()
+	//	[HeaderError]()
+	//	[InternalError]()
+	//	[ListOperationError]()
+	//	[QuotaError]()
+	//	[RequestError]()
+	//	[StringLengthError]()
+	ListPlannableUserInterests(context.Context, *ListPlannableUserInterestsRequest) (*ListPlannableUserInterestsResponse, error)
 	mustEmbedUnimplementedReachPlanServiceServer()
 }
 
@@ -228,6 +320,12 @@ func (UnimplementedReachPlanServiceServer) ListPlannableProducts(context.Context
 }
 func (UnimplementedReachPlanServiceServer) GenerateReachForecast(context.Context, *GenerateReachForecastRequest) (*GenerateReachForecastResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GenerateReachForecast not implemented")
+}
+func (UnimplementedReachPlanServiceServer) ListPlannableUserLists(context.Context, *ListPlannableUserListsRequest) (*ListPlannableUserListsResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method ListPlannableUserLists not implemented")
+}
+func (UnimplementedReachPlanServiceServer) ListPlannableUserInterests(context.Context, *ListPlannableUserInterestsRequest) (*ListPlannableUserInterestsResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method ListPlannableUserInterests not implemented")
 }
 func (UnimplementedReachPlanServiceServer) mustEmbedUnimplementedReachPlanServiceServer() {}
 func (UnimplementedReachPlanServiceServer) testEmbeddedByValue()                          {}
@@ -322,11 +420,47 @@ func _ReachPlanService_GenerateReachForecast_Handler(srv interface{}, ctx contex
 	return interceptor(ctx, in, info, handler)
 }
 
+func _ReachPlanService_ListPlannableUserLists_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(ListPlannableUserListsRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(ReachPlanServiceServer).ListPlannableUserLists(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: ReachPlanService_ListPlannableUserLists_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(ReachPlanServiceServer).ListPlannableUserLists(ctx, req.(*ListPlannableUserListsRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _ReachPlanService_ListPlannableUserInterests_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(ListPlannableUserInterestsRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(ReachPlanServiceServer).ListPlannableUserInterests(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: ReachPlanService_ListPlannableUserInterests_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(ReachPlanServiceServer).ListPlannableUserInterests(ctx, req.(*ListPlannableUserInterestsRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // ReachPlanService_ServiceDesc is the grpc.ServiceDesc for ReachPlanService service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var ReachPlanService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "google.ads.googleads.v19.services.ReachPlanService",
+	ServiceName: "google.ads.googleads.v21.services.ReachPlanService",
 	HandlerType: (*ReachPlanServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -345,7 +479,15 @@ var ReachPlanService_ServiceDesc = grpc.ServiceDesc{
 			MethodName: "GenerateReachForecast",
 			Handler:    _ReachPlanService_GenerateReachForecast_Handler,
 		},
+		{
+			MethodName: "ListPlannableUserLists",
+			Handler:    _ReachPlanService_ListPlannableUserLists_Handler,
+		},
+		{
+			MethodName: "ListPlannableUserInterests",
+			Handler:    _ReachPlanService_ListPlannableUserInterests_Handler,
+		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "google/ads/googleads/v19/services/reach_plan_service.proto",
+	Metadata: "google/ads/googleads/v21/services/reach_plan_service.proto",
 }

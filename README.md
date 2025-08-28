@@ -109,7 +109,7 @@ $ make protos
 
 ### Generate Google Ads API protos
 Make sure that `protoc-gen-go-grpc` and `protoc-gen-go` and available in PATH.
-Update previous version to new version in Makefile and shell files, for example, change v18 to v19.
+Update previous version to new version in Makefile and shell files, for example, change v19 to v21.
 Then do the following:
 ```bash
 make clone-googleapis
