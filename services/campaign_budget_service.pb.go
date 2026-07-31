@@ -65,7 +65,7 @@ type MutateCampaignBudgetsRequest struct {
 
 func (x *MutateCampaignBudgetsRequest) Reset() {
 	*x = MutateCampaignBudgetsRequest{}
-	mi := &file_services_campaign_budget_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -77,7 +77,7 @@ func (x *MutateCampaignBudgetsRequest) String() string {
 func (*MutateCampaignBudgetsRequest) ProtoMessage() {}
 
 func (x *MutateCampaignBudgetsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_budget_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -90,7 +90,7 @@ func (x *MutateCampaignBudgetsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCampaignBudgetsRequest.ProtoReflect.Descriptor instead.
 func (*MutateCampaignBudgetsRequest) Descriptor() ([]byte, []int) {
-	return file_services_campaign_budget_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateCampaignBudgetsRequest) GetCustomerId() string {
@@ -147,7 +147,7 @@ type CampaignBudgetOperation struct {
 
 func (x *CampaignBudgetOperation) Reset() {
 	*x = CampaignBudgetOperation{}
-	mi := &file_services_campaign_budget_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -159,7 +159,7 @@ func (x *CampaignBudgetOperation) String() string {
 func (*CampaignBudgetOperation) ProtoMessage() {}
 
 func (x *CampaignBudgetOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_budget_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -172,7 +172,7 @@ func (x *CampaignBudgetOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CampaignBudgetOperation.ProtoReflect.Descriptor instead.
 func (*CampaignBudgetOperation) Descriptor() ([]byte, []int) {
-	return file_services_campaign_budget_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CampaignBudgetOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -261,7 +261,7 @@ type MutateCampaignBudgetsResponse struct {
 
 func (x *MutateCampaignBudgetsResponse) Reset() {
 	*x = MutateCampaignBudgetsResponse{}
-	mi := &file_services_campaign_budget_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -273,7 +273,7 @@ func (x *MutateCampaignBudgetsResponse) String() string {
 func (*MutateCampaignBudgetsResponse) ProtoMessage() {}
 
 func (x *MutateCampaignBudgetsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_budget_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -286,7 +286,7 @@ func (x *MutateCampaignBudgetsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCampaignBudgetsResponse.ProtoReflect.Descriptor instead.
 func (*MutateCampaignBudgetsResponse) Descriptor() ([]byte, []int) {
-	return file_services_campaign_budget_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateCampaignBudgetsResponse) GetPartialFailureError() *status.Status {
@@ -318,7 +318,7 @@ type MutateCampaignBudgetResult struct {
 
 func (x *MutateCampaignBudgetResult) Reset() {
 	*x = MutateCampaignBudgetResult{}
-	mi := &file_services_campaign_budget_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -330,7 +330,7 @@ func (x *MutateCampaignBudgetResult) String() string {
 func (*MutateCampaignBudgetResult) ProtoMessage() {}
 
 func (x *MutateCampaignBudgetResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_budget_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -343,7 +343,7 @@ func (x *MutateCampaignBudgetResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCampaignBudgetResult.ProtoReflect.Descriptor instead.
 func (*MutateCampaignBudgetResult) Descriptor() ([]byte, []int) {
-	return file_services_campaign_budget_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateCampaignBudgetResult) GetResourceName() string {
@@ -360,9 +360,9 @@ func (x *MutateCampaignBudgetResult) GetCampaignBudget() *resources.CampaignBudg
 	return nil
 }
 
-var File_services_campaign_budget_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_campaign_budget_service_proto protoreflect.FileDescriptor
 
-var file_services_campaign_budget_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3f, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x61, 0x6d, 0x70, 0x61, 0x69, 0x67, 0x6e, 0x5f, 0x62, 0x75, 0x64,
@@ -499,19 +499,19 @@ var file_services_campaign_budget_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_campaign_budget_service_proto_rawDescOnce sync.Once
-	file_services_campaign_budget_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescData []byte
 )
 
-func file_services_campaign_budget_service_proto_rawDescGZIP() []byte {
-	file_services_campaign_budget_service_proto_rawDescOnce.Do(func() {
-		file_services_campaign_budget_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_campaign_budget_service_proto_rawDesc), len(file_services_campaign_budget_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDesc)))
 	})
-	return file_services_campaign_budget_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDescData
 }
 
-var file_services_campaign_budget_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_campaign_budget_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_campaign_budget_service_proto_goTypes = []any{
 	(*MutateCampaignBudgetsRequest)(nil),                   // 0: google.ads.googleads.v25.services.MutateCampaignBudgetsRequest
 	(*CampaignBudgetOperation)(nil),                        // 1: google.ads.googleads.v25.services.CampaignBudgetOperation
 	(*MutateCampaignBudgetsResponse)(nil),                  // 2: google.ads.googleads.v25.services.MutateCampaignBudgetsResponse
@@ -521,7 +521,7 @@ var file_services_campaign_budget_service_proto_goTypes = []any{
 	(*resources.CampaignBudget)(nil),                       // 6: google.ads.googleads.v25.resources.CampaignBudget
 	(*status.Status)(nil),                                  // 7: google.rpc.Status
 }
-var file_services_campaign_budget_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_campaign_budget_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateCampaignBudgetsRequest.operations:type_name -> google.ads.googleads.v25.services.CampaignBudgetOperation
 	4, // 1: google.ads.googleads.v25.services.MutateCampaignBudgetsRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	5, // 2: google.ads.googleads.v25.services.CampaignBudgetOperation.update_mask:type_name -> google.protobuf.FieldMask
@@ -539,12 +539,12 @@ var file_services_campaign_budget_service_proto_depIdxs = []int32{
 	0, // [0:8] is the sub-list for field type_name
 }
 
-func init() { file_services_campaign_budget_service_proto_init() }
-func file_services_campaign_budget_service_proto_init() {
-	if File_services_campaign_budget_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_campaign_budget_service_proto_init() }
+func file_google_ads_googleads_v25_services_campaign_budget_service_proto_init() {
+	if File_google_ads_googleads_v25_services_campaign_budget_service_proto != nil {
 		return
 	}
-	file_services_campaign_budget_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*CampaignBudgetOperation_Create)(nil),
 		(*CampaignBudgetOperation_Update)(nil),
 		(*CampaignBudgetOperation_Remove)(nil),
@@ -553,17 +553,17 @@ func file_services_campaign_budget_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_campaign_budget_service_proto_rawDesc), len(file_services_campaign_budget_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_campaign_budget_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_campaign_budget_service_proto_goTypes,
-		DependencyIndexes: file_services_campaign_budget_service_proto_depIdxs,
-		MessageInfos:      file_services_campaign_budget_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_campaign_budget_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_campaign_budget_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_campaign_budget_service_proto_msgTypes,
 	}.Build()
-	File_services_campaign_budget_service_proto = out.File
-	file_services_campaign_budget_service_proto_goTypes = nil
-	file_services_campaign_budget_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_campaign_budget_service_proto = out.File
+	file_google_ads_googleads_v25_services_campaign_budget_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_campaign_budget_service_proto_depIdxs = nil
 }

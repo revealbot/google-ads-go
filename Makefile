@@ -36,6 +36,7 @@ clean-protos:
 	rm -rf errors/
 	rm -rf resources/
 	rm -rf services/
+	rm -rf actions/
 
 clean-gen-protos:
 	rm -rf google/

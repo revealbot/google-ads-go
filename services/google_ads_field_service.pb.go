@@ -49,7 +49,7 @@ type GetGoogleAdsFieldRequest struct {
 
 func (x *GetGoogleAdsFieldRequest) Reset() {
 	*x = GetGoogleAdsFieldRequest{}
-	mi := &file_services_google_ads_field_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -61,7 +61,7 @@ func (x *GetGoogleAdsFieldRequest) String() string {
 func (*GetGoogleAdsFieldRequest) ProtoMessage() {}
 
 func (x *GetGoogleAdsFieldRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_field_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -74,7 +74,7 @@ func (x *GetGoogleAdsFieldRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GetGoogleAdsFieldRequest.ProtoReflect.Descriptor instead.
 func (*GetGoogleAdsFieldRequest) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_field_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *GetGoogleAdsFieldRequest) GetResourceName() string {
@@ -104,7 +104,7 @@ type SearchGoogleAdsFieldsRequest struct {
 
 func (x *SearchGoogleAdsFieldsRequest) Reset() {
 	*x = SearchGoogleAdsFieldsRequest{}
-	mi := &file_services_google_ads_field_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -116,7 +116,7 @@ func (x *SearchGoogleAdsFieldsRequest) String() string {
 func (*SearchGoogleAdsFieldsRequest) ProtoMessage() {}
 
 func (x *SearchGoogleAdsFieldsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_field_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -129,7 +129,7 @@ func (x *SearchGoogleAdsFieldsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchGoogleAdsFieldsRequest.ProtoReflect.Descriptor instead.
 func (*SearchGoogleAdsFieldsRequest) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_field_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *SearchGoogleAdsFieldsRequest) GetQuery() string {
@@ -171,7 +171,7 @@ type SearchGoogleAdsFieldsResponse struct {
 
 func (x *SearchGoogleAdsFieldsResponse) Reset() {
 	*x = SearchGoogleAdsFieldsResponse{}
-	mi := &file_services_google_ads_field_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -183,7 +183,7 @@ func (x *SearchGoogleAdsFieldsResponse) String() string {
 func (*SearchGoogleAdsFieldsResponse) ProtoMessage() {}
 
 func (x *SearchGoogleAdsFieldsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_field_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -196,7 +196,7 @@ func (x *SearchGoogleAdsFieldsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchGoogleAdsFieldsResponse.ProtoReflect.Descriptor instead.
 func (*SearchGoogleAdsFieldsResponse) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_field_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *SearchGoogleAdsFieldsResponse) GetResults() []*resources.GoogleAdsField {
@@ -220,9 +220,9 @@ func (x *SearchGoogleAdsFieldsResponse) GetTotalResultsCount() int64 {
 	return 0
 }
 
-var File_services_google_ads_field_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_google_ads_field_service_proto protoreflect.FileDescriptor
 
-var file_services_google_ads_field_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDesc = string([]byte{
 	0x0a, 0x40, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x5f, 0x61, 0x64, 0x73, 0x5f, 0x66,
@@ -319,25 +319,25 @@ var file_services_google_ads_field_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_google_ads_field_service_proto_rawDescOnce sync.Once
-	file_services_google_ads_field_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescData []byte
 )
 
-func file_services_google_ads_field_service_proto_rawDescGZIP() []byte {
-	file_services_google_ads_field_service_proto_rawDescOnce.Do(func() {
-		file_services_google_ads_field_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_google_ads_field_service_proto_rawDesc), len(file_services_google_ads_field_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDesc)))
 	})
-	return file_services_google_ads_field_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDescData
 }
 
-var file_services_google_ads_field_service_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
-var file_services_google_ads_field_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
+var file_google_ads_googleads_v25_services_google_ads_field_service_proto_goTypes = []any{
 	(*GetGoogleAdsFieldRequest)(nil),      // 0: google.ads.googleads.v25.services.GetGoogleAdsFieldRequest
 	(*SearchGoogleAdsFieldsRequest)(nil),  // 1: google.ads.googleads.v25.services.SearchGoogleAdsFieldsRequest
 	(*SearchGoogleAdsFieldsResponse)(nil), // 2: google.ads.googleads.v25.services.SearchGoogleAdsFieldsResponse
 	(*resources.GoogleAdsField)(nil),      // 3: google.ads.googleads.v25.resources.GoogleAdsField
 }
-var file_services_google_ads_field_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_google_ads_field_service_proto_depIdxs = []int32{
 	3, // 0: google.ads.googleads.v25.services.SearchGoogleAdsFieldsResponse.results:type_name -> google.ads.googleads.v25.resources.GoogleAdsField
 	0, // 1: google.ads.googleads.v25.services.GoogleAdsFieldService.GetGoogleAdsField:input_type -> google.ads.googleads.v25.services.GetGoogleAdsFieldRequest
 	1, // 2: google.ads.googleads.v25.services.GoogleAdsFieldService.SearchGoogleAdsFields:input_type -> google.ads.googleads.v25.services.SearchGoogleAdsFieldsRequest
@@ -350,26 +350,26 @@ var file_services_google_ads_field_service_proto_depIdxs = []int32{
 	0, // [0:1] is the sub-list for field type_name
 }
 
-func init() { file_services_google_ads_field_service_proto_init() }
-func file_services_google_ads_field_service_proto_init() {
-	if File_services_google_ads_field_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_google_ads_field_service_proto_init() }
+func file_google_ads_googleads_v25_services_google_ads_field_service_proto_init() {
+	if File_google_ads_googleads_v25_services_google_ads_field_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_google_ads_field_service_proto_rawDesc), len(file_services_google_ads_field_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_google_ads_field_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   3,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_google_ads_field_service_proto_goTypes,
-		DependencyIndexes: file_services_google_ads_field_service_proto_depIdxs,
-		MessageInfos:      file_services_google_ads_field_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_google_ads_field_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_google_ads_field_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_google_ads_field_service_proto_msgTypes,
 	}.Build()
-	File_services_google_ads_field_service_proto = out.File
-	file_services_google_ads_field_service_proto_goTypes = nil
-	file_services_google_ads_field_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_google_ads_field_service_proto = out.File
+	file_google_ads_googleads_v25_services_google_ads_field_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_google_ads_field_service_proto_depIdxs = nil
 }

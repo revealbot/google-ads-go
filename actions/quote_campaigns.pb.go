@@ -54,7 +54,7 @@ type QuoteCampaignsOperation struct {
 
 func (x *QuoteCampaignsOperation) Reset() {
 	*x = QuoteCampaignsOperation{}
-	mi := &file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes[0]
+	mi := &file_actions_quote_campaigns_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -66,7 +66,7 @@ func (x *QuoteCampaignsOperation) String() string {
 func (*QuoteCampaignsOperation) ProtoMessage() {}
 
 func (x *QuoteCampaignsOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes[0]
+	mi := &file_actions_quote_campaigns_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -79,7 +79,7 @@ func (x *QuoteCampaignsOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QuoteCampaignsOperation.ProtoReflect.Descriptor instead.
 func (*QuoteCampaignsOperation) Descriptor() ([]byte, []int) {
-	return file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescGZIP(), []int{0}
+	return file_actions_quote_campaigns_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *QuoteCampaignsOperation) GetCampaigns() []*QuoteCampaignsOperation_Campaign {
@@ -113,7 +113,7 @@ type QuoteCampaignsResult struct {
 
 func (x *QuoteCampaignsResult) Reset() {
 	*x = QuoteCampaignsResult{}
-	mi := &file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes[1]
+	mi := &file_actions_quote_campaigns_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -125,7 +125,7 @@ func (x *QuoteCampaignsResult) String() string {
 func (*QuoteCampaignsResult) ProtoMessage() {}
 
 func (x *QuoteCampaignsResult) ProtoReflect() protoreflect.Message {
-	mi := &file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes[1]
+	mi := &file_actions_quote_campaigns_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -138,7 +138,7 @@ func (x *QuoteCampaignsResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QuoteCampaignsResult.ProtoReflect.Descriptor instead.
 func (*QuoteCampaignsResult) Descriptor() ([]byte, []int) {
-	return file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescGZIP(), []int{1}
+	return file_actions_quote_campaigns_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *QuoteCampaignsResult) GetQuotes() []*common.CampaignReservationQuote {
@@ -167,7 +167,7 @@ type QuoteCampaignsOperation_Campaign struct {
 
 func (x *QuoteCampaignsOperation_Campaign) Reset() {
 	*x = QuoteCampaignsOperation_Campaign{}
-	mi := &file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes[2]
+	mi := &file_actions_quote_campaigns_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -179,7 +179,7 @@ func (x *QuoteCampaignsOperation_Campaign) String() string {
 func (*QuoteCampaignsOperation_Campaign) ProtoMessage() {}
 
 func (x *QuoteCampaignsOperation_Campaign) ProtoReflect() protoreflect.Message {
-	mi := &file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes[2]
+	mi := &file_actions_quote_campaigns_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -192,7 +192,7 @@ func (x *QuoteCampaignsOperation_Campaign) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QuoteCampaignsOperation_Campaign.ProtoReflect.Descriptor instead.
 func (*QuoteCampaignsOperation_Campaign) Descriptor() ([]byte, []int) {
-	return file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescGZIP(), []int{0, 0}
+	return file_actions_quote_campaigns_proto_rawDescGZIP(), []int{0, 0}
 }
 
 func (x *QuoteCampaignsOperation_Campaign) GetCampaign() string {
@@ -202,9 +202,9 @@ func (x *QuoteCampaignsOperation_Campaign) GetCampaign() string {
 	return ""
 }
 
-var File_google_ads_googleads_v25_actions_quote_campaigns_proto protoreflect.FileDescriptor
+var File_actions_quote_campaigns_proto protoreflect.FileDescriptor
 
-var file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDesc = string([]byte{
+var file_actions_quote_campaigns_proto_rawDesc = string([]byte{
 	0x0a, 0x36, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x61, 0x63, 0x74, 0x69, 0x6f,
 	0x6e, 0x73, 0x2f, 0x71, 0x75, 0x6f, 0x74, 0x65, 0x5f, 0x63, 0x61, 0x6d, 0x70, 0x61, 0x69, 0x67,
@@ -257,25 +257,25 @@ var file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDesc = string
 })
 
 var (
-	file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescOnce sync.Once
-	file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescData []byte
+	file_actions_quote_campaigns_proto_rawDescOnce sync.Once
+	file_actions_quote_campaigns_proto_rawDescData []byte
 )
 
-func file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescGZIP() []byte {
-	file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescOnce.Do(func() {
-		file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDesc), len(file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDesc)))
+func file_actions_quote_campaigns_proto_rawDescGZIP() []byte {
+	file_actions_quote_campaigns_proto_rawDescOnce.Do(func() {
+		file_actions_quote_campaigns_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_actions_quote_campaigns_proto_rawDesc), len(file_actions_quote_campaigns_proto_rawDesc)))
 	})
-	return file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDescData
+	return file_actions_quote_campaigns_proto_rawDescData
 }
 
-var file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
-var file_google_ads_googleads_v25_actions_quote_campaigns_proto_goTypes = []any{
+var file_actions_quote_campaigns_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
+var file_actions_quote_campaigns_proto_goTypes = []any{
 	(*QuoteCampaignsOperation)(nil),          // 0: google.ads.googleads.v25.actions.QuoteCampaignsOperation
 	(*QuoteCampaignsResult)(nil),             // 1: google.ads.googleads.v25.actions.QuoteCampaignsResult
 	(*QuoteCampaignsOperation_Campaign)(nil), // 2: google.ads.googleads.v25.actions.QuoteCampaignsOperation.Campaign
 	(*common.CampaignReservationQuote)(nil),  // 3: google.ads.googleads.v25.common.CampaignReservationQuote
 }
-var file_google_ads_googleads_v25_actions_quote_campaigns_proto_depIdxs = []int32{
+var file_actions_quote_campaigns_proto_depIdxs = []int32{
 	2, // 0: google.ads.googleads.v25.actions.QuoteCampaignsOperation.campaigns:type_name -> google.ads.googleads.v25.actions.QuoteCampaignsOperation.Campaign
 	3, // 1: google.ads.googleads.v25.actions.QuoteCampaignsResult.quotes:type_name -> google.ads.googleads.v25.common.CampaignReservationQuote
 	2, // [2:2] is the sub-list for method output_type
@@ -285,26 +285,26 @@ var file_google_ads_googleads_v25_actions_quote_campaigns_proto_depIdxs = []int3
 	0, // [0:2] is the sub-list for field type_name
 }
 
-func init() { file_google_ads_googleads_v25_actions_quote_campaigns_proto_init() }
-func file_google_ads_googleads_v25_actions_quote_campaigns_proto_init() {
-	if File_google_ads_googleads_v25_actions_quote_campaigns_proto != nil {
+func init() { file_actions_quote_campaigns_proto_init() }
+func file_actions_quote_campaigns_proto_init() {
+	if File_actions_quote_campaigns_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDesc), len(file_google_ads_googleads_v25_actions_quote_campaigns_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_actions_quote_campaigns_proto_rawDesc), len(file_actions_quote_campaigns_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   3,
 			NumExtensions: 0,
 			NumServices:   0,
 		},
-		GoTypes:           file_google_ads_googleads_v25_actions_quote_campaigns_proto_goTypes,
-		DependencyIndexes: file_google_ads_googleads_v25_actions_quote_campaigns_proto_depIdxs,
-		MessageInfos:      file_google_ads_googleads_v25_actions_quote_campaigns_proto_msgTypes,
+		GoTypes:           file_actions_quote_campaigns_proto_goTypes,
+		DependencyIndexes: file_actions_quote_campaigns_proto_depIdxs,
+		MessageInfos:      file_actions_quote_campaigns_proto_msgTypes,
 	}.Build()
-	File_google_ads_googleads_v25_actions_quote_campaigns_proto = out.File
-	file_google_ads_googleads_v25_actions_quote_campaigns_proto_goTypes = nil
-	file_google_ads_googleads_v25_actions_quote_campaigns_proto_depIdxs = nil
+	File_actions_quote_campaigns_proto = out.File
+	file_actions_quote_campaigns_proto_goTypes = nil
+	file_actions_quote_campaigns_proto_depIdxs = nil
 }

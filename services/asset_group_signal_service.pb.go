@@ -66,7 +66,7 @@ type MutateAssetGroupSignalsRequest struct {
 
 func (x *MutateAssetGroupSignalsRequest) Reset() {
 	*x = MutateAssetGroupSignalsRequest{}
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -78,7 +78,7 @@ func (x *MutateAssetGroupSignalsRequest) String() string {
 func (*MutateAssetGroupSignalsRequest) ProtoMessage() {}
 
 func (x *MutateAssetGroupSignalsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -91,7 +91,7 @@ func (x *MutateAssetGroupSignalsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAssetGroupSignalsRequest.ProtoReflect.Descriptor instead.
 func (*MutateAssetGroupSignalsRequest) Descriptor() ([]byte, []int) {
-	return file_services_asset_group_signal_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateAssetGroupSignalsRequest) GetCustomerId() string {
@@ -155,7 +155,7 @@ type AssetGroupSignalOperation struct {
 
 func (x *AssetGroupSignalOperation) Reset() {
 	*x = AssetGroupSignalOperation{}
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -167,7 +167,7 @@ func (x *AssetGroupSignalOperation) String() string {
 func (*AssetGroupSignalOperation) ProtoMessage() {}
 
 func (x *AssetGroupSignalOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -180,7 +180,7 @@ func (x *AssetGroupSignalOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AssetGroupSignalOperation.ProtoReflect.Descriptor instead.
 func (*AssetGroupSignalOperation) Descriptor() ([]byte, []int) {
-	return file_services_asset_group_signal_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *AssetGroupSignalOperation) GetExemptPolicyViolationKeys() []*common.PolicyViolationKey {
@@ -252,7 +252,7 @@ type MutateAssetGroupSignalsResponse struct {
 
 func (x *MutateAssetGroupSignalsResponse) Reset() {
 	*x = MutateAssetGroupSignalsResponse{}
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -264,7 +264,7 @@ func (x *MutateAssetGroupSignalsResponse) String() string {
 func (*MutateAssetGroupSignalsResponse) ProtoMessage() {}
 
 func (x *MutateAssetGroupSignalsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -277,7 +277,7 @@ func (x *MutateAssetGroupSignalsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAssetGroupSignalsResponse.ProtoReflect.Descriptor instead.
 func (*MutateAssetGroupSignalsResponse) Descriptor() ([]byte, []int) {
-	return file_services_asset_group_signal_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateAssetGroupSignalsResponse) GetResults() []*MutateAssetGroupSignalResult {
@@ -309,7 +309,7 @@ type MutateAssetGroupSignalResult struct {
 
 func (x *MutateAssetGroupSignalResult) Reset() {
 	*x = MutateAssetGroupSignalResult{}
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -321,7 +321,7 @@ func (x *MutateAssetGroupSignalResult) String() string {
 func (*MutateAssetGroupSignalResult) ProtoMessage() {}
 
 func (x *MutateAssetGroupSignalResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_group_signal_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -334,7 +334,7 @@ func (x *MutateAssetGroupSignalResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAssetGroupSignalResult.ProtoReflect.Descriptor instead.
 func (*MutateAssetGroupSignalResult) Descriptor() ([]byte, []int) {
-	return file_services_asset_group_signal_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateAssetGroupSignalResult) GetResourceName() string {
@@ -351,9 +351,9 @@ func (x *MutateAssetGroupSignalResult) GetAssetGroupSignal() *resources.AssetGro
 	return nil
 }
 
-var File_services_asset_group_signal_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_asset_group_signal_service_proto protoreflect.FileDescriptor
 
-var file_services_asset_group_signal_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDesc = string([]byte{
 	0x0a, 0x42, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x61, 0x73, 0x73, 0x65, 0x74, 0x5f, 0x67, 0x72, 0x6f, 0x75, 0x70, 0x5f,
@@ -492,19 +492,19 @@ var file_services_asset_group_signal_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_asset_group_signal_service_proto_rawDescOnce sync.Once
-	file_services_asset_group_signal_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescData []byte
 )
 
-func file_services_asset_group_signal_service_proto_rawDescGZIP() []byte {
-	file_services_asset_group_signal_service_proto_rawDescOnce.Do(func() {
-		file_services_asset_group_signal_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_asset_group_signal_service_proto_rawDesc), len(file_services_asset_group_signal_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDesc)))
 	})
-	return file_services_asset_group_signal_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDescData
 }
 
-var file_services_asset_group_signal_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_asset_group_signal_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_asset_group_signal_service_proto_goTypes = []any{
 	(*MutateAssetGroupSignalsRequest)(nil),                 // 0: google.ads.googleads.v25.services.MutateAssetGroupSignalsRequest
 	(*AssetGroupSignalOperation)(nil),                      // 1: google.ads.googleads.v25.services.AssetGroupSignalOperation
 	(*MutateAssetGroupSignalsResponse)(nil),                // 2: google.ads.googleads.v25.services.MutateAssetGroupSignalsResponse
@@ -514,7 +514,7 @@ var file_services_asset_group_signal_service_proto_goTypes = []any{
 	(*resources.AssetGroupSignal)(nil),                     // 6: google.ads.googleads.v25.resources.AssetGroupSignal
 	(*status.Status)(nil),                                  // 7: google.rpc.Status
 }
-var file_services_asset_group_signal_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_asset_group_signal_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateAssetGroupSignalsRequest.operations:type_name -> google.ads.googleads.v25.services.AssetGroupSignalOperation
 	4, // 1: google.ads.googleads.v25.services.MutateAssetGroupSignalsRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	5, // 2: google.ads.googleads.v25.services.AssetGroupSignalOperation.exempt_policy_violation_keys:type_name -> google.ads.googleads.v25.common.PolicyViolationKey
@@ -531,12 +531,12 @@ var file_services_asset_group_signal_service_proto_depIdxs = []int32{
 	0, // [0:7] is the sub-list for field type_name
 }
 
-func init() { file_services_asset_group_signal_service_proto_init() }
-func file_services_asset_group_signal_service_proto_init() {
-	if File_services_asset_group_signal_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_asset_group_signal_service_proto_init() }
+func file_google_ads_googleads_v25_services_asset_group_signal_service_proto_init() {
+	if File_google_ads_googleads_v25_services_asset_group_signal_service_proto != nil {
 		return
 	}
-	file_services_asset_group_signal_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*AssetGroupSignalOperation_Create)(nil),
 		(*AssetGroupSignalOperation_Remove)(nil),
 	}
@@ -544,17 +544,17 @@ func file_services_asset_group_signal_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_asset_group_signal_service_proto_rawDesc), len(file_services_asset_group_signal_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_asset_group_signal_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_asset_group_signal_service_proto_goTypes,
-		DependencyIndexes: file_services_asset_group_signal_service_proto_depIdxs,
-		MessageInfos:      file_services_asset_group_signal_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_asset_group_signal_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_asset_group_signal_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_asset_group_signal_service_proto_msgTypes,
 	}.Build()
-	File_services_asset_group_signal_service_proto = out.File
-	file_services_asset_group_signal_service_proto_goTypes = nil
-	file_services_asset_group_signal_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_asset_group_signal_service_proto = out.File
+	file_google_ads_googleads_v25_services_asset_group_signal_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_asset_group_signal_service_proto_depIdxs = nil
 }

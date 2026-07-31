@@ -55,7 +55,7 @@ type GenerateConversionRatesRequest struct {
 
 func (x *GenerateConversionRatesRequest) Reset() {
 	*x = GenerateConversionRatesRequest{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -67,7 +67,7 @@ func (x *GenerateConversionRatesRequest) String() string {
 func (*GenerateConversionRatesRequest) ProtoMessage() {}
 
 func (x *GenerateConversionRatesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -80,7 +80,7 @@ func (x *GenerateConversionRatesRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateConversionRatesRequest.ProtoReflect.Descriptor instead.
 func (*GenerateConversionRatesRequest) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *GenerateConversionRatesRequest) GetCustomerId() string {
@@ -119,7 +119,7 @@ type GenerateConversionRatesResponse struct {
 
 func (x *GenerateConversionRatesResponse) Reset() {
 	*x = GenerateConversionRatesResponse{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -131,7 +131,7 @@ func (x *GenerateConversionRatesResponse) String() string {
 func (*GenerateConversionRatesResponse) ProtoMessage() {}
 
 func (x *GenerateConversionRatesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -144,7 +144,7 @@ func (x *GenerateConversionRatesResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateConversionRatesResponse.ProtoReflect.Descriptor instead.
 func (*GenerateConversionRatesResponse) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *GenerateConversionRatesResponse) GetConversionRateSuggestions() []*ConversionRateSuggestion {
@@ -175,7 +175,7 @@ type ConversionRateSuggestion struct {
 
 func (x *ConversionRateSuggestion) Reset() {
 	*x = ConversionRateSuggestion{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -187,7 +187,7 @@ func (x *ConversionRateSuggestion) String() string {
 func (*ConversionRateSuggestion) ProtoMessage() {}
 
 func (x *ConversionRateSuggestion) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -200,7 +200,7 @@ func (x *ConversionRateSuggestion) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ConversionRateSuggestion.ProtoReflect.Descriptor instead.
 func (*ConversionRateSuggestion) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *ConversionRateSuggestion) GetConversionRateModel() enums.ReachPlanConversionRateModelEnum_ReachPlanConversionRateModel {
@@ -243,7 +243,7 @@ type ListPlannableLocationsRequest struct {
 
 func (x *ListPlannableLocationsRequest) Reset() {
 	*x = ListPlannableLocationsRequest{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -255,7 +255,7 @@ func (x *ListPlannableLocationsRequest) String() string {
 func (*ListPlannableLocationsRequest) ProtoMessage() {}
 
 func (x *ListPlannableLocationsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -268,7 +268,7 @@ func (x *ListPlannableLocationsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPlannableLocationsRequest.ProtoReflect.Descriptor instead.
 func (*ListPlannableLocationsRequest) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *ListPlannableLocationsRequest) GetReachApplicationInfo() *common.AdditionalApplicationInfo {
@@ -292,7 +292,7 @@ type ListPlannableLocationsResponse struct {
 
 func (x *ListPlannableLocationsResponse) Reset() {
 	*x = ListPlannableLocationsResponse{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -304,7 +304,7 @@ func (x *ListPlannableLocationsResponse) String() string {
 func (*ListPlannableLocationsResponse) ProtoMessage() {}
 
 func (x *ListPlannableLocationsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -317,7 +317,7 @@ func (x *ListPlannableLocationsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPlannableLocationsResponse.ProtoReflect.Descriptor instead.
 func (*ListPlannableLocationsResponse) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *ListPlannableLocationsResponse) GetPlannableLocations() []*PlannableLocation {
@@ -351,7 +351,7 @@ type PlannableLocation struct {
 
 func (x *PlannableLocation) Reset() {
 	*x = PlannableLocation{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -363,7 +363,7 @@ func (x *PlannableLocation) String() string {
 func (*PlannableLocation) ProtoMessage() {}
 
 func (x *PlannableLocation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -376,7 +376,7 @@ func (x *PlannableLocation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannableLocation.ProtoReflect.Descriptor instead.
 func (*PlannableLocation) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *PlannableLocation) GetId() string {
@@ -429,7 +429,7 @@ type ListPlannableProductsRequest struct {
 
 func (x *ListPlannableProductsRequest) Reset() {
 	*x = ListPlannableProductsRequest{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -441,7 +441,7 @@ func (x *ListPlannableProductsRequest) String() string {
 func (*ListPlannableProductsRequest) ProtoMessage() {}
 
 func (x *ListPlannableProductsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -454,7 +454,7 @@ func (x *ListPlannableProductsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPlannableProductsRequest.ProtoReflect.Descriptor instead.
 func (*ListPlannableProductsRequest) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *ListPlannableProductsRequest) GetPlannableLocationId() string {
@@ -482,7 +482,7 @@ type ListPlannableProductsResponse struct {
 
 func (x *ListPlannableProductsResponse) Reset() {
 	*x = ListPlannableProductsResponse{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -494,7 +494,7 @@ func (x *ListPlannableProductsResponse) String() string {
 func (*ListPlannableProductsResponse) ProtoMessage() {}
 
 func (x *ListPlannableProductsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -507,7 +507,7 @@ func (x *ListPlannableProductsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPlannableProductsResponse.ProtoReflect.Descriptor instead.
 func (*ListPlannableProductsResponse) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *ListPlannableProductsResponse) GetProductMetadata() []*ProductMetadata {
@@ -547,7 +547,7 @@ type ProductMetadata struct {
 
 func (x *ProductMetadata) Reset() {
 	*x = ProductMetadata{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -559,7 +559,7 @@ func (x *ProductMetadata) String() string {
 func (*ProductMetadata) ProtoMessage() {}
 
 func (x *ProductMetadata) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -572,7 +572,7 @@ func (x *ProductMetadata) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ProductMetadata.ProtoReflect.Descriptor instead.
 func (*ProductMetadata) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *ProductMetadata) GetPlannableProductCode() string {
@@ -630,7 +630,7 @@ type ProductCoreAttributes struct {
 
 func (x *ProductCoreAttributes) Reset() {
 	*x = ProductCoreAttributes{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -642,7 +642,7 @@ func (x *ProductCoreAttributes) String() string {
 func (*ProductCoreAttributes) ProtoMessage() {}
 
 func (x *ProductCoreAttributes) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -655,7 +655,7 @@ func (x *ProductCoreAttributes) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ProductCoreAttributes.ProtoReflect.Descriptor instead.
 func (*ProductCoreAttributes) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *ProductCoreAttributes) GetMarketingObjective() enums.ReachPlanMarketingObjectiveEnum_ReachPlanMarketingObjective {
@@ -696,7 +696,7 @@ type ListPlannableUserListsRequest struct {
 
 func (x *ListPlannableUserListsRequest) Reset() {
 	*x = ListPlannableUserListsRequest{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -708,7 +708,7 @@ func (x *ListPlannableUserListsRequest) String() string {
 func (*ListPlannableUserListsRequest) ProtoMessage() {}
 
 func (x *ListPlannableUserListsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -721,7 +721,7 @@ func (x *ListPlannableUserListsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPlannableUserListsRequest.ProtoReflect.Descriptor instead.
 func (*ListPlannableUserListsRequest) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *ListPlannableUserListsRequest) GetCustomerId() string {
@@ -757,7 +757,7 @@ type ListPlannableUserListsResponse struct {
 
 func (x *ListPlannableUserListsResponse) Reset() {
 	*x = ListPlannableUserListsResponse{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -769,7 +769,7 @@ func (x *ListPlannableUserListsResponse) String() string {
 func (*ListPlannableUserListsResponse) ProtoMessage() {}
 
 func (x *ListPlannableUserListsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -782,7 +782,7 @@ func (x *ListPlannableUserListsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPlannableUserListsResponse.ProtoReflect.Descriptor instead.
 func (*ListPlannableUserListsResponse) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{11}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *ListPlannableUserListsResponse) GetPlannableUserLists() []*PlannableUserList {
@@ -811,7 +811,7 @@ type PlannableUserList struct {
 
 func (x *PlannableUserList) Reset() {
 	*x = PlannableUserList{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -823,7 +823,7 @@ func (x *PlannableUserList) String() string {
 func (*PlannableUserList) ProtoMessage() {}
 
 func (x *PlannableUserList) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -836,7 +836,7 @@ func (x *PlannableUserList) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannableUserList.ProtoReflect.Descriptor instead.
 func (*PlannableUserList) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{12}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *PlannableUserList) GetUserListInfo() *common.UserListInfo {
@@ -885,7 +885,7 @@ type PlannableUserListMetadata struct {
 
 func (x *PlannableUserListMetadata) Reset() {
 	*x = PlannableUserListMetadata{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[13]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -897,7 +897,7 @@ func (x *PlannableUserListMetadata) String() string {
 func (*PlannableUserListMetadata) ProtoMessage() {}
 
 func (x *PlannableUserListMetadata) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[13]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -910,7 +910,7 @@ func (x *PlannableUserListMetadata) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannableUserListMetadata.ProtoReflect.Descriptor instead.
 func (*PlannableUserListMetadata) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{13}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{13}
 }
 
 func (x *PlannableUserListMetadata) GetUserListCrmDataSourceType() enums.UserListCrmDataSourceTypeEnum_UserListCrmDataSourceType {
@@ -948,7 +948,7 @@ type PlannableTargeting struct {
 
 func (x *PlannableTargeting) Reset() {
 	*x = PlannableTargeting{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[14]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -960,7 +960,7 @@ func (x *PlannableTargeting) String() string {
 func (*PlannableTargeting) ProtoMessage() {}
 
 func (x *PlannableTargeting) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[14]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -973,7 +973,7 @@ func (x *PlannableTargeting) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannableTargeting.ProtoReflect.Descriptor instead.
 func (*PlannableTargeting) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{14}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{14}
 }
 
 func (x *PlannableTargeting) GetAgeRanges() []enums.ReachPlanAgeRangeEnum_ReachPlanAgeRange {
@@ -1045,7 +1045,7 @@ type ListPlannableUserInterestsRequest struct {
 
 func (x *ListPlannableUserInterestsRequest) Reset() {
 	*x = ListPlannableUserInterestsRequest{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[15]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1057,7 +1057,7 @@ func (x *ListPlannableUserInterestsRequest) String() string {
 func (*ListPlannableUserInterestsRequest) ProtoMessage() {}
 
 func (x *ListPlannableUserInterestsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[15]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1070,7 +1070,7 @@ func (x *ListPlannableUserInterestsRequest) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use ListPlannableUserInterestsRequest.ProtoReflect.Descriptor instead.
 func (*ListPlannableUserInterestsRequest) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{15}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{15}
 }
 
 func (x *ListPlannableUserInterestsRequest) GetCustomerId() string {
@@ -1120,7 +1120,7 @@ type ListPlannableUserInterestsResponse struct {
 
 func (x *ListPlannableUserInterestsResponse) Reset() {
 	*x = ListPlannableUserInterestsResponse{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[16]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1132,7 +1132,7 @@ func (x *ListPlannableUserInterestsResponse) String() string {
 func (*ListPlannableUserInterestsResponse) ProtoMessage() {}
 
 func (x *ListPlannableUserInterestsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[16]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1145,7 +1145,7 @@ func (x *ListPlannableUserInterestsResponse) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use ListPlannableUserInterestsResponse.ProtoReflect.Descriptor instead.
 func (*ListPlannableUserInterestsResponse) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{16}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{16}
 }
 
 func (x *ListPlannableUserInterestsResponse) GetPlannableUserInterests() []*PlannableUserInterest {
@@ -1176,7 +1176,7 @@ type PlannableUserInterest struct {
 
 func (x *PlannableUserInterest) Reset() {
 	*x = PlannableUserInterest{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[17]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1188,7 +1188,7 @@ func (x *PlannableUserInterest) String() string {
 func (*PlannableUserInterest) ProtoMessage() {}
 
 func (x *PlannableUserInterest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[17]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1201,7 +1201,7 @@ func (x *PlannableUserInterest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannableUserInterest.ProtoReflect.Descriptor instead.
 func (*PlannableUserInterest) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{17}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{17}
 }
 
 func (x *PlannableUserInterest) GetUserInterest() *common.UserInterestInfo {
@@ -1291,7 +1291,7 @@ type GenerateReachForecastRequest struct {
 
 func (x *GenerateReachForecastRequest) Reset() {
 	*x = GenerateReachForecastRequest{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[18]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1303,7 +1303,7 @@ func (x *GenerateReachForecastRequest) String() string {
 func (*GenerateReachForecastRequest) ProtoMessage() {}
 
 func (x *GenerateReachForecastRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[18]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1316,7 +1316,7 @@ func (x *GenerateReachForecastRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateReachForecastRequest.ProtoReflect.Descriptor instead.
 func (*GenerateReachForecastRequest) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{18}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{18}
 }
 
 func (x *GenerateReachForecastRequest) GetCustomerId() string {
@@ -1409,7 +1409,7 @@ type EffectiveFrequencyLimit struct {
 
 func (x *EffectiveFrequencyLimit) Reset() {
 	*x = EffectiveFrequencyLimit{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[19]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1421,7 +1421,7 @@ func (x *EffectiveFrequencyLimit) String() string {
 func (*EffectiveFrequencyLimit) ProtoMessage() {}
 
 func (x *EffectiveFrequencyLimit) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[19]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1434,7 +1434,7 @@ func (x *EffectiveFrequencyLimit) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use EffectiveFrequencyLimit.ProtoReflect.Descriptor instead.
 func (*EffectiveFrequencyLimit) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{19}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{19}
 }
 
 func (x *EffectiveFrequencyLimit) GetEffectiveFrequencyBreakdownLimit() int32 {
@@ -1458,7 +1458,7 @@ type FrequencyCap struct {
 
 func (x *FrequencyCap) Reset() {
 	*x = FrequencyCap{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[20]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1470,7 +1470,7 @@ func (x *FrequencyCap) String() string {
 func (*FrequencyCap) ProtoMessage() {}
 
 func (x *FrequencyCap) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[20]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1483,7 +1483,7 @@ func (x *FrequencyCap) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use FrequencyCap.ProtoReflect.Descriptor instead.
 func (*FrequencyCap) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{20}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{20}
 }
 
 func (x *FrequencyCap) GetImpressions() int32 {
@@ -1536,7 +1536,7 @@ type Targeting struct {
 
 func (x *Targeting) Reset() {
 	*x = Targeting{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[21]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1548,7 +1548,7 @@ func (x *Targeting) String() string {
 func (*Targeting) ProtoMessage() {}
 
 func (x *Targeting) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[21]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1561,7 +1561,7 @@ func (x *Targeting) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Targeting.ProtoReflect.Descriptor instead.
 func (*Targeting) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{21}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{21}
 }
 
 func (x *Targeting) GetPlannableLocationIds() []string {
@@ -1626,7 +1626,7 @@ type CampaignDuration struct {
 
 func (x *CampaignDuration) Reset() {
 	*x = CampaignDuration{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[22]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1638,7 +1638,7 @@ func (x *CampaignDuration) String() string {
 func (*CampaignDuration) ProtoMessage() {}
 
 func (x *CampaignDuration) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[22]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1651,7 +1651,7 @@ func (x *CampaignDuration) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CampaignDuration.ProtoReflect.Descriptor instead.
 func (*CampaignDuration) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{22}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{22}
 }
 
 func (x *CampaignDuration) GetDurationInDays() int32 {
@@ -1696,7 +1696,7 @@ type PlannedProduct struct {
 
 func (x *PlannedProduct) Reset() {
 	*x = PlannedProduct{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[23]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1708,7 +1708,7 @@ func (x *PlannedProduct) String() string {
 func (*PlannedProduct) ProtoMessage() {}
 
 func (x *PlannedProduct) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[23]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1721,7 +1721,7 @@ func (x *PlannedProduct) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannedProduct.ProtoReflect.Descriptor instead.
 func (*PlannedProduct) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{23}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{23}
 }
 
 func (x *PlannedProduct) GetPlannableProductCode() string {
@@ -1765,7 +1765,7 @@ type GenerateReachForecastResponse struct {
 
 func (x *GenerateReachForecastResponse) Reset() {
 	*x = GenerateReachForecastResponse{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[24]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[24]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1777,7 +1777,7 @@ func (x *GenerateReachForecastResponse) String() string {
 func (*GenerateReachForecastResponse) ProtoMessage() {}
 
 func (x *GenerateReachForecastResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[24]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[24]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1790,7 +1790,7 @@ func (x *GenerateReachForecastResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateReachForecastResponse.ProtoReflect.Descriptor instead.
 func (*GenerateReachForecastResponse) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{24}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{24}
 }
 
 func (x *GenerateReachForecastResponse) GetOnTargetAudienceMetrics() *OnTargetAudienceMetrics {
@@ -1818,7 +1818,7 @@ type ReachCurve struct {
 
 func (x *ReachCurve) Reset() {
 	*x = ReachCurve{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[25]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[25]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1830,7 +1830,7 @@ func (x *ReachCurve) String() string {
 func (*ReachCurve) ProtoMessage() {}
 
 func (x *ReachCurve) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[25]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[25]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1843,7 +1843,7 @@ func (x *ReachCurve) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ReachCurve.ProtoReflect.Descriptor instead.
 func (*ReachCurve) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{25}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{25}
 }
 
 func (x *ReachCurve) GetReachForecasts() []*ReachForecast {
@@ -1869,7 +1869,7 @@ type ReachForecast struct {
 
 func (x *ReachForecast) Reset() {
 	*x = ReachForecast{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[26]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[26]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1881,7 +1881,7 @@ func (x *ReachForecast) String() string {
 func (*ReachForecast) ProtoMessage() {}
 
 func (x *ReachForecast) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[26]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[26]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1894,7 +1894,7 @@ func (x *ReachForecast) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ReachForecast.ProtoReflect.Descriptor instead.
 func (*ReachForecast) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{26}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{26}
 }
 
 func (x *ReachForecast) GetCostMicros() int64 {
@@ -1993,7 +1993,7 @@ type Forecast struct {
 
 func (x *Forecast) Reset() {
 	*x = Forecast{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[27]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[27]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2005,7 +2005,7 @@ func (x *Forecast) String() string {
 func (*Forecast) ProtoMessage() {}
 
 func (x *Forecast) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[27]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[27]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2018,7 +2018,7 @@ func (x *Forecast) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Forecast.ProtoReflect.Descriptor instead.
 func (*Forecast) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{27}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{27}
 }
 
 func (x *Forecast) GetOnTargetReach() int64 {
@@ -2132,7 +2132,7 @@ type PlannedProductReachForecast struct {
 
 func (x *PlannedProductReachForecast) Reset() {
 	*x = PlannedProductReachForecast{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[28]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[28]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2144,7 +2144,7 @@ func (x *PlannedProductReachForecast) String() string {
 func (*PlannedProductReachForecast) ProtoMessage() {}
 
 func (x *PlannedProductReachForecast) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[28]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[28]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2157,7 +2157,7 @@ func (x *PlannedProductReachForecast) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannedProductReachForecast.ProtoReflect.Descriptor instead.
 func (*PlannedProductReachForecast) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{28}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{28}
 }
 
 func (x *PlannedProductReachForecast) GetPlannableProductCode() string {
@@ -2253,7 +2253,7 @@ type PlannedProductForecast struct {
 
 func (x *PlannedProductForecast) Reset() {
 	*x = PlannedProductForecast{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[29]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[29]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2265,7 +2265,7 @@ func (x *PlannedProductForecast) String() string {
 func (*PlannedProductForecast) ProtoMessage() {}
 
 func (x *PlannedProductForecast) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[29]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[29]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2278,7 +2278,7 @@ func (x *PlannedProductForecast) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PlannedProductForecast.ProtoReflect.Descriptor instead.
 func (*PlannedProductForecast) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{29}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{29}
 }
 
 func (x *PlannedProductForecast) GetOnTargetReach() int64 {
@@ -2391,7 +2391,7 @@ type OnTargetAudienceMetrics struct {
 
 func (x *OnTargetAudienceMetrics) Reset() {
 	*x = OnTargetAudienceMetrics{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[30]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[30]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2403,7 +2403,7 @@ func (x *OnTargetAudienceMetrics) String() string {
 func (*OnTargetAudienceMetrics) ProtoMessage() {}
 
 func (x *OnTargetAudienceMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[30]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[30]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2416,7 +2416,7 @@ func (x *OnTargetAudienceMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use OnTargetAudienceMetrics.ProtoReflect.Descriptor instead.
 func (*OnTargetAudienceMetrics) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{30}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{30}
 }
 
 func (x *OnTargetAudienceMetrics) GetYoutubeAudienceSize() int64 {
@@ -2465,7 +2465,7 @@ type EffectiveFrequencyBreakdown struct {
 
 func (x *EffectiveFrequencyBreakdown) Reset() {
 	*x = EffectiveFrequencyBreakdown{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[31]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[31]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2477,7 +2477,7 @@ func (x *EffectiveFrequencyBreakdown) String() string {
 func (*EffectiveFrequencyBreakdown) ProtoMessage() {}
 
 func (x *EffectiveFrequencyBreakdown) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[31]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[31]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2490,7 +2490,7 @@ func (x *EffectiveFrequencyBreakdown) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use EffectiveFrequencyBreakdown.ProtoReflect.Descriptor instead.
 func (*EffectiveFrequencyBreakdown) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{31}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{31}
 }
 
 func (x *EffectiveFrequencyBreakdown) GetEffectiveFrequency() int32 {
@@ -2539,7 +2539,7 @@ type ForecastMetricOptions struct {
 
 func (x *ForecastMetricOptions) Reset() {
 	*x = ForecastMetricOptions{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[32]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[32]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2551,7 +2551,7 @@ func (x *ForecastMetricOptions) String() string {
 func (*ForecastMetricOptions) ProtoMessage() {}
 
 func (x *ForecastMetricOptions) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[32]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[32]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2564,7 +2564,7 @@ func (x *ForecastMetricOptions) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ForecastMetricOptions.ProtoReflect.Descriptor instead.
 func (*ForecastMetricOptions) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{32}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{32}
 }
 
 func (x *ForecastMetricOptions) GetIncludeCoview() bool {
@@ -2587,7 +2587,7 @@ type AudienceTargeting struct {
 
 func (x *AudienceTargeting) Reset() {
 	*x = AudienceTargeting{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[33]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[33]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2599,7 +2599,7 @@ func (x *AudienceTargeting) String() string {
 func (*AudienceTargeting) ProtoMessage() {}
 
 func (x *AudienceTargeting) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[33]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[33]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2612,7 +2612,7 @@ func (x *AudienceTargeting) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AudienceTargeting.ProtoReflect.Descriptor instead.
 func (*AudienceTargeting) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{33}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{33}
 }
 
 func (x *AudienceTargeting) GetUserInterest() []*common.UserInterestInfo {
@@ -2652,7 +2652,7 @@ type AdvancedProductTargeting struct {
 
 func (x *AdvancedProductTargeting) Reset() {
 	*x = AdvancedProductTargeting{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[34]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[34]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2664,7 +2664,7 @@ func (x *AdvancedProductTargeting) String() string {
 func (*AdvancedProductTargeting) ProtoMessage() {}
 
 func (x *AdvancedProductTargeting) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[34]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[34]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2677,7 +2677,7 @@ func (x *AdvancedProductTargeting) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AdvancedProductTargeting.ProtoReflect.Descriptor instead.
 func (*AdvancedProductTargeting) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{34}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{34}
 }
 
 func (x *AdvancedProductTargeting) GetSurfaceTargetingSettings() *SurfaceTargeting {
@@ -2733,7 +2733,7 @@ type YouTubeSelectSettings struct {
 
 func (x *YouTubeSelectSettings) Reset() {
 	*x = YouTubeSelectSettings{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[35]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[35]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2745,7 +2745,7 @@ func (x *YouTubeSelectSettings) String() string {
 func (*YouTubeSelectSettings) ProtoMessage() {}
 
 func (x *YouTubeSelectSettings) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[35]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[35]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2758,7 +2758,7 @@ func (x *YouTubeSelectSettings) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use YouTubeSelectSettings.ProtoReflect.Descriptor instead.
 func (*YouTubeSelectSettings) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{35}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{35}
 }
 
 func (x *YouTubeSelectSettings) GetLineupId() int64 {
@@ -2781,7 +2781,7 @@ type YouTubeSelectLineUp struct {
 
 func (x *YouTubeSelectLineUp) Reset() {
 	*x = YouTubeSelectLineUp{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[36]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[36]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2793,7 +2793,7 @@ func (x *YouTubeSelectLineUp) String() string {
 func (*YouTubeSelectLineUp) ProtoMessage() {}
 
 func (x *YouTubeSelectLineUp) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[36]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[36]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2806,7 +2806,7 @@ func (x *YouTubeSelectLineUp) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use YouTubeSelectLineUp.ProtoReflect.Descriptor instead.
 func (*YouTubeSelectLineUp) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{36}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{36}
 }
 
 func (x *YouTubeSelectLineUp) GetLineupId() int64 {
@@ -2836,7 +2836,7 @@ type YouTubeSelectLineUpTargeting struct {
 
 func (x *YouTubeSelectLineUpTargeting) Reset() {
 	*x = YouTubeSelectLineUpTargeting{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[37]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[37]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2848,7 +2848,7 @@ func (x *YouTubeSelectLineUpTargeting) String() string {
 func (*YouTubeSelectLineUpTargeting) ProtoMessage() {}
 
 func (x *YouTubeSelectLineUpTargeting) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[37]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[37]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2861,7 +2861,7 @@ func (x *YouTubeSelectLineUpTargeting) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use YouTubeSelectLineUpTargeting.ProtoReflect.Descriptor instead.
 func (*YouTubeSelectLineUpTargeting) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{37}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{37}
 }
 
 func (x *YouTubeSelectLineUpTargeting) GetYoutubeSelectLineups() []*YouTubeSelectLineUp {
@@ -2891,7 +2891,7 @@ type SurfaceTargetingCombinations struct {
 
 func (x *SurfaceTargetingCombinations) Reset() {
 	*x = SurfaceTargetingCombinations{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[38]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[38]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2903,7 +2903,7 @@ func (x *SurfaceTargetingCombinations) String() string {
 func (*SurfaceTargetingCombinations) ProtoMessage() {}
 
 func (x *SurfaceTargetingCombinations) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[38]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[38]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2916,7 +2916,7 @@ func (x *SurfaceTargetingCombinations) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SurfaceTargetingCombinations.ProtoReflect.Descriptor instead.
 func (*SurfaceTargetingCombinations) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{38}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{38}
 }
 
 func (x *SurfaceTargetingCombinations) GetDefaultTargeting() *SurfaceTargeting {
@@ -2945,7 +2945,7 @@ type SurfaceTargeting struct {
 
 func (x *SurfaceTargeting) Reset() {
 	*x = SurfaceTargeting{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[39]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[39]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2957,7 +2957,7 @@ func (x *SurfaceTargeting) String() string {
 func (*SurfaceTargeting) ProtoMessage() {}
 
 func (x *SurfaceTargeting) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[39]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[39]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2970,7 +2970,7 @@ func (x *SurfaceTargeting) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SurfaceTargeting.ProtoReflect.Descriptor instead.
 func (*SurfaceTargeting) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{39}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{39}
 }
 
 func (x *SurfaceTargeting) GetSurfaces() []enums.ReachPlanSurfaceEnum_ReachPlanSurface {
@@ -2994,7 +2994,7 @@ type TargetFrequencySettings struct {
 
 func (x *TargetFrequencySettings) Reset() {
 	*x = TargetFrequencySettings{}
-	mi := &file_services_reach_plan_service_proto_msgTypes[40]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[40]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -3006,7 +3006,7 @@ func (x *TargetFrequencySettings) String() string {
 func (*TargetFrequencySettings) ProtoMessage() {}
 
 func (x *TargetFrequencySettings) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reach_plan_service_proto_msgTypes[40]
+	mi := &file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[40]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -3019,7 +3019,7 @@ func (x *TargetFrequencySettings) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use TargetFrequencySettings.ProtoReflect.Descriptor instead.
 func (*TargetFrequencySettings) Descriptor() ([]byte, []int) {
-	return file_services_reach_plan_service_proto_rawDescGZIP(), []int{40}
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP(), []int{40}
 }
 
 func (x *TargetFrequencySettings) GetTimeUnit() enums.TargetFrequencyTimeUnitEnum_TargetFrequencyTimeUnit {
@@ -3036,9 +3036,9 @@ func (x *TargetFrequencySettings) GetTargetFrequency() int32 {
 	return 0
 }
 
-var File_services_reach_plan_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_reach_plan_service_proto protoreflect.FileDescriptor
 
-var file_services_reach_plan_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3a, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x72, 0x65, 0x61, 0x63, 0x68, 0x5f, 0x70, 0x6c, 0x61, 0x6e, 0x5f, 0x73,
@@ -4018,19 +4018,19 @@ var file_services_reach_plan_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_reach_plan_service_proto_rawDescOnce sync.Once
-	file_services_reach_plan_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescData []byte
 )
 
-func file_services_reach_plan_service_proto_rawDescGZIP() []byte {
-	file_services_reach_plan_service_proto_rawDescOnce.Do(func() {
-		file_services_reach_plan_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_reach_plan_service_proto_rawDesc), len(file_services_reach_plan_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDesc)))
 	})
-	return file_services_reach_plan_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDescData
 }
 
-var file_services_reach_plan_service_proto_msgTypes = make([]protoimpl.MessageInfo, 41)
-var file_services_reach_plan_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes = make([]protoimpl.MessageInfo, 41)
+var file_google_ads_googleads_v25_services_reach_plan_service_proto_goTypes = []any{
 	(*GenerateConversionRatesRequest)(nil),                                   // 0: google.ads.googleads.v25.services.GenerateConversionRatesRequest
 	(*GenerateConversionRatesResponse)(nil),                                  // 1: google.ads.googleads.v25.services.GenerateConversionRatesResponse
 	(*ConversionRateSuggestion)(nil),                                         // 2: google.ads.googleads.v25.services.ConversionRateSuggestion
@@ -4092,7 +4092,7 @@ var file_services_reach_plan_service_proto_goTypes = []any{
 	(enums.ReachPlanSurfaceEnum_ReachPlanSurface)(0),                 // 58: google.ads.googleads.v25.enums.ReachPlanSurfaceEnum.ReachPlanSurface
 	(enums.TargetFrequencyTimeUnitEnum_TargetFrequencyTimeUnit)(0),   // 59: google.ads.googleads.v25.enums.TargetFrequencyTimeUnitEnum.TargetFrequencyTimeUnit
 }
-var file_services_reach_plan_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_reach_plan_service_proto_depIdxs = []int32{
 	41, // 0: google.ads.googleads.v25.services.GenerateConversionRatesRequest.reach_application_info:type_name -> google.ads.googleads.v25.common.AdditionalApplicationInfo
 	2,  // 1: google.ads.googleads.v25.services.GenerateConversionRatesResponse.conversion_rate_suggestions:type_name -> google.ads.googleads.v25.services.ConversionRateSuggestion
 	42, // 2: google.ads.googleads.v25.services.ConversionRateSuggestion.conversion_rate_model:type_name -> google.ads.googleads.v25.enums.ReachPlanConversionRateModelEnum.ReachPlanConversionRateModel
@@ -4176,43 +4176,43 @@ var file_services_reach_plan_service_proto_depIdxs = []int32{
 	0,  // [0:64] is the sub-list for field type_name
 }
 
-func init() { file_services_reach_plan_service_proto_init() }
-func file_services_reach_plan_service_proto_init() {
-	if File_services_reach_plan_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_reach_plan_service_proto_init() }
+func file_google_ads_googleads_v25_services_reach_plan_service_proto_init() {
+	if File_google_ads_googleads_v25_services_reach_plan_service_proto != nil {
 		return
 	}
-	file_services_reach_plan_service_proto_msgTypes[0].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[2].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[5].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[8].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[9].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[10].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[15].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[18].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[22].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[23].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[27].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[29].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[30].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[31].OneofWrappers = []any{}
-	file_services_reach_plan_service_proto_msgTypes[34].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[0].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[2].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[5].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[8].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[9].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[10].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[15].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[18].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[22].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[23].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[27].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[29].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[30].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[31].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes[34].OneofWrappers = []any{
 		(*AdvancedProductTargeting_YoutubeSelectSettings)(nil),
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_reach_plan_service_proto_rawDesc), len(file_services_reach_plan_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_reach_plan_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   41,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_reach_plan_service_proto_goTypes,
-		DependencyIndexes: file_services_reach_plan_service_proto_depIdxs,
-		MessageInfos:      file_services_reach_plan_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_reach_plan_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_reach_plan_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_reach_plan_service_proto_msgTypes,
 	}.Build()
-	File_services_reach_plan_service_proto = out.File
-	file_services_reach_plan_service_proto_goTypes = nil
-	file_services_reach_plan_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_reach_plan_service_proto = out.File
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_reach_plan_service_proto_depIdxs = nil
 }

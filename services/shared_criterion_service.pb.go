@@ -64,7 +64,7 @@ type MutateSharedCriteriaRequest struct {
 
 func (x *MutateSharedCriteriaRequest) Reset() {
 	*x = MutateSharedCriteriaRequest{}
-	mi := &file_services_shared_criterion_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -76,7 +76,7 @@ func (x *MutateSharedCriteriaRequest) String() string {
 func (*MutateSharedCriteriaRequest) ProtoMessage() {}
 
 func (x *MutateSharedCriteriaRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_shared_criterion_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -89,7 +89,7 @@ func (x *MutateSharedCriteriaRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateSharedCriteriaRequest.ProtoReflect.Descriptor instead.
 func (*MutateSharedCriteriaRequest) Descriptor() ([]byte, []int) {
-	return file_services_shared_criterion_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateSharedCriteriaRequest) GetCustomerId() string {
@@ -143,7 +143,7 @@ type SharedCriterionOperation struct {
 
 func (x *SharedCriterionOperation) Reset() {
 	*x = SharedCriterionOperation{}
-	mi := &file_services_shared_criterion_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -155,7 +155,7 @@ func (x *SharedCriterionOperation) String() string {
 func (*SharedCriterionOperation) ProtoMessage() {}
 
 func (x *SharedCriterionOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_shared_criterion_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -168,7 +168,7 @@ func (x *SharedCriterionOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SharedCriterionOperation.ProtoReflect.Descriptor instead.
 func (*SharedCriterionOperation) Descriptor() ([]byte, []int) {
-	return file_services_shared_criterion_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *SharedCriterionOperation) GetOperation() isSharedCriterionOperation_Operation {
@@ -234,7 +234,7 @@ type MutateSharedCriteriaResponse struct {
 
 func (x *MutateSharedCriteriaResponse) Reset() {
 	*x = MutateSharedCriteriaResponse{}
-	mi := &file_services_shared_criterion_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -246,7 +246,7 @@ func (x *MutateSharedCriteriaResponse) String() string {
 func (*MutateSharedCriteriaResponse) ProtoMessage() {}
 
 func (x *MutateSharedCriteriaResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_shared_criterion_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -259,7 +259,7 @@ func (x *MutateSharedCriteriaResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateSharedCriteriaResponse.ProtoReflect.Descriptor instead.
 func (*MutateSharedCriteriaResponse) Descriptor() ([]byte, []int) {
-	return file_services_shared_criterion_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateSharedCriteriaResponse) GetPartialFailureError() *status.Status {
@@ -291,7 +291,7 @@ type MutateSharedCriterionResult struct {
 
 func (x *MutateSharedCriterionResult) Reset() {
 	*x = MutateSharedCriterionResult{}
-	mi := &file_services_shared_criterion_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -303,7 +303,7 @@ func (x *MutateSharedCriterionResult) String() string {
 func (*MutateSharedCriterionResult) ProtoMessage() {}
 
 func (x *MutateSharedCriterionResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_shared_criterion_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -316,7 +316,7 @@ func (x *MutateSharedCriterionResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateSharedCriterionResult.ProtoReflect.Descriptor instead.
 func (*MutateSharedCriterionResult) Descriptor() ([]byte, []int) {
-	return file_services_shared_criterion_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateSharedCriterionResult) GetResourceName() string {
@@ -333,9 +333,9 @@ func (x *MutateSharedCriterionResult) GetSharedCriterion() *resources.SharedCrit
 	return nil
 }
 
-var File_services_shared_criterion_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_shared_criterion_service_proto protoreflect.FileDescriptor
 
-var file_services_shared_criterion_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDesc = string([]byte{
 	0x0a, 0x40, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x73, 0x68, 0x61, 0x72, 0x65, 0x64, 0x5f, 0x63, 0x72, 0x69, 0x74, 0x65,
@@ -461,19 +461,19 @@ var file_services_shared_criterion_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_shared_criterion_service_proto_rawDescOnce sync.Once
-	file_services_shared_criterion_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescData []byte
 )
 
-func file_services_shared_criterion_service_proto_rawDescGZIP() []byte {
-	file_services_shared_criterion_service_proto_rawDescOnce.Do(func() {
-		file_services_shared_criterion_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_shared_criterion_service_proto_rawDesc), len(file_services_shared_criterion_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDesc)))
 	})
-	return file_services_shared_criterion_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDescData
 }
 
-var file_services_shared_criterion_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_shared_criterion_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_shared_criterion_service_proto_goTypes = []any{
 	(*MutateSharedCriteriaRequest)(nil),                    // 0: google.ads.googleads.v25.services.MutateSharedCriteriaRequest
 	(*SharedCriterionOperation)(nil),                       // 1: google.ads.googleads.v25.services.SharedCriterionOperation
 	(*MutateSharedCriteriaResponse)(nil),                   // 2: google.ads.googleads.v25.services.MutateSharedCriteriaResponse
@@ -482,7 +482,7 @@ var file_services_shared_criterion_service_proto_goTypes = []any{
 	(*resources.SharedCriterion)(nil),                      // 5: google.ads.googleads.v25.resources.SharedCriterion
 	(*status.Status)(nil),                                  // 6: google.rpc.Status
 }
-var file_services_shared_criterion_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_shared_criterion_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateSharedCriteriaRequest.operations:type_name -> google.ads.googleads.v25.services.SharedCriterionOperation
 	4, // 1: google.ads.googleads.v25.services.MutateSharedCriteriaRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	5, // 2: google.ads.googleads.v25.services.SharedCriterionOperation.create:type_name -> google.ads.googleads.v25.resources.SharedCriterion
@@ -498,12 +498,12 @@ var file_services_shared_criterion_service_proto_depIdxs = []int32{
 	0, // [0:6] is the sub-list for field type_name
 }
 
-func init() { file_services_shared_criterion_service_proto_init() }
-func file_services_shared_criterion_service_proto_init() {
-	if File_services_shared_criterion_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_shared_criterion_service_proto_init() }
+func file_google_ads_googleads_v25_services_shared_criterion_service_proto_init() {
+	if File_google_ads_googleads_v25_services_shared_criterion_service_proto != nil {
 		return
 	}
-	file_services_shared_criterion_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*SharedCriterionOperation_Create)(nil),
 		(*SharedCriterionOperation_Remove)(nil),
 	}
@@ -511,17 +511,17 @@ func file_services_shared_criterion_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_shared_criterion_service_proto_rawDesc), len(file_services_shared_criterion_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_shared_criterion_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_shared_criterion_service_proto_goTypes,
-		DependencyIndexes: file_services_shared_criterion_service_proto_depIdxs,
-		MessageInfos:      file_services_shared_criterion_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_shared_criterion_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_shared_criterion_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_shared_criterion_service_proto_msgTypes,
 	}.Build()
-	File_services_shared_criterion_service_proto = out.File
-	file_services_shared_criterion_service_proto_goTypes = nil
-	file_services_shared_criterion_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_shared_criterion_service_proto = out.File
+	file_google_ads_googleads_v25_services_shared_criterion_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_shared_criterion_service_proto_depIdxs = nil
 }

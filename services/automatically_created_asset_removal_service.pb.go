@@ -56,7 +56,7 @@ type RemoveCampaignAutomaticallyCreatedAssetRequest struct {
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetRequest) Reset() {
 	*x = RemoveCampaignAutomaticallyCreatedAssetRequest{}
-	mi := &file_services_automatically_created_asset_removal_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -68,7 +68,7 @@ func (x *RemoveCampaignAutomaticallyCreatedAssetRequest) String() string {
 func (*RemoveCampaignAutomaticallyCreatedAssetRequest) ProtoMessage() {}
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_automatically_created_asset_removal_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -81,7 +81,7 @@ func (x *RemoveCampaignAutomaticallyCreatedAssetRequest) ProtoReflect() protoref
 
 // Deprecated: Use RemoveCampaignAutomaticallyCreatedAssetRequest.ProtoReflect.Descriptor instead.
 func (*RemoveCampaignAutomaticallyCreatedAssetRequest) Descriptor() ([]byte, []int) {
-	return file_services_automatically_created_asset_removal_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetRequest) GetCustomerId() string {
@@ -120,7 +120,7 @@ type RemoveCampaignAutomaticallyCreatedAssetOperation struct {
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetOperation) Reset() {
 	*x = RemoveCampaignAutomaticallyCreatedAssetOperation{}
-	mi := &file_services_automatically_created_asset_removal_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -132,7 +132,7 @@ func (x *RemoveCampaignAutomaticallyCreatedAssetOperation) String() string {
 func (*RemoveCampaignAutomaticallyCreatedAssetOperation) ProtoMessage() {}
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_automatically_created_asset_removal_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -145,7 +145,7 @@ func (x *RemoveCampaignAutomaticallyCreatedAssetOperation) ProtoReflect() protor
 
 // Deprecated: Use RemoveCampaignAutomaticallyCreatedAssetOperation.ProtoReflect.Descriptor instead.
 func (*RemoveCampaignAutomaticallyCreatedAssetOperation) Descriptor() ([]byte, []int) {
-	return file_services_automatically_created_asset_removal_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetOperation) GetCampaign() string {
@@ -186,7 +186,7 @@ type RemoveCampaignAutomaticallyCreatedAssetResponse struct {
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetResponse) Reset() {
 	*x = RemoveCampaignAutomaticallyCreatedAssetResponse{}
-	mi := &file_services_automatically_created_asset_removal_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -198,7 +198,7 @@ func (x *RemoveCampaignAutomaticallyCreatedAssetResponse) String() string {
 func (*RemoveCampaignAutomaticallyCreatedAssetResponse) ProtoMessage() {}
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_automatically_created_asset_removal_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -211,7 +211,7 @@ func (x *RemoveCampaignAutomaticallyCreatedAssetResponse) ProtoReflect() protore
 
 // Deprecated: Use RemoveCampaignAutomaticallyCreatedAssetResponse.ProtoReflect.Descriptor instead.
 func (*RemoveCampaignAutomaticallyCreatedAssetResponse) Descriptor() ([]byte, []int) {
-	return file_services_automatically_created_asset_removal_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *RemoveCampaignAutomaticallyCreatedAssetResponse) GetPartialFailureError() *status.Status {
@@ -221,9 +221,9 @@ func (x *RemoveCampaignAutomaticallyCreatedAssetResponse) GetPartialFailureError
 	return nil
 }
 
-var File_services_automatically_created_asset_removal_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto protoreflect.FileDescriptor
 
-var file_services_automatically_created_asset_removal_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDesc = string([]byte{
 	0x0a, 0x53, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x61, 0x75, 0x74, 0x6f, 0x6d, 0x61, 0x74, 0x69, 0x63, 0x61, 0x6c, 0x6c,
@@ -329,26 +329,26 @@ var file_services_automatically_created_asset_removal_service_proto_rawDesc = st
 })
 
 var (
-	file_services_automatically_created_asset_removal_service_proto_rawDescOnce sync.Once
-	file_services_automatically_created_asset_removal_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescData []byte
 )
 
-func file_services_automatically_created_asset_removal_service_proto_rawDescGZIP() []byte {
-	file_services_automatically_created_asset_removal_service_proto_rawDescOnce.Do(func() {
-		file_services_automatically_created_asset_removal_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_automatically_created_asset_removal_service_proto_rawDesc), len(file_services_automatically_created_asset_removal_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDesc)))
 	})
-	return file_services_automatically_created_asset_removal_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDescData
 }
 
-var file_services_automatically_created_asset_removal_service_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
-var file_services_automatically_created_asset_removal_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
+var file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_goTypes = []any{
 	(*RemoveCampaignAutomaticallyCreatedAssetRequest)(nil),   // 0: google.ads.googleads.v25.services.RemoveCampaignAutomaticallyCreatedAssetRequest
 	(*RemoveCampaignAutomaticallyCreatedAssetOperation)(nil), // 1: google.ads.googleads.v25.services.RemoveCampaignAutomaticallyCreatedAssetOperation
 	(*RemoveCampaignAutomaticallyCreatedAssetResponse)(nil),  // 2: google.ads.googleads.v25.services.RemoveCampaignAutomaticallyCreatedAssetResponse
 	(enums.AssetFieldTypeEnum_AssetFieldType)(0),             // 3: google.ads.googleads.v25.enums.AssetFieldTypeEnum.AssetFieldType
 	(*status.Status)(nil),                                    // 4: google.rpc.Status
 }
-var file_services_automatically_created_asset_removal_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.RemoveCampaignAutomaticallyCreatedAssetRequest.operations:type_name -> google.ads.googleads.v25.services.RemoveCampaignAutomaticallyCreatedAssetOperation
 	3, // 1: google.ads.googleads.v25.services.RemoveCampaignAutomaticallyCreatedAssetOperation.field_type:type_name -> google.ads.googleads.v25.enums.AssetFieldTypeEnum.AssetFieldType
 	4, // 2: google.ads.googleads.v25.services.RemoveCampaignAutomaticallyCreatedAssetResponse.partial_failure_error:type_name -> google.rpc.Status
@@ -362,27 +362,27 @@ var file_services_automatically_created_asset_removal_service_proto_depIdxs = []
 }
 
 func init() {
-	file_services_automatically_created_asset_removal_service_proto_init()
+	file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_init()
 }
-func file_services_automatically_created_asset_removal_service_proto_init() {
-	if File_services_automatically_created_asset_removal_service_proto != nil {
+func file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_init() {
+	if File_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_automatically_created_asset_removal_service_proto_rawDesc), len(file_services_automatically_created_asset_removal_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   3,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_automatically_created_asset_removal_service_proto_goTypes,
-		DependencyIndexes: file_services_automatically_created_asset_removal_service_proto_depIdxs,
-		MessageInfos:      file_services_automatically_created_asset_removal_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_msgTypes,
 	}.Build()
-	File_services_automatically_created_asset_removal_service_proto = out.File
-	file_services_automatically_created_asset_removal_service_proto_goTypes = nil
-	file_services_automatically_created_asset_removal_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto = out.File
+	file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_automatically_created_asset_removal_service_proto_depIdxs = nil
 }

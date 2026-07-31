@@ -1,4 +1,4 @@
-PACKAGES=('common' 'enums' 'errors' 'resources' 'services')
+PACKAGES=('common' 'enums' 'errors' 'resources' 'services', 'actions')
 
 function fix_package_path() {
     FILE=$1

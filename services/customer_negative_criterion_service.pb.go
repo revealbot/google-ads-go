@@ -64,7 +64,7 @@ type MutateCustomerNegativeCriteriaRequest struct {
 
 func (x *MutateCustomerNegativeCriteriaRequest) Reset() {
 	*x = MutateCustomerNegativeCriteriaRequest{}
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -76,7 +76,7 @@ func (x *MutateCustomerNegativeCriteriaRequest) String() string {
 func (*MutateCustomerNegativeCriteriaRequest) ProtoMessage() {}
 
 func (x *MutateCustomerNegativeCriteriaRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -89,7 +89,7 @@ func (x *MutateCustomerNegativeCriteriaRequest) ProtoReflect() protoreflect.Mess
 
 // Deprecated: Use MutateCustomerNegativeCriteriaRequest.ProtoReflect.Descriptor instead.
 func (*MutateCustomerNegativeCriteriaRequest) Descriptor() ([]byte, []int) {
-	return file_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateCustomerNegativeCriteriaRequest) GetCustomerId() string {
@@ -143,7 +143,7 @@ type CustomerNegativeCriterionOperation struct {
 
 func (x *CustomerNegativeCriterionOperation) Reset() {
 	*x = CustomerNegativeCriterionOperation{}
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -155,7 +155,7 @@ func (x *CustomerNegativeCriterionOperation) String() string {
 func (*CustomerNegativeCriterionOperation) ProtoMessage() {}
 
 func (x *CustomerNegativeCriterionOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -168,7 +168,7 @@ func (x *CustomerNegativeCriterionOperation) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use CustomerNegativeCriterionOperation.ProtoReflect.Descriptor instead.
 func (*CustomerNegativeCriterionOperation) Descriptor() ([]byte, []int) {
-	return file_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CustomerNegativeCriterionOperation) GetOperation() isCustomerNegativeCriterionOperation_Operation {
@@ -233,7 +233,7 @@ type MutateCustomerNegativeCriteriaResponse struct {
 
 func (x *MutateCustomerNegativeCriteriaResponse) Reset() {
 	*x = MutateCustomerNegativeCriteriaResponse{}
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -245,7 +245,7 @@ func (x *MutateCustomerNegativeCriteriaResponse) String() string {
 func (*MutateCustomerNegativeCriteriaResponse) ProtoMessage() {}
 
 func (x *MutateCustomerNegativeCriteriaResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -258,7 +258,7 @@ func (x *MutateCustomerNegativeCriteriaResponse) ProtoReflect() protoreflect.Mes
 
 // Deprecated: Use MutateCustomerNegativeCriteriaResponse.ProtoReflect.Descriptor instead.
 func (*MutateCustomerNegativeCriteriaResponse) Descriptor() ([]byte, []int) {
-	return file_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateCustomerNegativeCriteriaResponse) GetPartialFailureError() *status.Status {
@@ -289,7 +289,7 @@ type MutateCustomerNegativeCriteriaResult struct {
 
 func (x *MutateCustomerNegativeCriteriaResult) Reset() {
 	*x = MutateCustomerNegativeCriteriaResult{}
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -301,7 +301,7 @@ func (x *MutateCustomerNegativeCriteriaResult) String() string {
 func (*MutateCustomerNegativeCriteriaResult) ProtoMessage() {}
 
 func (x *MutateCustomerNegativeCriteriaResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_negative_criterion_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -314,7 +314,7 @@ func (x *MutateCustomerNegativeCriteriaResult) ProtoReflect() protoreflect.Messa
 
 // Deprecated: Use MutateCustomerNegativeCriteriaResult.ProtoReflect.Descriptor instead.
 func (*MutateCustomerNegativeCriteriaResult) Descriptor() ([]byte, []int) {
-	return file_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateCustomerNegativeCriteriaResult) GetResourceName() string {
@@ -331,9 +331,9 @@ func (x *MutateCustomerNegativeCriteriaResult) GetCustomerNegativeCriterion() *r
 	return nil
 }
 
-var File_services_customer_negative_criterion_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_customer_negative_criterion_service_proto protoreflect.FileDescriptor
 
-var file_services_customer_negative_criterion_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDesc = string([]byte{
 	0x0a, 0x4b, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x75, 0x73, 0x74, 0x6f, 0x6d, 0x65, 0x72, 0x5f, 0x6e, 0x65, 0x67,
@@ -472,19 +472,19 @@ var file_services_customer_negative_criterion_service_proto_rawDesc = string([]b
 })
 
 var (
-	file_services_customer_negative_criterion_service_proto_rawDescOnce sync.Once
-	file_services_customer_negative_criterion_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescData []byte
 )
 
-func file_services_customer_negative_criterion_service_proto_rawDescGZIP() []byte {
-	file_services_customer_negative_criterion_service_proto_rawDescOnce.Do(func() {
-		file_services_customer_negative_criterion_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_customer_negative_criterion_service_proto_rawDesc), len(file_services_customer_negative_criterion_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDesc)))
 	})
-	return file_services_customer_negative_criterion_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDescData
 }
 
-var file_services_customer_negative_criterion_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_customer_negative_criterion_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_goTypes = []any{
 	(*MutateCustomerNegativeCriteriaRequest)(nil),          // 0: google.ads.googleads.v25.services.MutateCustomerNegativeCriteriaRequest
 	(*CustomerNegativeCriterionOperation)(nil),             // 1: google.ads.googleads.v25.services.CustomerNegativeCriterionOperation
 	(*MutateCustomerNegativeCriteriaResponse)(nil),         // 2: google.ads.googleads.v25.services.MutateCustomerNegativeCriteriaResponse
@@ -493,7 +493,7 @@ var file_services_customer_negative_criterion_service_proto_goTypes = []any{
 	(*resources.CustomerNegativeCriterion)(nil),            // 5: google.ads.googleads.v25.resources.CustomerNegativeCriterion
 	(*status.Status)(nil),                                  // 6: google.rpc.Status
 }
-var file_services_customer_negative_criterion_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateCustomerNegativeCriteriaRequest.operations:type_name -> google.ads.googleads.v25.services.CustomerNegativeCriterionOperation
 	4, // 1: google.ads.googleads.v25.services.MutateCustomerNegativeCriteriaRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	5, // 2: google.ads.googleads.v25.services.CustomerNegativeCriterionOperation.create:type_name -> google.ads.googleads.v25.resources.CustomerNegativeCriterion
@@ -509,12 +509,12 @@ var file_services_customer_negative_criterion_service_proto_depIdxs = []int32{
 	0, // [0:6] is the sub-list for field type_name
 }
 
-func init() { file_services_customer_negative_criterion_service_proto_init() }
-func file_services_customer_negative_criterion_service_proto_init() {
-	if File_services_customer_negative_criterion_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_init() }
+func file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_init() {
+	if File_google_ads_googleads_v25_services_customer_negative_criterion_service_proto != nil {
 		return
 	}
-	file_services_customer_negative_criterion_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*CustomerNegativeCriterionOperation_Create)(nil),
 		(*CustomerNegativeCriterionOperation_Remove)(nil),
 	}
@@ -522,17 +522,17 @@ func file_services_customer_negative_criterion_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_customer_negative_criterion_service_proto_rawDesc), len(file_services_customer_negative_criterion_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_customer_negative_criterion_service_proto_goTypes,
-		DependencyIndexes: file_services_customer_negative_criterion_service_proto_depIdxs,
-		MessageInfos:      file_services_customer_negative_criterion_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_msgTypes,
 	}.Build()
-	File_services_customer_negative_criterion_service_proto = out.File
-	file_services_customer_negative_criterion_service_proto_goTypes = nil
-	file_services_customer_negative_criterion_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_customer_negative_criterion_service_proto = out.File
+	file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_depIdxs = nil
 }

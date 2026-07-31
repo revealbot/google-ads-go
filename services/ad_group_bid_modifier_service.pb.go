@@ -67,7 +67,7 @@ type MutateAdGroupBidModifiersRequest struct {
 
 func (x *MutateAdGroupBidModifiersRequest) Reset() {
 	*x = MutateAdGroupBidModifiersRequest{}
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -79,7 +79,7 @@ func (x *MutateAdGroupBidModifiersRequest) String() string {
 func (*MutateAdGroupBidModifiersRequest) ProtoMessage() {}
 
 func (x *MutateAdGroupBidModifiersRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -92,7 +92,7 @@ func (x *MutateAdGroupBidModifiersRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAdGroupBidModifiersRequest.ProtoReflect.Descriptor instead.
 func (*MutateAdGroupBidModifiersRequest) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateAdGroupBidModifiersRequest) GetCustomerId() string {
@@ -149,7 +149,7 @@ type AdGroupBidModifierOperation struct {
 
 func (x *AdGroupBidModifierOperation) Reset() {
 	*x = AdGroupBidModifierOperation{}
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -161,7 +161,7 @@ func (x *AdGroupBidModifierOperation) String() string {
 func (*AdGroupBidModifierOperation) ProtoMessage() {}
 
 func (x *AdGroupBidModifierOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -174,7 +174,7 @@ func (x *AdGroupBidModifierOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AdGroupBidModifierOperation.ProtoReflect.Descriptor instead.
 func (*AdGroupBidModifierOperation) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *AdGroupBidModifierOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -264,7 +264,7 @@ type MutateAdGroupBidModifiersResponse struct {
 
 func (x *MutateAdGroupBidModifiersResponse) Reset() {
 	*x = MutateAdGroupBidModifiersResponse{}
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -276,7 +276,7 @@ func (x *MutateAdGroupBidModifiersResponse) String() string {
 func (*MutateAdGroupBidModifiersResponse) ProtoMessage() {}
 
 func (x *MutateAdGroupBidModifiersResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -289,7 +289,7 @@ func (x *MutateAdGroupBidModifiersResponse) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use MutateAdGroupBidModifiersResponse.ProtoReflect.Descriptor instead.
 func (*MutateAdGroupBidModifiersResponse) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateAdGroupBidModifiersResponse) GetPartialFailureError() *status.Status {
@@ -321,7 +321,7 @@ type MutateAdGroupBidModifierResult struct {
 
 func (x *MutateAdGroupBidModifierResult) Reset() {
 	*x = MutateAdGroupBidModifierResult{}
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -333,7 +333,7 @@ func (x *MutateAdGroupBidModifierResult) String() string {
 func (*MutateAdGroupBidModifierResult) ProtoMessage() {}
 
 func (x *MutateAdGroupBidModifierResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_bid_modifier_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -346,7 +346,7 @@ func (x *MutateAdGroupBidModifierResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAdGroupBidModifierResult.ProtoReflect.Descriptor instead.
 func (*MutateAdGroupBidModifierResult) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateAdGroupBidModifierResult) GetResourceName() string {
@@ -363,9 +363,9 @@ func (x *MutateAdGroupBidModifierResult) GetAdGroupBidModifier() *resources.AdGr
 	return nil
 }
 
-var File_services_ad_group_bid_modifier_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto protoreflect.FileDescriptor
 
-var file_services_ad_group_bid_modifier_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDesc = string([]byte{
 	0x0a, 0x45, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x61, 0x64, 0x5f, 0x67, 0x72, 0x6f, 0x75, 0x70, 0x5f, 0x62, 0x69, 0x64,
@@ -507,19 +507,19 @@ var file_services_ad_group_bid_modifier_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_ad_group_bid_modifier_service_proto_rawDescOnce sync.Once
-	file_services_ad_group_bid_modifier_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescData []byte
 )
 
-func file_services_ad_group_bid_modifier_service_proto_rawDescGZIP() []byte {
-	file_services_ad_group_bid_modifier_service_proto_rawDescOnce.Do(func() {
-		file_services_ad_group_bid_modifier_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_ad_group_bid_modifier_service_proto_rawDesc), len(file_services_ad_group_bid_modifier_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDesc)))
 	})
-	return file_services_ad_group_bid_modifier_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDescData
 }
 
-var file_services_ad_group_bid_modifier_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_ad_group_bid_modifier_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_goTypes = []any{
 	(*MutateAdGroupBidModifiersRequest)(nil),               // 0: google.ads.googleads.v25.services.MutateAdGroupBidModifiersRequest
 	(*AdGroupBidModifierOperation)(nil),                    // 1: google.ads.googleads.v25.services.AdGroupBidModifierOperation
 	(*MutateAdGroupBidModifiersResponse)(nil),              // 2: google.ads.googleads.v25.services.MutateAdGroupBidModifiersResponse
@@ -529,7 +529,7 @@ var file_services_ad_group_bid_modifier_service_proto_goTypes = []any{
 	(*resources.AdGroupBidModifier)(nil),                   // 6: google.ads.googleads.v25.resources.AdGroupBidModifier
 	(*status.Status)(nil),                                  // 7: google.rpc.Status
 }
-var file_services_ad_group_bid_modifier_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateAdGroupBidModifiersRequest.operations:type_name -> google.ads.googleads.v25.services.AdGroupBidModifierOperation
 	4, // 1: google.ads.googleads.v25.services.MutateAdGroupBidModifiersRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	5, // 2: google.ads.googleads.v25.services.AdGroupBidModifierOperation.update_mask:type_name -> google.protobuf.FieldMask
@@ -547,12 +547,12 @@ var file_services_ad_group_bid_modifier_service_proto_depIdxs = []int32{
 	0, // [0:8] is the sub-list for field type_name
 }
 
-func init() { file_services_ad_group_bid_modifier_service_proto_init() }
-func file_services_ad_group_bid_modifier_service_proto_init() {
-	if File_services_ad_group_bid_modifier_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_init() }
+func file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_init() {
+	if File_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto != nil {
 		return
 	}
-	file_services_ad_group_bid_modifier_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*AdGroupBidModifierOperation_Create)(nil),
 		(*AdGroupBidModifierOperation_Update)(nil),
 		(*AdGroupBidModifierOperation_Remove)(nil),
@@ -561,17 +561,17 @@ func file_services_ad_group_bid_modifier_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_ad_group_bid_modifier_service_proto_rawDesc), len(file_services_ad_group_bid_modifier_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_ad_group_bid_modifier_service_proto_goTypes,
-		DependencyIndexes: file_services_ad_group_bid_modifier_service_proto_depIdxs,
-		MessageInfos:      file_services_ad_group_bid_modifier_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_msgTypes,
 	}.Build()
-	File_services_ad_group_bid_modifier_service_proto = out.File
-	file_services_ad_group_bid_modifier_service_proto_goTypes = nil
-	file_services_ad_group_bid_modifier_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto = out.File
+	file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_depIdxs = nil
 }

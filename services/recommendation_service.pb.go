@@ -81,11 +81,11 @@ func (x ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope) String()
 }
 
 func (ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope) Descriptor() protoreflect.EnumDescriptor {
-	return file_services_recommendation_service_proto_enumTypes[0].Descriptor()
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_enumTypes[0].Descriptor()
 }
 
 func (ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope) Type() protoreflect.EnumType {
-	return &file_services_recommendation_service_proto_enumTypes[0]
+	return &file_google_ads_googleads_v25_services_recommendation_service_proto_enumTypes[0]
 }
 
 func (x ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope) Number() protoreflect.EnumNumber {
@@ -94,7 +94,7 @@ func (x ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope) Number()
 
 // Deprecated: Use ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope.Descriptor instead.
 func (ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope) EnumDescriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 14, 0}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 14, 0}
 }
 
 // Request message for
@@ -118,7 +118,7 @@ type ApplyRecommendationRequest struct {
 
 func (x *ApplyRecommendationRequest) Reset() {
 	*x = ApplyRecommendationRequest{}
-	mi := &file_services_recommendation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -130,7 +130,7 @@ func (x *ApplyRecommendationRequest) String() string {
 func (*ApplyRecommendationRequest) ProtoMessage() {}
 
 func (x *ApplyRecommendationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -143,7 +143,7 @@ func (x *ApplyRecommendationRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ApplyRecommendationRequest.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationRequest) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *ApplyRecommendationRequest) GetCustomerId() string {
@@ -208,7 +208,7 @@ type ApplyRecommendationOperation struct {
 
 func (x *ApplyRecommendationOperation) Reset() {
 	*x = ApplyRecommendationOperation{}
-	mi := &file_services_recommendation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -220,7 +220,7 @@ func (x *ApplyRecommendationOperation) String() string {
 func (*ApplyRecommendationOperation) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -233,7 +233,7 @@ func (x *ApplyRecommendationOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ApplyRecommendationOperation.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *ApplyRecommendationOperation) GetResourceName() string {
@@ -681,7 +681,7 @@ type ApplyRecommendationResponse struct {
 
 func (x *ApplyRecommendationResponse) Reset() {
 	*x = ApplyRecommendationResponse{}
-	mi := &file_services_recommendation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -693,7 +693,7 @@ func (x *ApplyRecommendationResponse) String() string {
 func (*ApplyRecommendationResponse) ProtoMessage() {}
 
 func (x *ApplyRecommendationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -706,7 +706,7 @@ func (x *ApplyRecommendationResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ApplyRecommendationResponse.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationResponse) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *ApplyRecommendationResponse) GetResults() []*ApplyRecommendationResult {
@@ -734,7 +734,7 @@ type ApplyRecommendationResult struct {
 
 func (x *ApplyRecommendationResult) Reset() {
 	*x = ApplyRecommendationResult{}
-	mi := &file_services_recommendation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -746,7 +746,7 @@ func (x *ApplyRecommendationResult) String() string {
 func (*ApplyRecommendationResult) ProtoMessage() {}
 
 func (x *ApplyRecommendationResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -759,7 +759,7 @@ func (x *ApplyRecommendationResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ApplyRecommendationResult.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationResult) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *ApplyRecommendationResult) GetResourceName() string {
@@ -790,7 +790,7 @@ type DismissRecommendationRequest struct {
 
 func (x *DismissRecommendationRequest) Reset() {
 	*x = DismissRecommendationRequest{}
-	mi := &file_services_recommendation_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -802,7 +802,7 @@ func (x *DismissRecommendationRequest) String() string {
 func (*DismissRecommendationRequest) ProtoMessage() {}
 
 func (x *DismissRecommendationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -815,7 +815,7 @@ func (x *DismissRecommendationRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use DismissRecommendationRequest.ProtoReflect.Descriptor instead.
 func (*DismissRecommendationRequest) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *DismissRecommendationRequest) GetCustomerId() string {
@@ -856,7 +856,7 @@ type DismissRecommendationResponse struct {
 
 func (x *DismissRecommendationResponse) Reset() {
 	*x = DismissRecommendationResponse{}
-	mi := &file_services_recommendation_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -868,7 +868,7 @@ func (x *DismissRecommendationResponse) String() string {
 func (*DismissRecommendationResponse) ProtoMessage() {}
 
 func (x *DismissRecommendationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -881,7 +881,7 @@ func (x *DismissRecommendationResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use DismissRecommendationResponse.ProtoReflect.Descriptor instead.
 func (*DismissRecommendationResponse) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *DismissRecommendationResponse) GetResults() []*DismissRecommendationResponse_DismissRecommendationResult {
@@ -1015,7 +1015,7 @@ type GenerateRecommendationsRequest struct {
 
 func (x *GenerateRecommendationsRequest) Reset() {
 	*x = GenerateRecommendationsRequest{}
-	mi := &file_services_recommendation_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1027,7 +1027,7 @@ func (x *GenerateRecommendationsRequest) String() string {
 func (*GenerateRecommendationsRequest) ProtoMessage() {}
 
 func (x *GenerateRecommendationsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1040,7 +1040,7 @@ func (x *GenerateRecommendationsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateRecommendationsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsRequest) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *GenerateRecommendationsRequest) GetCustomerId() string {
@@ -1198,7 +1198,7 @@ type GenerateRecommendationsResponse struct {
 
 func (x *GenerateRecommendationsResponse) Reset() {
 	*x = GenerateRecommendationsResponse{}
-	mi := &file_services_recommendation_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1210,7 +1210,7 @@ func (x *GenerateRecommendationsResponse) String() string {
 func (*GenerateRecommendationsResponse) ProtoMessage() {}
 
 func (x *GenerateRecommendationsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1223,7 +1223,7 @@ func (x *GenerateRecommendationsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateRecommendationsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsResponse) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *GenerateRecommendationsResponse) GetRecommendations() []*resources.Recommendation {
@@ -1245,7 +1245,7 @@ type ApplyRecommendationOperation_CampaignBudgetParameters struct {
 
 func (x *ApplyRecommendationOperation_CampaignBudgetParameters) Reset() {
 	*x = ApplyRecommendationOperation_CampaignBudgetParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1257,7 +1257,7 @@ func (x *ApplyRecommendationOperation_CampaignBudgetParameters) String() string 
 func (*ApplyRecommendationOperation_CampaignBudgetParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_CampaignBudgetParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1270,7 +1270,7 @@ func (x *ApplyRecommendationOperation_CampaignBudgetParameters) ProtoReflect() p
 
 // Deprecated: Use ApplyRecommendationOperation_CampaignBudgetParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_CampaignBudgetParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 0}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 0}
 }
 
 func (x *ApplyRecommendationOperation_CampaignBudgetParameters) GetNewBudgetAmountMicros() int64 {
@@ -1296,7 +1296,7 @@ type ApplyRecommendationOperation_ForecastingSetTargetRoasParameters struct {
 
 func (x *ApplyRecommendationOperation_ForecastingSetTargetRoasParameters) Reset() {
 	*x = ApplyRecommendationOperation_ForecastingSetTargetRoasParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1308,7 +1308,7 @@ func (x *ApplyRecommendationOperation_ForecastingSetTargetRoasParameters) String
 func (*ApplyRecommendationOperation_ForecastingSetTargetRoasParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_ForecastingSetTargetRoasParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1321,7 +1321,7 @@ func (x *ApplyRecommendationOperation_ForecastingSetTargetRoasParameters) ProtoR
 
 // Deprecated: Use ApplyRecommendationOperation_ForecastingSetTargetRoasParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_ForecastingSetTargetRoasParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 1}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 1}
 }
 
 func (x *ApplyRecommendationOperation_ForecastingSetTargetRoasParameters) GetTargetRoas() float64 {
@@ -1350,7 +1350,7 @@ type ApplyRecommendationOperation_TextAdParameters struct {
 
 func (x *ApplyRecommendationOperation_TextAdParameters) Reset() {
 	*x = ApplyRecommendationOperation_TextAdParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1362,7 +1362,7 @@ func (x *ApplyRecommendationOperation_TextAdParameters) String() string {
 func (*ApplyRecommendationOperation_TextAdParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_TextAdParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1375,7 +1375,7 @@ func (x *ApplyRecommendationOperation_TextAdParameters) ProtoReflect() protorefl
 
 // Deprecated: Use ApplyRecommendationOperation_TextAdParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_TextAdParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 2}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 2}
 }
 
 func (x *ApplyRecommendationOperation_TextAdParameters) GetAd() *resources.Ad {
@@ -1401,7 +1401,7 @@ type ApplyRecommendationOperation_KeywordParameters struct {
 
 func (x *ApplyRecommendationOperation_KeywordParameters) Reset() {
 	*x = ApplyRecommendationOperation_KeywordParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1413,7 +1413,7 @@ func (x *ApplyRecommendationOperation_KeywordParameters) String() string {
 func (*ApplyRecommendationOperation_KeywordParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_KeywordParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1426,7 +1426,7 @@ func (x *ApplyRecommendationOperation_KeywordParameters) ProtoReflect() protoref
 
 // Deprecated: Use ApplyRecommendationOperation_KeywordParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_KeywordParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 3}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 3}
 }
 
 func (x *ApplyRecommendationOperation_KeywordParameters) GetAdGroup() string {
@@ -1464,7 +1464,7 @@ type ApplyRecommendationOperation_TargetCpaOptInParameters struct {
 
 func (x *ApplyRecommendationOperation_TargetCpaOptInParameters) Reset() {
 	*x = ApplyRecommendationOperation_TargetCpaOptInParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1476,7 +1476,7 @@ func (x *ApplyRecommendationOperation_TargetCpaOptInParameters) String() string 
 func (*ApplyRecommendationOperation_TargetCpaOptInParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_TargetCpaOptInParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1489,7 +1489,7 @@ func (x *ApplyRecommendationOperation_TargetCpaOptInParameters) ProtoReflect() p
 
 // Deprecated: Use ApplyRecommendationOperation_TargetCpaOptInParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_TargetCpaOptInParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 4}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 4}
 }
 
 func (x *ApplyRecommendationOperation_TargetCpaOptInParameters) GetTargetCpaMicros() int64 {
@@ -1521,7 +1521,7 @@ type ApplyRecommendationOperation_TargetRoasOptInParameters struct {
 
 func (x *ApplyRecommendationOperation_TargetRoasOptInParameters) Reset() {
 	*x = ApplyRecommendationOperation_TargetRoasOptInParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[13]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1533,7 +1533,7 @@ func (x *ApplyRecommendationOperation_TargetRoasOptInParameters) String() string
 func (*ApplyRecommendationOperation_TargetRoasOptInParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_TargetRoasOptInParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[13]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1546,7 +1546,7 @@ func (x *ApplyRecommendationOperation_TargetRoasOptInParameters) ProtoReflect() 
 
 // Deprecated: Use ApplyRecommendationOperation_TargetRoasOptInParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_TargetRoasOptInParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 5}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 5}
 }
 
 func (x *ApplyRecommendationOperation_TargetRoasOptInParameters) GetTargetRoas() float64 {
@@ -1574,7 +1574,7 @@ type ApplyRecommendationOperation_CalloutExtensionParameters struct {
 
 func (x *ApplyRecommendationOperation_CalloutExtensionParameters) Reset() {
 	*x = ApplyRecommendationOperation_CalloutExtensionParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[14]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1586,7 +1586,7 @@ func (x *ApplyRecommendationOperation_CalloutExtensionParameters) String() strin
 func (*ApplyRecommendationOperation_CalloutExtensionParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_CalloutExtensionParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[14]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1599,7 +1599,7 @@ func (x *ApplyRecommendationOperation_CalloutExtensionParameters) ProtoReflect()
 
 // Deprecated: Use ApplyRecommendationOperation_CalloutExtensionParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_CalloutExtensionParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 6}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 6}
 }
 
 func (x *ApplyRecommendationOperation_CalloutExtensionParameters) GetCalloutExtensions() []*common.CalloutFeedItem {
@@ -1620,7 +1620,7 @@ type ApplyRecommendationOperation_CallExtensionParameters struct {
 
 func (x *ApplyRecommendationOperation_CallExtensionParameters) Reset() {
 	*x = ApplyRecommendationOperation_CallExtensionParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[15]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1632,7 +1632,7 @@ func (x *ApplyRecommendationOperation_CallExtensionParameters) String() string {
 func (*ApplyRecommendationOperation_CallExtensionParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_CallExtensionParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[15]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1645,7 +1645,7 @@ func (x *ApplyRecommendationOperation_CallExtensionParameters) ProtoReflect() pr
 
 // Deprecated: Use ApplyRecommendationOperation_CallExtensionParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_CallExtensionParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 7}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 7}
 }
 
 func (x *ApplyRecommendationOperation_CallExtensionParameters) GetCallExtensions() []*common.CallFeedItem {
@@ -1666,7 +1666,7 @@ type ApplyRecommendationOperation_SitelinkExtensionParameters struct {
 
 func (x *ApplyRecommendationOperation_SitelinkExtensionParameters) Reset() {
 	*x = ApplyRecommendationOperation_SitelinkExtensionParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[16]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1678,7 +1678,7 @@ func (x *ApplyRecommendationOperation_SitelinkExtensionParameters) String() stri
 func (*ApplyRecommendationOperation_SitelinkExtensionParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_SitelinkExtensionParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[16]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1691,7 +1691,7 @@ func (x *ApplyRecommendationOperation_SitelinkExtensionParameters) ProtoReflect(
 
 // Deprecated: Use ApplyRecommendationOperation_SitelinkExtensionParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_SitelinkExtensionParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 8}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 8}
 }
 
 func (x *ApplyRecommendationOperation_SitelinkExtensionParameters) GetSitelinkExtensions() []*common.SitelinkFeedItem {
@@ -1712,7 +1712,7 @@ type ApplyRecommendationOperation_CalloutAssetParameters struct {
 
 func (x *ApplyRecommendationOperation_CalloutAssetParameters) Reset() {
 	*x = ApplyRecommendationOperation_CalloutAssetParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[17]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1724,7 +1724,7 @@ func (x *ApplyRecommendationOperation_CalloutAssetParameters) String() string {
 func (*ApplyRecommendationOperation_CalloutAssetParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_CalloutAssetParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[17]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1737,7 +1737,7 @@ func (x *ApplyRecommendationOperation_CalloutAssetParameters) ProtoReflect() pro
 
 // Deprecated: Use ApplyRecommendationOperation_CalloutAssetParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_CalloutAssetParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 9}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 9}
 }
 
 func (x *ApplyRecommendationOperation_CalloutAssetParameters) GetAdAssetApplyParameters() *ApplyRecommendationOperation_AdAssetApplyParameters {
@@ -1758,7 +1758,7 @@ type ApplyRecommendationOperation_CallAssetParameters struct {
 
 func (x *ApplyRecommendationOperation_CallAssetParameters) Reset() {
 	*x = ApplyRecommendationOperation_CallAssetParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[18]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1770,7 +1770,7 @@ func (x *ApplyRecommendationOperation_CallAssetParameters) String() string {
 func (*ApplyRecommendationOperation_CallAssetParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_CallAssetParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[18]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1783,7 +1783,7 @@ func (x *ApplyRecommendationOperation_CallAssetParameters) ProtoReflect() protor
 
 // Deprecated: Use ApplyRecommendationOperation_CallAssetParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_CallAssetParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 10}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 10}
 }
 
 func (x *ApplyRecommendationOperation_CallAssetParameters) GetAdAssetApplyParameters() *ApplyRecommendationOperation_AdAssetApplyParameters {
@@ -1804,7 +1804,7 @@ type ApplyRecommendationOperation_SitelinkAssetParameters struct {
 
 func (x *ApplyRecommendationOperation_SitelinkAssetParameters) Reset() {
 	*x = ApplyRecommendationOperation_SitelinkAssetParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[19]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1816,7 +1816,7 @@ func (x *ApplyRecommendationOperation_SitelinkAssetParameters) String() string {
 func (*ApplyRecommendationOperation_SitelinkAssetParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_SitelinkAssetParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[19]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1829,7 +1829,7 @@ func (x *ApplyRecommendationOperation_SitelinkAssetParameters) ProtoReflect() pr
 
 // Deprecated: Use ApplyRecommendationOperation_SitelinkAssetParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_SitelinkAssetParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 11}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 11}
 }
 
 func (x *ApplyRecommendationOperation_SitelinkAssetParameters) GetAdAssetApplyParameters() *ApplyRecommendationOperation_AdAssetApplyParameters {
@@ -1850,7 +1850,7 @@ type ApplyRecommendationOperation_RaiseTargetCpaParameters struct {
 
 func (x *ApplyRecommendationOperation_RaiseTargetCpaParameters) Reset() {
 	*x = ApplyRecommendationOperation_RaiseTargetCpaParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[20]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1862,7 +1862,7 @@ func (x *ApplyRecommendationOperation_RaiseTargetCpaParameters) String() string 
 func (*ApplyRecommendationOperation_RaiseTargetCpaParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_RaiseTargetCpaParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[20]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1875,7 +1875,7 @@ func (x *ApplyRecommendationOperation_RaiseTargetCpaParameters) ProtoReflect() p
 
 // Deprecated: Use ApplyRecommendationOperation_RaiseTargetCpaParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_RaiseTargetCpaParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 12}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 12}
 }
 
 func (x *ApplyRecommendationOperation_RaiseTargetCpaParameters) GetTargetCpaMultiplier() float64 {
@@ -1896,7 +1896,7 @@ type ApplyRecommendationOperation_LowerTargetRoasParameters struct {
 
 func (x *ApplyRecommendationOperation_LowerTargetRoasParameters) Reset() {
 	*x = ApplyRecommendationOperation_LowerTargetRoasParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[21]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1908,7 +1908,7 @@ func (x *ApplyRecommendationOperation_LowerTargetRoasParameters) String() string
 func (*ApplyRecommendationOperation_LowerTargetRoasParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_LowerTargetRoasParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[21]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1921,7 +1921,7 @@ func (x *ApplyRecommendationOperation_LowerTargetRoasParameters) ProtoReflect() 
 
 // Deprecated: Use ApplyRecommendationOperation_LowerTargetRoasParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_LowerTargetRoasParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 13}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 13}
 }
 
 func (x *ApplyRecommendationOperation_LowerTargetRoasParameters) GetTargetRoasMultiplier() float64 {
@@ -1952,7 +1952,7 @@ type ApplyRecommendationOperation_AdAssetApplyParameters struct {
 
 func (x *ApplyRecommendationOperation_AdAssetApplyParameters) Reset() {
 	*x = ApplyRecommendationOperation_AdAssetApplyParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[22]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1964,7 +1964,7 @@ func (x *ApplyRecommendationOperation_AdAssetApplyParameters) String() string {
 func (*ApplyRecommendationOperation_AdAssetApplyParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_AdAssetApplyParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[22]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1977,7 +1977,7 @@ func (x *ApplyRecommendationOperation_AdAssetApplyParameters) ProtoReflect() pro
 
 // Deprecated: Use ApplyRecommendationOperation_AdAssetApplyParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_AdAssetApplyParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 14}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 14}
 }
 
 func (x *ApplyRecommendationOperation_AdAssetApplyParameters) GetNewAssets() []*resources.Asset {
@@ -2013,7 +2013,7 @@ type ApplyRecommendationOperation_MoveUnusedBudgetParameters struct {
 
 func (x *ApplyRecommendationOperation_MoveUnusedBudgetParameters) Reset() {
 	*x = ApplyRecommendationOperation_MoveUnusedBudgetParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[23]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2025,7 +2025,7 @@ func (x *ApplyRecommendationOperation_MoveUnusedBudgetParameters) String() strin
 func (*ApplyRecommendationOperation_MoveUnusedBudgetParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_MoveUnusedBudgetParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[23]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2038,7 +2038,7 @@ func (x *ApplyRecommendationOperation_MoveUnusedBudgetParameters) ProtoReflect()
 
 // Deprecated: Use ApplyRecommendationOperation_MoveUnusedBudgetParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_MoveUnusedBudgetParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 15}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 15}
 }
 
 func (x *ApplyRecommendationOperation_MoveUnusedBudgetParameters) GetBudgetMicrosToMove() int64 {
@@ -2060,7 +2060,7 @@ type ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters struct {
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters) Reset() {
 	*x = ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[24]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[24]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2072,7 +2072,7 @@ func (x *ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters) String(
 func (*ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[24]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[24]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2085,7 +2085,7 @@ func (x *ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters) ProtoRe
 
 // Deprecated: Use ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 16}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 16}
 }
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdAssetParameters) GetUpdatedAd() *resources.Ad {
@@ -2107,7 +2107,7 @@ type ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters 
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters) Reset() {
 	*x = ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[25]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[25]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2119,7 +2119,7 @@ func (x *ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParamet
 func (*ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[25]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[25]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2132,7 +2132,7 @@ func (x *ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParamet
 
 // Deprecated: Use ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 17}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 17}
 }
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdImproveAdStrengthParameters) GetUpdatedAd() *resources.Ad {
@@ -2153,7 +2153,7 @@ type ApplyRecommendationOperation_ResponsiveSearchAdParameters struct {
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdParameters) Reset() {
 	*x = ApplyRecommendationOperation_ResponsiveSearchAdParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[26]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[26]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2165,7 +2165,7 @@ func (x *ApplyRecommendationOperation_ResponsiveSearchAdParameters) String() str
 func (*ApplyRecommendationOperation_ResponsiveSearchAdParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[26]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[26]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2178,7 +2178,7 @@ func (x *ApplyRecommendationOperation_ResponsiveSearchAdParameters) ProtoReflect
 
 // Deprecated: Use ApplyRecommendationOperation_ResponsiveSearchAdParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_ResponsiveSearchAdParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 18}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 18}
 }
 
 func (x *ApplyRecommendationOperation_ResponsiveSearchAdParameters) GetAd() *resources.Ad {
@@ -2202,7 +2202,7 @@ type ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters struct {
 
 func (x *ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters) Reset() {
 	*x = ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[27]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[27]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2214,7 +2214,7 @@ func (x *ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters) String(
 func (*ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[27]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[27]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2227,7 +2227,7 @@ func (x *ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters) ProtoRe
 
 // Deprecated: Use ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 19}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 19}
 }
 
 func (x *ApplyRecommendationOperation_RaiseTargetCpaBidTooLowParameters) GetTargetMultiplier() float64 {
@@ -2248,7 +2248,7 @@ type ApplyRecommendationOperation_UseBroadMatchKeywordParameters struct {
 
 func (x *ApplyRecommendationOperation_UseBroadMatchKeywordParameters) Reset() {
 	*x = ApplyRecommendationOperation_UseBroadMatchKeywordParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[28]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[28]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2260,7 +2260,7 @@ func (x *ApplyRecommendationOperation_UseBroadMatchKeywordParameters) String() s
 func (*ApplyRecommendationOperation_UseBroadMatchKeywordParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_UseBroadMatchKeywordParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[28]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[28]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2273,7 +2273,7 @@ func (x *ApplyRecommendationOperation_UseBroadMatchKeywordParameters) ProtoRefle
 
 // Deprecated: Use ApplyRecommendationOperation_UseBroadMatchKeywordParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_UseBroadMatchKeywordParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 20}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 20}
 }
 
 func (x *ApplyRecommendationOperation_UseBroadMatchKeywordParameters) GetNewBudgetAmountMicros() int64 {
@@ -2296,7 +2296,7 @@ type ApplyRecommendationOperation_ForecastingSetTargetCpaParameters struct {
 
 func (x *ApplyRecommendationOperation_ForecastingSetTargetCpaParameters) Reset() {
 	*x = ApplyRecommendationOperation_ForecastingSetTargetCpaParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[29]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[29]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2308,7 +2308,7 @@ func (x *ApplyRecommendationOperation_ForecastingSetTargetCpaParameters) String(
 func (*ApplyRecommendationOperation_ForecastingSetTargetCpaParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_ForecastingSetTargetCpaParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[29]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[29]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2321,7 +2321,7 @@ func (x *ApplyRecommendationOperation_ForecastingSetTargetCpaParameters) ProtoRe
 
 // Deprecated: Use ApplyRecommendationOperation_ForecastingSetTargetCpaParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_ForecastingSetTargetCpaParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 21}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 21}
 }
 
 func (x *ApplyRecommendationOperation_ForecastingSetTargetCpaParameters) GetTargetCpaMicros() int64 {
@@ -2354,7 +2354,7 @@ type ApplyRecommendationOperation_LeadFormAssetParameters struct {
 
 func (x *ApplyRecommendationOperation_LeadFormAssetParameters) Reset() {
 	*x = ApplyRecommendationOperation_LeadFormAssetParameters{}
-	mi := &file_services_recommendation_service_proto_msgTypes[30]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[30]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2366,7 +2366,7 @@ func (x *ApplyRecommendationOperation_LeadFormAssetParameters) String() string {
 func (*ApplyRecommendationOperation_LeadFormAssetParameters) ProtoMessage() {}
 
 func (x *ApplyRecommendationOperation_LeadFormAssetParameters) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[30]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[30]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2379,7 +2379,7 @@ func (x *ApplyRecommendationOperation_LeadFormAssetParameters) ProtoReflect() pr
 
 // Deprecated: Use ApplyRecommendationOperation_LeadFormAssetParameters.ProtoReflect.Descriptor instead.
 func (*ApplyRecommendationOperation_LeadFormAssetParameters) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{1, 22}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{1, 22}
 }
 
 func (x *ApplyRecommendationOperation_LeadFormAssetParameters) GetAdAssetApplyParameters() *ApplyRecommendationOperation_AdAssetApplyParameters {
@@ -2407,7 +2407,7 @@ type DismissRecommendationRequest_DismissRecommendationOperation struct {
 
 func (x *DismissRecommendationRequest_DismissRecommendationOperation) Reset() {
 	*x = DismissRecommendationRequest_DismissRecommendationOperation{}
-	mi := &file_services_recommendation_service_proto_msgTypes[31]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[31]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2419,7 +2419,7 @@ func (x *DismissRecommendationRequest_DismissRecommendationOperation) String() s
 func (*DismissRecommendationRequest_DismissRecommendationOperation) ProtoMessage() {}
 
 func (x *DismissRecommendationRequest_DismissRecommendationOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[31]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[31]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2432,7 +2432,7 @@ func (x *DismissRecommendationRequest_DismissRecommendationOperation) ProtoRefle
 
 // Deprecated: Use DismissRecommendationRequest_DismissRecommendationOperation.ProtoReflect.Descriptor instead.
 func (*DismissRecommendationRequest_DismissRecommendationOperation) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{4, 0}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{4, 0}
 }
 
 func (x *DismissRecommendationRequest_DismissRecommendationOperation) GetResourceName() string {
@@ -2453,7 +2453,7 @@ type DismissRecommendationResponse_DismissRecommendationResult struct {
 
 func (x *DismissRecommendationResponse_DismissRecommendationResult) Reset() {
 	*x = DismissRecommendationResponse_DismissRecommendationResult{}
-	mi := &file_services_recommendation_service_proto_msgTypes[32]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[32]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2465,7 +2465,7 @@ func (x *DismissRecommendationResponse_DismissRecommendationResult) String() str
 func (*DismissRecommendationResponse_DismissRecommendationResult) ProtoMessage() {}
 
 func (x *DismissRecommendationResponse_DismissRecommendationResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[32]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[32]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2478,7 +2478,7 @@ func (x *DismissRecommendationResponse_DismissRecommendationResult) ProtoReflect
 
 // Deprecated: Use DismissRecommendationResponse_DismissRecommendationResult.ProtoReflect.Descriptor instead.
 func (*DismissRecommendationResponse_DismissRecommendationResult) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{5, 0}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{5, 0}
 }
 
 func (x *DismissRecommendationResponse_DismissRecommendationResult) GetResourceName() string {
@@ -2512,7 +2512,7 @@ type GenerateRecommendationsRequest_BiddingInfo struct {
 
 func (x *GenerateRecommendationsRequest_BiddingInfo) Reset() {
 	*x = GenerateRecommendationsRequest_BiddingInfo{}
-	mi := &file_services_recommendation_service_proto_msgTypes[33]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[33]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2524,7 +2524,7 @@ func (x *GenerateRecommendationsRequest_BiddingInfo) String() string {
 func (*GenerateRecommendationsRequest_BiddingInfo) ProtoMessage() {}
 
 func (x *GenerateRecommendationsRequest_BiddingInfo) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[33]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[33]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2537,7 +2537,7 @@ func (x *GenerateRecommendationsRequest_BiddingInfo) ProtoReflect() protoreflect
 
 // Deprecated: Use GenerateRecommendationsRequest_BiddingInfo.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsRequest_BiddingInfo) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{6, 0}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{6, 0}
 }
 
 func (x *GenerateRecommendationsRequest_BiddingInfo) GetBiddingStrategyType() enums.BiddingStrategyTypeEnum_BiddingStrategyType {
@@ -2636,7 +2636,7 @@ type GenerateRecommendationsRequest_AdGroupInfo struct {
 
 func (x *GenerateRecommendationsRequest_AdGroupInfo) Reset() {
 	*x = GenerateRecommendationsRequest_AdGroupInfo{}
-	mi := &file_services_recommendation_service_proto_msgTypes[34]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[34]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2648,7 +2648,7 @@ func (x *GenerateRecommendationsRequest_AdGroupInfo) String() string {
 func (*GenerateRecommendationsRequest_AdGroupInfo) ProtoMessage() {}
 
 func (x *GenerateRecommendationsRequest_AdGroupInfo) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[34]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[34]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2661,7 +2661,7 @@ func (x *GenerateRecommendationsRequest_AdGroupInfo) ProtoReflect() protoreflect
 
 // Deprecated: Use GenerateRecommendationsRequest_AdGroupInfo.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsRequest_AdGroupInfo) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{6, 1}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{6, 1}
 }
 
 func (x *GenerateRecommendationsRequest_AdGroupInfo) GetAdGroupType() enums.AdGroupTypeEnum_AdGroupType {
@@ -2692,7 +2692,7 @@ type GenerateRecommendationsRequest_SeedInfo struct {
 
 func (x *GenerateRecommendationsRequest_SeedInfo) Reset() {
 	*x = GenerateRecommendationsRequest_SeedInfo{}
-	mi := &file_services_recommendation_service_proto_msgTypes[35]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[35]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2704,7 +2704,7 @@ func (x *GenerateRecommendationsRequest_SeedInfo) String() string {
 func (*GenerateRecommendationsRequest_SeedInfo) ProtoMessage() {}
 
 func (x *GenerateRecommendationsRequest_SeedInfo) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[35]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[35]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2717,7 +2717,7 @@ func (x *GenerateRecommendationsRequest_SeedInfo) ProtoReflect() protoreflect.Me
 
 // Deprecated: Use GenerateRecommendationsRequest_SeedInfo.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsRequest_SeedInfo) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{6, 2}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{6, 2}
 }
 
 func (x *GenerateRecommendationsRequest_SeedInfo) GetUrlSeed() string {
@@ -2748,7 +2748,7 @@ type GenerateRecommendationsRequest_BudgetInfo struct {
 
 func (x *GenerateRecommendationsRequest_BudgetInfo) Reset() {
 	*x = GenerateRecommendationsRequest_BudgetInfo{}
-	mi := &file_services_recommendation_service_proto_msgTypes[36]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[36]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2760,7 +2760,7 @@ func (x *GenerateRecommendationsRequest_BudgetInfo) String() string {
 func (*GenerateRecommendationsRequest_BudgetInfo) ProtoMessage() {}
 
 func (x *GenerateRecommendationsRequest_BudgetInfo) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[36]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[36]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2773,7 +2773,7 @@ func (x *GenerateRecommendationsRequest_BudgetInfo) ProtoReflect() protoreflect.
 
 // Deprecated: Use GenerateRecommendationsRequest_BudgetInfo.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsRequest_BudgetInfo) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{6, 3}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{6, 3}
 }
 
 func (x *GenerateRecommendationsRequest_BudgetInfo) GetCurrentBudget() int64 {
@@ -2807,7 +2807,7 @@ type GenerateRecommendationsRequest_AssetGroupInfo struct {
 
 func (x *GenerateRecommendationsRequest_AssetGroupInfo) Reset() {
 	*x = GenerateRecommendationsRequest_AssetGroupInfo{}
-	mi := &file_services_recommendation_service_proto_msgTypes[37]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[37]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2819,7 +2819,7 @@ func (x *GenerateRecommendationsRequest_AssetGroupInfo) String() string {
 func (*GenerateRecommendationsRequest_AssetGroupInfo) ProtoMessage() {}
 
 func (x *GenerateRecommendationsRequest_AssetGroupInfo) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[37]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[37]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2832,7 +2832,7 @@ func (x *GenerateRecommendationsRequest_AssetGroupInfo) ProtoReflect() protorefl
 
 // Deprecated: Use GenerateRecommendationsRequest_AssetGroupInfo.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsRequest_AssetGroupInfo) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{6, 4}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{6, 4}
 }
 
 func (x *GenerateRecommendationsRequest_AssetGroupInfo) GetFinalUrl() string {
@@ -2878,7 +2878,7 @@ type GenerateRecommendationsRequest_TargetImpressionShareInfo struct {
 
 func (x *GenerateRecommendationsRequest_TargetImpressionShareInfo) Reset() {
 	*x = GenerateRecommendationsRequest_TargetImpressionShareInfo{}
-	mi := &file_services_recommendation_service_proto_msgTypes[38]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[38]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2890,7 +2890,7 @@ func (x *GenerateRecommendationsRequest_TargetImpressionShareInfo) String() stri
 func (*GenerateRecommendationsRequest_TargetImpressionShareInfo) ProtoMessage() {}
 
 func (x *GenerateRecommendationsRequest_TargetImpressionShareInfo) ProtoReflect() protoreflect.Message {
-	mi := &file_services_recommendation_service_proto_msgTypes[38]
+	mi := &file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[38]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2903,7 +2903,7 @@ func (x *GenerateRecommendationsRequest_TargetImpressionShareInfo) ProtoReflect(
 
 // Deprecated: Use GenerateRecommendationsRequest_TargetImpressionShareInfo.ProtoReflect.Descriptor instead.
 func (*GenerateRecommendationsRequest_TargetImpressionShareInfo) Descriptor() ([]byte, []int) {
-	return file_services_recommendation_service_proto_rawDescGZIP(), []int{6, 5}
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP(), []int{6, 5}
 }
 
 func (x *GenerateRecommendationsRequest_TargetImpressionShareInfo) GetLocation() enums.TargetImpressionShareLocationEnum_TargetImpressionShareLocation {
@@ -2927,9 +2927,9 @@ func (x *GenerateRecommendationsRequest_TargetImpressionShareInfo) GetMaxCpcBidC
 	return 0
 }
 
-var File_services_recommendation_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_recommendation_service_proto protoreflect.FileDescriptor
 
-var file_services_recommendation_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_recommendation_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3e, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x72, 0x65, 0x63, 0x6f, 0x6d, 0x6d, 0x65, 0x6e, 0x64, 0x61, 0x74, 0x69,
@@ -3806,20 +3806,20 @@ var file_services_recommendation_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_recommendation_service_proto_rawDescOnce sync.Once
-	file_services_recommendation_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescData []byte
 )
 
-func file_services_recommendation_service_proto_rawDescGZIP() []byte {
-	file_services_recommendation_service_proto_rawDescOnce.Do(func() {
-		file_services_recommendation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_recommendation_service_proto_rawDesc), len(file_services_recommendation_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_recommendation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_recommendation_service_proto_rawDesc)))
 	})
-	return file_services_recommendation_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_recommendation_service_proto_rawDescData
 }
 
-var file_services_recommendation_service_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
-var file_services_recommendation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 39)
-var file_services_recommendation_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_recommendation_service_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
+var file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 39)
+var file_google_ads_googleads_v25_services_recommendation_service_proto_goTypes = []any{
 	(ApplyRecommendationOperation_AdAssetApplyParameters_ApplyScope)(0),                // 0: google.ads.googleads.v25.services.ApplyRecommendationOperation.AdAssetApplyParameters.ApplyScope
 	(*ApplyRecommendationRequest)(nil),                                                 // 1: google.ads.googleads.v25.services.ApplyRecommendationRequest
 	(*ApplyRecommendationOperation)(nil),                                               // 2: google.ads.googleads.v25.services.ApplyRecommendationOperation
@@ -3876,7 +3876,7 @@ var file_services_recommendation_service_proto_goTypes = []any{
 	(*common.KeywordInfo)(nil),                                                 // 53: google.ads.googleads.v25.common.KeywordInfo
 	(enums.TargetImpressionShareLocationEnum_TargetImpressionShareLocation)(0), // 54: google.ads.googleads.v25.enums.TargetImpressionShareLocationEnum.TargetImpressionShareLocation
 }
-var file_services_recommendation_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_recommendation_service_proto_depIdxs = []int32{
 	2,  // 0: google.ads.googleads.v25.services.ApplyRecommendationRequest.operations:type_name -> google.ads.googleads.v25.services.ApplyRecommendationOperation
 	9,  // 1: google.ads.googleads.v25.services.ApplyRecommendationOperation.campaign_budget:type_name -> google.ads.googleads.v25.services.ApplyRecommendationOperation.CampaignBudgetParameters
 	11, // 2: google.ads.googleads.v25.services.ApplyRecommendationOperation.text_ad:type_name -> google.ads.googleads.v25.services.ApplyRecommendationOperation.TextAdParameters
@@ -3948,12 +3948,12 @@ var file_services_recommendation_service_proto_depIdxs = []int32{
 	0,  // [0:58] is the sub-list for field type_name
 }
 
-func init() { file_services_recommendation_service_proto_init() }
-func file_services_recommendation_service_proto_init() {
-	if File_services_recommendation_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_recommendation_service_proto_init() }
+func file_google_ads_googleads_v25_services_recommendation_service_proto_init() {
+	if File_google_ads_googleads_v25_services_recommendation_service_proto != nil {
 		return
 	}
-	file_services_recommendation_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*ApplyRecommendationOperation_CampaignBudget)(nil),
 		(*ApplyRecommendationOperation_TextAd)(nil),
 		(*ApplyRecommendationOperation_Keyword)(nil),
@@ -3979,42 +3979,42 @@ func file_services_recommendation_service_proto_init() {
 		(*ApplyRecommendationOperation_SetTargetRoas)(nil),
 		(*ApplyRecommendationOperation_LeadFormAsset)(nil),
 	}
-	file_services_recommendation_service_proto_msgTypes[6].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[8].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[9].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[11].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[12].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[13].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[23].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[28].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[29].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[30].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[33].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[6].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[8].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[9].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[11].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[12].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[13].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[23].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[28].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[29].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[30].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[33].OneofWrappers = []any{
 		(*GenerateRecommendationsRequest_BiddingInfo_TargetCpaMicros)(nil),
 		(*GenerateRecommendationsRequest_BiddingInfo_TargetRoas)(nil),
 		(*GenerateRecommendationsRequest_BiddingInfo_TargetImpressionShareInfo)(nil),
 	}
-	file_services_recommendation_service_proto_msgTypes[34].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[35].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[36].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[37].OneofWrappers = []any{}
-	file_services_recommendation_service_proto_msgTypes[38].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[34].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[35].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[36].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[37].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes[38].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_recommendation_service_proto_rawDesc), len(file_services_recommendation_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_recommendation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_recommendation_service_proto_rawDesc)),
 			NumEnums:      1,
 			NumMessages:   39,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_recommendation_service_proto_goTypes,
-		DependencyIndexes: file_services_recommendation_service_proto_depIdxs,
-		EnumInfos:         file_services_recommendation_service_proto_enumTypes,
-		MessageInfos:      file_services_recommendation_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_recommendation_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_recommendation_service_proto_depIdxs,
+		EnumInfos:         file_google_ads_googleads_v25_services_recommendation_service_proto_enumTypes,
+		MessageInfos:      file_google_ads_googleads_v25_services_recommendation_service_proto_msgTypes,
 	}.Build()
-	File_services_recommendation_service_proto = out.File
-	file_services_recommendation_service_proto_goTypes = nil
-	file_services_recommendation_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_recommendation_service_proto = out.File
+	file_google_ads_googleads_v25_services_recommendation_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_recommendation_service_proto_depIdxs = nil
 }

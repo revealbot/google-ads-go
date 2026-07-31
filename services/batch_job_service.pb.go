@@ -55,7 +55,7 @@ type MutateBatchJobRequest struct {
 
 func (x *MutateBatchJobRequest) Reset() {
 	*x = MutateBatchJobRequest{}
-	mi := &file_services_batch_job_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -67,7 +67,7 @@ func (x *MutateBatchJobRequest) String() string {
 func (*MutateBatchJobRequest) ProtoMessage() {}
 
 func (x *MutateBatchJobRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -80,7 +80,7 @@ func (x *MutateBatchJobRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateBatchJobRequest.ProtoReflect.Descriptor instead.
 func (*MutateBatchJobRequest) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateBatchJobRequest) GetCustomerId() string {
@@ -113,7 +113,7 @@ type BatchJobOperation struct {
 
 func (x *BatchJobOperation) Reset() {
 	*x = BatchJobOperation{}
-	mi := &file_services_batch_job_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -125,7 +125,7 @@ func (x *BatchJobOperation) String() string {
 func (*BatchJobOperation) ProtoMessage() {}
 
 func (x *BatchJobOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -138,7 +138,7 @@ func (x *BatchJobOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BatchJobOperation.ProtoReflect.Descriptor instead.
 func (*BatchJobOperation) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *BatchJobOperation) GetOperation() isBatchJobOperation_Operation {
@@ -199,7 +199,7 @@ type MutateBatchJobResponse struct {
 
 func (x *MutateBatchJobResponse) Reset() {
 	*x = MutateBatchJobResponse{}
-	mi := &file_services_batch_job_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -211,7 +211,7 @@ func (x *MutateBatchJobResponse) String() string {
 func (*MutateBatchJobResponse) ProtoMessage() {}
 
 func (x *MutateBatchJobResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -224,7 +224,7 @@ func (x *MutateBatchJobResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateBatchJobResponse.ProtoReflect.Descriptor instead.
 func (*MutateBatchJobResponse) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateBatchJobResponse) GetResult() *MutateBatchJobResult {
@@ -245,7 +245,7 @@ type MutateBatchJobResult struct {
 
 func (x *MutateBatchJobResult) Reset() {
 	*x = MutateBatchJobResult{}
-	mi := &file_services_batch_job_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -257,7 +257,7 @@ func (x *MutateBatchJobResult) String() string {
 func (*MutateBatchJobResult) ProtoMessage() {}
 
 func (x *MutateBatchJobResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -270,7 +270,7 @@ func (x *MutateBatchJobResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateBatchJobResult.ProtoReflect.Descriptor instead.
 func (*MutateBatchJobResult) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateBatchJobResult) GetResourceName() string {
@@ -292,7 +292,7 @@ type RunBatchJobRequest struct {
 
 func (x *RunBatchJobRequest) Reset() {
 	*x = RunBatchJobRequest{}
-	mi := &file_services_batch_job_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -304,7 +304,7 @@ func (x *RunBatchJobRequest) String() string {
 func (*RunBatchJobRequest) ProtoMessage() {}
 
 func (x *RunBatchJobRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -317,7 +317,7 @@ func (x *RunBatchJobRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RunBatchJobRequest.ProtoReflect.Descriptor instead.
 func (*RunBatchJobRequest) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *RunBatchJobRequest) GetResourceName() string {
@@ -356,7 +356,7 @@ type AddBatchJobOperationsRequest struct {
 
 func (x *AddBatchJobOperationsRequest) Reset() {
 	*x = AddBatchJobOperationsRequest{}
-	mi := &file_services_batch_job_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -368,7 +368,7 @@ func (x *AddBatchJobOperationsRequest) String() string {
 func (*AddBatchJobOperationsRequest) ProtoMessage() {}
 
 func (x *AddBatchJobOperationsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -381,7 +381,7 @@ func (x *AddBatchJobOperationsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AddBatchJobOperationsRequest.ProtoReflect.Descriptor instead.
 func (*AddBatchJobOperationsRequest) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *AddBatchJobOperationsRequest) GetResourceName() string {
@@ -421,7 +421,7 @@ type AddBatchJobOperationsResponse struct {
 
 func (x *AddBatchJobOperationsResponse) Reset() {
 	*x = AddBatchJobOperationsResponse{}
-	mi := &file_services_batch_job_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -433,7 +433,7 @@ func (x *AddBatchJobOperationsResponse) String() string {
 func (*AddBatchJobOperationsResponse) ProtoMessage() {}
 
 func (x *AddBatchJobOperationsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -446,7 +446,7 @@ func (x *AddBatchJobOperationsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AddBatchJobOperationsResponse.ProtoReflect.Descriptor instead.
 func (*AddBatchJobOperationsResponse) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *AddBatchJobOperationsResponse) GetTotalOperations() int64 {
@@ -490,7 +490,7 @@ type ListBatchJobResultsRequest struct {
 
 func (x *ListBatchJobResultsRequest) Reset() {
 	*x = ListBatchJobResultsRequest{}
-	mi := &file_services_batch_job_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -502,7 +502,7 @@ func (x *ListBatchJobResultsRequest) String() string {
 func (*ListBatchJobResultsRequest) ProtoMessage() {}
 
 func (x *ListBatchJobResultsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -515,7 +515,7 @@ func (x *ListBatchJobResultsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBatchJobResultsRequest.ProtoReflect.Descriptor instead.
 func (*ListBatchJobResultsRequest) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *ListBatchJobResultsRequest) GetResourceName() string {
@@ -563,7 +563,7 @@ type ListBatchJobResultsResponse struct {
 
 func (x *ListBatchJobResultsResponse) Reset() {
 	*x = ListBatchJobResultsResponse{}
-	mi := &file_services_batch_job_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -575,7 +575,7 @@ func (x *ListBatchJobResultsResponse) String() string {
 func (*ListBatchJobResultsResponse) ProtoMessage() {}
 
 func (x *ListBatchJobResultsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -588,7 +588,7 @@ func (x *ListBatchJobResultsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBatchJobResultsResponse.ProtoReflect.Descriptor instead.
 func (*ListBatchJobResultsResponse) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *ListBatchJobResultsResponse) GetResults() []*BatchJobResult {
@@ -621,7 +621,7 @@ type BatchJobResult struct {
 
 func (x *BatchJobResult) Reset() {
 	*x = BatchJobResult{}
-	mi := &file_services_batch_job_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -633,7 +633,7 @@ func (x *BatchJobResult) String() string {
 func (*BatchJobResult) ProtoMessage() {}
 
 func (x *BatchJobResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_batch_job_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -646,7 +646,7 @@ func (x *BatchJobResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BatchJobResult.ProtoReflect.Descriptor instead.
 func (*BatchJobResult) Descriptor() ([]byte, []int) {
-	return file_services_batch_job_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *BatchJobResult) GetOperationIndex() int64 {
@@ -670,9 +670,9 @@ func (x *BatchJobResult) GetStatus() *status.Status {
 	return nil
 }
 
-var File_services_batch_job_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_batch_job_service_proto protoreflect.FileDescriptor
 
-var file_services_batch_job_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_batch_job_service_proto_rawDesc = string([]byte{
 	0x0a, 0x39, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x62, 0x61, 0x74, 0x63, 0x68, 0x5f, 0x6a, 0x6f, 0x62, 0x5f, 0x73, 0x65,
@@ -898,19 +898,19 @@ var file_services_batch_job_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_batch_job_service_proto_rawDescOnce sync.Once
-	file_services_batch_job_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescData []byte
 )
 
-func file_services_batch_job_service_proto_rawDescGZIP() []byte {
-	file_services_batch_job_service_proto_rawDescOnce.Do(func() {
-		file_services_batch_job_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_batch_job_service_proto_rawDesc), len(file_services_batch_job_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_batch_job_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_batch_job_service_proto_rawDesc)))
 	})
-	return file_services_batch_job_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_batch_job_service_proto_rawDescData
 }
 
-var file_services_batch_job_service_proto_msgTypes = make([]protoimpl.MessageInfo, 10)
-var file_services_batch_job_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes = make([]protoimpl.MessageInfo, 10)
+var file_google_ads_googleads_v25_services_batch_job_service_proto_goTypes = []any{
 	(*MutateBatchJobRequest)(nil),                          // 0: google.ads.googleads.v25.services.MutateBatchJobRequest
 	(*BatchJobOperation)(nil),                              // 1: google.ads.googleads.v25.services.BatchJobOperation
 	(*MutateBatchJobResponse)(nil),                         // 2: google.ads.googleads.v25.services.MutateBatchJobResponse
@@ -928,7 +928,7 @@ var file_services_batch_job_service_proto_goTypes = []any{
 	(*status.Status)(nil),                                  // 14: google.rpc.Status
 	(*longrunningpb.Operation)(nil),                        // 15: google.longrunning.Operation
 }
-var file_services_batch_job_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_batch_job_service_proto_depIdxs = []int32{
 	1,  // 0: google.ads.googleads.v25.services.MutateBatchJobRequest.operation:type_name -> google.ads.googleads.v25.services.BatchJobOperation
 	10, // 1: google.ads.googleads.v25.services.BatchJobOperation.create:type_name -> google.ads.googleads.v25.resources.BatchJob
 	3,  // 2: google.ads.googleads.v25.services.MutateBatchJobResponse.result:type_name -> google.ads.googleads.v25.services.MutateBatchJobResult
@@ -952,13 +952,13 @@ var file_services_batch_job_service_proto_depIdxs = []int32{
 	0,  // [0:8] is the sub-list for field type_name
 }
 
-func init() { file_services_batch_job_service_proto_init() }
-func file_services_batch_job_service_proto_init() {
-	if File_services_batch_job_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_batch_job_service_proto_init() }
+func file_google_ads_googleads_v25_services_batch_job_service_proto_init() {
+	if File_google_ads_googleads_v25_services_batch_job_service_proto != nil {
 		return
 	}
-	file_services_google_ads_service_proto_init()
-	file_services_batch_job_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_google_ads_service_proto_init()
+	file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*BatchJobOperation_Create)(nil),
 		(*BatchJobOperation_Remove)(nil),
 	}
@@ -966,17 +966,17 @@ func file_services_batch_job_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_batch_job_service_proto_rawDesc), len(file_services_batch_job_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_batch_job_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_batch_job_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   10,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_batch_job_service_proto_goTypes,
-		DependencyIndexes: file_services_batch_job_service_proto_depIdxs,
-		MessageInfos:      file_services_batch_job_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_batch_job_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_batch_job_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_batch_job_service_proto_msgTypes,
 	}.Build()
-	File_services_batch_job_service_proto = out.File
-	file_services_batch_job_service_proto_goTypes = nil
-	file_services_batch_job_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_batch_job_service_proto = out.File
+	file_google_ads_googleads_v25_services_batch_job_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_batch_job_service_proto_depIdxs = nil
 }

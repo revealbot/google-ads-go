@@ -66,7 +66,7 @@ type MutateCampaignAssetSetsRequest struct {
 
 func (x *MutateCampaignAssetSetsRequest) Reset() {
 	*x = MutateCampaignAssetSetsRequest{}
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -78,7 +78,7 @@ func (x *MutateCampaignAssetSetsRequest) String() string {
 func (*MutateCampaignAssetSetsRequest) ProtoMessage() {}
 
 func (x *MutateCampaignAssetSetsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -91,7 +91,7 @@ func (x *MutateCampaignAssetSetsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCampaignAssetSetsRequest.ProtoReflect.Descriptor instead.
 func (*MutateCampaignAssetSetsRequest) Descriptor() ([]byte, []int) {
-	return file_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateCampaignAssetSetsRequest) GetCustomerId() string {
@@ -145,7 +145,7 @@ type CampaignAssetSetOperation struct {
 
 func (x *CampaignAssetSetOperation) Reset() {
 	*x = CampaignAssetSetOperation{}
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -157,7 +157,7 @@ func (x *CampaignAssetSetOperation) String() string {
 func (*CampaignAssetSetOperation) ProtoMessage() {}
 
 func (x *CampaignAssetSetOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -170,7 +170,7 @@ func (x *CampaignAssetSetOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CampaignAssetSetOperation.ProtoReflect.Descriptor instead.
 func (*CampaignAssetSetOperation) Descriptor() ([]byte, []int) {
-	return file_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CampaignAssetSetOperation) GetOperation() isCampaignAssetSetOperation_Operation {
@@ -235,7 +235,7 @@ type MutateCampaignAssetSetsResponse struct {
 
 func (x *MutateCampaignAssetSetsResponse) Reset() {
 	*x = MutateCampaignAssetSetsResponse{}
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -247,7 +247,7 @@ func (x *MutateCampaignAssetSetsResponse) String() string {
 func (*MutateCampaignAssetSetsResponse) ProtoMessage() {}
 
 func (x *MutateCampaignAssetSetsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -260,7 +260,7 @@ func (x *MutateCampaignAssetSetsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCampaignAssetSetsResponse.ProtoReflect.Descriptor instead.
 func (*MutateCampaignAssetSetsResponse) Descriptor() ([]byte, []int) {
-	return file_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateCampaignAssetSetsResponse) GetResults() []*MutateCampaignAssetSetResult {
@@ -292,7 +292,7 @@ type MutateCampaignAssetSetResult struct {
 
 func (x *MutateCampaignAssetSetResult) Reset() {
 	*x = MutateCampaignAssetSetResult{}
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -304,7 +304,7 @@ func (x *MutateCampaignAssetSetResult) String() string {
 func (*MutateCampaignAssetSetResult) ProtoMessage() {}
 
 func (x *MutateCampaignAssetSetResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_asset_set_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -317,7 +317,7 @@ func (x *MutateCampaignAssetSetResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCampaignAssetSetResult.ProtoReflect.Descriptor instead.
 func (*MutateCampaignAssetSetResult) Descriptor() ([]byte, []int) {
-	return file_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateCampaignAssetSetResult) GetResourceName() string {
@@ -334,9 +334,9 @@ func (x *MutateCampaignAssetSetResult) GetCampaignAssetSet() *resources.Campaign
 	return nil
 }
 
-var File_services_campaign_asset_set_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_campaign_asset_set_service_proto protoreflect.FileDescriptor
 
-var file_services_campaign_asset_set_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDesc = string([]byte{
 	0x0a, 0x42, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x61, 0x6d, 0x70, 0x61, 0x69, 0x67, 0x6e, 0x5f, 0x61, 0x73, 0x73,
@@ -465,19 +465,19 @@ var file_services_campaign_asset_set_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_campaign_asset_set_service_proto_rawDescOnce sync.Once
-	file_services_campaign_asset_set_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescData []byte
 )
 
-func file_services_campaign_asset_set_service_proto_rawDescGZIP() []byte {
-	file_services_campaign_asset_set_service_proto_rawDescOnce.Do(func() {
-		file_services_campaign_asset_set_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_campaign_asset_set_service_proto_rawDesc), len(file_services_campaign_asset_set_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDesc)))
 	})
-	return file_services_campaign_asset_set_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDescData
 }
 
-var file_services_campaign_asset_set_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_campaign_asset_set_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_goTypes = []any{
 	(*MutateCampaignAssetSetsRequest)(nil),                 // 0: google.ads.googleads.v25.services.MutateCampaignAssetSetsRequest
 	(*CampaignAssetSetOperation)(nil),                      // 1: google.ads.googleads.v25.services.CampaignAssetSetOperation
 	(*MutateCampaignAssetSetsResponse)(nil),                // 2: google.ads.googleads.v25.services.MutateCampaignAssetSetsResponse
@@ -486,7 +486,7 @@ var file_services_campaign_asset_set_service_proto_goTypes = []any{
 	(*resources.CampaignAssetSet)(nil),                     // 5: google.ads.googleads.v25.resources.CampaignAssetSet
 	(*status.Status)(nil),                                  // 6: google.rpc.Status
 }
-var file_services_campaign_asset_set_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateCampaignAssetSetsRequest.operations:type_name -> google.ads.googleads.v25.services.CampaignAssetSetOperation
 	4, // 1: google.ads.googleads.v25.services.MutateCampaignAssetSetsRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	5, // 2: google.ads.googleads.v25.services.CampaignAssetSetOperation.create:type_name -> google.ads.googleads.v25.resources.CampaignAssetSet
@@ -502,12 +502,12 @@ var file_services_campaign_asset_set_service_proto_depIdxs = []int32{
 	0, // [0:6] is the sub-list for field type_name
 }
 
-func init() { file_services_campaign_asset_set_service_proto_init() }
-func file_services_campaign_asset_set_service_proto_init() {
-	if File_services_campaign_asset_set_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_init() }
+func file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_init() {
+	if File_google_ads_googleads_v25_services_campaign_asset_set_service_proto != nil {
 		return
 	}
-	file_services_campaign_asset_set_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*CampaignAssetSetOperation_Create)(nil),
 		(*CampaignAssetSetOperation_Remove)(nil),
 	}
@@ -515,17 +515,17 @@ func file_services_campaign_asset_set_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_campaign_asset_set_service_proto_rawDesc), len(file_services_campaign_asset_set_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_campaign_asset_set_service_proto_goTypes,
-		DependencyIndexes: file_services_campaign_asset_set_service_proto_depIdxs,
-		MessageInfos:      file_services_campaign_asset_set_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_msgTypes,
 	}.Build()
-	File_services_campaign_asset_set_service_proto = out.File
-	file_services_campaign_asset_set_service_proto_goTypes = nil
-	file_services_campaign_asset_set_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_campaign_asset_set_service_proto = out.File
+	file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_depIdxs = nil
 }

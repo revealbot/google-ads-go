@@ -57,7 +57,7 @@ type SuggestTravelAssetsRequest struct {
 
 func (x *SuggestTravelAssetsRequest) Reset() {
 	*x = SuggestTravelAssetsRequest{}
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -69,7 +69,7 @@ func (x *SuggestTravelAssetsRequest) String() string {
 func (*SuggestTravelAssetsRequest) ProtoMessage() {}
 
 func (x *SuggestTravelAssetsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -82,7 +82,7 @@ func (x *SuggestTravelAssetsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SuggestTravelAssetsRequest.ProtoReflect.Descriptor instead.
 func (*SuggestTravelAssetsRequest) Descriptor() ([]byte, []int) {
-	return file_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *SuggestTravelAssetsRequest) GetCustomerId() string {
@@ -118,7 +118,7 @@ type SuggestTravelAssetsResponse struct {
 
 func (x *SuggestTravelAssetsResponse) Reset() {
 	*x = SuggestTravelAssetsResponse{}
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -130,7 +130,7 @@ func (x *SuggestTravelAssetsResponse) String() string {
 func (*SuggestTravelAssetsResponse) ProtoMessage() {}
 
 func (x *SuggestTravelAssetsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -143,7 +143,7 @@ func (x *SuggestTravelAssetsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SuggestTravelAssetsResponse.ProtoReflect.Descriptor instead.
 func (*SuggestTravelAssetsResponse) Descriptor() ([]byte, []int) {
-	return file_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *SuggestTravelAssetsResponse) GetHotelAssetSuggestions() []*HotelAssetSuggestion {
@@ -176,7 +176,7 @@ type HotelAssetSuggestion struct {
 
 func (x *HotelAssetSuggestion) Reset() {
 	*x = HotelAssetSuggestion{}
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -188,7 +188,7 @@ func (x *HotelAssetSuggestion) String() string {
 func (*HotelAssetSuggestion) ProtoMessage() {}
 
 func (x *HotelAssetSuggestion) ProtoReflect() protoreflect.Message {
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -201,7 +201,7 @@ func (x *HotelAssetSuggestion) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HotelAssetSuggestion.ProtoReflect.Descriptor instead.
 func (*HotelAssetSuggestion) Descriptor() ([]byte, []int) {
-	return file_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *HotelAssetSuggestion) GetPlaceId() string {
@@ -266,7 +266,7 @@ type HotelTextAsset struct {
 
 func (x *HotelTextAsset) Reset() {
 	*x = HotelTextAsset{}
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -278,7 +278,7 @@ func (x *HotelTextAsset) String() string {
 func (*HotelTextAsset) ProtoMessage() {}
 
 func (x *HotelTextAsset) ProtoReflect() protoreflect.Message {
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -291,7 +291,7 @@ func (x *HotelTextAsset) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HotelTextAsset.ProtoReflect.Descriptor instead.
 func (*HotelTextAsset) Descriptor() ([]byte, []int) {
-	return file_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *HotelTextAsset) GetText() string {
@@ -322,7 +322,7 @@ type HotelImageAsset struct {
 
 func (x *HotelImageAsset) Reset() {
 	*x = HotelImageAsset{}
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -334,7 +334,7 @@ func (x *HotelImageAsset) String() string {
 func (*HotelImageAsset) ProtoMessage() {}
 
 func (x *HotelImageAsset) ProtoReflect() protoreflect.Message {
-	mi := &file_services_travel_asset_suggestion_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -347,7 +347,7 @@ func (x *HotelImageAsset) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HotelImageAsset.ProtoReflect.Descriptor instead.
 func (*HotelImageAsset) Descriptor() ([]byte, []int) {
-	return file_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *HotelImageAsset) GetUri() string {
@@ -364,9 +364,9 @@ func (x *HotelImageAsset) GetAssetFieldType() enums.AssetFieldTypeEnum_AssetFiel
 	return enums.AssetFieldTypeEnum_AssetFieldType(0)
 }
 
-var File_services_travel_asset_suggestion_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto protoreflect.FileDescriptor
 
-var file_services_travel_asset_suggestion_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDesc = string([]byte{
 	0x0a, 0x47, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x74, 0x72, 0x61, 0x76, 0x65, 0x6c, 0x5f, 0x61, 0x73, 0x73, 0x65, 0x74,
@@ -501,19 +501,19 @@ var file_services_travel_asset_suggestion_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_travel_asset_suggestion_service_proto_rawDescOnce sync.Once
-	file_services_travel_asset_suggestion_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescData []byte
 )
 
-func file_services_travel_asset_suggestion_service_proto_rawDescGZIP() []byte {
-	file_services_travel_asset_suggestion_service_proto_rawDescOnce.Do(func() {
-		file_services_travel_asset_suggestion_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_travel_asset_suggestion_service_proto_rawDesc), len(file_services_travel_asset_suggestion_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDesc)))
 	})
-	return file_services_travel_asset_suggestion_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDescData
 }
 
-var file_services_travel_asset_suggestion_service_proto_msgTypes = make([]protoimpl.MessageInfo, 5)
-var file_services_travel_asset_suggestion_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes = make([]protoimpl.MessageInfo, 5)
+var file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_goTypes = []any{
 	(*SuggestTravelAssetsRequest)(nil),                                   // 0: google.ads.googleads.v25.services.SuggestTravelAssetsRequest
 	(*SuggestTravelAssetsResponse)(nil),                                  // 1: google.ads.googleads.v25.services.SuggestTravelAssetsResponse
 	(*HotelAssetSuggestion)(nil),                                         // 2: google.ads.googleads.v25.services.HotelAssetSuggestion
@@ -523,7 +523,7 @@ var file_services_travel_asset_suggestion_service_proto_goTypes = []any{
 	(enums.HotelAssetSuggestionStatusEnum_HotelAssetSuggestionStatus)(0), // 6: google.ads.googleads.v25.enums.HotelAssetSuggestionStatusEnum.HotelAssetSuggestionStatus
 	(enums.AssetFieldTypeEnum_AssetFieldType)(0),                         // 7: google.ads.googleads.v25.enums.AssetFieldTypeEnum.AssetFieldType
 }
-var file_services_travel_asset_suggestion_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_depIdxs = []int32{
 	2, // 0: google.ads.googleads.v25.services.SuggestTravelAssetsResponse.hotel_asset_suggestions:type_name -> google.ads.googleads.v25.services.HotelAssetSuggestion
 	5, // 1: google.ads.googleads.v25.services.HotelAssetSuggestion.call_to_action:type_name -> google.ads.googleads.v25.enums.CallToActionTypeEnum.CallToActionType
 	3, // 2: google.ads.googleads.v25.services.HotelAssetSuggestion.text_assets:type_name -> google.ads.googleads.v25.services.HotelTextAsset
@@ -540,26 +540,26 @@ var file_services_travel_asset_suggestion_service_proto_depIdxs = []int32{
 	0, // [0:7] is the sub-list for field type_name
 }
 
-func init() { file_services_travel_asset_suggestion_service_proto_init() }
-func file_services_travel_asset_suggestion_service_proto_init() {
-	if File_services_travel_asset_suggestion_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_init() }
+func file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_init() {
+	if File_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_travel_asset_suggestion_service_proto_rawDesc), len(file_services_travel_asset_suggestion_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   5,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_travel_asset_suggestion_service_proto_goTypes,
-		DependencyIndexes: file_services_travel_asset_suggestion_service_proto_depIdxs,
-		MessageInfos:      file_services_travel_asset_suggestion_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_msgTypes,
 	}.Build()
-	File_services_travel_asset_suggestion_service_proto = out.File
-	file_services_travel_asset_suggestion_service_proto_goTypes = nil
-	file_services_travel_asset_suggestion_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto = out.File
+	file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_travel_asset_suggestion_service_proto_depIdxs = nil
 }

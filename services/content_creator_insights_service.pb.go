@@ -74,7 +74,7 @@ type GenerateCreatorInsightsRequest struct {
 
 func (x *GenerateCreatorInsightsRequest) Reset() {
 	*x = GenerateCreatorInsightsRequest{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -86,7 +86,7 @@ func (x *GenerateCreatorInsightsRequest) String() string {
 func (*GenerateCreatorInsightsRequest) ProtoMessage() {}
 
 func (x *GenerateCreatorInsightsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -99,7 +99,7 @@ func (x *GenerateCreatorInsightsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateCreatorInsightsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateCreatorInsightsRequest) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *GenerateCreatorInsightsRequest) GetCustomerId() string {
@@ -238,7 +238,7 @@ type GenerateCreatorInsightsResponse struct {
 
 func (x *GenerateCreatorInsightsResponse) Reset() {
 	*x = GenerateCreatorInsightsResponse{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -250,7 +250,7 @@ func (x *GenerateCreatorInsightsResponse) String() string {
 func (*GenerateCreatorInsightsResponse) ProtoMessage() {}
 
 func (x *GenerateCreatorInsightsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -263,7 +263,7 @@ func (x *GenerateCreatorInsightsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateCreatorInsightsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateCreatorInsightsResponse) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *GenerateCreatorInsightsResponse) GetCreatorInsights() []*YouTubeCreatorInsights {
@@ -313,7 +313,7 @@ type GenerateTrendingInsightsRequest struct {
 
 func (x *GenerateTrendingInsightsRequest) Reset() {
 	*x = GenerateTrendingInsightsRequest{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -325,7 +325,7 @@ func (x *GenerateTrendingInsightsRequest) String() string {
 func (*GenerateTrendingInsightsRequest) ProtoMessage() {}
 
 func (x *GenerateTrendingInsightsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -338,7 +338,7 @@ func (x *GenerateTrendingInsightsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateTrendingInsightsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateTrendingInsightsRequest) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *GenerateTrendingInsightsRequest) GetCustomerId() string {
@@ -442,7 +442,7 @@ type GenerateTrendingInsightsResponse struct {
 
 func (x *GenerateTrendingInsightsResponse) Reset() {
 	*x = GenerateTrendingInsightsResponse{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -454,7 +454,7 @@ func (x *GenerateTrendingInsightsResponse) String() string {
 func (*GenerateTrendingInsightsResponse) ProtoMessage() {}
 
 func (x *GenerateTrendingInsightsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -467,7 +467,7 @@ func (x *GenerateTrendingInsightsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateTrendingInsightsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateTrendingInsightsResponse) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *GenerateTrendingInsightsResponse) GetTrendInsights() []*TrendInsight {
@@ -490,7 +490,7 @@ type YouTubeCreatorInsights struct {
 
 func (x *YouTubeCreatorInsights) Reset() {
 	*x = YouTubeCreatorInsights{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -502,7 +502,7 @@ func (x *YouTubeCreatorInsights) String() string {
 func (*YouTubeCreatorInsights) ProtoMessage() {}
 
 func (x *YouTubeCreatorInsights) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -515,7 +515,7 @@ func (x *YouTubeCreatorInsights) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use YouTubeCreatorInsights.ProtoReflect.Descriptor instead.
 func (*YouTubeCreatorInsights) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *YouTubeCreatorInsights) GetCreatorName() string {
@@ -575,7 +575,7 @@ type YouTubeMetrics struct {
 
 func (x *YouTubeMetrics) Reset() {
 	*x = YouTubeMetrics{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -587,7 +587,7 @@ func (x *YouTubeMetrics) String() string {
 func (*YouTubeMetrics) ProtoMessage() {}
 
 func (x *YouTubeMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -600,7 +600,7 @@ func (x *YouTubeMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use YouTubeMetrics.ProtoReflect.Descriptor instead.
 func (*YouTubeMetrics) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *YouTubeMetrics) GetSubscriberCount() int64 {
@@ -771,7 +771,7 @@ type YouTubeChannelInsights struct {
 
 func (x *YouTubeChannelInsights) Reset() {
 	*x = YouTubeChannelInsights{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -783,7 +783,7 @@ func (x *YouTubeChannelInsights) String() string {
 func (*YouTubeChannelInsights) ProtoMessage() {}
 
 func (x *YouTubeChannelInsights) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -796,7 +796,7 @@ func (x *YouTubeChannelInsights) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use YouTubeChannelInsights.ProtoReflect.Descriptor instead.
 func (*YouTubeChannelInsights) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *YouTubeChannelInsights) GetDisplayName() string {
@@ -945,7 +945,7 @@ type SearchAudience struct {
 
 func (x *SearchAudience) Reset() {
 	*x = SearchAudience{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -957,7 +957,7 @@ func (x *SearchAudience) String() string {
 func (*SearchAudience) ProtoMessage() {}
 
 func (x *SearchAudience) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -970,7 +970,7 @@ func (x *SearchAudience) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchAudience.ProtoReflect.Descriptor instead.
 func (*SearchAudience) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *SearchAudience) GetAudienceAttributes() []*common.AudienceInsightsAttribute {
@@ -1005,7 +1005,7 @@ type SearchTopics struct {
 
 func (x *SearchTopics) Reset() {
 	*x = SearchTopics{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1017,7 +1017,7 @@ func (x *SearchTopics) String() string {
 func (*SearchTopics) ProtoMessage() {}
 
 func (x *SearchTopics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1030,7 +1030,7 @@ func (x *SearchTopics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchTopics.ProtoReflect.Descriptor instead.
 func (*SearchTopics) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *SearchTopics) GetEntities() []*common.AudienceInsightsEntity {
@@ -1082,7 +1082,7 @@ type TrendInsight struct {
 
 func (x *TrendInsight) Reset() {
 	*x = TrendInsight{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1094,7 +1094,7 @@ func (x *TrendInsight) String() string {
 func (*TrendInsight) ProtoMessage() {}
 
 func (x *TrendInsight) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1107,7 +1107,7 @@ func (x *TrendInsight) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use TrendInsight.ProtoReflect.Descriptor instead.
 func (*TrendInsight) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *TrendInsight) GetTrendAttribute() *common.AudienceInsightsAttributeMetadata {
@@ -1182,7 +1182,7 @@ type TrendInsightMetrics struct {
 
 func (x *TrendInsightMetrics) Reset() {
 	*x = TrendInsightMetrics{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1194,7 +1194,7 @@ func (x *TrendInsightMetrics) String() string {
 func (*TrendInsightMetrics) ProtoMessage() {}
 
 func (x *TrendInsightMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1207,7 +1207,7 @@ func (x *TrendInsightMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use TrendInsightMetrics.ProtoReflect.Descriptor instead.
 func (*TrendInsightMetrics) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *TrendInsightMetrics) GetViewsCount() int64 {
@@ -1253,7 +1253,7 @@ type TrendInsightDataPoint struct {
 
 func (x *TrendInsightDataPoint) Reset() {
 	*x = TrendInsightDataPoint{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1265,7 +1265,7 @@ func (x *TrendInsightDataPoint) String() string {
 func (*TrendInsightDataPoint) ProtoMessage() {}
 
 func (x *TrendInsightDataPoint) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1278,7 +1278,7 @@ func (x *TrendInsightDataPoint) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use TrendInsightDataPoint.ProtoReflect.Descriptor instead.
 func (*TrendInsightDataPoint) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{11}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *TrendInsightDataPoint) GetMonth() string {
@@ -1311,7 +1311,7 @@ type LanguageDistribution struct {
 
 func (x *LanguageDistribution) Reset() {
 	*x = LanguageDistribution{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1323,7 +1323,7 @@ func (x *LanguageDistribution) String() string {
 func (*LanguageDistribution) ProtoMessage() {}
 
 func (x *LanguageDistribution) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1336,7 +1336,7 @@ func (x *LanguageDistribution) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use LanguageDistribution.ProtoReflect.Descriptor instead.
 func (*LanguageDistribution) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{12}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *LanguageDistribution) GetLanguageCode() string {
@@ -1401,7 +1401,7 @@ type GenerateCreatorInsightsRequest_SearchAttributes struct {
 
 func (x *GenerateCreatorInsightsRequest_SearchAttributes) Reset() {
 	*x = GenerateCreatorInsightsRequest_SearchAttributes{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[13]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1413,7 +1413,7 @@ func (x *GenerateCreatorInsightsRequest_SearchAttributes) String() string {
 func (*GenerateCreatorInsightsRequest_SearchAttributes) ProtoMessage() {}
 
 func (x *GenerateCreatorInsightsRequest_SearchAttributes) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[13]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1426,7 +1426,7 @@ func (x *GenerateCreatorInsightsRequest_SearchAttributes) ProtoReflect() protore
 
 // Deprecated: Use GenerateCreatorInsightsRequest_SearchAttributes.ProtoReflect.Descriptor instead.
 func (*GenerateCreatorInsightsRequest_SearchAttributes) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{0, 0}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{0, 0}
 }
 
 func (x *GenerateCreatorInsightsRequest_SearchAttributes) GetAudienceAttributes() []*common.AudienceInsightsAttribute {
@@ -1461,7 +1461,7 @@ type GenerateCreatorInsightsRequest_YouTubeChannels struct {
 
 func (x *GenerateCreatorInsightsRequest_YouTubeChannels) Reset() {
 	*x = GenerateCreatorInsightsRequest_YouTubeChannels{}
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[14]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1473,7 +1473,7 @@ func (x *GenerateCreatorInsightsRequest_YouTubeChannels) String() string {
 func (*GenerateCreatorInsightsRequest_YouTubeChannels) ProtoMessage() {}
 
 func (x *GenerateCreatorInsightsRequest_YouTubeChannels) ProtoReflect() protoreflect.Message {
-	mi := &file_services_content_creator_insights_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[14]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1486,7 +1486,7 @@ func (x *GenerateCreatorInsightsRequest_YouTubeChannels) ProtoReflect() protoref
 
 // Deprecated: Use GenerateCreatorInsightsRequest_YouTubeChannels.ProtoReflect.Descriptor instead.
 func (*GenerateCreatorInsightsRequest_YouTubeChannels) Descriptor() ([]byte, []int) {
-	return file_services_content_creator_insights_service_proto_rawDescGZIP(), []int{0, 1}
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP(), []int{0, 1}
 }
 
 func (x *GenerateCreatorInsightsRequest_YouTubeChannels) GetYoutubeChannels() []*common.YouTubeChannelInfo {
@@ -1496,9 +1496,9 @@ func (x *GenerateCreatorInsightsRequest_YouTubeChannels) GetYoutubeChannels() []
 	return nil
 }
 
-var File_services_content_creator_insights_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_content_creator_insights_service_proto protoreflect.FileDescriptor
 
-var file_services_content_creator_insights_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDesc = string([]byte{
 	0x0a, 0x48, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x6f, 0x6e, 0x74, 0x65, 0x6e, 0x74, 0x5f, 0x63, 0x72, 0x65, 0x61,
@@ -1987,19 +1987,19 @@ var file_services_content_creator_insights_service_proto_rawDesc = string([]byte
 })
 
 var (
-	file_services_content_creator_insights_service_proto_rawDescOnce sync.Once
-	file_services_content_creator_insights_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescData []byte
 )
 
-func file_services_content_creator_insights_service_proto_rawDescGZIP() []byte {
-	file_services_content_creator_insights_service_proto_rawDescOnce.Do(func() {
-		file_services_content_creator_insights_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_content_creator_insights_service_proto_rawDesc), len(file_services_content_creator_insights_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDesc)))
 	})
-	return file_services_content_creator_insights_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDescData
 }
 
-var file_services_content_creator_insights_service_proto_msgTypes = make([]protoimpl.MessageInfo, 15)
-var file_services_content_creator_insights_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes = make([]protoimpl.MessageInfo, 15)
+var file_google_ads_googleads_v25_services_content_creator_insights_service_proto_goTypes = []any{
 	(*GenerateCreatorInsightsRequest)(nil),                  // 0: google.ads.googleads.v25.services.GenerateCreatorInsightsRequest
 	(*GenerateCreatorInsightsResponse)(nil),                 // 1: google.ads.googleads.v25.services.GenerateCreatorInsightsResponse
 	(*GenerateTrendingInsightsRequest)(nil),                 // 2: google.ads.googleads.v25.services.GenerateTrendingInsightsRequest
@@ -2026,7 +2026,7 @@ var file_services_content_creator_insights_service_proto_goTypes = []any{
 	(*common.AudienceInsightsEntity)(nil),                                                        // 23: google.ads.googleads.v25.common.AudienceInsightsEntity
 	(enums.InsightsTrendEnum_InsightsTrend)(0),                                                   // 24: google.ads.googleads.v25.enums.InsightsTrendEnum.InsightsTrend
 }
-var file_services_content_creator_insights_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_content_creator_insights_service_proto_depIdxs = []int32{
 	15, // 0: google.ads.googleads.v25.services.GenerateCreatorInsightsRequest.insights_application_info:type_name -> google.ads.googleads.v25.common.AdditionalApplicationInfo
 	16, // 1: google.ads.googleads.v25.services.GenerateCreatorInsightsRequest.country_locations:type_name -> google.ads.googleads.v25.common.LocationInfo
 	16, // 2: google.ads.googleads.v25.services.GenerateCreatorInsightsRequest.sub_country_locations:type_name -> google.ads.googleads.v25.common.LocationInfo
@@ -2078,17 +2078,17 @@ var file_services_content_creator_insights_service_proto_depIdxs = []int32{
 	0,  // [0:40] is the sub-list for field type_name
 }
 
-func init() { file_services_content_creator_insights_service_proto_init() }
-func file_services_content_creator_insights_service_proto_init() {
-	if File_services_content_creator_insights_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_content_creator_insights_service_proto_init() }
+func file_google_ads_googleads_v25_services_content_creator_insights_service_proto_init() {
+	if File_google_ads_googleads_v25_services_content_creator_insights_service_proto != nil {
 		return
 	}
-	file_services_content_creator_insights_service_proto_msgTypes[0].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[0].OneofWrappers = []any{
 		(*GenerateCreatorInsightsRequest_SearchAttributes_)(nil),
 		(*GenerateCreatorInsightsRequest_SearchChannels)(nil),
 		(*GenerateCreatorInsightsRequest_SearchTopics)(nil),
 	}
-	file_services_content_creator_insights_service_proto_msgTypes[2].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes[2].OneofWrappers = []any{
 		(*GenerateTrendingInsightsRequest_SearchAudience)(nil),
 		(*GenerateTrendingInsightsRequest_SearchTopics)(nil),
 	}
@@ -2096,17 +2096,17 @@ func file_services_content_creator_insights_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_content_creator_insights_service_proto_rawDesc), len(file_services_content_creator_insights_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_content_creator_insights_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   15,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_content_creator_insights_service_proto_goTypes,
-		DependencyIndexes: file_services_content_creator_insights_service_proto_depIdxs,
-		MessageInfos:      file_services_content_creator_insights_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_content_creator_insights_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_content_creator_insights_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_content_creator_insights_service_proto_msgTypes,
 	}.Build()
-	File_services_content_creator_insights_service_proto = out.File
-	file_services_content_creator_insights_service_proto_goTypes = nil
-	file_services_content_creator_insights_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_content_creator_insights_service_proto = out.File
+	file_google_ads_googleads_v25_services_content_creator_insights_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_content_creator_insights_service_proto_depIdxs = nil
 }

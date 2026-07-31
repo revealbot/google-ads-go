@@ -52,7 +52,7 @@ type MutateCustomerUserAccessRequest struct {
 
 func (x *MutateCustomerUserAccessRequest) Reset() {
 	*x = MutateCustomerUserAccessRequest{}
-	mi := &file_services_customer_user_access_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -64,7 +64,7 @@ func (x *MutateCustomerUserAccessRequest) String() string {
 func (*MutateCustomerUserAccessRequest) ProtoMessage() {}
 
 func (x *MutateCustomerUserAccessRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_user_access_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -77,7 +77,7 @@ func (x *MutateCustomerUserAccessRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCustomerUserAccessRequest.ProtoReflect.Descriptor instead.
 func (*MutateCustomerUserAccessRequest) Descriptor() ([]byte, []int) {
-	return file_services_customer_user_access_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateCustomerUserAccessRequest) GetCustomerId() string {
@@ -112,7 +112,7 @@ type CustomerUserAccessOperation struct {
 
 func (x *CustomerUserAccessOperation) Reset() {
 	*x = CustomerUserAccessOperation{}
-	mi := &file_services_customer_user_access_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -124,7 +124,7 @@ func (x *CustomerUserAccessOperation) String() string {
 func (*CustomerUserAccessOperation) ProtoMessage() {}
 
 func (x *CustomerUserAccessOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_user_access_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -137,7 +137,7 @@ func (x *CustomerUserAccessOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CustomerUserAccessOperation.ProtoReflect.Descriptor instead.
 func (*CustomerUserAccessOperation) Descriptor() ([]byte, []int) {
-	return file_services_customer_user_access_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CustomerUserAccessOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -205,7 +205,7 @@ type MutateCustomerUserAccessResponse struct {
 
 func (x *MutateCustomerUserAccessResponse) Reset() {
 	*x = MutateCustomerUserAccessResponse{}
-	mi := &file_services_customer_user_access_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -217,7 +217,7 @@ func (x *MutateCustomerUserAccessResponse) String() string {
 func (*MutateCustomerUserAccessResponse) ProtoMessage() {}
 
 func (x *MutateCustomerUserAccessResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_user_access_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -230,7 +230,7 @@ func (x *MutateCustomerUserAccessResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCustomerUserAccessResponse.ProtoReflect.Descriptor instead.
 func (*MutateCustomerUserAccessResponse) Descriptor() ([]byte, []int) {
-	return file_services_customer_user_access_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateCustomerUserAccessResponse) GetResult() *MutateCustomerUserAccessResult {
@@ -254,7 +254,7 @@ type MutateCustomerUserAccessResult struct {
 
 func (x *MutateCustomerUserAccessResult) Reset() {
 	*x = MutateCustomerUserAccessResult{}
-	mi := &file_services_customer_user_access_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -266,7 +266,7 @@ func (x *MutateCustomerUserAccessResult) String() string {
 func (*MutateCustomerUserAccessResult) ProtoMessage() {}
 
 func (x *MutateCustomerUserAccessResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_user_access_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -279,7 +279,7 @@ func (x *MutateCustomerUserAccessResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCustomerUserAccessResult.ProtoReflect.Descriptor instead.
 func (*MutateCustomerUserAccessResult) Descriptor() ([]byte, []int) {
-	return file_services_customer_user_access_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateCustomerUserAccessResult) GetResourceName() string {
@@ -296,9 +296,9 @@ func (x *MutateCustomerUserAccessResult) GetMultiPartyAuthReview() string {
 	return ""
 }
 
-var File_services_customer_user_access_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_customer_user_access_service_proto protoreflect.FileDescriptor
 
-var file_services_customer_user_access_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDesc = string([]byte{
 	0x0a, 0x44, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x75, 0x73, 0x74, 0x6f, 0x6d, 0x65, 0x72, 0x5f, 0x75, 0x73, 0x65,
@@ -412,19 +412,19 @@ var file_services_customer_user_access_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_customer_user_access_service_proto_rawDescOnce sync.Once
-	file_services_customer_user_access_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescData []byte
 )
 
-func file_services_customer_user_access_service_proto_rawDescGZIP() []byte {
-	file_services_customer_user_access_service_proto_rawDescOnce.Do(func() {
-		file_services_customer_user_access_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_customer_user_access_service_proto_rawDesc), len(file_services_customer_user_access_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDesc)))
 	})
-	return file_services_customer_user_access_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDescData
 }
 
-var file_services_customer_user_access_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_customer_user_access_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_customer_user_access_service_proto_goTypes = []any{
 	(*MutateCustomerUserAccessRequest)(nil),  // 0: google.ads.googleads.v25.services.MutateCustomerUserAccessRequest
 	(*CustomerUserAccessOperation)(nil),      // 1: google.ads.googleads.v25.services.CustomerUserAccessOperation
 	(*MutateCustomerUserAccessResponse)(nil), // 2: google.ads.googleads.v25.services.MutateCustomerUserAccessResponse
@@ -432,7 +432,7 @@ var file_services_customer_user_access_service_proto_goTypes = []any{
 	(*fieldmaskpb.FieldMask)(nil),            // 4: google.protobuf.FieldMask
 	(*resources.CustomerUserAccess)(nil),     // 5: google.ads.googleads.v25.resources.CustomerUserAccess
 }
-var file_services_customer_user_access_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_customer_user_access_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateCustomerUserAccessRequest.operation:type_name -> google.ads.googleads.v25.services.CustomerUserAccessOperation
 	4, // 1: google.ads.googleads.v25.services.CustomerUserAccessOperation.update_mask:type_name -> google.protobuf.FieldMask
 	5, // 2: google.ads.googleads.v25.services.CustomerUserAccessOperation.update:type_name -> google.ads.googleads.v25.resources.CustomerUserAccess
@@ -446,12 +446,12 @@ var file_services_customer_user_access_service_proto_depIdxs = []int32{
 	0, // [0:4] is the sub-list for field type_name
 }
 
-func init() { file_services_customer_user_access_service_proto_init() }
-func file_services_customer_user_access_service_proto_init() {
-	if File_services_customer_user_access_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_customer_user_access_service_proto_init() }
+func file_google_ads_googleads_v25_services_customer_user_access_service_proto_init() {
+	if File_google_ads_googleads_v25_services_customer_user_access_service_proto != nil {
 		return
 	}
-	file_services_customer_user_access_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*CustomerUserAccessOperation_Update)(nil),
 		(*CustomerUserAccessOperation_Remove)(nil),
 	}
@@ -459,17 +459,17 @@ func file_services_customer_user_access_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_customer_user_access_service_proto_rawDesc), len(file_services_customer_user_access_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_customer_user_access_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_customer_user_access_service_proto_goTypes,
-		DependencyIndexes: file_services_customer_user_access_service_proto_depIdxs,
-		MessageInfos:      file_services_customer_user_access_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_customer_user_access_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_customer_user_access_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_customer_user_access_service_proto_msgTypes,
 	}.Build()
-	File_services_customer_user_access_service_proto = out.File
-	file_services_customer_user_access_service_proto_goTypes = nil
-	file_services_customer_user_access_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_customer_user_access_service_proto = out.File
+	file_google_ads_googleads_v25_services_customer_user_access_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_customer_user_access_service_proto_depIdxs = nil
 }

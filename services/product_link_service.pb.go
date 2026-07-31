@@ -51,7 +51,7 @@ type CreateProductLinkRequest struct {
 
 func (x *CreateProductLinkRequest) Reset() {
 	*x = CreateProductLinkRequest{}
-	mi := &file_services_product_link_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -63,7 +63,7 @@ func (x *CreateProductLinkRequest) String() string {
 func (*CreateProductLinkRequest) ProtoMessage() {}
 
 func (x *CreateProductLinkRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -76,7 +76,7 @@ func (x *CreateProductLinkRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateProductLinkRequest.ProtoReflect.Descriptor instead.
 func (*CreateProductLinkRequest) Descriptor() ([]byte, []int) {
-	return file_services_product_link_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_product_link_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *CreateProductLinkRequest) GetCustomerId() string {
@@ -105,7 +105,7 @@ type CreateProductLinkResponse struct {
 
 func (x *CreateProductLinkResponse) Reset() {
 	*x = CreateProductLinkResponse{}
-	mi := &file_services_product_link_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -117,7 +117,7 @@ func (x *CreateProductLinkResponse) String() string {
 func (*CreateProductLinkResponse) ProtoMessage() {}
 
 func (x *CreateProductLinkResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -130,7 +130,7 @@ func (x *CreateProductLinkResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateProductLinkResponse.ProtoReflect.Descriptor instead.
 func (*CreateProductLinkResponse) Descriptor() ([]byte, []int) {
-	return file_services_product_link_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_product_link_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CreateProductLinkResponse) GetResourceName() string {
@@ -160,7 +160,7 @@ type RemoveProductLinkRequest struct {
 
 func (x *RemoveProductLinkRequest) Reset() {
 	*x = RemoveProductLinkRequest{}
-	mi := &file_services_product_link_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -172,7 +172,7 @@ func (x *RemoveProductLinkRequest) String() string {
 func (*RemoveProductLinkRequest) ProtoMessage() {}
 
 func (x *RemoveProductLinkRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -185,7 +185,7 @@ func (x *RemoveProductLinkRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RemoveProductLinkRequest.ProtoReflect.Descriptor instead.
 func (*RemoveProductLinkRequest) Descriptor() ([]byte, []int) {
-	return file_services_product_link_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_product_link_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *RemoveProductLinkRequest) GetCustomerId() string {
@@ -220,7 +220,7 @@ type RemoveProductLinkResponse struct {
 
 func (x *RemoveProductLinkResponse) Reset() {
 	*x = RemoveProductLinkResponse{}
-	mi := &file_services_product_link_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -232,7 +232,7 @@ func (x *RemoveProductLinkResponse) String() string {
 func (*RemoveProductLinkResponse) ProtoMessage() {}
 
 func (x *RemoveProductLinkResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -245,7 +245,7 @@ func (x *RemoveProductLinkResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RemoveProductLinkResponse.ProtoReflect.Descriptor instead.
 func (*RemoveProductLinkResponse) Descriptor() ([]byte, []int) {
-	return file_services_product_link_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_product_link_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *RemoveProductLinkResponse) GetResourceName() string {
@@ -255,9 +255,9 @@ func (x *RemoveProductLinkResponse) GetResourceName() string {
 	return ""
 }
 
-var File_services_product_link_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_product_link_service_proto protoreflect.FileDescriptor
 
-var file_services_product_link_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_product_link_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3c, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x70, 0x72, 0x6f, 0x64, 0x75, 0x63, 0x74, 0x5f, 0x6c, 0x69, 0x6e, 0x6b,
@@ -365,26 +365,26 @@ var file_services_product_link_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_product_link_service_proto_rawDescOnce sync.Once
-	file_services_product_link_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_product_link_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_product_link_service_proto_rawDescData []byte
 )
 
-func file_services_product_link_service_proto_rawDescGZIP() []byte {
-	file_services_product_link_service_proto_rawDescOnce.Do(func() {
-		file_services_product_link_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_product_link_service_proto_rawDesc), len(file_services_product_link_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_product_link_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_product_link_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_product_link_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_product_link_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_product_link_service_proto_rawDesc)))
 	})
-	return file_services_product_link_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_product_link_service_proto_rawDescData
 }
 
-var file_services_product_link_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_product_link_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_product_link_service_proto_goTypes = []any{
 	(*CreateProductLinkRequest)(nil),  // 0: google.ads.googleads.v25.services.CreateProductLinkRequest
 	(*CreateProductLinkResponse)(nil), // 1: google.ads.googleads.v25.services.CreateProductLinkResponse
 	(*RemoveProductLinkRequest)(nil),  // 2: google.ads.googleads.v25.services.RemoveProductLinkRequest
 	(*RemoveProductLinkResponse)(nil), // 3: google.ads.googleads.v25.services.RemoveProductLinkResponse
 	(*resources.ProductLink)(nil),     // 4: google.ads.googleads.v25.resources.ProductLink
 }
-var file_services_product_link_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_product_link_service_proto_depIdxs = []int32{
 	4, // 0: google.ads.googleads.v25.services.CreateProductLinkRequest.product_link:type_name -> google.ads.googleads.v25.resources.ProductLink
 	0, // 1: google.ads.googleads.v25.services.ProductLinkService.CreateProductLink:input_type -> google.ads.googleads.v25.services.CreateProductLinkRequest
 	2, // 2: google.ads.googleads.v25.services.ProductLinkService.RemoveProductLink:input_type -> google.ads.googleads.v25.services.RemoveProductLinkRequest
@@ -397,26 +397,26 @@ var file_services_product_link_service_proto_depIdxs = []int32{
 	0, // [0:1] is the sub-list for field type_name
 }
 
-func init() { file_services_product_link_service_proto_init() }
-func file_services_product_link_service_proto_init() {
-	if File_services_product_link_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_product_link_service_proto_init() }
+func file_google_ads_googleads_v25_services_product_link_service_proto_init() {
+	if File_google_ads_googleads_v25_services_product_link_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_product_link_service_proto_rawDesc), len(file_services_product_link_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_product_link_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_product_link_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_product_link_service_proto_goTypes,
-		DependencyIndexes: file_services_product_link_service_proto_depIdxs,
-		MessageInfos:      file_services_product_link_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_product_link_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_product_link_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_product_link_service_proto_msgTypes,
 	}.Build()
-	File_services_product_link_service_proto = out.File
-	file_services_product_link_service_proto_goTypes = nil
-	file_services_product_link_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_product_link_service_proto = out.File
+	file_google_ads_googleads_v25_services_product_link_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_product_link_service_proto_depIdxs = nil
 }

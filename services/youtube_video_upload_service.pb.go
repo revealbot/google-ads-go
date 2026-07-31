@@ -52,7 +52,7 @@ type CreateYouTubeVideoUploadRequest struct {
 
 func (x *CreateYouTubeVideoUploadRequest) Reset() {
 	*x = CreateYouTubeVideoUploadRequest{}
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -64,7 +64,7 @@ func (x *CreateYouTubeVideoUploadRequest) String() string {
 func (*CreateYouTubeVideoUploadRequest) ProtoMessage() {}
 
 func (x *CreateYouTubeVideoUploadRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -77,7 +77,7 @@ func (x *CreateYouTubeVideoUploadRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateYouTubeVideoUploadRequest.ProtoReflect.Descriptor instead.
 func (*CreateYouTubeVideoUploadRequest) Descriptor() ([]byte, []int) {
-	return file_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *CreateYouTubeVideoUploadRequest) GetCustomerId() string {
@@ -106,7 +106,7 @@ type CreateYouTubeVideoUploadResponse struct {
 
 func (x *CreateYouTubeVideoUploadResponse) Reset() {
 	*x = CreateYouTubeVideoUploadResponse{}
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -118,7 +118,7 @@ func (x *CreateYouTubeVideoUploadResponse) String() string {
 func (*CreateYouTubeVideoUploadResponse) ProtoMessage() {}
 
 func (x *CreateYouTubeVideoUploadResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -131,7 +131,7 @@ func (x *CreateYouTubeVideoUploadResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateYouTubeVideoUploadResponse.ProtoReflect.Descriptor instead.
 func (*CreateYouTubeVideoUploadResponse) Descriptor() ([]byte, []int) {
-	return file_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CreateYouTubeVideoUploadResponse) GetResourceName() string {
@@ -160,7 +160,7 @@ type UpdateYouTubeVideoUploadRequest struct {
 
 func (x *UpdateYouTubeVideoUploadRequest) Reset() {
 	*x = UpdateYouTubeVideoUploadRequest{}
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -172,7 +172,7 @@ func (x *UpdateYouTubeVideoUploadRequest) String() string {
 func (*UpdateYouTubeVideoUploadRequest) ProtoMessage() {}
 
 func (x *UpdateYouTubeVideoUploadRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -185,7 +185,7 @@ func (x *UpdateYouTubeVideoUploadRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UpdateYouTubeVideoUploadRequest.ProtoReflect.Descriptor instead.
 func (*UpdateYouTubeVideoUploadRequest) Descriptor() ([]byte, []int) {
-	return file_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *UpdateYouTubeVideoUploadRequest) GetCustomerId() string {
@@ -221,7 +221,7 @@ type UpdateYouTubeVideoUploadResponse struct {
 
 func (x *UpdateYouTubeVideoUploadResponse) Reset() {
 	*x = UpdateYouTubeVideoUploadResponse{}
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -233,7 +233,7 @@ func (x *UpdateYouTubeVideoUploadResponse) String() string {
 func (*UpdateYouTubeVideoUploadResponse) ProtoMessage() {}
 
 func (x *UpdateYouTubeVideoUploadResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -246,7 +246,7 @@ func (x *UpdateYouTubeVideoUploadResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UpdateYouTubeVideoUploadResponse.ProtoReflect.Descriptor instead.
 func (*UpdateYouTubeVideoUploadResponse) Descriptor() ([]byte, []int) {
-	return file_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *UpdateYouTubeVideoUploadResponse) GetResourceName() string {
@@ -271,7 +271,7 @@ type RemoveYouTubeVideoUploadRequest struct {
 
 func (x *RemoveYouTubeVideoUploadRequest) Reset() {
 	*x = RemoveYouTubeVideoUploadRequest{}
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -283,7 +283,7 @@ func (x *RemoveYouTubeVideoUploadRequest) String() string {
 func (*RemoveYouTubeVideoUploadRequest) ProtoMessage() {}
 
 func (x *RemoveYouTubeVideoUploadRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -296,7 +296,7 @@ func (x *RemoveYouTubeVideoUploadRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RemoveYouTubeVideoUploadRequest.ProtoReflect.Descriptor instead.
 func (*RemoveYouTubeVideoUploadRequest) Descriptor() ([]byte, []int) {
-	return file_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *RemoveYouTubeVideoUploadRequest) GetCustomerId() string {
@@ -325,7 +325,7 @@ type RemoveYouTubeVideoUploadResponse struct {
 
 func (x *RemoveYouTubeVideoUploadResponse) Reset() {
 	*x = RemoveYouTubeVideoUploadResponse{}
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -337,7 +337,7 @@ func (x *RemoveYouTubeVideoUploadResponse) String() string {
 func (*RemoveYouTubeVideoUploadResponse) ProtoMessage() {}
 
 func (x *RemoveYouTubeVideoUploadResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_youtube_video_upload_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -350,7 +350,7 @@ func (x *RemoveYouTubeVideoUploadResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RemoveYouTubeVideoUploadResponse.ProtoReflect.Descriptor instead.
 func (*RemoveYouTubeVideoUploadResponse) Descriptor() ([]byte, []int) {
-	return file_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *RemoveYouTubeVideoUploadResponse) GetResourceNames() []string {
@@ -360,9 +360,9 @@ func (x *RemoveYouTubeVideoUploadResponse) GetResourceNames() []string {
 	return nil
 }
 
-var File_services_youtube_video_upload_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_youtube_video_upload_service_proto protoreflect.FileDescriptor
 
-var file_services_youtube_video_upload_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDesc = string([]byte{
 	0x0a, 0x44, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x79, 0x6f, 0x75, 0x74, 0x75, 0x62, 0x65, 0x5f, 0x76, 0x69, 0x64, 0x65,
@@ -515,19 +515,19 @@ var file_services_youtube_video_upload_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_youtube_video_upload_service_proto_rawDescOnce sync.Once
-	file_services_youtube_video_upload_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescData []byte
 )
 
-func file_services_youtube_video_upload_service_proto_rawDescGZIP() []byte {
-	file_services_youtube_video_upload_service_proto_rawDescOnce.Do(func() {
-		file_services_youtube_video_upload_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_youtube_video_upload_service_proto_rawDesc), len(file_services_youtube_video_upload_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDesc)))
 	})
-	return file_services_youtube_video_upload_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDescData
 }
 
-var file_services_youtube_video_upload_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
-var file_services_youtube_video_upload_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
+var file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_goTypes = []any{
 	(*CreateYouTubeVideoUploadRequest)(nil),  // 0: google.ads.googleads.v25.services.CreateYouTubeVideoUploadRequest
 	(*CreateYouTubeVideoUploadResponse)(nil), // 1: google.ads.googleads.v25.services.CreateYouTubeVideoUploadResponse
 	(*UpdateYouTubeVideoUploadRequest)(nil),  // 2: google.ads.googleads.v25.services.UpdateYouTubeVideoUploadRequest
@@ -537,7 +537,7 @@ var file_services_youtube_video_upload_service_proto_goTypes = []any{
 	(*resources.YouTubeVideoUpload)(nil),     // 6: google.ads.googleads.v25.resources.YouTubeVideoUpload
 	(*fieldmaskpb.FieldMask)(nil),            // 7: google.protobuf.FieldMask
 }
-var file_services_youtube_video_upload_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_depIdxs = []int32{
 	6, // 0: google.ads.googleads.v25.services.CreateYouTubeVideoUploadRequest.you_tube_video_upload:type_name -> google.ads.googleads.v25.resources.YouTubeVideoUpload
 	6, // 1: google.ads.googleads.v25.services.UpdateYouTubeVideoUploadRequest.you_tube_video_upload:type_name -> google.ads.googleads.v25.resources.YouTubeVideoUpload
 	7, // 2: google.ads.googleads.v25.services.UpdateYouTubeVideoUploadRequest.update_mask:type_name -> google.protobuf.FieldMask
@@ -554,26 +554,26 @@ var file_services_youtube_video_upload_service_proto_depIdxs = []int32{
 	0, // [0:3] is the sub-list for field type_name
 }
 
-func init() { file_services_youtube_video_upload_service_proto_init() }
-func file_services_youtube_video_upload_service_proto_init() {
-	if File_services_youtube_video_upload_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_init() }
+func file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_init() {
+	if File_google_ads_googleads_v25_services_youtube_video_upload_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_youtube_video_upload_service_proto_rawDesc), len(file_services_youtube_video_upload_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   6,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_youtube_video_upload_service_proto_goTypes,
-		DependencyIndexes: file_services_youtube_video_upload_service_proto_depIdxs,
-		MessageInfos:      file_services_youtube_video_upload_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_msgTypes,
 	}.Build()
-	File_services_youtube_video_upload_service_proto = out.File
-	file_services_youtube_video_upload_service_proto_goTypes = nil
-	file_services_youtube_video_upload_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_youtube_video_upload_service_proto = out.File
+	file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_youtube_video_upload_service_proto_depIdxs = nil
 }

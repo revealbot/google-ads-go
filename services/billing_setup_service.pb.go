@@ -51,7 +51,7 @@ type MutateBillingSetupRequest struct {
 
 func (x *MutateBillingSetupRequest) Reset() {
 	*x = MutateBillingSetupRequest{}
-	mi := &file_services_billing_setup_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -63,7 +63,7 @@ func (x *MutateBillingSetupRequest) String() string {
 func (*MutateBillingSetupRequest) ProtoMessage() {}
 
 func (x *MutateBillingSetupRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_billing_setup_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -76,7 +76,7 @@ func (x *MutateBillingSetupRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateBillingSetupRequest.ProtoReflect.Descriptor instead.
 func (*MutateBillingSetupRequest) Descriptor() ([]byte, []int) {
-	return file_services_billing_setup_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateBillingSetupRequest) GetCustomerId() string {
@@ -111,7 +111,7 @@ type BillingSetupOperation struct {
 
 func (x *BillingSetupOperation) Reset() {
 	*x = BillingSetupOperation{}
-	mi := &file_services_billing_setup_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -123,7 +123,7 @@ func (x *BillingSetupOperation) String() string {
 func (*BillingSetupOperation) ProtoMessage() {}
 
 func (x *BillingSetupOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_billing_setup_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -136,7 +136,7 @@ func (x *BillingSetupOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BillingSetupOperation.ProtoReflect.Descriptor instead.
 func (*BillingSetupOperation) Descriptor() ([]byte, []int) {
-	return file_services_billing_setup_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *BillingSetupOperation) GetOperation() isBillingSetupOperation_Operation {
@@ -197,7 +197,7 @@ type MutateBillingSetupResponse struct {
 
 func (x *MutateBillingSetupResponse) Reset() {
 	*x = MutateBillingSetupResponse{}
-	mi := &file_services_billing_setup_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -209,7 +209,7 @@ func (x *MutateBillingSetupResponse) String() string {
 func (*MutateBillingSetupResponse) ProtoMessage() {}
 
 func (x *MutateBillingSetupResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_billing_setup_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -222,7 +222,7 @@ func (x *MutateBillingSetupResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateBillingSetupResponse.ProtoReflect.Descriptor instead.
 func (*MutateBillingSetupResponse) Descriptor() ([]byte, []int) {
-	return file_services_billing_setup_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateBillingSetupResponse) GetResult() *MutateBillingSetupResult {
@@ -243,7 +243,7 @@ type MutateBillingSetupResult struct {
 
 func (x *MutateBillingSetupResult) Reset() {
 	*x = MutateBillingSetupResult{}
-	mi := &file_services_billing_setup_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -255,7 +255,7 @@ func (x *MutateBillingSetupResult) String() string {
 func (*MutateBillingSetupResult) ProtoMessage() {}
 
 func (x *MutateBillingSetupResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_billing_setup_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -268,7 +268,7 @@ func (x *MutateBillingSetupResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateBillingSetupResult.ProtoReflect.Descriptor instead.
 func (*MutateBillingSetupResult) Descriptor() ([]byte, []int) {
-	return file_services_billing_setup_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateBillingSetupResult) GetResourceName() string {
@@ -278,9 +278,9 @@ func (x *MutateBillingSetupResult) GetResourceName() string {
 	return ""
 }
 
-var File_services_billing_setup_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_billing_setup_service_proto protoreflect.FileDescriptor
 
-var file_services_billing_setup_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3d, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x62, 0x69, 0x6c, 0x6c, 0x69, 0x6e, 0x67, 0x5f, 0x73, 0x65, 0x74, 0x75,
@@ -375,26 +375,26 @@ var file_services_billing_setup_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_billing_setup_service_proto_rawDescOnce sync.Once
-	file_services_billing_setup_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescData []byte
 )
 
-func file_services_billing_setup_service_proto_rawDescGZIP() []byte {
-	file_services_billing_setup_service_proto_rawDescOnce.Do(func() {
-		file_services_billing_setup_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_billing_setup_service_proto_rawDesc), len(file_services_billing_setup_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDesc)))
 	})
-	return file_services_billing_setup_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDescData
 }
 
-var file_services_billing_setup_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_billing_setup_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_billing_setup_service_proto_goTypes = []any{
 	(*MutateBillingSetupRequest)(nil),  // 0: google.ads.googleads.v25.services.MutateBillingSetupRequest
 	(*BillingSetupOperation)(nil),      // 1: google.ads.googleads.v25.services.BillingSetupOperation
 	(*MutateBillingSetupResponse)(nil), // 2: google.ads.googleads.v25.services.MutateBillingSetupResponse
 	(*MutateBillingSetupResult)(nil),   // 3: google.ads.googleads.v25.services.MutateBillingSetupResult
 	(*resources.BillingSetup)(nil),     // 4: google.ads.googleads.v25.resources.BillingSetup
 }
-var file_services_billing_setup_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_billing_setup_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateBillingSetupRequest.operation:type_name -> google.ads.googleads.v25.services.BillingSetupOperation
 	4, // 1: google.ads.googleads.v25.services.BillingSetupOperation.create:type_name -> google.ads.googleads.v25.resources.BillingSetup
 	3, // 2: google.ads.googleads.v25.services.MutateBillingSetupResponse.result:type_name -> google.ads.googleads.v25.services.MutateBillingSetupResult
@@ -407,12 +407,12 @@ var file_services_billing_setup_service_proto_depIdxs = []int32{
 	0, // [0:3] is the sub-list for field type_name
 }
 
-func init() { file_services_billing_setup_service_proto_init() }
-func file_services_billing_setup_service_proto_init() {
-	if File_services_billing_setup_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_billing_setup_service_proto_init() }
+func file_google_ads_googleads_v25_services_billing_setup_service_proto_init() {
+	if File_google_ads_googleads_v25_services_billing_setup_service_proto != nil {
 		return
 	}
-	file_services_billing_setup_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*BillingSetupOperation_Create)(nil),
 		(*BillingSetupOperation_Remove)(nil),
 	}
@@ -420,17 +420,17 @@ func file_services_billing_setup_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_billing_setup_service_proto_rawDesc), len(file_services_billing_setup_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_billing_setup_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_billing_setup_service_proto_goTypes,
-		DependencyIndexes: file_services_billing_setup_service_proto_depIdxs,
-		MessageInfos:      file_services_billing_setup_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_billing_setup_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_billing_setup_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_billing_setup_service_proto_msgTypes,
 	}.Build()
-	File_services_billing_setup_service_proto = out.File
-	file_services_billing_setup_service_proto_goTypes = nil
-	file_services_billing_setup_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_billing_setup_service_proto = out.File
+	file_google_ads_googleads_v25_services_billing_setup_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_billing_setup_service_proto_depIdxs = nil
 }

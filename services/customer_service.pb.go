@@ -59,7 +59,7 @@ type MutateCustomerRequest struct {
 
 func (x *MutateCustomerRequest) Reset() {
 	*x = MutateCustomerRequest{}
-	mi := &file_services_customer_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -71,7 +71,7 @@ func (x *MutateCustomerRequest) String() string {
 func (*MutateCustomerRequest) ProtoMessage() {}
 
 func (x *MutateCustomerRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -84,7 +84,7 @@ func (x *MutateCustomerRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCustomerRequest.ProtoReflect.Descriptor instead.
 func (*MutateCustomerRequest) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateCustomerRequest) GetCustomerId() string {
@@ -140,7 +140,7 @@ type CreateCustomerClientRequest struct {
 
 func (x *CreateCustomerClientRequest) Reset() {
 	*x = CreateCustomerClientRequest{}
-	mi := &file_services_customer_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -152,7 +152,7 @@ func (x *CreateCustomerClientRequest) String() string {
 func (*CreateCustomerClientRequest) ProtoMessage() {}
 
 func (x *CreateCustomerClientRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -165,7 +165,7 @@ func (x *CreateCustomerClientRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateCustomerClientRequest.ProtoReflect.Descriptor instead.
 func (*CreateCustomerClientRequest) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CreateCustomerClientRequest) GetCustomerId() string {
@@ -216,7 +216,7 @@ type CustomerOperation struct {
 
 func (x *CustomerOperation) Reset() {
 	*x = CustomerOperation{}
-	mi := &file_services_customer_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -228,7 +228,7 @@ func (x *CustomerOperation) String() string {
 func (*CustomerOperation) ProtoMessage() {}
 
 func (x *CustomerOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -241,7 +241,7 @@ func (x *CustomerOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CustomerOperation.ProtoReflect.Descriptor instead.
 func (*CustomerOperation) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *CustomerOperation) GetUpdate() *resources.Customer {
@@ -273,7 +273,7 @@ type CreateCustomerClientResponse struct {
 
 func (x *CreateCustomerClientResponse) Reset() {
 	*x = CreateCustomerClientResponse{}
-	mi := &file_services_customer_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -285,7 +285,7 @@ func (x *CreateCustomerClientResponse) String() string {
 func (*CreateCustomerClientResponse) ProtoMessage() {}
 
 func (x *CreateCustomerClientResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -298,7 +298,7 @@ func (x *CreateCustomerClientResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateCustomerClientResponse.ProtoReflect.Descriptor instead.
 func (*CreateCustomerClientResponse) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *CreateCustomerClientResponse) GetResourceName() string {
@@ -326,7 +326,7 @@ type MutateCustomerResponse struct {
 
 func (x *MutateCustomerResponse) Reset() {
 	*x = MutateCustomerResponse{}
-	mi := &file_services_customer_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -338,7 +338,7 @@ func (x *MutateCustomerResponse) String() string {
 func (*MutateCustomerResponse) ProtoMessage() {}
 
 func (x *MutateCustomerResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -351,7 +351,7 @@ func (x *MutateCustomerResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCustomerResponse.ProtoReflect.Descriptor instead.
 func (*MutateCustomerResponse) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *MutateCustomerResponse) GetResult() *MutateCustomerResult {
@@ -375,7 +375,7 @@ type MutateCustomerResult struct {
 
 func (x *MutateCustomerResult) Reset() {
 	*x = MutateCustomerResult{}
-	mi := &file_services_customer_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -387,7 +387,7 @@ func (x *MutateCustomerResult) String() string {
 func (*MutateCustomerResult) ProtoMessage() {}
 
 func (x *MutateCustomerResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -400,7 +400,7 @@ func (x *MutateCustomerResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateCustomerResult.ProtoReflect.Descriptor instead.
 func (*MutateCustomerResult) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *MutateCustomerResult) GetResourceName() string {
@@ -427,7 +427,7 @@ type ListAccessibleCustomersRequest struct {
 
 func (x *ListAccessibleCustomersRequest) Reset() {
 	*x = ListAccessibleCustomersRequest{}
-	mi := &file_services_customer_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -439,7 +439,7 @@ func (x *ListAccessibleCustomersRequest) String() string {
 func (*ListAccessibleCustomersRequest) ProtoMessage() {}
 
 func (x *ListAccessibleCustomersRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -452,7 +452,7 @@ func (x *ListAccessibleCustomersRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListAccessibleCustomersRequest.ProtoReflect.Descriptor instead.
 func (*ListAccessibleCustomersRequest) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{6}
 }
 
 // Response message for
@@ -468,7 +468,7 @@ type ListAccessibleCustomersResponse struct {
 
 func (x *ListAccessibleCustomersResponse) Reset() {
 	*x = ListAccessibleCustomersResponse{}
-	mi := &file_services_customer_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -480,7 +480,7 @@ func (x *ListAccessibleCustomersResponse) String() string {
 func (*ListAccessibleCustomersResponse) ProtoMessage() {}
 
 func (x *ListAccessibleCustomersResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_customer_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -493,7 +493,7 @@ func (x *ListAccessibleCustomersResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListAccessibleCustomersResponse.ProtoReflect.Descriptor instead.
 func (*ListAccessibleCustomersResponse) Descriptor() ([]byte, []int) {
-	return file_services_customer_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *ListAccessibleCustomersResponse) GetResourceNames() []string {
@@ -503,9 +503,9 @@ func (x *ListAccessibleCustomersResponse) GetResourceNames() []string {
 	return nil
 }
 
-var File_services_customer_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_customer_service_proto protoreflect.FileDescriptor
 
-var file_services_customer_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_customer_service_proto_rawDesc = string([]byte{
 	0x0a, 0x38, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x75, 0x73, 0x74, 0x6f, 0x6d, 0x65, 0x72, 0x5f, 0x73, 0x65, 0x72,
@@ -684,19 +684,19 @@ var file_services_customer_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_customer_service_proto_rawDescOnce sync.Once
-	file_services_customer_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_customer_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_customer_service_proto_rawDescData []byte
 )
 
-func file_services_customer_service_proto_rawDescGZIP() []byte {
-	file_services_customer_service_proto_rawDescOnce.Do(func() {
-		file_services_customer_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_customer_service_proto_rawDesc), len(file_services_customer_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_customer_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_customer_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_customer_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_customer_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_customer_service_proto_rawDesc)))
 	})
-	return file_services_customer_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_customer_service_proto_rawDescData
 }
 
-var file_services_customer_service_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
-var file_services_customer_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_customer_service_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
+var file_google_ads_googleads_v25_services_customer_service_proto_goTypes = []any{
 	(*MutateCustomerRequest)(nil),                          // 0: google.ads.googleads.v25.services.MutateCustomerRequest
 	(*CreateCustomerClientRequest)(nil),                    // 1: google.ads.googleads.v25.services.CreateCustomerClientRequest
 	(*CustomerOperation)(nil),                              // 2: google.ads.googleads.v25.services.CustomerOperation
@@ -710,7 +710,7 @@ var file_services_customer_service_proto_goTypes = []any{
 	(enums.AccessRoleEnum_AccessRole)(0),                   // 10: google.ads.googleads.v25.enums.AccessRoleEnum.AccessRole
 	(*fieldmaskpb.FieldMask)(nil),                          // 11: google.protobuf.FieldMask
 }
-var file_services_customer_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_customer_service_proto_depIdxs = []int32{
 	2,  // 0: google.ads.googleads.v25.services.MutateCustomerRequest.operation:type_name -> google.ads.googleads.v25.services.CustomerOperation
 	8,  // 1: google.ads.googleads.v25.services.MutateCustomerRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	9,  // 2: google.ads.googleads.v25.services.CreateCustomerClientRequest.customer_client:type_name -> google.ads.googleads.v25.resources.Customer
@@ -732,27 +732,27 @@ var file_services_customer_service_proto_depIdxs = []int32{
 	0,  // [0:8] is the sub-list for field type_name
 }
 
-func init() { file_services_customer_service_proto_init() }
-func file_services_customer_service_proto_init() {
-	if File_services_customer_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_customer_service_proto_init() }
+func file_google_ads_googleads_v25_services_customer_service_proto_init() {
+	if File_google_ads_googleads_v25_services_customer_service_proto != nil {
 		return
 	}
-	file_services_customer_service_proto_msgTypes[1].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_customer_service_proto_msgTypes[1].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_customer_service_proto_rawDesc), len(file_services_customer_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_customer_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_customer_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   8,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_customer_service_proto_goTypes,
-		DependencyIndexes: file_services_customer_service_proto_depIdxs,
-		MessageInfos:      file_services_customer_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_customer_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_customer_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_customer_service_proto_msgTypes,
 	}.Build()
-	File_services_customer_service_proto = out.File
-	file_services_customer_service_proto_goTypes = nil
-	file_services_customer_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_customer_service_proto = out.File
+	file_google_ads_googleads_v25_services_customer_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_customer_service_proto_depIdxs = nil
 }

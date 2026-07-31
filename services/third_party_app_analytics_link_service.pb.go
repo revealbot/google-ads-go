@@ -48,7 +48,7 @@ type RegenerateShareableLinkIdRequest struct {
 
 func (x *RegenerateShareableLinkIdRequest) Reset() {
 	*x = RegenerateShareableLinkIdRequest{}
-	mi := &file_services_third_party_app_analytics_link_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -60,7 +60,7 @@ func (x *RegenerateShareableLinkIdRequest) String() string {
 func (*RegenerateShareableLinkIdRequest) ProtoMessage() {}
 
 func (x *RegenerateShareableLinkIdRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_third_party_app_analytics_link_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -73,7 +73,7 @@ func (x *RegenerateShareableLinkIdRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RegenerateShareableLinkIdRequest.ProtoReflect.Descriptor instead.
 func (*RegenerateShareableLinkIdRequest) Descriptor() ([]byte, []int) {
-	return file_services_third_party_app_analytics_link_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *RegenerateShareableLinkIdRequest) GetResourceName() string {
@@ -93,7 +93,7 @@ type RegenerateShareableLinkIdResponse struct {
 
 func (x *RegenerateShareableLinkIdResponse) Reset() {
 	*x = RegenerateShareableLinkIdResponse{}
-	mi := &file_services_third_party_app_analytics_link_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -105,7 +105,7 @@ func (x *RegenerateShareableLinkIdResponse) String() string {
 func (*RegenerateShareableLinkIdResponse) ProtoMessage() {}
 
 func (x *RegenerateShareableLinkIdResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_third_party_app_analytics_link_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -118,12 +118,12 @@ func (x *RegenerateShareableLinkIdResponse) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use RegenerateShareableLinkIdResponse.ProtoReflect.Descriptor instead.
 func (*RegenerateShareableLinkIdResponse) Descriptor() ([]byte, []int) {
-	return file_services_third_party_app_analytics_link_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescGZIP(), []int{1}
 }
 
-var File_services_third_party_app_analytics_link_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto protoreflect.FileDescriptor
 
-var file_services_third_party_app_analytics_link_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDesc = string([]byte{
 	0x0a, 0x4e, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x74, 0x68, 0x69, 0x72, 0x64, 0x5f, 0x70, 0x61, 0x72, 0x74, 0x79, 0x5f,
@@ -192,23 +192,23 @@ var file_services_third_party_app_analytics_link_service_proto_rawDesc = string(
 })
 
 var (
-	file_services_third_party_app_analytics_link_service_proto_rawDescOnce sync.Once
-	file_services_third_party_app_analytics_link_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescData []byte
 )
 
-func file_services_third_party_app_analytics_link_service_proto_rawDescGZIP() []byte {
-	file_services_third_party_app_analytics_link_service_proto_rawDescOnce.Do(func() {
-		file_services_third_party_app_analytics_link_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_third_party_app_analytics_link_service_proto_rawDesc), len(file_services_third_party_app_analytics_link_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDesc)))
 	})
-	return file_services_third_party_app_analytics_link_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDescData
 }
 
-var file_services_third_party_app_analytics_link_service_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
-var file_services_third_party_app_analytics_link_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
+var file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_goTypes = []any{
 	(*RegenerateShareableLinkIdRequest)(nil),  // 0: google.ads.googleads.v25.services.RegenerateShareableLinkIdRequest
 	(*RegenerateShareableLinkIdResponse)(nil), // 1: google.ads.googleads.v25.services.RegenerateShareableLinkIdResponse
 }
-var file_services_third_party_app_analytics_link_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_depIdxs = []int32{
 	0, // 0: google.ads.googleads.v25.services.ThirdPartyAppAnalyticsLinkService.RegenerateShareableLinkId:input_type -> google.ads.googleads.v25.services.RegenerateShareableLinkIdRequest
 	1, // 1: google.ads.googleads.v25.services.ThirdPartyAppAnalyticsLinkService.RegenerateShareableLinkId:output_type -> google.ads.googleads.v25.services.RegenerateShareableLinkIdResponse
 	1, // [1:2] is the sub-list for method output_type
@@ -219,27 +219,27 @@ var file_services_third_party_app_analytics_link_service_proto_depIdxs = []int32
 }
 
 func init() {
-	file_services_third_party_app_analytics_link_service_proto_init()
+	file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_init()
 }
-func file_services_third_party_app_analytics_link_service_proto_init() {
-	if File_services_third_party_app_analytics_link_service_proto != nil {
+func file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_init() {
+	if File_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_third_party_app_analytics_link_service_proto_rawDesc), len(file_services_third_party_app_analytics_link_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   2,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_third_party_app_analytics_link_service_proto_goTypes,
-		DependencyIndexes: file_services_third_party_app_analytics_link_service_proto_depIdxs,
-		MessageInfos:      file_services_third_party_app_analytics_link_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_msgTypes,
 	}.Build()
-	File_services_third_party_app_analytics_link_service_proto = out.File
-	file_services_third_party_app_analytics_link_service_proto_goTypes = nil
-	file_services_third_party_app_analytics_link_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto = out.File
+	file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_third_party_app_analytics_link_service_proto_depIdxs = nil
 }

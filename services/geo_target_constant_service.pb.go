@@ -60,7 +60,7 @@ type SuggestGeoTargetConstantsRequest struct {
 
 func (x *SuggestGeoTargetConstantsRequest) Reset() {
 	*x = SuggestGeoTargetConstantsRequest{}
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -72,7 +72,7 @@ func (x *SuggestGeoTargetConstantsRequest) String() string {
 func (*SuggestGeoTargetConstantsRequest) ProtoMessage() {}
 
 func (x *SuggestGeoTargetConstantsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -85,7 +85,7 @@ func (x *SuggestGeoTargetConstantsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SuggestGeoTargetConstantsRequest.ProtoReflect.Descriptor instead.
 func (*SuggestGeoTargetConstantsRequest) Descriptor() ([]byte, []int) {
-	return file_services_geo_target_constant_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *SuggestGeoTargetConstantsRequest) GetLocale() string {
@@ -157,7 +157,7 @@ type SuggestGeoTargetConstantsResponse struct {
 
 func (x *SuggestGeoTargetConstantsResponse) Reset() {
 	*x = SuggestGeoTargetConstantsResponse{}
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -169,7 +169,7 @@ func (x *SuggestGeoTargetConstantsResponse) String() string {
 func (*SuggestGeoTargetConstantsResponse) ProtoMessage() {}
 
 func (x *SuggestGeoTargetConstantsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -182,7 +182,7 @@ func (x *SuggestGeoTargetConstantsResponse) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use SuggestGeoTargetConstantsResponse.ProtoReflect.Descriptor instead.
 func (*SuggestGeoTargetConstantsResponse) Descriptor() ([]byte, []int) {
-	return file_services_geo_target_constant_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *SuggestGeoTargetConstantsResponse) GetGeoTargetConstantSuggestions() []*GeoTargetConstantSuggestion {
@@ -216,7 +216,7 @@ type GeoTargetConstantSuggestion struct {
 
 func (x *GeoTargetConstantSuggestion) Reset() {
 	*x = GeoTargetConstantSuggestion{}
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -228,7 +228,7 @@ func (x *GeoTargetConstantSuggestion) String() string {
 func (*GeoTargetConstantSuggestion) ProtoMessage() {}
 
 func (x *GeoTargetConstantSuggestion) ProtoReflect() protoreflect.Message {
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -241,7 +241,7 @@ func (x *GeoTargetConstantSuggestion) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GeoTargetConstantSuggestion.ProtoReflect.Descriptor instead.
 func (*GeoTargetConstantSuggestion) Descriptor() ([]byte, []int) {
-	return file_services_geo_target_constant_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *GeoTargetConstantSuggestion) GetLocale() string {
@@ -290,7 +290,7 @@ type SuggestGeoTargetConstantsRequest_LocationNames struct {
 
 func (x *SuggestGeoTargetConstantsRequest_LocationNames) Reset() {
 	*x = SuggestGeoTargetConstantsRequest_LocationNames{}
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -302,7 +302,7 @@ func (x *SuggestGeoTargetConstantsRequest_LocationNames) String() string {
 func (*SuggestGeoTargetConstantsRequest_LocationNames) ProtoMessage() {}
 
 func (x *SuggestGeoTargetConstantsRequest_LocationNames) ProtoReflect() protoreflect.Message {
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -315,7 +315,7 @@ func (x *SuggestGeoTargetConstantsRequest_LocationNames) ProtoReflect() protoref
 
 // Deprecated: Use SuggestGeoTargetConstantsRequest_LocationNames.ProtoReflect.Descriptor instead.
 func (*SuggestGeoTargetConstantsRequest_LocationNames) Descriptor() ([]byte, []int) {
-	return file_services_geo_target_constant_service_proto_rawDescGZIP(), []int{0, 0}
+	return file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescGZIP(), []int{0, 0}
 }
 
 func (x *SuggestGeoTargetConstantsRequest_LocationNames) GetNames() []string {
@@ -336,7 +336,7 @@ type SuggestGeoTargetConstantsRequest_GeoTargets struct {
 
 func (x *SuggestGeoTargetConstantsRequest_GeoTargets) Reset() {
 	*x = SuggestGeoTargetConstantsRequest_GeoTargets{}
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -348,7 +348,7 @@ func (x *SuggestGeoTargetConstantsRequest_GeoTargets) String() string {
 func (*SuggestGeoTargetConstantsRequest_GeoTargets) ProtoMessage() {}
 
 func (x *SuggestGeoTargetConstantsRequest_GeoTargets) ProtoReflect() protoreflect.Message {
-	mi := &file_services_geo_target_constant_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -361,7 +361,7 @@ func (x *SuggestGeoTargetConstantsRequest_GeoTargets) ProtoReflect() protoreflec
 
 // Deprecated: Use SuggestGeoTargetConstantsRequest_GeoTargets.ProtoReflect.Descriptor instead.
 func (*SuggestGeoTargetConstantsRequest_GeoTargets) Descriptor() ([]byte, []int) {
-	return file_services_geo_target_constant_service_proto_rawDescGZIP(), []int{0, 1}
+	return file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescGZIP(), []int{0, 1}
 }
 
 func (x *SuggestGeoTargetConstantsRequest_GeoTargets) GetGeoTargetConstants() []string {
@@ -371,9 +371,9 @@ func (x *SuggestGeoTargetConstantsRequest_GeoTargets) GetGeoTargetConstants() []
 	return nil
 }
 
-var File_services_geo_target_constant_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_geo_target_constant_service_proto protoreflect.FileDescriptor
 
-var file_services_geo_target_constant_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDesc = string([]byte{
 	0x0a, 0x43, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x67, 0x65, 0x6f, 0x5f, 0x74, 0x61, 0x72, 0x67, 0x65, 0x74, 0x5f, 0x63,
@@ -493,19 +493,19 @@ var file_services_geo_target_constant_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_geo_target_constant_service_proto_rawDescOnce sync.Once
-	file_services_geo_target_constant_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescData []byte
 )
 
-func file_services_geo_target_constant_service_proto_rawDescGZIP() []byte {
-	file_services_geo_target_constant_service_proto_rawDescOnce.Do(func() {
-		file_services_geo_target_constant_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_geo_target_constant_service_proto_rawDesc), len(file_services_geo_target_constant_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDesc)))
 	})
-	return file_services_geo_target_constant_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDescData
 }
 
-var file_services_geo_target_constant_service_proto_msgTypes = make([]protoimpl.MessageInfo, 5)
-var file_services_geo_target_constant_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes = make([]protoimpl.MessageInfo, 5)
+var file_google_ads_googleads_v25_services_geo_target_constant_service_proto_goTypes = []any{
 	(*SuggestGeoTargetConstantsRequest)(nil),               // 0: google.ads.googleads.v25.services.SuggestGeoTargetConstantsRequest
 	(*SuggestGeoTargetConstantsResponse)(nil),              // 1: google.ads.googleads.v25.services.SuggestGeoTargetConstantsResponse
 	(*GeoTargetConstantSuggestion)(nil),                    // 2: google.ads.googleads.v25.services.GeoTargetConstantSuggestion
@@ -513,7 +513,7 @@ var file_services_geo_target_constant_service_proto_goTypes = []any{
 	(*SuggestGeoTargetConstantsRequest_GeoTargets)(nil),    // 4: google.ads.googleads.v25.services.SuggestGeoTargetConstantsRequest.GeoTargets
 	(*resources.GeoTargetConstant)(nil),                    // 5: google.ads.googleads.v25.resources.GeoTargetConstant
 }
-var file_services_geo_target_constant_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_geo_target_constant_service_proto_depIdxs = []int32{
 	3, // 0: google.ads.googleads.v25.services.SuggestGeoTargetConstantsRequest.location_names:type_name -> google.ads.googleads.v25.services.SuggestGeoTargetConstantsRequest.LocationNames
 	4, // 1: google.ads.googleads.v25.services.SuggestGeoTargetConstantsRequest.geo_targets:type_name -> google.ads.googleads.v25.services.SuggestGeoTargetConstantsRequest.GeoTargets
 	2, // 2: google.ads.googleads.v25.services.SuggestGeoTargetConstantsResponse.geo_target_constant_suggestions:type_name -> google.ads.googleads.v25.services.GeoTargetConstantSuggestion
@@ -528,31 +528,31 @@ var file_services_geo_target_constant_service_proto_depIdxs = []int32{
 	0, // [0:5] is the sub-list for field type_name
 }
 
-func init() { file_services_geo_target_constant_service_proto_init() }
-func file_services_geo_target_constant_service_proto_init() {
-	if File_services_geo_target_constant_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_geo_target_constant_service_proto_init() }
+func file_google_ads_googleads_v25_services_geo_target_constant_service_proto_init() {
+	if File_google_ads_googleads_v25_services_geo_target_constant_service_proto != nil {
 		return
 	}
-	file_services_geo_target_constant_service_proto_msgTypes[0].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[0].OneofWrappers = []any{
 		(*SuggestGeoTargetConstantsRequest_LocationNames_)(nil),
 		(*SuggestGeoTargetConstantsRequest_GeoTargets_)(nil),
 	}
-	file_services_geo_target_constant_service_proto_msgTypes[2].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes[2].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_geo_target_constant_service_proto_rawDesc), len(file_services_geo_target_constant_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_geo_target_constant_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   5,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_geo_target_constant_service_proto_goTypes,
-		DependencyIndexes: file_services_geo_target_constant_service_proto_depIdxs,
-		MessageInfos:      file_services_geo_target_constant_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_geo_target_constant_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_geo_target_constant_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_geo_target_constant_service_proto_msgTypes,
 	}.Build()
-	File_services_geo_target_constant_service_proto = out.File
-	file_services_geo_target_constant_service_proto_goTypes = nil
-	file_services_geo_target_constant_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_geo_target_constant_service_proto = out.File
+	file_google_ads_googleads_v25_services_geo_target_constant_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_geo_target_constant_service_proto_depIdxs = nil
 }

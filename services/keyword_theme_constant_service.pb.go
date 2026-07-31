@@ -56,7 +56,7 @@ type SuggestKeywordThemeConstantsRequest struct {
 
 func (x *SuggestKeywordThemeConstantsRequest) Reset() {
 	*x = SuggestKeywordThemeConstantsRequest{}
-	mi := &file_services_keyword_theme_constant_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -68,7 +68,7 @@ func (x *SuggestKeywordThemeConstantsRequest) String() string {
 func (*SuggestKeywordThemeConstantsRequest) ProtoMessage() {}
 
 func (x *SuggestKeywordThemeConstantsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_theme_constant_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -81,7 +81,7 @@ func (x *SuggestKeywordThemeConstantsRequest) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use SuggestKeywordThemeConstantsRequest.ProtoReflect.Descriptor instead.
 func (*SuggestKeywordThemeConstantsRequest) Descriptor() ([]byte, []int) {
-	return file_services_keyword_theme_constant_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *SuggestKeywordThemeConstantsRequest) GetQueryText() string {
@@ -117,7 +117,7 @@ type SuggestKeywordThemeConstantsResponse struct {
 
 func (x *SuggestKeywordThemeConstantsResponse) Reset() {
 	*x = SuggestKeywordThemeConstantsResponse{}
-	mi := &file_services_keyword_theme_constant_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -129,7 +129,7 @@ func (x *SuggestKeywordThemeConstantsResponse) String() string {
 func (*SuggestKeywordThemeConstantsResponse) ProtoMessage() {}
 
 func (x *SuggestKeywordThemeConstantsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_theme_constant_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -142,7 +142,7 @@ func (x *SuggestKeywordThemeConstantsResponse) ProtoReflect() protoreflect.Messa
 
 // Deprecated: Use SuggestKeywordThemeConstantsResponse.ProtoReflect.Descriptor instead.
 func (*SuggestKeywordThemeConstantsResponse) Descriptor() ([]byte, []int) {
-	return file_services_keyword_theme_constant_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *SuggestKeywordThemeConstantsResponse) GetKeywordThemeConstants() []*resources.KeywordThemeConstant {
@@ -152,9 +152,9 @@ func (x *SuggestKeywordThemeConstantsResponse) GetKeywordThemeConstants() []*res
 	return nil
 }
 
-var File_services_keyword_theme_constant_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_keyword_theme_constant_service_proto protoreflect.FileDescriptor
 
-var file_services_keyword_theme_constant_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDesc = string([]byte{
 	0x0a, 0x46, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x6b, 0x65, 0x79, 0x77, 0x6f, 0x72, 0x64, 0x5f, 0x74, 0x68, 0x65, 0x6d,
@@ -229,24 +229,24 @@ var file_services_keyword_theme_constant_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_keyword_theme_constant_service_proto_rawDescOnce sync.Once
-	file_services_keyword_theme_constant_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescData []byte
 )
 
-func file_services_keyword_theme_constant_service_proto_rawDescGZIP() []byte {
-	file_services_keyword_theme_constant_service_proto_rawDescOnce.Do(func() {
-		file_services_keyword_theme_constant_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_keyword_theme_constant_service_proto_rawDesc), len(file_services_keyword_theme_constant_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDesc)))
 	})
-	return file_services_keyword_theme_constant_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDescData
 }
 
-var file_services_keyword_theme_constant_service_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
-var file_services_keyword_theme_constant_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
+var file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_goTypes = []any{
 	(*SuggestKeywordThemeConstantsRequest)(nil),  // 0: google.ads.googleads.v25.services.SuggestKeywordThemeConstantsRequest
 	(*SuggestKeywordThemeConstantsResponse)(nil), // 1: google.ads.googleads.v25.services.SuggestKeywordThemeConstantsResponse
 	(*resources.KeywordThemeConstant)(nil),       // 2: google.ads.googleads.v25.resources.KeywordThemeConstant
 }
-var file_services_keyword_theme_constant_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_depIdxs = []int32{
 	2, // 0: google.ads.googleads.v25.services.SuggestKeywordThemeConstantsResponse.keyword_theme_constants:type_name -> google.ads.googleads.v25.resources.KeywordThemeConstant
 	0, // 1: google.ads.googleads.v25.services.KeywordThemeConstantService.SuggestKeywordThemeConstants:input_type -> google.ads.googleads.v25.services.SuggestKeywordThemeConstantsRequest
 	1, // 2: google.ads.googleads.v25.services.KeywordThemeConstantService.SuggestKeywordThemeConstants:output_type -> google.ads.googleads.v25.services.SuggestKeywordThemeConstantsResponse
@@ -257,26 +257,26 @@ var file_services_keyword_theme_constant_service_proto_depIdxs = []int32{
 	0, // [0:1] is the sub-list for field type_name
 }
 
-func init() { file_services_keyword_theme_constant_service_proto_init() }
-func file_services_keyword_theme_constant_service_proto_init() {
-	if File_services_keyword_theme_constant_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_init() }
+func file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_init() {
+	if File_google_ads_googleads_v25_services_keyword_theme_constant_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_keyword_theme_constant_service_proto_rawDesc), len(file_services_keyword_theme_constant_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   2,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_keyword_theme_constant_service_proto_goTypes,
-		DependencyIndexes: file_services_keyword_theme_constant_service_proto_depIdxs,
-		MessageInfos:      file_services_keyword_theme_constant_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_msgTypes,
 	}.Build()
-	File_services_keyword_theme_constant_service_proto = out.File
-	file_services_keyword_theme_constant_service_proto_goTypes = nil
-	file_services_keyword_theme_constant_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_keyword_theme_constant_service_proto = out.File
+	file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_keyword_theme_constant_service_proto_depIdxs = nil
 }

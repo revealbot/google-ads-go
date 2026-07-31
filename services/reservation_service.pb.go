@@ -21,7 +21,7 @@
 package services
 
 import (
-	actions "google.golang.org/genproto/googleapis/ads/googleads/v25/actions"
+	actions "github.com/revealbot/google-ads-go/actions"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -51,7 +51,7 @@ type QuoteCampaignsRequest struct {
 
 func (x *QuoteCampaignsRequest) Reset() {
 	*x = QuoteCampaignsRequest{}
-	mi := &file_services_reservation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -63,7 +63,7 @@ func (x *QuoteCampaignsRequest) String() string {
 func (*QuoteCampaignsRequest) ProtoMessage() {}
 
 func (x *QuoteCampaignsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reservation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -76,7 +76,7 @@ func (x *QuoteCampaignsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QuoteCampaignsRequest.ProtoReflect.Descriptor instead.
 func (*QuoteCampaignsRequest) Descriptor() ([]byte, []int) {
-	return file_services_reservation_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_reservation_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *QuoteCampaignsRequest) GetCustomerId() string {
@@ -105,7 +105,7 @@ type QuoteCampaignsResponse struct {
 
 func (x *QuoteCampaignsResponse) Reset() {
 	*x = QuoteCampaignsResponse{}
-	mi := &file_services_reservation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -117,7 +117,7 @@ func (x *QuoteCampaignsResponse) String() string {
 func (*QuoteCampaignsResponse) ProtoMessage() {}
 
 func (x *QuoteCampaignsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reservation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -130,7 +130,7 @@ func (x *QuoteCampaignsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QuoteCampaignsResponse.ProtoReflect.Descriptor instead.
 func (*QuoteCampaignsResponse) Descriptor() ([]byte, []int) {
-	return file_services_reservation_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_reservation_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *QuoteCampaignsResponse) GetResult() *actions.QuoteCampaignsResult {
@@ -154,7 +154,7 @@ type BookCampaignsRequest struct {
 
 func (x *BookCampaignsRequest) Reset() {
 	*x = BookCampaignsRequest{}
-	mi := &file_services_reservation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -166,7 +166,7 @@ func (x *BookCampaignsRequest) String() string {
 func (*BookCampaignsRequest) ProtoMessage() {}
 
 func (x *BookCampaignsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reservation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -179,7 +179,7 @@ func (x *BookCampaignsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BookCampaignsRequest.ProtoReflect.Descriptor instead.
 func (*BookCampaignsRequest) Descriptor() ([]byte, []int) {
-	return file_services_reservation_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_reservation_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *BookCampaignsRequest) GetCustomerId() string {
@@ -208,7 +208,7 @@ type BookCampaignsResponse struct {
 
 func (x *BookCampaignsResponse) Reset() {
 	*x = BookCampaignsResponse{}
-	mi := &file_services_reservation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -220,7 +220,7 @@ func (x *BookCampaignsResponse) String() string {
 func (*BookCampaignsResponse) ProtoMessage() {}
 
 func (x *BookCampaignsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_reservation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -233,7 +233,7 @@ func (x *BookCampaignsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BookCampaignsResponse.ProtoReflect.Descriptor instead.
 func (*BookCampaignsResponse) Descriptor() ([]byte, []int) {
-	return file_services_reservation_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_reservation_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *BookCampaignsResponse) GetResult() *actions.BookCampaignsResult {
@@ -243,9 +243,9 @@ func (x *BookCampaignsResponse) GetResult() *actions.BookCampaignsResult {
 	return nil
 }
 
-var File_services_reservation_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_reservation_service_proto protoreflect.FileDescriptor
 
-var file_services_reservation_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_reservation_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3b, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x72, 0x65, 0x73, 0x65, 0x72, 0x76, 0x61, 0x74, 0x69, 0x6f, 0x6e, 0x5f,
@@ -350,19 +350,19 @@ var file_services_reservation_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_reservation_service_proto_rawDescOnce sync.Once
-	file_services_reservation_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_reservation_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_reservation_service_proto_rawDescData []byte
 )
 
-func file_services_reservation_service_proto_rawDescGZIP() []byte {
-	file_services_reservation_service_proto_rawDescOnce.Do(func() {
-		file_services_reservation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_reservation_service_proto_rawDesc), len(file_services_reservation_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_reservation_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_reservation_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_reservation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_reservation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_reservation_service_proto_rawDesc)))
 	})
-	return file_services_reservation_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_reservation_service_proto_rawDescData
 }
 
-var file_services_reservation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_reservation_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_reservation_service_proto_goTypes = []any{
 	(*QuoteCampaignsRequest)(nil),           // 0: google.ads.googleads.v25.services.QuoteCampaignsRequest
 	(*QuoteCampaignsResponse)(nil),          // 1: google.ads.googleads.v25.services.QuoteCampaignsResponse
 	(*BookCampaignsRequest)(nil),            // 2: google.ads.googleads.v25.services.BookCampaignsRequest
@@ -372,7 +372,7 @@ var file_services_reservation_service_proto_goTypes = []any{
 	(*actions.BookCampaignsOperation)(nil),  // 6: google.ads.googleads.v25.actions.BookCampaignsOperation
 	(*actions.BookCampaignsResult)(nil),     // 7: google.ads.googleads.v25.actions.BookCampaignsResult
 }
-var file_services_reservation_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_reservation_service_proto_depIdxs = []int32{
 	4, // 0: google.ads.googleads.v25.services.QuoteCampaignsRequest.operation:type_name -> google.ads.googleads.v25.actions.QuoteCampaignsOperation
 	5, // 1: google.ads.googleads.v25.services.QuoteCampaignsResponse.result:type_name -> google.ads.googleads.v25.actions.QuoteCampaignsResult
 	6, // 2: google.ads.googleads.v25.services.BookCampaignsRequest.operation:type_name -> google.ads.googleads.v25.actions.BookCampaignsOperation
@@ -388,26 +388,26 @@ var file_services_reservation_service_proto_depIdxs = []int32{
 	0, // [0:4] is the sub-list for field type_name
 }
 
-func init() { file_services_reservation_service_proto_init() }
-func file_services_reservation_service_proto_init() {
-	if File_services_reservation_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_reservation_service_proto_init() }
+func file_google_ads_googleads_v25_services_reservation_service_proto_init() {
+	if File_google_ads_googleads_v25_services_reservation_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_reservation_service_proto_rawDesc), len(file_services_reservation_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_reservation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_reservation_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_reservation_service_proto_goTypes,
-		DependencyIndexes: file_services_reservation_service_proto_depIdxs,
-		MessageInfos:      file_services_reservation_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_reservation_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_reservation_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_reservation_service_proto_msgTypes,
 	}.Build()
-	File_services_reservation_service_proto = out.File
-	file_services_reservation_service_proto_goTypes = nil
-	file_services_reservation_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_reservation_service_proto = out.File
+	file_google_ads_googleads_v25_services_reservation_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_reservation_service_proto_depIdxs = nil
 }

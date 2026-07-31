@@ -52,7 +52,7 @@ type CreateProductLinkInvitationRequest struct {
 
 func (x *CreateProductLinkInvitationRequest) Reset() {
 	*x = CreateProductLinkInvitationRequest{}
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -64,7 +64,7 @@ func (x *CreateProductLinkInvitationRequest) String() string {
 func (*CreateProductLinkInvitationRequest) ProtoMessage() {}
 
 func (x *CreateProductLinkInvitationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -77,7 +77,7 @@ func (x *CreateProductLinkInvitationRequest) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use CreateProductLinkInvitationRequest.ProtoReflect.Descriptor instead.
 func (*CreateProductLinkInvitationRequest) Descriptor() ([]byte, []int) {
-	return file_services_product_link_invitation_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *CreateProductLinkInvitationRequest) GetCustomerId() string {
@@ -105,7 +105,7 @@ type CreateProductLinkInvitationResponse struct {
 
 func (x *CreateProductLinkInvitationResponse) Reset() {
 	*x = CreateProductLinkInvitationResponse{}
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -117,7 +117,7 @@ func (x *CreateProductLinkInvitationResponse) String() string {
 func (*CreateProductLinkInvitationResponse) ProtoMessage() {}
 
 func (x *CreateProductLinkInvitationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -130,7 +130,7 @@ func (x *CreateProductLinkInvitationResponse) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use CreateProductLinkInvitationResponse.ProtoReflect.Descriptor instead.
 func (*CreateProductLinkInvitationResponse) Descriptor() ([]byte, []int) {
-	return file_services_product_link_invitation_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CreateProductLinkInvitationResponse) GetResourceName() string {
@@ -156,7 +156,7 @@ type UpdateProductLinkInvitationRequest struct {
 
 func (x *UpdateProductLinkInvitationRequest) Reset() {
 	*x = UpdateProductLinkInvitationRequest{}
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -168,7 +168,7 @@ func (x *UpdateProductLinkInvitationRequest) String() string {
 func (*UpdateProductLinkInvitationRequest) ProtoMessage() {}
 
 func (x *UpdateProductLinkInvitationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -181,7 +181,7 @@ func (x *UpdateProductLinkInvitationRequest) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use UpdateProductLinkInvitationRequest.ProtoReflect.Descriptor instead.
 func (*UpdateProductLinkInvitationRequest) Descriptor() ([]byte, []int) {
-	return file_services_product_link_invitation_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *UpdateProductLinkInvitationRequest) GetCustomerId() string {
@@ -216,7 +216,7 @@ type UpdateProductLinkInvitationResponse struct {
 
 func (x *UpdateProductLinkInvitationResponse) Reset() {
 	*x = UpdateProductLinkInvitationResponse{}
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -228,7 +228,7 @@ func (x *UpdateProductLinkInvitationResponse) String() string {
 func (*UpdateProductLinkInvitationResponse) ProtoMessage() {}
 
 func (x *UpdateProductLinkInvitationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -241,7 +241,7 @@ func (x *UpdateProductLinkInvitationResponse) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use UpdateProductLinkInvitationResponse.ProtoReflect.Descriptor instead.
 func (*UpdateProductLinkInvitationResponse) Descriptor() ([]byte, []int) {
-	return file_services_product_link_invitation_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *UpdateProductLinkInvitationResponse) GetResourceName() string {
@@ -269,7 +269,7 @@ type RemoveProductLinkInvitationRequest struct {
 
 func (x *RemoveProductLinkInvitationRequest) Reset() {
 	*x = RemoveProductLinkInvitationRequest{}
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -281,7 +281,7 @@ func (x *RemoveProductLinkInvitationRequest) String() string {
 func (*RemoveProductLinkInvitationRequest) ProtoMessage() {}
 
 func (x *RemoveProductLinkInvitationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -294,7 +294,7 @@ func (x *RemoveProductLinkInvitationRequest) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use RemoveProductLinkInvitationRequest.ProtoReflect.Descriptor instead.
 func (*RemoveProductLinkInvitationRequest) Descriptor() ([]byte, []int) {
-	return file_services_product_link_invitation_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *RemoveProductLinkInvitationRequest) GetCustomerId() string {
@@ -322,7 +322,7 @@ type RemoveProductLinkInvitationResponse struct {
 
 func (x *RemoveProductLinkInvitationResponse) Reset() {
 	*x = RemoveProductLinkInvitationResponse{}
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -334,7 +334,7 @@ func (x *RemoveProductLinkInvitationResponse) String() string {
 func (*RemoveProductLinkInvitationResponse) ProtoMessage() {}
 
 func (x *RemoveProductLinkInvitationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_product_link_invitation_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -347,7 +347,7 @@ func (x *RemoveProductLinkInvitationResponse) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use RemoveProductLinkInvitationResponse.ProtoReflect.Descriptor instead.
 func (*RemoveProductLinkInvitationResponse) Descriptor() ([]byte, []int) {
-	return file_services_product_link_invitation_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *RemoveProductLinkInvitationResponse) GetResourceName() string {
@@ -357,9 +357,9 @@ func (x *RemoveProductLinkInvitationResponse) GetResourceName() string {
 	return ""
 }
 
-var File_services_product_link_invitation_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_product_link_invitation_service_proto protoreflect.FileDescriptor
 
-var file_services_product_link_invitation_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDesc = string([]byte{
 	0x0a, 0x47, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x70, 0x72, 0x6f, 0x64, 0x75, 0x63, 0x74, 0x5f, 0x6c, 0x69, 0x6e, 0x6b,
@@ -532,19 +532,19 @@ var file_services_product_link_invitation_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_product_link_invitation_service_proto_rawDescOnce sync.Once
-	file_services_product_link_invitation_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescData []byte
 )
 
-func file_services_product_link_invitation_service_proto_rawDescGZIP() []byte {
-	file_services_product_link_invitation_service_proto_rawDescOnce.Do(func() {
-		file_services_product_link_invitation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_product_link_invitation_service_proto_rawDesc), len(file_services_product_link_invitation_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDesc)))
 	})
-	return file_services_product_link_invitation_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDescData
 }
 
-var file_services_product_link_invitation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
-var file_services_product_link_invitation_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
+var file_google_ads_googleads_v25_services_product_link_invitation_service_proto_goTypes = []any{
 	(*CreateProductLinkInvitationRequest)(nil),                             // 0: google.ads.googleads.v25.services.CreateProductLinkInvitationRequest
 	(*CreateProductLinkInvitationResponse)(nil),                            // 1: google.ads.googleads.v25.services.CreateProductLinkInvitationResponse
 	(*UpdateProductLinkInvitationRequest)(nil),                             // 2: google.ads.googleads.v25.services.UpdateProductLinkInvitationRequest
@@ -554,7 +554,7 @@ var file_services_product_link_invitation_service_proto_goTypes = []any{
 	(*resources.ProductLinkInvitation)(nil),                                // 6: google.ads.googleads.v25.resources.ProductLinkInvitation
 	(enums.ProductLinkInvitationStatusEnum_ProductLinkInvitationStatus)(0), // 7: google.ads.googleads.v25.enums.ProductLinkInvitationStatusEnum.ProductLinkInvitationStatus
 }
-var file_services_product_link_invitation_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_product_link_invitation_service_proto_depIdxs = []int32{
 	6, // 0: google.ads.googleads.v25.services.CreateProductLinkInvitationRequest.product_link_invitation:type_name -> google.ads.googleads.v25.resources.ProductLinkInvitation
 	7, // 1: google.ads.googleads.v25.services.UpdateProductLinkInvitationRequest.product_link_invitation_status:type_name -> google.ads.googleads.v25.enums.ProductLinkInvitationStatusEnum.ProductLinkInvitationStatus
 	0, // 2: google.ads.googleads.v25.services.ProductLinkInvitationService.CreateProductLinkInvitation:input_type -> google.ads.googleads.v25.services.CreateProductLinkInvitationRequest
@@ -570,26 +570,26 @@ var file_services_product_link_invitation_service_proto_depIdxs = []int32{
 	0, // [0:2] is the sub-list for field type_name
 }
 
-func init() { file_services_product_link_invitation_service_proto_init() }
-func file_services_product_link_invitation_service_proto_init() {
-	if File_services_product_link_invitation_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_product_link_invitation_service_proto_init() }
+func file_google_ads_googleads_v25_services_product_link_invitation_service_proto_init() {
+	if File_google_ads_googleads_v25_services_product_link_invitation_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_product_link_invitation_service_proto_rawDesc), len(file_services_product_link_invitation_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_product_link_invitation_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   6,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_product_link_invitation_service_proto_goTypes,
-		DependencyIndexes: file_services_product_link_invitation_service_proto_depIdxs,
-		MessageInfos:      file_services_product_link_invitation_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_product_link_invitation_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_product_link_invitation_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_product_link_invitation_service_proto_msgTypes,
 	}.Build()
-	File_services_product_link_invitation_service_proto = out.File
-	file_services_product_link_invitation_service_proto_goTypes = nil
-	file_services_product_link_invitation_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_product_link_invitation_service_proto = out.File
+	file_google_ads_googleads_v25_services_product_link_invitation_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_product_link_invitation_service_proto_depIdxs = nil
 }

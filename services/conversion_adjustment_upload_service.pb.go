@@ -70,7 +70,7 @@ type UploadConversionAdjustmentsRequest struct {
 
 func (x *UploadConversionAdjustmentsRequest) Reset() {
 	*x = UploadConversionAdjustmentsRequest{}
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -82,7 +82,7 @@ func (x *UploadConversionAdjustmentsRequest) String() string {
 func (*UploadConversionAdjustmentsRequest) ProtoMessage() {}
 
 func (x *UploadConversionAdjustmentsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -95,7 +95,7 @@ func (x *UploadConversionAdjustmentsRequest) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use UploadConversionAdjustmentsRequest.ProtoReflect.Descriptor instead.
 func (*UploadConversionAdjustmentsRequest) Descriptor() ([]byte, []int) {
-	return file_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *UploadConversionAdjustmentsRequest) GetCustomerId() string {
@@ -156,7 +156,7 @@ type UploadConversionAdjustmentsResponse struct {
 
 func (x *UploadConversionAdjustmentsResponse) Reset() {
 	*x = UploadConversionAdjustmentsResponse{}
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -168,7 +168,7 @@ func (x *UploadConversionAdjustmentsResponse) String() string {
 func (*UploadConversionAdjustmentsResponse) ProtoMessage() {}
 
 func (x *UploadConversionAdjustmentsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -181,7 +181,7 @@ func (x *UploadConversionAdjustmentsResponse) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use UploadConversionAdjustmentsResponse.ProtoReflect.Descriptor instead.
 func (*UploadConversionAdjustmentsResponse) Descriptor() ([]byte, []int) {
-	return file_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *UploadConversionAdjustmentsResponse) GetPartialFailureError() *status.Status {
@@ -254,7 +254,7 @@ type ConversionAdjustment struct {
 
 func (x *ConversionAdjustment) Reset() {
 	*x = ConversionAdjustment{}
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -266,7 +266,7 @@ func (x *ConversionAdjustment) String() string {
 func (*ConversionAdjustment) ProtoMessage() {}
 
 func (x *ConversionAdjustment) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -279,7 +279,7 @@ func (x *ConversionAdjustment) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ConversionAdjustment.ProtoReflect.Descriptor instead.
 func (*ConversionAdjustment) Descriptor() ([]byte, []int) {
-	return file_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *ConversionAdjustment) GetGclidDateTimePair() *GclidDateTimePair {
@@ -360,7 +360,7 @@ type RestatementValue struct {
 
 func (x *RestatementValue) Reset() {
 	*x = RestatementValue{}
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -372,7 +372,7 @@ func (x *RestatementValue) String() string {
 func (*RestatementValue) ProtoMessage() {}
 
 func (x *RestatementValue) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -385,7 +385,7 @@ func (x *RestatementValue) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RestatementValue.ProtoReflect.Descriptor instead.
 func (*RestatementValue) Descriptor() ([]byte, []int) {
-	return file_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *RestatementValue) GetAdjustedValue() float64 {
@@ -419,7 +419,7 @@ type GclidDateTimePair struct {
 
 func (x *GclidDateTimePair) Reset() {
 	*x = GclidDateTimePair{}
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -431,7 +431,7 @@ func (x *GclidDateTimePair) String() string {
 func (*GclidDateTimePair) ProtoMessage() {}
 
 func (x *GclidDateTimePair) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -444,7 +444,7 @@ func (x *GclidDateTimePair) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GclidDateTimePair.ProtoReflect.Descriptor instead.
 func (*GclidDateTimePair) Descriptor() ([]byte, []int) {
-	return file_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *GclidDateTimePair) GetGclid() string {
@@ -482,7 +482,7 @@ type ConversionAdjustmentResult struct {
 
 func (x *ConversionAdjustmentResult) Reset() {
 	*x = ConversionAdjustmentResult{}
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -494,7 +494,7 @@ func (x *ConversionAdjustmentResult) String() string {
 func (*ConversionAdjustmentResult) ProtoMessage() {}
 
 func (x *ConversionAdjustmentResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_adjustment_upload_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -507,7 +507,7 @@ func (x *ConversionAdjustmentResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ConversionAdjustmentResult.ProtoReflect.Descriptor instead.
 func (*ConversionAdjustmentResult) Descriptor() ([]byte, []int) {
-	return file_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *ConversionAdjustmentResult) GetGclidDateTimePair() *GclidDateTimePair {
@@ -545,9 +545,9 @@ func (x *ConversionAdjustmentResult) GetAdjustmentType() enums.ConversionAdjustm
 	return enums.ConversionAdjustmentTypeEnum_ConversionAdjustmentType(0)
 }
 
-var File_services_conversion_adjustment_upload_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto protoreflect.FileDescriptor
 
-var file_services_conversion_adjustment_upload_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDesc = string([]byte{
 	0x0a, 0x4c, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x6f, 0x6e, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x5f, 0x61,
@@ -739,19 +739,19 @@ var file_services_conversion_adjustment_upload_service_proto_rawDesc = string([]
 })
 
 var (
-	file_services_conversion_adjustment_upload_service_proto_rawDescOnce sync.Once
-	file_services_conversion_adjustment_upload_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescData []byte
 )
 
-func file_services_conversion_adjustment_upload_service_proto_rawDescGZIP() []byte {
-	file_services_conversion_adjustment_upload_service_proto_rawDescOnce.Do(func() {
-		file_services_conversion_adjustment_upload_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_conversion_adjustment_upload_service_proto_rawDesc), len(file_services_conversion_adjustment_upload_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDesc)))
 	})
-	return file_services_conversion_adjustment_upload_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDescData
 }
 
-var file_services_conversion_adjustment_upload_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
-var file_services_conversion_adjustment_upload_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
+var file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_goTypes = []any{
 	(*UploadConversionAdjustmentsRequest)(nil),                       // 0: google.ads.googleads.v25.services.UploadConversionAdjustmentsRequest
 	(*UploadConversionAdjustmentsResponse)(nil),                      // 1: google.ads.googleads.v25.services.UploadConversionAdjustmentsResponse
 	(*ConversionAdjustment)(nil),                                     // 2: google.ads.googleads.v25.services.ConversionAdjustment
@@ -762,7 +762,7 @@ var file_services_conversion_adjustment_upload_service_proto_goTypes = []any{
 	(enums.ConversionAdjustmentTypeEnum_ConversionAdjustmentType)(0), // 7: google.ads.googleads.v25.enums.ConversionAdjustmentTypeEnum.ConversionAdjustmentType
 	(*common.UserIdentifier)(nil),                                    // 8: google.ads.googleads.v25.common.UserIdentifier
 }
-var file_services_conversion_adjustment_upload_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_depIdxs = []int32{
 	2,  // 0: google.ads.googleads.v25.services.UploadConversionAdjustmentsRequest.conversion_adjustments:type_name -> google.ads.googleads.v25.services.ConversionAdjustment
 	6,  // 1: google.ads.googleads.v25.services.UploadConversionAdjustmentsResponse.partial_failure_error:type_name -> google.rpc.Status
 	5,  // 2: google.ads.googleads.v25.services.UploadConversionAdjustmentsResponse.results:type_name -> google.ads.googleads.v25.services.ConversionAdjustmentResult
@@ -781,31 +781,31 @@ var file_services_conversion_adjustment_upload_service_proto_depIdxs = []int32{
 	0,  // [0:9] is the sub-list for field type_name
 }
 
-func init() { file_services_conversion_adjustment_upload_service_proto_init() }
-func file_services_conversion_adjustment_upload_service_proto_init() {
-	if File_services_conversion_adjustment_upload_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_init() }
+func file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_init() {
+	if File_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto != nil {
 		return
 	}
-	file_services_conversion_adjustment_upload_service_proto_msgTypes[0].OneofWrappers = []any{}
-	file_services_conversion_adjustment_upload_service_proto_msgTypes[2].OneofWrappers = []any{}
-	file_services_conversion_adjustment_upload_service_proto_msgTypes[3].OneofWrappers = []any{}
-	file_services_conversion_adjustment_upload_service_proto_msgTypes[4].OneofWrappers = []any{}
-	file_services_conversion_adjustment_upload_service_proto_msgTypes[5].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[0].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[2].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[3].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[4].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes[5].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_conversion_adjustment_upload_service_proto_rawDesc), len(file_services_conversion_adjustment_upload_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   6,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_conversion_adjustment_upload_service_proto_goTypes,
-		DependencyIndexes: file_services_conversion_adjustment_upload_service_proto_depIdxs,
-		MessageInfos:      file_services_conversion_adjustment_upload_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_msgTypes,
 	}.Build()
-	File_services_conversion_adjustment_upload_service_proto = out.File
-	file_services_conversion_adjustment_upload_service_proto_goTypes = nil
-	file_services_conversion_adjustment_upload_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto = out.File
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_conversion_adjustment_upload_service_proto_depIdxs = nil
 }

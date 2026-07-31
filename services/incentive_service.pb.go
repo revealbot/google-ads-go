@@ -64,7 +64,7 @@ type FetchIncentiveRequest struct {
 
 func (x *FetchIncentiveRequest) Reset() {
 	*x = FetchIncentiveRequest{}
-	mi := &file_services_incentive_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -76,7 +76,7 @@ func (x *FetchIncentiveRequest) String() string {
 func (*FetchIncentiveRequest) ProtoMessage() {}
 
 func (x *FetchIncentiveRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -89,7 +89,7 @@ func (x *FetchIncentiveRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use FetchIncentiveRequest.ProtoReflect.Descriptor instead.
 func (*FetchIncentiveRequest) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *FetchIncentiveRequest) GetLanguageCode() string {
@@ -142,7 +142,7 @@ type Incentive struct {
 
 func (x *Incentive) Reset() {
 	*x = Incentive{}
-	mi := &file_services_incentive_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -154,7 +154,7 @@ func (x *Incentive) String() string {
 func (*Incentive) ProtoMessage() {}
 
 func (x *Incentive) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -167,7 +167,7 @@ func (x *Incentive) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Incentive.ProtoReflect.Descriptor instead.
 func (*Incentive) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *Incentive) GetIncentiveId() int64 {
@@ -214,7 +214,7 @@ type CyoIncentives struct {
 
 func (x *CyoIncentives) Reset() {
 	*x = CyoIncentives{}
-	mi := &file_services_incentive_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -226,7 +226,7 @@ func (x *CyoIncentives) String() string {
 func (*CyoIncentives) ProtoMessage() {}
 
 func (x *CyoIncentives) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -239,7 +239,7 @@ func (x *CyoIncentives) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CyoIncentives.ProtoReflect.Descriptor instead.
 func (*CyoIncentives) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *CyoIncentives) GetLowOffer() *Incentive {
@@ -283,7 +283,7 @@ type IncentiveOffer struct {
 
 func (x *IncentiveOffer) Reset() {
 	*x = IncentiveOffer{}
-	mi := &file_services_incentive_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -295,7 +295,7 @@ func (x *IncentiveOffer) String() string {
 func (*IncentiveOffer) ProtoMessage() {}
 
 func (x *IncentiveOffer) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -308,7 +308,7 @@ func (x *IncentiveOffer) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use IncentiveOffer.ProtoReflect.Descriptor instead.
 func (*IncentiveOffer) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *IncentiveOffer) GetConsolidatedTermsAndConditionsUrl() string {
@@ -364,7 +364,7 @@ type FetchIncentiveResponse struct {
 
 func (x *FetchIncentiveResponse) Reset() {
 	*x = FetchIncentiveResponse{}
-	mi := &file_services_incentive_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -376,7 +376,7 @@ func (x *FetchIncentiveResponse) String() string {
 func (*FetchIncentiveResponse) ProtoMessage() {}
 
 func (x *FetchIncentiveResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -389,7 +389,7 @@ func (x *FetchIncentiveResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use FetchIncentiveResponse.ProtoReflect.Descriptor instead.
 func (*FetchIncentiveResponse) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *FetchIncentiveResponse) GetIncentiveOffer() *IncentiveOffer {
@@ -422,7 +422,7 @@ type ApplyIncentiveRequest struct {
 
 func (x *ApplyIncentiveRequest) Reset() {
 	*x = ApplyIncentiveRequest{}
-	mi := &file_services_incentive_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -434,7 +434,7 @@ func (x *ApplyIncentiveRequest) String() string {
 func (*ApplyIncentiveRequest) ProtoMessage() {}
 
 func (x *ApplyIncentiveRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -447,7 +447,7 @@ func (x *ApplyIncentiveRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ApplyIncentiveRequest.ProtoReflect.Descriptor instead.
 func (*ApplyIncentiveRequest) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *ApplyIncentiveRequest) GetSelectedIncentiveId() int64 {
@@ -488,7 +488,7 @@ type ApplyIncentiveResponse struct {
 
 func (x *ApplyIncentiveResponse) Reset() {
 	*x = ApplyIncentiveResponse{}
-	mi := &file_services_incentive_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -500,7 +500,7 @@ func (x *ApplyIncentiveResponse) String() string {
 func (*ApplyIncentiveResponse) ProtoMessage() {}
 
 func (x *ApplyIncentiveResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -513,7 +513,7 @@ func (x *ApplyIncentiveResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ApplyIncentiveResponse.ProtoReflect.Descriptor instead.
 func (*ApplyIncentiveResponse) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *ApplyIncentiveResponse) GetCouponCode() string {
@@ -548,7 +548,7 @@ type Incentive_Requirement struct {
 
 func (x *Incentive_Requirement) Reset() {
 	*x = Incentive_Requirement{}
-	mi := &file_services_incentive_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -560,7 +560,7 @@ func (x *Incentive_Requirement) String() string {
 func (*Incentive_Requirement) ProtoMessage() {}
 
 func (x *Incentive_Requirement) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -573,7 +573,7 @@ func (x *Incentive_Requirement) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Incentive_Requirement.ProtoReflect.Descriptor instead.
 func (*Incentive_Requirement) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{1, 0}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{1, 0}
 }
 
 func (x *Incentive_Requirement) GetRequirement() isIncentive_Requirement_Requirement {
@@ -619,7 +619,7 @@ type Incentive_Requirement_Spend struct {
 
 func (x *Incentive_Requirement_Spend) Reset() {
 	*x = Incentive_Requirement_Spend{}
-	mi := &file_services_incentive_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -631,7 +631,7 @@ func (x *Incentive_Requirement_Spend) String() string {
 func (*Incentive_Requirement_Spend) ProtoMessage() {}
 
 func (x *Incentive_Requirement_Spend) ProtoReflect() protoreflect.Message {
-	mi := &file_services_incentive_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -644,7 +644,7 @@ func (x *Incentive_Requirement_Spend) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Incentive_Requirement_Spend.ProtoReflect.Descriptor instead.
 func (*Incentive_Requirement_Spend) Descriptor() ([]byte, []int) {
-	return file_services_incentive_service_proto_rawDescGZIP(), []int{1, 0, 0}
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP(), []int{1, 0, 0}
 }
 
 func (x *Incentive_Requirement_Spend) GetAwardAmount() *money.Money {
@@ -661,9 +661,9 @@ func (x *Incentive_Requirement_Spend) GetRequiredAmount() *money.Money {
 	return nil
 }
 
-var File_services_incentive_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_incentive_service_proto protoreflect.FileDescriptor
 
-var file_services_incentive_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_incentive_service_proto_rawDesc = string([]byte{
 	0x0a, 0x39, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x69, 0x6e, 0x63, 0x65, 0x6e, 0x74, 0x69, 0x76, 0x65, 0x5f, 0x73, 0x65,
@@ -879,19 +879,19 @@ var file_services_incentive_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_incentive_service_proto_rawDescOnce sync.Once
-	file_services_incentive_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_incentive_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_incentive_service_proto_rawDescData []byte
 )
 
-func file_services_incentive_service_proto_rawDescGZIP() []byte {
-	file_services_incentive_service_proto_rawDescOnce.Do(func() {
-		file_services_incentive_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_incentive_service_proto_rawDesc), len(file_services_incentive_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_incentive_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_incentive_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_incentive_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_incentive_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_incentive_service_proto_rawDesc)))
 	})
-	return file_services_incentive_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_incentive_service_proto_rawDescData
 }
 
-var file_services_incentive_service_proto_msgTypes = make([]protoimpl.MessageInfo, 9)
-var file_services_incentive_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes = make([]protoimpl.MessageInfo, 9)
+var file_google_ads_googleads_v25_services_incentive_service_proto_goTypes = []any{
 	(*FetchIncentiveRequest)(nil),               // 0: google.ads.googleads.v25.services.FetchIncentiveRequest
 	(*Incentive)(nil),                           // 1: google.ads.googleads.v25.services.Incentive
 	(*CyoIncentives)(nil),                       // 2: google.ads.googleads.v25.services.CyoIncentives
@@ -905,7 +905,7 @@ var file_services_incentive_service_proto_goTypes = []any{
 	(enums.IncentiveOfferTypeEnum_OfferType)(0), // 10: google.ads.googleads.v25.enums.IncentiveOfferTypeEnum.OfferType
 	(*money.Money)(nil),                         // 11: google.type.Money
 }
-var file_services_incentive_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_incentive_service_proto_depIdxs = []int32{
 	9,  // 0: google.ads.googleads.v25.services.FetchIncentiveRequest.incentive_type:type_name -> google.ads.googleads.v25.enums.IncentiveTypeEnum.IncentiveType
 	7,  // 1: google.ads.googleads.v25.services.Incentive.requirement:type_name -> google.ads.googleads.v25.services.Incentive.Requirement
 	9,  // 2: google.ads.googleads.v25.services.Incentive.incentive_type:type_name -> google.ads.googleads.v25.enums.IncentiveTypeEnum.IncentiveType
@@ -929,38 +929,38 @@ var file_services_incentive_service_proto_depIdxs = []int32{
 	0,  // [0:12] is the sub-list for field type_name
 }
 
-func init() { file_services_incentive_service_proto_init() }
-func file_services_incentive_service_proto_init() {
-	if File_services_incentive_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_incentive_service_proto_init() }
+func file_google_ads_googleads_v25_services_incentive_service_proto_init() {
+	if File_google_ads_googleads_v25_services_incentive_service_proto != nil {
 		return
 	}
-	file_services_incentive_service_proto_msgTypes[0].OneofWrappers = []any{}
-	file_services_incentive_service_proto_msgTypes[1].OneofWrappers = []any{}
-	file_services_incentive_service_proto_msgTypes[2].OneofWrappers = []any{}
-	file_services_incentive_service_proto_msgTypes[3].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[0].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[1].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[2].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[3].OneofWrappers = []any{
 		(*IncentiveOffer_CyoIncentives)(nil),
 	}
-	file_services_incentive_service_proto_msgTypes[4].OneofWrappers = []any{}
-	file_services_incentive_service_proto_msgTypes[6].OneofWrappers = []any{}
-	file_services_incentive_service_proto_msgTypes[7].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[4].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[6].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[7].OneofWrappers = []any{
 		(*Incentive_Requirement_Spend_)(nil),
 	}
-	file_services_incentive_service_proto_msgTypes[8].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes[8].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_incentive_service_proto_rawDesc), len(file_services_incentive_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_incentive_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_incentive_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   9,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_incentive_service_proto_goTypes,
-		DependencyIndexes: file_services_incentive_service_proto_depIdxs,
-		MessageInfos:      file_services_incentive_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_incentive_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_incentive_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_incentive_service_proto_msgTypes,
 	}.Build()
-	File_services_incentive_service_proto = out.File
-	file_services_incentive_service_proto_goTypes = nil
-	file_services_incentive_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_incentive_service_proto = out.File
+	file_google_ads_googleads_v25_services_incentive_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_incentive_service_proto_depIdxs = nil
 }

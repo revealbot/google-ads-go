@@ -71,7 +71,7 @@ type UploadClickConversionsRequest struct {
 
 func (x *UploadClickConversionsRequest) Reset() {
 	*x = UploadClickConversionsRequest{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -83,7 +83,7 @@ func (x *UploadClickConversionsRequest) String() string {
 func (*UploadClickConversionsRequest) ProtoMessage() {}
 
 func (x *UploadClickConversionsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -96,7 +96,7 @@ func (x *UploadClickConversionsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UploadClickConversionsRequest.ProtoReflect.Descriptor instead.
 func (*UploadClickConversionsRequest) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *UploadClickConversionsRequest) GetCustomerId() string {
@@ -159,7 +159,7 @@ type UploadClickConversionsResponse struct {
 
 func (x *UploadClickConversionsResponse) Reset() {
 	*x = UploadClickConversionsResponse{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -171,7 +171,7 @@ func (x *UploadClickConversionsResponse) String() string {
 func (*UploadClickConversionsResponse) ProtoMessage() {}
 
 func (x *UploadClickConversionsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -184,7 +184,7 @@ func (x *UploadClickConversionsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UploadClickConversionsResponse.ProtoReflect.Descriptor instead.
 func (*UploadClickConversionsResponse) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *UploadClickConversionsResponse) GetPartialFailureError() *status.Status {
@@ -235,7 +235,7 @@ type UploadCallConversionsRequest struct {
 
 func (x *UploadCallConversionsRequest) Reset() {
 	*x = UploadCallConversionsRequest{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -247,7 +247,7 @@ func (x *UploadCallConversionsRequest) String() string {
 func (*UploadCallConversionsRequest) ProtoMessage() {}
 
 func (x *UploadCallConversionsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -260,7 +260,7 @@ func (x *UploadCallConversionsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UploadCallConversionsRequest.ProtoReflect.Descriptor instead.
 func (*UploadCallConversionsRequest) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *UploadCallConversionsRequest) GetCustomerId() string {
@@ -314,7 +314,7 @@ type UploadCallConversionsResponse struct {
 
 func (x *UploadCallConversionsResponse) Reset() {
 	*x = UploadCallConversionsResponse{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -326,7 +326,7 @@ func (x *UploadCallConversionsResponse) String() string {
 func (*UploadCallConversionsResponse) ProtoMessage() {}
 
 func (x *UploadCallConversionsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -339,7 +339,7 @@ func (x *UploadCallConversionsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UploadCallConversionsResponse.ProtoReflect.Descriptor instead.
 func (*UploadCallConversionsResponse) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *UploadCallConversionsResponse) GetPartialFailureError() *status.Status {
@@ -430,7 +430,7 @@ type ClickConversion struct {
 
 func (x *ClickConversion) Reset() {
 	*x = ClickConversion{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -442,7 +442,7 @@ func (x *ClickConversion) String() string {
 func (*ClickConversion) ProtoMessage() {}
 
 func (x *ClickConversion) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -455,7 +455,7 @@ func (x *ClickConversion) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ClickConversion.ProtoReflect.Descriptor instead.
 func (*ClickConversion) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *ClickConversion) GetGclid() string {
@@ -655,7 +655,7 @@ type CallConversion struct {
 
 func (x *CallConversion) Reset() {
 	*x = CallConversion{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -667,7 +667,7 @@ func (x *CallConversion) String() string {
 func (*CallConversion) ProtoMessage() {}
 
 func (x *CallConversion) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -680,7 +680,7 @@ func (x *CallConversion) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CallConversion.ProtoReflect.Descriptor instead.
 func (*CallConversion) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *CallConversion) GetCallerId() string {
@@ -753,7 +753,7 @@ type ExternalAttributionData struct {
 
 func (x *ExternalAttributionData) Reset() {
 	*x = ExternalAttributionData{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -765,7 +765,7 @@ func (x *ExternalAttributionData) String() string {
 func (*ExternalAttributionData) ProtoMessage() {}
 
 func (x *ExternalAttributionData) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -778,7 +778,7 @@ func (x *ExternalAttributionData) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ExternalAttributionData.ProtoReflect.Descriptor instead.
 func (*ExternalAttributionData) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *ExternalAttributionData) GetExternalAttributionCredit() float64 {
@@ -819,7 +819,7 @@ type ClickConversionResult struct {
 
 func (x *ClickConversionResult) Reset() {
 	*x = ClickConversionResult{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -831,7 +831,7 @@ func (x *ClickConversionResult) String() string {
 func (*ClickConversionResult) ProtoMessage() {}
 
 func (x *ClickConversionResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -844,7 +844,7 @@ func (x *ClickConversionResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ClickConversionResult.ProtoReflect.Descriptor instead.
 func (*ClickConversionResult) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *ClickConversionResult) GetGclid() string {
@@ -909,7 +909,7 @@ type CallConversionResult struct {
 
 func (x *CallConversionResult) Reset() {
 	*x = CallConversionResult{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -921,7 +921,7 @@ func (x *CallConversionResult) String() string {
 func (*CallConversionResult) ProtoMessage() {}
 
 func (x *CallConversionResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -934,7 +934,7 @@ func (x *CallConversionResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CallConversionResult.ProtoReflect.Descriptor instead.
 func (*CallConversionResult) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *CallConversionResult) GetCallerId() string {
@@ -985,7 +985,7 @@ type CustomVariable struct {
 
 func (x *CustomVariable) Reset() {
 	*x = CustomVariable{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -997,7 +997,7 @@ func (x *CustomVariable) String() string {
 func (*CustomVariable) ProtoMessage() {}
 
 func (x *CustomVariable) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1010,7 +1010,7 @@ func (x *CustomVariable) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CustomVariable.ProtoReflect.Descriptor instead.
 func (*CustomVariable) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *CustomVariable) GetConversionCustomVariable() string {
@@ -1048,7 +1048,7 @@ type CartData struct {
 
 func (x *CartData) Reset() {
 	*x = CartData{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1060,7 +1060,7 @@ func (x *CartData) String() string {
 func (*CartData) ProtoMessage() {}
 
 func (x *CartData) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1073,7 +1073,7 @@ func (x *CartData) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CartData.ProtoReflect.Descriptor instead.
 func (*CartData) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *CartData) GetMerchantId() int64 {
@@ -1124,7 +1124,7 @@ type SessionAttributeKeyValuePair struct {
 
 func (x *SessionAttributeKeyValuePair) Reset() {
 	*x = SessionAttributeKeyValuePair{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1136,7 +1136,7 @@ func (x *SessionAttributeKeyValuePair) String() string {
 func (*SessionAttributeKeyValuePair) ProtoMessage() {}
 
 func (x *SessionAttributeKeyValuePair) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1149,7 +1149,7 @@ func (x *SessionAttributeKeyValuePair) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SessionAttributeKeyValuePair.ProtoReflect.Descriptor instead.
 func (*SessionAttributeKeyValuePair) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{11}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *SessionAttributeKeyValuePair) GetSessionAttributeKey() string {
@@ -1178,7 +1178,7 @@ type SessionAttributesKeyValuePairs struct {
 
 func (x *SessionAttributesKeyValuePairs) Reset() {
 	*x = SessionAttributesKeyValuePairs{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1190,7 +1190,7 @@ func (x *SessionAttributesKeyValuePairs) String() string {
 func (*SessionAttributesKeyValuePairs) ProtoMessage() {}
 
 func (x *SessionAttributesKeyValuePairs) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1203,7 +1203,7 @@ func (x *SessionAttributesKeyValuePairs) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SessionAttributesKeyValuePairs.ProtoReflect.Descriptor instead.
 func (*SessionAttributesKeyValuePairs) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{12}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *SessionAttributesKeyValuePairs) GetKeyValuePairs() []*SessionAttributeKeyValuePair {
@@ -1231,7 +1231,7 @@ type CartData_Item struct {
 
 func (x *CartData_Item) Reset() {
 	*x = CartData_Item{}
-	mi := &file_services_conversion_upload_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[13]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1243,7 +1243,7 @@ func (x *CartData_Item) String() string {
 func (*CartData_Item) ProtoMessage() {}
 
 func (x *CartData_Item) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_upload_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[13]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1256,7 +1256,7 @@ func (x *CartData_Item) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CartData_Item.ProtoReflect.Descriptor instead.
 func (*CartData_Item) Descriptor() ([]byte, []int) {
-	return file_services_conversion_upload_service_proto_rawDescGZIP(), []int{10, 0}
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP(), []int{10, 0}
 }
 
 func (x *CartData_Item) GetProductId() string {
@@ -1280,9 +1280,9 @@ func (x *CartData_Item) GetUnitPrice() float64 {
 	return 0
 }
 
-var File_services_conversion_upload_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_conversion_upload_service_proto protoreflect.FileDescriptor
 
-var file_services_conversion_upload_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDesc = string([]byte{
 	0x0a, 0x41, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x6f, 0x6e, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x5f, 0x75,
@@ -1666,19 +1666,19 @@ var file_services_conversion_upload_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_conversion_upload_service_proto_rawDescOnce sync.Once
-	file_services_conversion_upload_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescData []byte
 )
 
-func file_services_conversion_upload_service_proto_rawDescGZIP() []byte {
-	file_services_conversion_upload_service_proto_rawDescOnce.Do(func() {
-		file_services_conversion_upload_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_conversion_upload_service_proto_rawDesc), len(file_services_conversion_upload_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDesc)))
 	})
-	return file_services_conversion_upload_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDescData
 }
 
-var file_services_conversion_upload_service_proto_msgTypes = make([]protoimpl.MessageInfo, 14)
-var file_services_conversion_upload_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes = make([]protoimpl.MessageInfo, 14)
+var file_google_ads_googleads_v25_services_conversion_upload_service_proto_goTypes = []any{
 	(*UploadClickConversionsRequest)(nil),                        // 0: google.ads.googleads.v25.services.UploadClickConversionsRequest
 	(*UploadClickConversionsResponse)(nil),                       // 1: google.ads.googleads.v25.services.UploadClickConversionsResponse
 	(*UploadCallConversionsRequest)(nil),                         // 2: google.ads.googleads.v25.services.UploadCallConversionsRequest
@@ -1699,7 +1699,7 @@ var file_services_conversion_upload_service_proto_goTypes = []any{
 	(*common.Consent)(nil),                                       // 17: google.ads.googleads.v25.common.Consent
 	(enums.ConversionCustomerTypeEnum_ConversionCustomerType)(0), // 18: google.ads.googleads.v25.enums.ConversionCustomerTypeEnum.ConversionCustomerType
 }
-var file_services_conversion_upload_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_conversion_upload_service_proto_depIdxs = []int32{
 	4,  // 0: google.ads.googleads.v25.services.UploadClickConversionsRequest.conversions:type_name -> google.ads.googleads.v25.services.ClickConversion
 	14, // 1: google.ads.googleads.v25.services.UploadClickConversionsResponse.partial_failure_error:type_name -> google.rpc.Status
 	7,  // 2: google.ads.googleads.v25.services.UploadClickConversionsResponse.results:type_name -> google.ads.googleads.v25.services.ClickConversionResult
@@ -1730,35 +1730,35 @@ var file_services_conversion_upload_service_proto_depIdxs = []int32{
 	0,  // [0:19] is the sub-list for field type_name
 }
 
-func init() { file_services_conversion_upload_service_proto_init() }
-func file_services_conversion_upload_service_proto_init() {
-	if File_services_conversion_upload_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_conversion_upload_service_proto_init() }
+func file_google_ads_googleads_v25_services_conversion_upload_service_proto_init() {
+	if File_google_ads_googleads_v25_services_conversion_upload_service_proto != nil {
 		return
 	}
-	file_services_conversion_upload_service_proto_msgTypes[0].OneofWrappers = []any{}
-	file_services_conversion_upload_service_proto_msgTypes[4].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[0].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[4].OneofWrappers = []any{
 		(*ClickConversion_SessionAttributesEncoded)(nil),
 		(*ClickConversion_SessionAttributesKeyValuePairs)(nil),
 	}
-	file_services_conversion_upload_service_proto_msgTypes[5].OneofWrappers = []any{}
-	file_services_conversion_upload_service_proto_msgTypes[6].OneofWrappers = []any{}
-	file_services_conversion_upload_service_proto_msgTypes[7].OneofWrappers = []any{}
-	file_services_conversion_upload_service_proto_msgTypes[8].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[5].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[6].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[7].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes[8].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_conversion_upload_service_proto_rawDesc), len(file_services_conversion_upload_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_conversion_upload_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   14,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_conversion_upload_service_proto_goTypes,
-		DependencyIndexes: file_services_conversion_upload_service_proto_depIdxs,
-		MessageInfos:      file_services_conversion_upload_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_conversion_upload_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_conversion_upload_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_conversion_upload_service_proto_msgTypes,
 	}.Build()
-	File_services_conversion_upload_service_proto = out.File
-	file_services_conversion_upload_service_proto_goTypes = nil
-	file_services_conversion_upload_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_conversion_upload_service_proto = out.File
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_conversion_upload_service_proto_depIdxs = nil
 }

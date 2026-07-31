@@ -49,7 +49,7 @@ type ListPaymentsAccountsRequest struct {
 
 func (x *ListPaymentsAccountsRequest) Reset() {
 	*x = ListPaymentsAccountsRequest{}
-	mi := &file_services_payments_account_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_payments_account_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -61,7 +61,7 @@ func (x *ListPaymentsAccountsRequest) String() string {
 func (*ListPaymentsAccountsRequest) ProtoMessage() {}
 
 func (x *ListPaymentsAccountsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_payments_account_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_payments_account_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -74,7 +74,7 @@ func (x *ListPaymentsAccountsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPaymentsAccountsRequest.ProtoReflect.Descriptor instead.
 func (*ListPaymentsAccountsRequest) Descriptor() ([]byte, []int) {
-	return file_services_payments_account_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *ListPaymentsAccountsRequest) GetCustomerId() string {
@@ -96,7 +96,7 @@ type ListPaymentsAccountsResponse struct {
 
 func (x *ListPaymentsAccountsResponse) Reset() {
 	*x = ListPaymentsAccountsResponse{}
-	mi := &file_services_payments_account_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_payments_account_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -108,7 +108,7 @@ func (x *ListPaymentsAccountsResponse) String() string {
 func (*ListPaymentsAccountsResponse) ProtoMessage() {}
 
 func (x *ListPaymentsAccountsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_payments_account_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_payments_account_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -121,7 +121,7 @@ func (x *ListPaymentsAccountsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListPaymentsAccountsResponse.ProtoReflect.Descriptor instead.
 func (*ListPaymentsAccountsResponse) Descriptor() ([]byte, []int) {
-	return file_services_payments_account_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *ListPaymentsAccountsResponse) GetPaymentsAccounts() []*resources.PaymentsAccount {
@@ -131,9 +131,9 @@ func (x *ListPaymentsAccountsResponse) GetPaymentsAccounts() []*resources.Paymen
 	return nil
 }
 
-var File_services_payments_account_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_payments_account_service_proto protoreflect.FileDescriptor
 
-var file_services_payments_account_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_payments_account_service_proto_rawDesc = string([]byte{
 	0x0a, 0x40, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x70, 0x61, 0x79, 0x6d, 0x65, 0x6e, 0x74, 0x73, 0x5f, 0x61, 0x63, 0x63,
@@ -203,24 +203,24 @@ var file_services_payments_account_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_payments_account_service_proto_rawDescOnce sync.Once
-	file_services_payments_account_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescData []byte
 )
 
-func file_services_payments_account_service_proto_rawDescGZIP() []byte {
-	file_services_payments_account_service_proto_rawDescOnce.Do(func() {
-		file_services_payments_account_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_payments_account_service_proto_rawDesc), len(file_services_payments_account_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_payments_account_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_payments_account_service_proto_rawDesc)))
 	})
-	return file_services_payments_account_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_payments_account_service_proto_rawDescData
 }
 
-var file_services_payments_account_service_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
-var file_services_payments_account_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_payments_account_service_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
+var file_google_ads_googleads_v25_services_payments_account_service_proto_goTypes = []any{
 	(*ListPaymentsAccountsRequest)(nil),  // 0: google.ads.googleads.v25.services.ListPaymentsAccountsRequest
 	(*ListPaymentsAccountsResponse)(nil), // 1: google.ads.googleads.v25.services.ListPaymentsAccountsResponse
 	(*resources.PaymentsAccount)(nil),    // 2: google.ads.googleads.v25.resources.PaymentsAccount
 }
-var file_services_payments_account_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_payments_account_service_proto_depIdxs = []int32{
 	2, // 0: google.ads.googleads.v25.services.ListPaymentsAccountsResponse.payments_accounts:type_name -> google.ads.googleads.v25.resources.PaymentsAccount
 	0, // 1: google.ads.googleads.v25.services.PaymentsAccountService.ListPaymentsAccounts:input_type -> google.ads.googleads.v25.services.ListPaymentsAccountsRequest
 	1, // 2: google.ads.googleads.v25.services.PaymentsAccountService.ListPaymentsAccounts:output_type -> google.ads.googleads.v25.services.ListPaymentsAccountsResponse
@@ -231,26 +231,26 @@ var file_services_payments_account_service_proto_depIdxs = []int32{
 	0, // [0:1] is the sub-list for field type_name
 }
 
-func init() { file_services_payments_account_service_proto_init() }
-func file_services_payments_account_service_proto_init() {
-	if File_services_payments_account_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_payments_account_service_proto_init() }
+func file_google_ads_googleads_v25_services_payments_account_service_proto_init() {
+	if File_google_ads_googleads_v25_services_payments_account_service_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_payments_account_service_proto_rawDesc), len(file_services_payments_account_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_payments_account_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_payments_account_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   2,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_payments_account_service_proto_goTypes,
-		DependencyIndexes: file_services_payments_account_service_proto_depIdxs,
-		MessageInfos:      file_services_payments_account_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_payments_account_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_payments_account_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_payments_account_service_proto_msgTypes,
 	}.Build()
-	File_services_payments_account_service_proto = out.File
-	file_services_payments_account_service_proto_goTypes = nil
-	file_services_payments_account_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_payments_account_service_proto = out.File
+	file_google_ads_googleads_v25_services_payments_account_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_payments_account_service_proto_depIdxs = nil
 }

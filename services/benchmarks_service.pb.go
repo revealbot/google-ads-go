@@ -50,7 +50,7 @@ type ListBenchmarksAvailableDatesRequest struct {
 
 func (x *ListBenchmarksAvailableDatesRequest) Reset() {
 	*x = ListBenchmarksAvailableDatesRequest{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -62,7 +62,7 @@ func (x *ListBenchmarksAvailableDatesRequest) String() string {
 func (*ListBenchmarksAvailableDatesRequest) ProtoMessage() {}
 
 func (x *ListBenchmarksAvailableDatesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -75,7 +75,7 @@ func (x *ListBenchmarksAvailableDatesRequest) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use ListBenchmarksAvailableDatesRequest.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksAvailableDatesRequest) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *ListBenchmarksAvailableDatesRequest) GetApplicationInfo() *common.AdditionalApplicationInfo {
@@ -98,7 +98,7 @@ type ListBenchmarksAvailableDatesResponse struct {
 
 func (x *ListBenchmarksAvailableDatesResponse) Reset() {
 	*x = ListBenchmarksAvailableDatesResponse{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -110,7 +110,7 @@ func (x *ListBenchmarksAvailableDatesResponse) String() string {
 func (*ListBenchmarksAvailableDatesResponse) ProtoMessage() {}
 
 func (x *ListBenchmarksAvailableDatesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -123,7 +123,7 @@ func (x *ListBenchmarksAvailableDatesResponse) ProtoReflect() protoreflect.Messa
 
 // Deprecated: Use ListBenchmarksAvailableDatesResponse.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksAvailableDatesResponse) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *ListBenchmarksAvailableDatesResponse) GetSupportedDates() *common.DateRange {
@@ -145,7 +145,7 @@ type ListBenchmarksLocationsRequest struct {
 
 func (x *ListBenchmarksLocationsRequest) Reset() {
 	*x = ListBenchmarksLocationsRequest{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -157,7 +157,7 @@ func (x *ListBenchmarksLocationsRequest) String() string {
 func (*ListBenchmarksLocationsRequest) ProtoMessage() {}
 
 func (x *ListBenchmarksLocationsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -170,7 +170,7 @@ func (x *ListBenchmarksLocationsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBenchmarksLocationsRequest.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksLocationsRequest) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *ListBenchmarksLocationsRequest) GetApplicationInfo() *common.AdditionalApplicationInfo {
@@ -192,7 +192,7 @@ type ListBenchmarksLocationsResponse struct {
 
 func (x *ListBenchmarksLocationsResponse) Reset() {
 	*x = ListBenchmarksLocationsResponse{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -204,7 +204,7 @@ func (x *ListBenchmarksLocationsResponse) String() string {
 func (*ListBenchmarksLocationsResponse) ProtoMessage() {}
 
 func (x *ListBenchmarksLocationsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -217,7 +217,7 @@ func (x *ListBenchmarksLocationsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBenchmarksLocationsResponse.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksLocationsResponse) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *ListBenchmarksLocationsResponse) GetBenchmarksLocations() []*BenchmarksLocation {
@@ -243,7 +243,7 @@ type BenchmarksLocation struct {
 
 func (x *BenchmarksLocation) Reset() {
 	*x = BenchmarksLocation{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -255,7 +255,7 @@ func (x *BenchmarksLocation) String() string {
 func (*BenchmarksLocation) ProtoMessage() {}
 
 func (x *BenchmarksLocation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -268,7 +268,7 @@ func (x *BenchmarksLocation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BenchmarksLocation.ProtoReflect.Descriptor instead.
 func (*BenchmarksLocation) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *BenchmarksLocation) GetLocationName() string {
@@ -304,7 +304,7 @@ type ListBenchmarksProductsRequest struct {
 
 func (x *ListBenchmarksProductsRequest) Reset() {
 	*x = ListBenchmarksProductsRequest{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -316,7 +316,7 @@ func (x *ListBenchmarksProductsRequest) String() string {
 func (*ListBenchmarksProductsRequest) ProtoMessage() {}
 
 func (x *ListBenchmarksProductsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -329,7 +329,7 @@ func (x *ListBenchmarksProductsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBenchmarksProductsRequest.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksProductsRequest) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *ListBenchmarksProductsRequest) GetApplicationInfo() *common.AdditionalApplicationInfo {
@@ -351,7 +351,7 @@ type ListBenchmarksProductsResponse struct {
 
 func (x *ListBenchmarksProductsResponse) Reset() {
 	*x = ListBenchmarksProductsResponse{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -363,7 +363,7 @@ func (x *ListBenchmarksProductsResponse) String() string {
 func (*ListBenchmarksProductsResponse) ProtoMessage() {}
 
 func (x *ListBenchmarksProductsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -376,7 +376,7 @@ func (x *ListBenchmarksProductsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBenchmarksProductsResponse.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksProductsResponse) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *ListBenchmarksProductsResponse) GetBenchmarksProducts() []*BenchmarksProductMetadata {
@@ -404,7 +404,7 @@ type BenchmarksProductMetadata struct {
 
 func (x *BenchmarksProductMetadata) Reset() {
 	*x = BenchmarksProductMetadata{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -416,7 +416,7 @@ func (x *BenchmarksProductMetadata) String() string {
 func (*BenchmarksProductMetadata) ProtoMessage() {}
 
 func (x *BenchmarksProductMetadata) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -429,7 +429,7 @@ func (x *BenchmarksProductMetadata) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BenchmarksProductMetadata.ProtoReflect.Descriptor instead.
 func (*BenchmarksProductMetadata) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *BenchmarksProductMetadata) GetProductName() string {
@@ -467,7 +467,7 @@ type ListBenchmarksSourcesRequest struct {
 
 func (x *ListBenchmarksSourcesRequest) Reset() {
 	*x = ListBenchmarksSourcesRequest{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -479,7 +479,7 @@ func (x *ListBenchmarksSourcesRequest) String() string {
 func (*ListBenchmarksSourcesRequest) ProtoMessage() {}
 
 func (x *ListBenchmarksSourcesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -492,7 +492,7 @@ func (x *ListBenchmarksSourcesRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBenchmarksSourcesRequest.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksSourcesRequest) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *ListBenchmarksSourcesRequest) GetBenchmarksSources() []enums.BenchmarksSourceTypeEnum_BenchmarksSourceType {
@@ -521,7 +521,7 @@ type ListBenchmarksSourcesResponse struct {
 
 func (x *ListBenchmarksSourcesResponse) Reset() {
 	*x = ListBenchmarksSourcesResponse{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -533,7 +533,7 @@ func (x *ListBenchmarksSourcesResponse) String() string {
 func (*ListBenchmarksSourcesResponse) ProtoMessage() {}
 
 func (x *ListBenchmarksSourcesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -546,7 +546,7 @@ func (x *ListBenchmarksSourcesResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListBenchmarksSourcesResponse.ProtoReflect.Descriptor instead.
 func (*ListBenchmarksSourcesResponse) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *ListBenchmarksSourcesResponse) GetBenchmarksSources() []*BenchmarksSourceMetadata {
@@ -573,7 +573,7 @@ type BenchmarksSourceMetadata struct {
 
 func (x *BenchmarksSourceMetadata) Reset() {
 	*x = BenchmarksSourceMetadata{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -585,7 +585,7 @@ func (x *BenchmarksSourceMetadata) String() string {
 func (*BenchmarksSourceMetadata) ProtoMessage() {}
 
 func (x *BenchmarksSourceMetadata) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -598,7 +598,7 @@ func (x *BenchmarksSourceMetadata) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BenchmarksSourceMetadata.ProtoReflect.Descriptor instead.
 func (*BenchmarksSourceMetadata) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *BenchmarksSourceMetadata) GetBenchmarksSourceType() enums.BenchmarksSourceTypeEnum_BenchmarksSourceType {
@@ -651,7 +651,7 @@ type IndustryVerticalInfo struct {
 
 func (x *IndustryVerticalInfo) Reset() {
 	*x = IndustryVerticalInfo{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -663,7 +663,7 @@ func (x *IndustryVerticalInfo) String() string {
 func (*IndustryVerticalInfo) ProtoMessage() {}
 
 func (x *IndustryVerticalInfo) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -676,7 +676,7 @@ func (x *IndustryVerticalInfo) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use IndustryVerticalInfo.ProtoReflect.Descriptor instead.
 func (*IndustryVerticalInfo) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{11}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *IndustryVerticalInfo) GetIndustryVerticalName() string {
@@ -736,7 +736,7 @@ type GenerateBenchmarksMetricsRequest struct {
 
 func (x *GenerateBenchmarksMetricsRequest) Reset() {
 	*x = GenerateBenchmarksMetricsRequest{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -748,7 +748,7 @@ func (x *GenerateBenchmarksMetricsRequest) String() string {
 func (*GenerateBenchmarksMetricsRequest) ProtoMessage() {}
 
 func (x *GenerateBenchmarksMetricsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -761,7 +761,7 @@ func (x *GenerateBenchmarksMetricsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateBenchmarksMetricsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateBenchmarksMetricsRequest) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{12}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *GenerateBenchmarksMetricsRequest) GetCustomerId() string {
@@ -844,7 +844,7 @@ type BenchmarksSource struct {
 
 func (x *BenchmarksSource) Reset() {
 	*x = BenchmarksSource{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[13]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -856,7 +856,7 @@ func (x *BenchmarksSource) String() string {
 func (*BenchmarksSource) ProtoMessage() {}
 
 func (x *BenchmarksSource) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[13]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -869,7 +869,7 @@ func (x *BenchmarksSource) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BenchmarksSource.ProtoReflect.Descriptor instead.
 func (*BenchmarksSource) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{13}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{13}
 }
 
 func (x *BenchmarksSource) GetBenchmarksSourceId() isBenchmarksSource_BenchmarksSourceId {
@@ -915,7 +915,7 @@ type ProductFilter struct {
 
 func (x *ProductFilter) Reset() {
 	*x = ProductFilter{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[14]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -927,7 +927,7 @@ func (x *ProductFilter) String() string {
 func (*ProductFilter) ProtoMessage() {}
 
 func (x *ProductFilter) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[14]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -940,7 +940,7 @@ func (x *ProductFilter) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ProductFilter.ProtoReflect.Descriptor instead.
 func (*ProductFilter) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{14}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{14}
 }
 
 func (x *ProductFilter) GetFilterSettings() isProductFilter_FilterSettings {
@@ -1006,7 +1006,7 @@ type BreakdownDefinition struct {
 
 func (x *BreakdownDefinition) Reset() {
 	*x = BreakdownDefinition{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[15]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1018,7 +1018,7 @@ func (x *BreakdownDefinition) String() string {
 func (*BreakdownDefinition) ProtoMessage() {}
 
 func (x *BreakdownDefinition) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[15]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1031,7 +1031,7 @@ func (x *BreakdownDefinition) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BreakdownDefinition.ProtoReflect.Descriptor instead.
 func (*BreakdownDefinition) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{15}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{15}
 }
 
 func (x *BreakdownDefinition) GetDateBreakdown() enums.BenchmarksTimeGranularityEnum_BenchmarksTimeGranularity {
@@ -1057,7 +1057,7 @@ type GenerateBenchmarksMetricsResponse struct {
 
 func (x *GenerateBenchmarksMetricsResponse) Reset() {
 	*x = GenerateBenchmarksMetricsResponse{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[16]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1069,7 +1069,7 @@ func (x *GenerateBenchmarksMetricsResponse) String() string {
 func (*GenerateBenchmarksMetricsResponse) ProtoMessage() {}
 
 func (x *GenerateBenchmarksMetricsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[16]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1082,7 +1082,7 @@ func (x *GenerateBenchmarksMetricsResponse) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use GenerateBenchmarksMetricsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateBenchmarksMetricsResponse) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{16}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{16}
 }
 
 func (x *GenerateBenchmarksMetricsResponse) GetCustomerMetrics() *CustomerMetrics {
@@ -1121,7 +1121,7 @@ type BreakdownMetrics struct {
 
 func (x *BreakdownMetrics) Reset() {
 	*x = BreakdownMetrics{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[17]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1133,7 +1133,7 @@ func (x *BreakdownMetrics) String() string {
 func (*BreakdownMetrics) ProtoMessage() {}
 
 func (x *BreakdownMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[17]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1146,7 +1146,7 @@ func (x *BreakdownMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BreakdownMetrics.ProtoReflect.Descriptor instead.
 func (*BreakdownMetrics) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{17}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{17}
 }
 
 func (x *BreakdownMetrics) GetBreakdownKey() *BreakdownKey {
@@ -1182,7 +1182,7 @@ type BreakdownKey struct {
 
 func (x *BreakdownKey) Reset() {
 	*x = BreakdownKey{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[18]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1194,7 +1194,7 @@ func (x *BreakdownKey) String() string {
 func (*BreakdownKey) ProtoMessage() {}
 
 func (x *BreakdownKey) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[18]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1207,7 +1207,7 @@ func (x *BreakdownKey) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use BreakdownKey.ProtoReflect.Descriptor instead.
 func (*BreakdownKey) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{18}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{18}
 }
 
 func (x *BreakdownKey) GetDates() *common.DateRange {
@@ -1228,7 +1228,7 @@ type Metrics struct {
 
 func (x *Metrics) Reset() {
 	*x = Metrics{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[19]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1240,7 +1240,7 @@ func (x *Metrics) String() string {
 func (*Metrics) ProtoMessage() {}
 
 func (x *Metrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[19]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1253,7 +1253,7 @@ func (x *Metrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Metrics.ProtoReflect.Descriptor instead.
 func (*Metrics) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{19}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{19}
 }
 
 func (x *Metrics) GetAverageRateMetrics() *RateMetrics {
@@ -1274,7 +1274,7 @@ type CustomerMetrics struct {
 
 func (x *CustomerMetrics) Reset() {
 	*x = CustomerMetrics{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[20]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1286,7 +1286,7 @@ func (x *CustomerMetrics) String() string {
 func (*CustomerMetrics) ProtoMessage() {}
 
 func (x *CustomerMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[20]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1299,7 +1299,7 @@ func (x *CustomerMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CustomerMetrics.ProtoReflect.Descriptor instead.
 func (*CustomerMetrics) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{20}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{20}
 }
 
 func (x *CustomerMetrics) GetAverageRateMetrics() *RateMetrics {
@@ -1359,7 +1359,7 @@ type RateMetrics struct {
 
 func (x *RateMetrics) Reset() {
 	*x = RateMetrics{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[21]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1371,7 +1371,7 @@ func (x *RateMetrics) String() string {
 func (*RateMetrics) ProtoMessage() {}
 
 func (x *RateMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[21]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1384,7 +1384,7 @@ func (x *RateMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use RateMetrics.ProtoReflect.Descriptor instead.
 func (*RateMetrics) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{21}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{21}
 }
 
 func (x *RateMetrics) GetAverageCpm() float64 {
@@ -1503,7 +1503,7 @@ type ProductFilter_ProductList struct {
 
 func (x *ProductFilter_ProductList) Reset() {
 	*x = ProductFilter_ProductList{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[22]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1515,7 +1515,7 @@ func (x *ProductFilter_ProductList) String() string {
 func (*ProductFilter_ProductList) ProtoMessage() {}
 
 func (x *ProductFilter_ProductList) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[22]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1528,7 +1528,7 @@ func (x *ProductFilter_ProductList) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ProductFilter_ProductList.ProtoReflect.Descriptor instead.
 func (*ProductFilter_ProductList) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{14, 0}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{14, 0}
 }
 
 func (x *ProductFilter_ProductList) GetProductCodes() []string {
@@ -1549,7 +1549,7 @@ type ProductFilter_MarketingObjectiveList struct {
 
 func (x *ProductFilter_MarketingObjectiveList) Reset() {
 	*x = ProductFilter_MarketingObjectiveList{}
-	mi := &file_services_benchmarks_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[23]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1561,7 +1561,7 @@ func (x *ProductFilter_MarketingObjectiveList) String() string {
 func (*ProductFilter_MarketingObjectiveList) ProtoMessage() {}
 
 func (x *ProductFilter_MarketingObjectiveList) ProtoReflect() protoreflect.Message {
-	mi := &file_services_benchmarks_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[23]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1574,7 +1574,7 @@ func (x *ProductFilter_MarketingObjectiveList) ProtoReflect() protoreflect.Messa
 
 // Deprecated: Use ProductFilter_MarketingObjectiveList.ProtoReflect.Descriptor instead.
 func (*ProductFilter_MarketingObjectiveList) Descriptor() ([]byte, []int) {
-	return file_services_benchmarks_service_proto_rawDescGZIP(), []int{14, 1}
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP(), []int{14, 1}
 }
 
 func (x *ProductFilter_MarketingObjectiveList) GetMarketingObjectives() []enums.BenchmarksMarketingObjectiveEnum_BenchmarksMarketingObjective {
@@ -1584,9 +1584,9 @@ func (x *ProductFilter_MarketingObjectiveList) GetMarketingObjectives() []enums.
 	return nil
 }
 
-var File_services_benchmarks_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_benchmarks_service_proto protoreflect.FileDescriptor
 
-var file_services_benchmarks_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3a, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x62, 0x65, 0x6e, 0x63, 0x68, 0x6d, 0x61, 0x72, 0x6b, 0x73, 0x5f, 0x73,
@@ -2051,19 +2051,19 @@ var file_services_benchmarks_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_benchmarks_service_proto_rawDescOnce sync.Once
-	file_services_benchmarks_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescData []byte
 )
 
-func file_services_benchmarks_service_proto_rawDescGZIP() []byte {
-	file_services_benchmarks_service_proto_rawDescOnce.Do(func() {
-		file_services_benchmarks_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_benchmarks_service_proto_rawDesc), len(file_services_benchmarks_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDesc)))
 	})
-	return file_services_benchmarks_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDescData
 }
 
-var file_services_benchmarks_service_proto_msgTypes = make([]protoimpl.MessageInfo, 24)
-var file_services_benchmarks_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes = make([]protoimpl.MessageInfo, 24)
+var file_google_ads_googleads_v25_services_benchmarks_service_proto_goTypes = []any{
 	(*ListBenchmarksAvailableDatesRequest)(nil),                              // 0: google.ads.googleads.v25.services.ListBenchmarksAvailableDatesRequest
 	(*ListBenchmarksAvailableDatesResponse)(nil),                             // 1: google.ads.googleads.v25.services.ListBenchmarksAvailableDatesResponse
 	(*ListBenchmarksLocationsRequest)(nil),                                   // 2: google.ads.googleads.v25.services.ListBenchmarksLocationsRequest
@@ -2095,7 +2095,7 @@ var file_services_benchmarks_service_proto_goTypes = []any{
 	(enums.BenchmarksSourceTypeEnum_BenchmarksSourceType)(0),                 // 28: google.ads.googleads.v25.enums.BenchmarksSourceTypeEnum.BenchmarksSourceType
 	(enums.BenchmarksTimeGranularityEnum_BenchmarksTimeGranularity)(0),       // 29: google.ads.googleads.v25.enums.BenchmarksTimeGranularityEnum.BenchmarksTimeGranularity
 }
-var file_services_benchmarks_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_benchmarks_service_proto_depIdxs = []int32{
 	24, // 0: google.ads.googleads.v25.services.ListBenchmarksAvailableDatesRequest.application_info:type_name -> google.ads.googleads.v25.common.AdditionalApplicationInfo
 	25, // 1: google.ads.googleads.v25.services.ListBenchmarksAvailableDatesResponse.supported_dates:type_name -> google.ads.googleads.v25.common.DateRange
 	24, // 2: google.ads.googleads.v25.services.ListBenchmarksLocationsRequest.application_info:type_name -> google.ads.googleads.v25.common.AdditionalApplicationInfo
@@ -2145,18 +2145,18 @@ var file_services_benchmarks_service_proto_depIdxs = []int32{
 	0,  // [0:32] is the sub-list for field type_name
 }
 
-func init() { file_services_benchmarks_service_proto_init() }
-func file_services_benchmarks_service_proto_init() {
-	if File_services_benchmarks_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_benchmarks_service_proto_init() }
+func file_google_ads_googleads_v25_services_benchmarks_service_proto_init() {
+	if File_google_ads_googleads_v25_services_benchmarks_service_proto != nil {
 		return
 	}
-	file_services_benchmarks_service_proto_msgTypes[10].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[10].OneofWrappers = []any{
 		(*BenchmarksSourceMetadata_IndustryVerticalInfo)(nil),
 	}
-	file_services_benchmarks_service_proto_msgTypes[13].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[13].OneofWrappers = []any{
 		(*BenchmarksSource_IndustryVerticalId)(nil),
 	}
-	file_services_benchmarks_service_proto_msgTypes[14].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes[14].OneofWrappers = []any{
 		(*ProductFilter_ProductList_)(nil),
 		(*ProductFilter_MarketingObjectiveList_)(nil),
 	}
@@ -2164,17 +2164,17 @@ func file_services_benchmarks_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_benchmarks_service_proto_rawDesc), len(file_services_benchmarks_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_benchmarks_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   24,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_benchmarks_service_proto_goTypes,
-		DependencyIndexes: file_services_benchmarks_service_proto_depIdxs,
-		MessageInfos:      file_services_benchmarks_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_benchmarks_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_benchmarks_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_benchmarks_service_proto_msgTypes,
 	}.Build()
-	File_services_benchmarks_service_proto = out.File
-	file_services_benchmarks_service_proto_goTypes = nil
-	file_services_benchmarks_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_benchmarks_service_proto = out.File
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_benchmarks_service_proto_depIdxs = nil
 }

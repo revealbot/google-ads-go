@@ -92,7 +92,7 @@ type GenerateKeywordIdeasRequest struct {
 
 func (x *GenerateKeywordIdeasRequest) Reset() {
 	*x = GenerateKeywordIdeasRequest{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -104,7 +104,7 @@ func (x *GenerateKeywordIdeasRequest) String() string {
 func (*GenerateKeywordIdeasRequest) ProtoMessage() {}
 
 func (x *GenerateKeywordIdeasRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -117,7 +117,7 @@ func (x *GenerateKeywordIdeasRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateKeywordIdeasRequest.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordIdeasRequest) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *GenerateKeywordIdeasRequest) GetCustomerId() string {
@@ -279,7 +279,7 @@ type KeywordAndUrlSeed struct {
 
 func (x *KeywordAndUrlSeed) Reset() {
 	*x = KeywordAndUrlSeed{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -291,7 +291,7 @@ func (x *KeywordAndUrlSeed) String() string {
 func (*KeywordAndUrlSeed) ProtoMessage() {}
 
 func (x *KeywordAndUrlSeed) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -304,7 +304,7 @@ func (x *KeywordAndUrlSeed) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use KeywordAndUrlSeed.ProtoReflect.Descriptor instead.
 func (*KeywordAndUrlSeed) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *KeywordAndUrlSeed) GetUrl() string {
@@ -332,7 +332,7 @@ type KeywordSeed struct {
 
 func (x *KeywordSeed) Reset() {
 	*x = KeywordSeed{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -344,7 +344,7 @@ func (x *KeywordSeed) String() string {
 func (*KeywordSeed) ProtoMessage() {}
 
 func (x *KeywordSeed) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -357,7 +357,7 @@ func (x *KeywordSeed) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use KeywordSeed.ProtoReflect.Descriptor instead.
 func (*KeywordSeed) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *KeywordSeed) GetKeywords() []string {
@@ -379,7 +379,7 @@ type SiteSeed struct {
 
 func (x *SiteSeed) Reset() {
 	*x = SiteSeed{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -391,7 +391,7 @@ func (x *SiteSeed) String() string {
 func (*SiteSeed) ProtoMessage() {}
 
 func (x *SiteSeed) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -404,7 +404,7 @@ func (x *SiteSeed) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SiteSeed.ProtoReflect.Descriptor instead.
 func (*SiteSeed) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *SiteSeed) GetSite() string {
@@ -425,7 +425,7 @@ type UrlSeed struct {
 
 func (x *UrlSeed) Reset() {
 	*x = UrlSeed{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -437,7 +437,7 @@ func (x *UrlSeed) String() string {
 func (*UrlSeed) ProtoMessage() {}
 
 func (x *UrlSeed) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -450,7 +450,7 @@ func (x *UrlSeed) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UrlSeed.ProtoReflect.Descriptor instead.
 func (*UrlSeed) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *UrlSeed) GetUrl() string {
@@ -481,7 +481,7 @@ type GenerateKeywordIdeaResponse struct {
 
 func (x *GenerateKeywordIdeaResponse) Reset() {
 	*x = GenerateKeywordIdeaResponse{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -493,7 +493,7 @@ func (x *GenerateKeywordIdeaResponse) String() string {
 func (*GenerateKeywordIdeaResponse) ProtoMessage() {}
 
 func (x *GenerateKeywordIdeaResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -506,7 +506,7 @@ func (x *GenerateKeywordIdeaResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateKeywordIdeaResponse.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordIdeaResponse) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *GenerateKeywordIdeaResponse) GetResults() []*GenerateKeywordIdeaResult {
@@ -561,7 +561,7 @@ type GenerateKeywordIdeaResult struct {
 
 func (x *GenerateKeywordIdeaResult) Reset() {
 	*x = GenerateKeywordIdeaResult{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -573,7 +573,7 @@ func (x *GenerateKeywordIdeaResult) String() string {
 func (*GenerateKeywordIdeaResult) ProtoMessage() {}
 
 func (x *GenerateKeywordIdeaResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -586,7 +586,7 @@ func (x *GenerateKeywordIdeaResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateKeywordIdeaResult.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordIdeaResult) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *GenerateKeywordIdeaResult) GetText() string {
@@ -653,7 +653,7 @@ type GenerateKeywordHistoricalMetricsRequest struct {
 
 func (x *GenerateKeywordHistoricalMetricsRequest) Reset() {
 	*x = GenerateKeywordHistoricalMetricsRequest{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -665,7 +665,7 @@ func (x *GenerateKeywordHistoricalMetricsRequest) String() string {
 func (*GenerateKeywordHistoricalMetricsRequest) ProtoMessage() {}
 
 func (x *GenerateKeywordHistoricalMetricsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -678,7 +678,7 @@ func (x *GenerateKeywordHistoricalMetricsRequest) ProtoReflect() protoreflect.Me
 
 // Deprecated: Use GenerateKeywordHistoricalMetricsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordHistoricalMetricsRequest) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *GenerateKeywordHistoricalMetricsRequest) GetCustomerId() string {
@@ -751,7 +751,7 @@ type GenerateKeywordHistoricalMetricsResponse struct {
 
 func (x *GenerateKeywordHistoricalMetricsResponse) Reset() {
 	*x = GenerateKeywordHistoricalMetricsResponse{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -763,7 +763,7 @@ func (x *GenerateKeywordHistoricalMetricsResponse) String() string {
 func (*GenerateKeywordHistoricalMetricsResponse) ProtoMessage() {}
 
 func (x *GenerateKeywordHistoricalMetricsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -776,7 +776,7 @@ func (x *GenerateKeywordHistoricalMetricsResponse) ProtoReflect() protoreflect.M
 
 // Deprecated: Use GenerateKeywordHistoricalMetricsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordHistoricalMetricsResponse) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *GenerateKeywordHistoricalMetricsResponse) GetResults() []*GenerateKeywordHistoricalMetricsResult {
@@ -814,7 +814,7 @@ type GenerateKeywordHistoricalMetricsResult struct {
 
 func (x *GenerateKeywordHistoricalMetricsResult) Reset() {
 	*x = GenerateKeywordHistoricalMetricsResult{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -826,7 +826,7 @@ func (x *GenerateKeywordHistoricalMetricsResult) String() string {
 func (*GenerateKeywordHistoricalMetricsResult) ProtoMessage() {}
 
 func (x *GenerateKeywordHistoricalMetricsResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -839,7 +839,7 @@ func (x *GenerateKeywordHistoricalMetricsResult) ProtoReflect() protoreflect.Mes
 
 // Deprecated: Use GenerateKeywordHistoricalMetricsResult.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordHistoricalMetricsResult) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *GenerateKeywordHistoricalMetricsResult) GetText() string {
@@ -881,7 +881,7 @@ type GenerateAdGroupThemesRequest struct {
 
 func (x *GenerateAdGroupThemesRequest) Reset() {
 	*x = GenerateAdGroupThemesRequest{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -893,7 +893,7 @@ func (x *GenerateAdGroupThemesRequest) String() string {
 func (*GenerateAdGroupThemesRequest) ProtoMessage() {}
 
 func (x *GenerateAdGroupThemesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -906,7 +906,7 @@ func (x *GenerateAdGroupThemesRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateAdGroupThemesRequest.ProtoReflect.Descriptor instead.
 func (*GenerateAdGroupThemesRequest) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *GenerateAdGroupThemesRequest) GetCustomerId() string {
@@ -944,7 +944,7 @@ type GenerateAdGroupThemesResponse struct {
 
 func (x *GenerateAdGroupThemesResponse) Reset() {
 	*x = GenerateAdGroupThemesResponse{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -956,7 +956,7 @@ func (x *GenerateAdGroupThemesResponse) String() string {
 func (*GenerateAdGroupThemesResponse) ProtoMessage() {}
 
 func (x *GenerateAdGroupThemesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -969,7 +969,7 @@ func (x *GenerateAdGroupThemesResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateAdGroupThemesResponse.ProtoReflect.Descriptor instead.
 func (*GenerateAdGroupThemesResponse) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{11}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *GenerateAdGroupThemesResponse) GetAdGroupKeywordSuggestions() []*AdGroupKeywordSuggestion {
@@ -1007,7 +1007,7 @@ type AdGroupKeywordSuggestion struct {
 
 func (x *AdGroupKeywordSuggestion) Reset() {
 	*x = AdGroupKeywordSuggestion{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1019,7 +1019,7 @@ func (x *AdGroupKeywordSuggestion) String() string {
 func (*AdGroupKeywordSuggestion) ProtoMessage() {}
 
 func (x *AdGroupKeywordSuggestion) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1032,7 +1032,7 @@ func (x *AdGroupKeywordSuggestion) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AdGroupKeywordSuggestion.ProtoReflect.Descriptor instead.
 func (*AdGroupKeywordSuggestion) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{12}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *AdGroupKeywordSuggestion) GetKeywordText() string {
@@ -1090,7 +1090,7 @@ type UnusableAdGroup struct {
 
 func (x *UnusableAdGroup) Reset() {
 	*x = UnusableAdGroup{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[13]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1102,7 +1102,7 @@ func (x *UnusableAdGroup) String() string {
 func (*UnusableAdGroup) ProtoMessage() {}
 
 func (x *UnusableAdGroup) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[13]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1115,7 +1115,7 @@ func (x *UnusableAdGroup) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UnusableAdGroup.ProtoReflect.Descriptor instead.
 func (*UnusableAdGroup) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{13}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{13}
 }
 
 func (x *UnusableAdGroup) GetAdGroup() string {
@@ -1157,7 +1157,7 @@ type GenerateKeywordForecastMetricsRequest struct {
 
 func (x *GenerateKeywordForecastMetricsRequest) Reset() {
 	*x = GenerateKeywordForecastMetricsRequest{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[14]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1169,7 +1169,7 @@ func (x *GenerateKeywordForecastMetricsRequest) String() string {
 func (*GenerateKeywordForecastMetricsRequest) ProtoMessage() {}
 
 func (x *GenerateKeywordForecastMetricsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[14]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1182,7 +1182,7 @@ func (x *GenerateKeywordForecastMetricsRequest) ProtoReflect() protoreflect.Mess
 
 // Deprecated: Use GenerateKeywordForecastMetricsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordForecastMetricsRequest) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{14}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{14}
 }
 
 func (x *GenerateKeywordForecastMetricsRequest) GetCustomerId() string {
@@ -1234,7 +1234,7 @@ type CampaignToForecast struct {
 
 func (x *CampaignToForecast) Reset() {
 	*x = CampaignToForecast{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[15]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1246,7 +1246,7 @@ func (x *CampaignToForecast) String() string {
 func (*CampaignToForecast) ProtoMessage() {}
 
 func (x *CampaignToForecast) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[15]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1259,7 +1259,7 @@ func (x *CampaignToForecast) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CampaignToForecast.ProtoReflect.Descriptor instead.
 func (*CampaignToForecast) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{15}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{15}
 }
 
 func (x *CampaignToForecast) GetLanguageConstants() []string {
@@ -1302,7 +1302,7 @@ type ForecastAdGroup struct {
 
 func (x *ForecastAdGroup) Reset() {
 	*x = ForecastAdGroup{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[16]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1314,7 +1314,7 @@ func (x *ForecastAdGroup) String() string {
 func (*ForecastAdGroup) ProtoMessage() {}
 
 func (x *ForecastAdGroup) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[16]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1327,7 +1327,7 @@ func (x *ForecastAdGroup) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ForecastAdGroup.ProtoReflect.Descriptor instead.
 func (*ForecastAdGroup) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{16}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{16}
 }
 
 func (x *ForecastAdGroup) GetKeywords() []*common.KeywordInfo {
@@ -1353,7 +1353,7 @@ type ManualCpcBiddingStrategy struct {
 
 func (x *ManualCpcBiddingStrategy) Reset() {
 	*x = ManualCpcBiddingStrategy{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[17]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1365,7 +1365,7 @@ func (x *ManualCpcBiddingStrategy) String() string {
 func (*ManualCpcBiddingStrategy) ProtoMessage() {}
 
 func (x *ManualCpcBiddingStrategy) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[17]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1378,7 +1378,7 @@ func (x *ManualCpcBiddingStrategy) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ManualCpcBiddingStrategy.ProtoReflect.Descriptor instead.
 func (*ManualCpcBiddingStrategy) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{17}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{17}
 }
 
 func (x *ManualCpcBiddingStrategy) GetDailyBudgetMicros() int64 {
@@ -1410,7 +1410,7 @@ type MaximizeClicksBiddingStrategy struct {
 
 func (x *MaximizeClicksBiddingStrategy) Reset() {
 	*x = MaximizeClicksBiddingStrategy{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[18]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1422,7 +1422,7 @@ func (x *MaximizeClicksBiddingStrategy) String() string {
 func (*MaximizeClicksBiddingStrategy) ProtoMessage() {}
 
 func (x *MaximizeClicksBiddingStrategy) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[18]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1435,7 +1435,7 @@ func (x *MaximizeClicksBiddingStrategy) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MaximizeClicksBiddingStrategy.ProtoReflect.Descriptor instead.
 func (*MaximizeClicksBiddingStrategy) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{18}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{18}
 }
 
 func (x *MaximizeClicksBiddingStrategy) GetDailyTargetSpendMicros() int64 {
@@ -1464,7 +1464,7 @@ type MaximizeConversionsBiddingStrategy struct {
 
 func (x *MaximizeConversionsBiddingStrategy) Reset() {
 	*x = MaximizeConversionsBiddingStrategy{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[19]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1476,7 +1476,7 @@ func (x *MaximizeConversionsBiddingStrategy) String() string {
 func (*MaximizeConversionsBiddingStrategy) ProtoMessage() {}
 
 func (x *MaximizeConversionsBiddingStrategy) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[19]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1489,7 +1489,7 @@ func (x *MaximizeConversionsBiddingStrategy) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use MaximizeConversionsBiddingStrategy.ProtoReflect.Descriptor instead.
 func (*MaximizeConversionsBiddingStrategy) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{19}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{19}
 }
 
 func (x *MaximizeConversionsBiddingStrategy) GetDailyTargetSpendMicros() int64 {
@@ -1511,7 +1511,7 @@ type GenerateKeywordForecastMetricsResponse struct {
 
 func (x *GenerateKeywordForecastMetricsResponse) Reset() {
 	*x = GenerateKeywordForecastMetricsResponse{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[20]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1523,7 +1523,7 @@ func (x *GenerateKeywordForecastMetricsResponse) String() string {
 func (*GenerateKeywordForecastMetricsResponse) ProtoMessage() {}
 
 func (x *GenerateKeywordForecastMetricsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[20]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1536,7 +1536,7 @@ func (x *GenerateKeywordForecastMetricsResponse) ProtoReflect() protoreflect.Mes
 
 // Deprecated: Use GenerateKeywordForecastMetricsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateKeywordForecastMetricsResponse) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{20}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{20}
 }
 
 func (x *GenerateKeywordForecastMetricsResponse) GetCampaignForecastMetrics() *KeywordForecastMetrics {
@@ -1571,7 +1571,7 @@ type KeywordForecastMetrics struct {
 
 func (x *KeywordForecastMetrics) Reset() {
 	*x = KeywordForecastMetrics{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[21]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1583,7 +1583,7 @@ func (x *KeywordForecastMetrics) String() string {
 func (*KeywordForecastMetrics) ProtoMessage() {}
 
 func (x *KeywordForecastMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[21]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1596,7 +1596,7 @@ func (x *KeywordForecastMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use KeywordForecastMetrics.ProtoReflect.Descriptor instead.
 func (*KeywordForecastMetrics) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{21}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{21}
 }
 
 func (x *KeywordForecastMetrics) GetAverageCpcMicros() int64 {
@@ -1651,7 +1651,7 @@ type CampaignToForecast_CampaignBiddingStrategy struct {
 
 func (x *CampaignToForecast_CampaignBiddingStrategy) Reset() {
 	*x = CampaignToForecast_CampaignBiddingStrategy{}
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[22]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1663,7 +1663,7 @@ func (x *CampaignToForecast_CampaignBiddingStrategy) String() string {
 func (*CampaignToForecast_CampaignBiddingStrategy) ProtoMessage() {}
 
 func (x *CampaignToForecast_CampaignBiddingStrategy) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_idea_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[22]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1676,7 +1676,7 @@ func (x *CampaignToForecast_CampaignBiddingStrategy) ProtoReflect() protoreflect
 
 // Deprecated: Use CampaignToForecast_CampaignBiddingStrategy.ProtoReflect.Descriptor instead.
 func (*CampaignToForecast_CampaignBiddingStrategy) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{15, 0}
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP(), []int{15, 0}
 }
 
 func (x *CampaignToForecast_CampaignBiddingStrategy) GetBiddingStrategy() isCampaignToForecast_CampaignBiddingStrategy_BiddingStrategy {
@@ -1741,9 +1741,9 @@ func (*CampaignToForecast_CampaignBiddingStrategy_MaximizeClicksBiddingStrategy)
 func (*CampaignToForecast_CampaignBiddingStrategy_MaximizeConversionsBiddingStrategy) isCampaignToForecast_CampaignBiddingStrategy_BiddingStrategy() {
 }
 
-var File_services_keyword_plan_idea_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_keyword_plan_idea_service_proto protoreflect.FileDescriptor
 
-var file_services_keyword_plan_idea_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDesc = string([]byte{
 	0x0a, 0x41, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x6b, 0x65, 0x79, 0x77, 0x6f, 0x72, 0x64, 0x5f, 0x70, 0x6c, 0x61, 0x6e,
@@ -2245,19 +2245,19 @@ var file_services_keyword_plan_idea_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_keyword_plan_idea_service_proto_rawDescOnce sync.Once
-	file_services_keyword_plan_idea_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescData []byte
 )
 
-func file_services_keyword_plan_idea_service_proto_rawDescGZIP() []byte {
-	file_services_keyword_plan_idea_service_proto_rawDescOnce.Do(func() {
-		file_services_keyword_plan_idea_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_keyword_plan_idea_service_proto_rawDesc), len(file_services_keyword_plan_idea_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDesc)))
 	})
-	return file_services_keyword_plan_idea_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDescData
 }
 
-var file_services_keyword_plan_idea_service_proto_msgTypes = make([]protoimpl.MessageInfo, 23)
-var file_services_keyword_plan_idea_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes = make([]protoimpl.MessageInfo, 23)
+var file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_goTypes = []any{
 	(*GenerateKeywordIdeasRequest)(nil),                                      // 0: google.ads.googleads.v25.services.GenerateKeywordIdeasRequest
 	(*KeywordAndUrlSeed)(nil),                                                // 1: google.ads.googleads.v25.services.KeywordAndUrlSeed
 	(*KeywordSeed)(nil),                                                      // 2: google.ads.googleads.v25.services.KeywordSeed
@@ -2292,7 +2292,7 @@ var file_services_keyword_plan_idea_service_proto_goTypes = []any{
 	(*common.DateRange)(nil),                                                 // 31: google.ads.googleads.v25.common.DateRange
 	(*common.KeywordInfo)(nil),                                               // 32: google.ads.googleads.v25.common.KeywordInfo
 }
-var file_services_keyword_plan_idea_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_depIdxs = []int32{
 	23, // 0: google.ads.googleads.v25.services.GenerateKeywordIdeasRequest.keyword_plan_network:type_name -> google.ads.googleads.v25.enums.KeywordPlanNetworkEnum.KeywordPlanNetwork
 	24, // 1: google.ads.googleads.v25.services.GenerateKeywordIdeasRequest.keyword_annotation:type_name -> google.ads.googleads.v25.enums.KeywordPlanKeywordAnnotationEnum.KeywordPlanKeywordAnnotation
 	25, // 2: google.ads.googleads.v25.services.GenerateKeywordIdeasRequest.aggregate_metrics:type_name -> google.ads.googleads.v25.common.KeywordPlanAggregateMetrics
@@ -2338,29 +2338,29 @@ var file_services_keyword_plan_idea_service_proto_depIdxs = []int32{
 	0,  // [0:30] is the sub-list for field type_name
 }
 
-func init() { file_services_keyword_plan_idea_service_proto_init() }
-func file_services_keyword_plan_idea_service_proto_init() {
-	if File_services_keyword_plan_idea_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_init() }
+func file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_init() {
+	if File_google_ads_googleads_v25_services_keyword_plan_idea_service_proto != nil {
 		return
 	}
-	file_services_keyword_plan_idea_service_proto_msgTypes[0].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[0].OneofWrappers = []any{
 		(*GenerateKeywordIdeasRequest_KeywordAndUrlSeed)(nil),
 		(*GenerateKeywordIdeasRequest_KeywordSeed)(nil),
 		(*GenerateKeywordIdeasRequest_UrlSeed)(nil),
 		(*GenerateKeywordIdeasRequest_SiteSeed)(nil),
 	}
-	file_services_keyword_plan_idea_service_proto_msgTypes[1].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[3].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[4].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[6].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[7].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[9].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[14].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[17].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[18].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[20].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[21].OneofWrappers = []any{}
-	file_services_keyword_plan_idea_service_proto_msgTypes[22].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[1].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[3].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[4].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[6].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[7].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[9].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[14].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[17].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[18].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[20].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[21].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes[22].OneofWrappers = []any{
 		(*CampaignToForecast_CampaignBiddingStrategy_ManualCpcBiddingStrategy)(nil),
 		(*CampaignToForecast_CampaignBiddingStrategy_MaximizeClicksBiddingStrategy)(nil),
 		(*CampaignToForecast_CampaignBiddingStrategy_MaximizeConversionsBiddingStrategy)(nil),
@@ -2369,17 +2369,17 @@ func file_services_keyword_plan_idea_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_keyword_plan_idea_service_proto_rawDesc), len(file_services_keyword_plan_idea_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   23,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_keyword_plan_idea_service_proto_goTypes,
-		DependencyIndexes: file_services_keyword_plan_idea_service_proto_depIdxs,
-		MessageInfos:      file_services_keyword_plan_idea_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_msgTypes,
 	}.Build()
-	File_services_keyword_plan_idea_service_proto = out.File
-	file_services_keyword_plan_idea_service_proto_goTypes = nil
-	file_services_keyword_plan_idea_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_keyword_plan_idea_service_proto = out.File
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_keyword_plan_idea_service_proto_depIdxs = nil
 }

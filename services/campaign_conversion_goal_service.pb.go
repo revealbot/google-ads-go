@@ -57,7 +57,7 @@ type MutateCampaignConversionGoalsRequest struct {
 
 func (x *MutateCampaignConversionGoalsRequest) Reset() {
 	*x = MutateCampaignConversionGoalsRequest{}
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -69,7 +69,7 @@ func (x *MutateCampaignConversionGoalsRequest) String() string {
 func (*MutateCampaignConversionGoalsRequest) ProtoMessage() {}
 
 func (x *MutateCampaignConversionGoalsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -82,7 +82,7 @@ func (x *MutateCampaignConversionGoalsRequest) ProtoReflect() protoreflect.Messa
 
 // Deprecated: Use MutateCampaignConversionGoalsRequest.ProtoReflect.Descriptor instead.
 func (*MutateCampaignConversionGoalsRequest) Descriptor() ([]byte, []int) {
-	return file_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateCampaignConversionGoalsRequest) GetCustomerId() string {
@@ -123,7 +123,7 @@ type CampaignConversionGoalOperation struct {
 
 func (x *CampaignConversionGoalOperation) Reset() {
 	*x = CampaignConversionGoalOperation{}
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -135,7 +135,7 @@ func (x *CampaignConversionGoalOperation) String() string {
 func (*CampaignConversionGoalOperation) ProtoMessage() {}
 
 func (x *CampaignConversionGoalOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -148,7 +148,7 @@ func (x *CampaignConversionGoalOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CampaignConversionGoalOperation.ProtoReflect.Descriptor instead.
 func (*CampaignConversionGoalOperation) Descriptor() ([]byte, []int) {
-	return file_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CampaignConversionGoalOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -197,7 +197,7 @@ type MutateCampaignConversionGoalsResponse struct {
 
 func (x *MutateCampaignConversionGoalsResponse) Reset() {
 	*x = MutateCampaignConversionGoalsResponse{}
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -209,7 +209,7 @@ func (x *MutateCampaignConversionGoalsResponse) String() string {
 func (*MutateCampaignConversionGoalsResponse) ProtoMessage() {}
 
 func (x *MutateCampaignConversionGoalsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -222,7 +222,7 @@ func (x *MutateCampaignConversionGoalsResponse) ProtoReflect() protoreflect.Mess
 
 // Deprecated: Use MutateCampaignConversionGoalsResponse.ProtoReflect.Descriptor instead.
 func (*MutateCampaignConversionGoalsResponse) Descriptor() ([]byte, []int) {
-	return file_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateCampaignConversionGoalsResponse) GetResults() []*MutateCampaignConversionGoalResult {
@@ -243,7 +243,7 @@ type MutateCampaignConversionGoalResult struct {
 
 func (x *MutateCampaignConversionGoalResult) Reset() {
 	*x = MutateCampaignConversionGoalResult{}
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -255,7 +255,7 @@ func (x *MutateCampaignConversionGoalResult) String() string {
 func (*MutateCampaignConversionGoalResult) ProtoMessage() {}
 
 func (x *MutateCampaignConversionGoalResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_campaign_conversion_goal_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -268,7 +268,7 @@ func (x *MutateCampaignConversionGoalResult) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use MutateCampaignConversionGoalResult.ProtoReflect.Descriptor instead.
 func (*MutateCampaignConversionGoalResult) Descriptor() ([]byte, []int) {
-	return file_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateCampaignConversionGoalResult) GetResourceName() string {
@@ -278,9 +278,9 @@ func (x *MutateCampaignConversionGoalResult) GetResourceName() string {
 	return ""
 }
 
-var File_services_campaign_conversion_goal_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto protoreflect.FileDescriptor
 
-var file_services_campaign_conversion_goal_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDesc = string([]byte{
 	0x0a, 0x48, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x61, 0x6d, 0x70, 0x61, 0x69, 0x67, 0x6e, 0x5f, 0x63, 0x6f, 0x6e,
@@ -389,19 +389,19 @@ var file_services_campaign_conversion_goal_service_proto_rawDesc = string([]byte
 })
 
 var (
-	file_services_campaign_conversion_goal_service_proto_rawDescOnce sync.Once
-	file_services_campaign_conversion_goal_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescData []byte
 )
 
-func file_services_campaign_conversion_goal_service_proto_rawDescGZIP() []byte {
-	file_services_campaign_conversion_goal_service_proto_rawDescOnce.Do(func() {
-		file_services_campaign_conversion_goal_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_campaign_conversion_goal_service_proto_rawDesc), len(file_services_campaign_conversion_goal_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDesc)))
 	})
-	return file_services_campaign_conversion_goal_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDescData
 }
 
-var file_services_campaign_conversion_goal_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_campaign_conversion_goal_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_goTypes = []any{
 	(*MutateCampaignConversionGoalsRequest)(nil),  // 0: google.ads.googleads.v25.services.MutateCampaignConversionGoalsRequest
 	(*CampaignConversionGoalOperation)(nil),       // 1: google.ads.googleads.v25.services.CampaignConversionGoalOperation
 	(*MutateCampaignConversionGoalsResponse)(nil), // 2: google.ads.googleads.v25.services.MutateCampaignConversionGoalsResponse
@@ -409,7 +409,7 @@ var file_services_campaign_conversion_goal_service_proto_goTypes = []any{
 	(*fieldmaskpb.FieldMask)(nil),                 // 4: google.protobuf.FieldMask
 	(*resources.CampaignConversionGoal)(nil),      // 5: google.ads.googleads.v25.resources.CampaignConversionGoal
 }
-var file_services_campaign_conversion_goal_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateCampaignConversionGoalsRequest.operations:type_name -> google.ads.googleads.v25.services.CampaignConversionGoalOperation
 	4, // 1: google.ads.googleads.v25.services.CampaignConversionGoalOperation.update_mask:type_name -> google.protobuf.FieldMask
 	5, // 2: google.ads.googleads.v25.services.CampaignConversionGoalOperation.update:type_name -> google.ads.googleads.v25.resources.CampaignConversionGoal
@@ -423,29 +423,29 @@ var file_services_campaign_conversion_goal_service_proto_depIdxs = []int32{
 	0, // [0:4] is the sub-list for field type_name
 }
 
-func init() { file_services_campaign_conversion_goal_service_proto_init() }
-func file_services_campaign_conversion_goal_service_proto_init() {
-	if File_services_campaign_conversion_goal_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_init() }
+func file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_init() {
+	if File_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto != nil {
 		return
 	}
-	file_services_campaign_conversion_goal_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*CampaignConversionGoalOperation_Update)(nil),
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_campaign_conversion_goal_service_proto_rawDesc), len(file_services_campaign_conversion_goal_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_campaign_conversion_goal_service_proto_goTypes,
-		DependencyIndexes: file_services_campaign_conversion_goal_service_proto_depIdxs,
-		MessageInfos:      file_services_campaign_conversion_goal_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_msgTypes,
 	}.Build()
-	File_services_campaign_conversion_goal_service_proto = out.File
-	file_services_campaign_conversion_goal_service_proto_goTypes = nil
-	file_services_campaign_conversion_goal_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto = out.File
+	file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_depIdxs = nil
 }

@@ -55,7 +55,7 @@ type StartIdentityVerificationRequest struct {
 
 func (x *StartIdentityVerificationRequest) Reset() {
 	*x = StartIdentityVerificationRequest{}
-	mi := &file_services_identity_verification_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -67,7 +67,7 @@ func (x *StartIdentityVerificationRequest) String() string {
 func (*StartIdentityVerificationRequest) ProtoMessage() {}
 
 func (x *StartIdentityVerificationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_identity_verification_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -80,7 +80,7 @@ func (x *StartIdentityVerificationRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use StartIdentityVerificationRequest.ProtoReflect.Descriptor instead.
 func (*StartIdentityVerificationRequest) Descriptor() ([]byte, []int) {
-	return file_services_identity_verification_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *StartIdentityVerificationRequest) GetCustomerId() string {
@@ -112,7 +112,7 @@ type GetIdentityVerificationRequest struct {
 
 func (x *GetIdentityVerificationRequest) Reset() {
 	*x = GetIdentityVerificationRequest{}
-	mi := &file_services_identity_verification_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -124,7 +124,7 @@ func (x *GetIdentityVerificationRequest) String() string {
 func (*GetIdentityVerificationRequest) ProtoMessage() {}
 
 func (x *GetIdentityVerificationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_identity_verification_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -137,7 +137,7 @@ func (x *GetIdentityVerificationRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GetIdentityVerificationRequest.ProtoReflect.Descriptor instead.
 func (*GetIdentityVerificationRequest) Descriptor() ([]byte, []int) {
-	return file_services_identity_verification_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *GetIdentityVerificationRequest) GetCustomerId() string {
@@ -160,7 +160,7 @@ type GetIdentityVerificationResponse struct {
 
 func (x *GetIdentityVerificationResponse) Reset() {
 	*x = GetIdentityVerificationResponse{}
-	mi := &file_services_identity_verification_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -172,7 +172,7 @@ func (x *GetIdentityVerificationResponse) String() string {
 func (*GetIdentityVerificationResponse) ProtoMessage() {}
 
 func (x *GetIdentityVerificationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_identity_verification_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -185,7 +185,7 @@ func (x *GetIdentityVerificationResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GetIdentityVerificationResponse.ProtoReflect.Descriptor instead.
 func (*GetIdentityVerificationResponse) Descriptor() ([]byte, []int) {
-	return file_services_identity_verification_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *GetIdentityVerificationResponse) GetIdentityVerification() []*IdentityVerification {
@@ -212,7 +212,7 @@ type IdentityVerification struct {
 
 func (x *IdentityVerification) Reset() {
 	*x = IdentityVerification{}
-	mi := &file_services_identity_verification_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -224,7 +224,7 @@ func (x *IdentityVerification) String() string {
 func (*IdentityVerification) ProtoMessage() {}
 
 func (x *IdentityVerification) ProtoReflect() protoreflect.Message {
-	mi := &file_services_identity_verification_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -237,7 +237,7 @@ func (x *IdentityVerification) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use IdentityVerification.ProtoReflect.Descriptor instead.
 func (*IdentityVerification) Descriptor() ([]byte, []int) {
-	return file_services_identity_verification_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *IdentityVerification) GetVerificationProgram() enums.IdentityVerificationProgramEnum_IdentityVerificationProgram {
@@ -279,7 +279,7 @@ type IdentityVerificationProgress struct {
 
 func (x *IdentityVerificationProgress) Reset() {
 	*x = IdentityVerificationProgress{}
-	mi := &file_services_identity_verification_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -291,7 +291,7 @@ func (x *IdentityVerificationProgress) String() string {
 func (*IdentityVerificationProgress) ProtoMessage() {}
 
 func (x *IdentityVerificationProgress) ProtoReflect() protoreflect.Message {
-	mi := &file_services_identity_verification_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -304,7 +304,7 @@ func (x *IdentityVerificationProgress) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use IdentityVerificationProgress.ProtoReflect.Descriptor instead.
 func (*IdentityVerificationProgress) Descriptor() ([]byte, []int) {
-	return file_services_identity_verification_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *IdentityVerificationProgress) GetProgramStatus() enums.IdentityVerificationProgramStatusEnum_IdentityVerificationProgramStatus {
@@ -342,7 +342,7 @@ type IdentityVerificationRequirement struct {
 
 func (x *IdentityVerificationRequirement) Reset() {
 	*x = IdentityVerificationRequirement{}
-	mi := &file_services_identity_verification_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -354,7 +354,7 @@ func (x *IdentityVerificationRequirement) String() string {
 func (*IdentityVerificationRequirement) ProtoMessage() {}
 
 func (x *IdentityVerificationRequirement) ProtoReflect() protoreflect.Message {
-	mi := &file_services_identity_verification_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -367,7 +367,7 @@ func (x *IdentityVerificationRequirement) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use IdentityVerificationRequirement.ProtoReflect.Descriptor instead.
 func (*IdentityVerificationRequirement) Descriptor() ([]byte, []int) {
-	return file_services_identity_verification_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *IdentityVerificationRequirement) GetVerificationStartDeadlineTime() string {
@@ -384,9 +384,9 @@ func (x *IdentityVerificationRequirement) GetVerificationCompletionDeadlineTime(
 	return ""
 }
 
-var File_services_identity_verification_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_identity_verification_service_proto protoreflect.FileDescriptor
 
-var file_services_identity_verification_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDesc = string([]byte{
 	0x0a, 0x45, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x69, 0x64, 0x65, 0x6e, 0x74, 0x69, 0x74, 0x79, 0x5f, 0x76, 0x65, 0x72,
@@ -555,19 +555,19 @@ var file_services_identity_verification_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_identity_verification_service_proto_rawDescOnce sync.Once
-	file_services_identity_verification_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescData []byte
 )
 
-func file_services_identity_verification_service_proto_rawDescGZIP() []byte {
-	file_services_identity_verification_service_proto_rawDescOnce.Do(func() {
-		file_services_identity_verification_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_identity_verification_service_proto_rawDesc), len(file_services_identity_verification_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDesc)))
 	})
-	return file_services_identity_verification_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDescData
 }
 
-var file_services_identity_verification_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
-var file_services_identity_verification_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
+var file_google_ads_googleads_v25_services_identity_verification_service_proto_goTypes = []any{
 	(*StartIdentityVerificationRequest)(nil),                                           // 0: google.ads.googleads.v25.services.StartIdentityVerificationRequest
 	(*GetIdentityVerificationRequest)(nil),                                             // 1: google.ads.googleads.v25.services.GetIdentityVerificationRequest
 	(*GetIdentityVerificationResponse)(nil),                                            // 2: google.ads.googleads.v25.services.GetIdentityVerificationResponse
@@ -578,7 +578,7 @@ var file_services_identity_verification_service_proto_goTypes = []any{
 	(enums.IdentityVerificationProgramStatusEnum_IdentityVerificationProgramStatus)(0), // 7: google.ads.googleads.v25.enums.IdentityVerificationProgramStatusEnum.IdentityVerificationProgramStatus
 	(*emptypb.Empty)(nil),                                                              // 8: google.protobuf.Empty
 }
-var file_services_identity_verification_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_identity_verification_service_proto_depIdxs = []int32{
 	6, // 0: google.ads.googleads.v25.services.StartIdentityVerificationRequest.verification_program:type_name -> google.ads.googleads.v25.enums.IdentityVerificationProgramEnum.IdentityVerificationProgram
 	3, // 1: google.ads.googleads.v25.services.GetIdentityVerificationResponse.identity_verification:type_name -> google.ads.googleads.v25.services.IdentityVerification
 	6, // 2: google.ads.googleads.v25.services.IdentityVerification.verification_program:type_name -> google.ads.googleads.v25.enums.IdentityVerificationProgramEnum.IdentityVerificationProgram
@@ -596,27 +596,27 @@ var file_services_identity_verification_service_proto_depIdxs = []int32{
 	0, // [0:6] is the sub-list for field type_name
 }
 
-func init() { file_services_identity_verification_service_proto_init() }
-func file_services_identity_verification_service_proto_init() {
-	if File_services_identity_verification_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_identity_verification_service_proto_init() }
+func file_google_ads_googleads_v25_services_identity_verification_service_proto_init() {
+	if File_google_ads_googleads_v25_services_identity_verification_service_proto != nil {
 		return
 	}
-	file_services_identity_verification_service_proto_msgTypes[3].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes[3].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_identity_verification_service_proto_rawDesc), len(file_services_identity_verification_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_identity_verification_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   6,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_identity_verification_service_proto_goTypes,
-		DependencyIndexes: file_services_identity_verification_service_proto_depIdxs,
-		MessageInfos:      file_services_identity_verification_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_identity_verification_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_identity_verification_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_identity_verification_service_proto_msgTypes,
 	}.Build()
-	File_services_identity_verification_service_proto = out.File
-	file_services_identity_verification_service_proto_goTypes = nil
-	file_services_identity_verification_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_identity_verification_service_proto = out.File
+	file_google_ads_googleads_v25_services_identity_verification_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_identity_verification_service_proto_depIdxs = nil
 }

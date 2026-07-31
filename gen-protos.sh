@@ -9,6 +9,7 @@ PROTOS_ERRORS=googleapis/google/ads/googleads/v25/errors/*.proto
 PROTOS_COMMON=googleapis/google/ads/googleads/v25/common/*.proto
 PROTOS_RESOURCES=googleapis/google/ads/googleads/v25/resources/*.proto
 PROTOS_SERVICES=googleapis/google/ads/googleads/v25/services/*.proto
+PROTOS_ACTIONS=googleapis/google/ads/googleads/v25/actions/*.proto
 
 function compile_protos() {
     PROTOS=$*
@@ -27,5 +28,6 @@ compile_protos $PROTOS_ERRORS
 compile_protos $PROTOS_COMMON
 compile_protos $PROTOS_RESOURCES
 compile_protos $PROTOS_SERVICES
+compile_protos $PROTOS_ACTIONS
 
 cd googleapis && git checkout . && cd ../

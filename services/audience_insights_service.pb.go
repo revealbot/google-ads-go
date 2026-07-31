@@ -61,7 +61,7 @@ type GenerateInsightsFinderReportRequest struct {
 
 func (x *GenerateInsightsFinderReportRequest) Reset() {
 	*x = GenerateInsightsFinderReportRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -73,7 +73,7 @@ func (x *GenerateInsightsFinderReportRequest) String() string {
 func (*GenerateInsightsFinderReportRequest) ProtoMessage() {}
 
 func (x *GenerateInsightsFinderReportRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -86,7 +86,7 @@ func (x *GenerateInsightsFinderReportRequest) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use GenerateInsightsFinderReportRequest.ProtoReflect.Descriptor instead.
 func (*GenerateInsightsFinderReportRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *GenerateInsightsFinderReportRequest) GetCustomerId() string {
@@ -138,7 +138,7 @@ type GenerateInsightsFinderReportResponse struct {
 
 func (x *GenerateInsightsFinderReportResponse) Reset() {
 	*x = GenerateInsightsFinderReportResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -150,7 +150,7 @@ func (x *GenerateInsightsFinderReportResponse) String() string {
 func (*GenerateInsightsFinderReportResponse) ProtoMessage() {}
 
 func (x *GenerateInsightsFinderReportResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -163,7 +163,7 @@ func (x *GenerateInsightsFinderReportResponse) ProtoReflect() protoreflect.Messa
 
 // Deprecated: Use GenerateInsightsFinderReportResponse.ProtoReflect.Descriptor instead.
 func (*GenerateInsightsFinderReportResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *GenerateInsightsFinderReportResponse) GetSavedReportUrl() string {
@@ -205,7 +205,7 @@ type GenerateAudienceCompositionInsightsRequest struct {
 
 func (x *GenerateAudienceCompositionInsightsRequest) Reset() {
 	*x = GenerateAudienceCompositionInsightsRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -217,7 +217,7 @@ func (x *GenerateAudienceCompositionInsightsRequest) String() string {
 func (*GenerateAudienceCompositionInsightsRequest) ProtoMessage() {}
 
 func (x *GenerateAudienceCompositionInsightsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -230,7 +230,7 @@ func (x *GenerateAudienceCompositionInsightsRequest) ProtoReflect() protoreflect
 
 // Deprecated: Use GenerateAudienceCompositionInsightsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateAudienceCompositionInsightsRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *GenerateAudienceCompositionInsightsRequest) GetCustomerId() string {
@@ -296,7 +296,7 @@ type GenerateAudienceCompositionInsightsResponse struct {
 
 func (x *GenerateAudienceCompositionInsightsResponse) Reset() {
 	*x = GenerateAudienceCompositionInsightsResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -308,7 +308,7 @@ func (x *GenerateAudienceCompositionInsightsResponse) String() string {
 func (*GenerateAudienceCompositionInsightsResponse) ProtoMessage() {}
 
 func (x *GenerateAudienceCompositionInsightsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -321,7 +321,7 @@ func (x *GenerateAudienceCompositionInsightsResponse) ProtoReflect() protoreflec
 
 // Deprecated: Use GenerateAudienceCompositionInsightsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateAudienceCompositionInsightsResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *GenerateAudienceCompositionInsightsResponse) GetSections() []*AudienceCompositionSection {
@@ -355,7 +355,7 @@ type GenerateSuggestedTargetingInsightsRequest struct {
 
 func (x *GenerateSuggestedTargetingInsightsRequest) Reset() {
 	*x = GenerateSuggestedTargetingInsightsRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -367,7 +367,7 @@ func (x *GenerateSuggestedTargetingInsightsRequest) String() string {
 func (*GenerateSuggestedTargetingInsightsRequest) ProtoMessage() {}
 
 func (x *GenerateSuggestedTargetingInsightsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -380,7 +380,7 @@ func (x *GenerateSuggestedTargetingInsightsRequest) ProtoReflect() protoreflect.
 
 // Deprecated: Use GenerateSuggestedTargetingInsightsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateSuggestedTargetingInsightsRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *GenerateSuggestedTargetingInsightsRequest) GetCustomerId() string {
@@ -466,7 +466,7 @@ type GenerateSuggestedTargetingInsightsResponse struct {
 
 func (x *GenerateSuggestedTargetingInsightsResponse) Reset() {
 	*x = GenerateSuggestedTargetingInsightsResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -478,7 +478,7 @@ func (x *GenerateSuggestedTargetingInsightsResponse) String() string {
 func (*GenerateSuggestedTargetingInsightsResponse) ProtoMessage() {}
 
 func (x *GenerateSuggestedTargetingInsightsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -491,7 +491,7 @@ func (x *GenerateSuggestedTargetingInsightsResponse) ProtoReflect() protoreflect
 
 // Deprecated: Use GenerateSuggestedTargetingInsightsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateSuggestedTargetingInsightsResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *GenerateSuggestedTargetingInsightsResponse) GetSuggestions() []*TargetingSuggestionMetrics {
@@ -534,7 +534,7 @@ type TargetingSuggestionMetrics struct {
 
 func (x *TargetingSuggestionMetrics) Reset() {
 	*x = TargetingSuggestionMetrics{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -546,7 +546,7 @@ func (x *TargetingSuggestionMetrics) String() string {
 func (*TargetingSuggestionMetrics) ProtoMessage() {}
 
 func (x *TargetingSuggestionMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -559,7 +559,7 @@ func (x *TargetingSuggestionMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use TargetingSuggestionMetrics.ProtoReflect.Descriptor instead.
 func (*TargetingSuggestionMetrics) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *TargetingSuggestionMetrics) GetLocations() []*common.AudienceInsightsAttributeMetadata {
@@ -661,7 +661,7 @@ type ListAudienceInsightsAttributesRequest struct {
 
 func (x *ListAudienceInsightsAttributesRequest) Reset() {
 	*x = ListAudienceInsightsAttributesRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -673,7 +673,7 @@ func (x *ListAudienceInsightsAttributesRequest) String() string {
 func (*ListAudienceInsightsAttributesRequest) ProtoMessage() {}
 
 func (x *ListAudienceInsightsAttributesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -686,7 +686,7 @@ func (x *ListAudienceInsightsAttributesRequest) ProtoReflect() protoreflect.Mess
 
 // Deprecated: Use ListAudienceInsightsAttributesRequest.ProtoReflect.Descriptor instead.
 func (*ListAudienceInsightsAttributesRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *ListAudienceInsightsAttributesRequest) GetCustomerId() string {
@@ -770,7 +770,7 @@ type KnowledgeGraphEntitySearchOptions struct {
 
 func (x *KnowledgeGraphEntitySearchOptions) Reset() {
 	*x = KnowledgeGraphEntitySearchOptions{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -782,7 +782,7 @@ func (x *KnowledgeGraphEntitySearchOptions) String() string {
 func (*KnowledgeGraphEntitySearchOptions) ProtoMessage() {}
 
 func (x *KnowledgeGraphEntitySearchOptions) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -795,7 +795,7 @@ func (x *KnowledgeGraphEntitySearchOptions) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use KnowledgeGraphEntitySearchOptions.ProtoReflect.Descriptor instead.
 func (*KnowledgeGraphEntitySearchOptions) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *KnowledgeGraphEntitySearchOptions) GetGetAllCreatorAttributes() bool {
@@ -824,7 +824,7 @@ type ListAudienceInsightsAttributesResponse struct {
 
 func (x *ListAudienceInsightsAttributesResponse) Reset() {
 	*x = ListAudienceInsightsAttributesResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -836,7 +836,7 @@ func (x *ListAudienceInsightsAttributesResponse) String() string {
 func (*ListAudienceInsightsAttributesResponse) ProtoMessage() {}
 
 func (x *ListAudienceInsightsAttributesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -849,7 +849,7 @@ func (x *ListAudienceInsightsAttributesResponse) ProtoReflect() protoreflect.Mes
 
 // Deprecated: Use ListAudienceInsightsAttributesResponse.ProtoReflect.Descriptor instead.
 func (*ListAudienceInsightsAttributesResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *ListAudienceInsightsAttributesResponse) GetAttributes() []*common.AudienceInsightsAttributeMetadata {
@@ -871,7 +871,7 @@ type ListInsightsEligibleDatesRequest struct {
 
 func (x *ListInsightsEligibleDatesRequest) Reset() {
 	*x = ListInsightsEligibleDatesRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -883,7 +883,7 @@ func (x *ListInsightsEligibleDatesRequest) String() string {
 func (*ListInsightsEligibleDatesRequest) ProtoMessage() {}
 
 func (x *ListInsightsEligibleDatesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -896,7 +896,7 @@ func (x *ListInsightsEligibleDatesRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListInsightsEligibleDatesRequest.ProtoReflect.Descriptor instead.
 func (*ListInsightsEligibleDatesRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *ListInsightsEligibleDatesRequest) GetInsightsApplicationInfo() *common.AdditionalApplicationInfo {
@@ -924,7 +924,7 @@ type ListInsightsEligibleDatesResponse struct {
 
 func (x *ListInsightsEligibleDatesResponse) Reset() {
 	*x = ListInsightsEligibleDatesResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -936,7 +936,7 @@ func (x *ListInsightsEligibleDatesResponse) String() string {
 func (*ListInsightsEligibleDatesResponse) ProtoMessage() {}
 
 func (x *ListInsightsEligibleDatesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -949,7 +949,7 @@ func (x *ListInsightsEligibleDatesResponse) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use ListInsightsEligibleDatesResponse.ProtoReflect.Descriptor instead.
 func (*ListInsightsEligibleDatesResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{11}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *ListInsightsEligibleDatesResponse) GetDataMonths() []string {
@@ -993,7 +993,7 @@ type GenerateAudienceOverlapInsightsRequest struct {
 
 func (x *GenerateAudienceOverlapInsightsRequest) Reset() {
 	*x = GenerateAudienceOverlapInsightsRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1005,7 +1005,7 @@ func (x *GenerateAudienceOverlapInsightsRequest) String() string {
 func (*GenerateAudienceOverlapInsightsRequest) ProtoMessage() {}
 
 func (x *GenerateAudienceOverlapInsightsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1018,7 +1018,7 @@ func (x *GenerateAudienceOverlapInsightsRequest) ProtoReflect() protoreflect.Mes
 
 // Deprecated: Use GenerateAudienceOverlapInsightsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateAudienceOverlapInsightsRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{12}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *GenerateAudienceOverlapInsightsRequest) GetCustomerId() string {
@@ -1078,7 +1078,7 @@ type GenerateAudienceOverlapInsightsResponse struct {
 
 func (x *GenerateAudienceOverlapInsightsResponse) Reset() {
 	*x = GenerateAudienceOverlapInsightsResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[13]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1090,7 +1090,7 @@ func (x *GenerateAudienceOverlapInsightsResponse) String() string {
 func (*GenerateAudienceOverlapInsightsResponse) ProtoMessage() {}
 
 func (x *GenerateAudienceOverlapInsightsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[13]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[13]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1103,7 +1103,7 @@ func (x *GenerateAudienceOverlapInsightsResponse) ProtoReflect() protoreflect.Me
 
 // Deprecated: Use GenerateAudienceOverlapInsightsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateAudienceOverlapInsightsResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{13}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{13}
 }
 
 func (x *GenerateAudienceOverlapInsightsResponse) GetPrimaryAttributeMetadata() *common.AudienceInsightsAttributeMetadata {
@@ -1135,7 +1135,7 @@ type DimensionOverlapResult struct {
 
 func (x *DimensionOverlapResult) Reset() {
 	*x = DimensionOverlapResult{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[14]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1147,7 +1147,7 @@ func (x *DimensionOverlapResult) String() string {
 func (*DimensionOverlapResult) ProtoMessage() {}
 
 func (x *DimensionOverlapResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[14]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[14]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1160,7 +1160,7 @@ func (x *DimensionOverlapResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use DimensionOverlapResult.ProtoReflect.Descriptor instead.
 func (*DimensionOverlapResult) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{14}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{14}
 }
 
 func (x *DimensionOverlapResult) GetDimension() enums.AudienceInsightsDimensionEnum_AudienceInsightsDimension {
@@ -1193,7 +1193,7 @@ type AudienceOverlapItem struct {
 
 func (x *AudienceOverlapItem) Reset() {
 	*x = AudienceOverlapItem{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[15]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1205,7 +1205,7 @@ func (x *AudienceOverlapItem) String() string {
 func (*AudienceOverlapItem) ProtoMessage() {}
 
 func (x *AudienceOverlapItem) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[15]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[15]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1218,7 +1218,7 @@ func (x *AudienceOverlapItem) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AudienceOverlapItem.ProtoReflect.Descriptor instead.
 func (*AudienceOverlapItem) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{15}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{15}
 }
 
 func (x *AudienceOverlapItem) GetAttributeMetadata() *common.AudienceInsightsAttributeMetadata {
@@ -1254,7 +1254,7 @@ type GenerateTargetingSuggestionMetricsRequest struct {
 
 func (x *GenerateTargetingSuggestionMetricsRequest) Reset() {
 	*x = GenerateTargetingSuggestionMetricsRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[16]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1266,7 +1266,7 @@ func (x *GenerateTargetingSuggestionMetricsRequest) String() string {
 func (*GenerateTargetingSuggestionMetricsRequest) ProtoMessage() {}
 
 func (x *GenerateTargetingSuggestionMetricsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[16]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[16]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1279,7 +1279,7 @@ func (x *GenerateTargetingSuggestionMetricsRequest) ProtoReflect() protoreflect.
 
 // Deprecated: Use GenerateTargetingSuggestionMetricsRequest.ProtoReflect.Descriptor instead.
 func (*GenerateTargetingSuggestionMetricsRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{16}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{16}
 }
 
 func (x *GenerateTargetingSuggestionMetricsRequest) GetCustomerId() string {
@@ -1324,7 +1324,7 @@ type GenerateTargetingSuggestionMetricsResponse struct {
 
 func (x *GenerateTargetingSuggestionMetricsResponse) Reset() {
 	*x = GenerateTargetingSuggestionMetricsResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[17]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1336,7 +1336,7 @@ func (x *GenerateTargetingSuggestionMetricsResponse) String() string {
 func (*GenerateTargetingSuggestionMetricsResponse) ProtoMessage() {}
 
 func (x *GenerateTargetingSuggestionMetricsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[17]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[17]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1349,7 +1349,7 @@ func (x *GenerateTargetingSuggestionMetricsResponse) ProtoReflect() protoreflect
 
 // Deprecated: Use GenerateTargetingSuggestionMetricsResponse.ProtoReflect.Descriptor instead.
 func (*GenerateTargetingSuggestionMetricsResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{17}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{17}
 }
 
 func (x *GenerateTargetingSuggestionMetricsResponse) GetSuggestions() []*TargetingSuggestionMetrics {
@@ -1383,7 +1383,7 @@ type GenerateAudienceDefinitionRequest struct {
 
 func (x *GenerateAudienceDefinitionRequest) Reset() {
 	*x = GenerateAudienceDefinitionRequest{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[18]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1395,7 +1395,7 @@ func (x *GenerateAudienceDefinitionRequest) String() string {
 func (*GenerateAudienceDefinitionRequest) ProtoMessage() {}
 
 func (x *GenerateAudienceDefinitionRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[18]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[18]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1408,7 +1408,7 @@ func (x *GenerateAudienceDefinitionRequest) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use GenerateAudienceDefinitionRequest.ProtoReflect.Descriptor instead.
 func (*GenerateAudienceDefinitionRequest) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{18}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{18}
 }
 
 func (x *GenerateAudienceDefinitionRequest) GetCustomerId() string {
@@ -1455,7 +1455,7 @@ type GenerateAudienceDefinitionResponse struct {
 
 func (x *GenerateAudienceDefinitionResponse) Reset() {
 	*x = GenerateAudienceDefinitionResponse{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[19]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1467,7 +1467,7 @@ func (x *GenerateAudienceDefinitionResponse) String() string {
 func (*GenerateAudienceDefinitionResponse) ProtoMessage() {}
 
 func (x *GenerateAudienceDefinitionResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[19]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[19]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1480,7 +1480,7 @@ func (x *GenerateAudienceDefinitionResponse) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use GenerateAudienceDefinitionResponse.ProtoReflect.Descriptor instead.
 func (*GenerateAudienceDefinitionResponse) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{19}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{19}
 }
 
 func (x *GenerateAudienceDefinitionResponse) GetHighRelevanceAttributes() []*common.AudienceInsightsAttributeMetadata {
@@ -1508,7 +1508,7 @@ type AudienceInsightsDimensions struct {
 
 func (x *AudienceInsightsDimensions) Reset() {
 	*x = AudienceInsightsDimensions{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[20]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1520,7 +1520,7 @@ func (x *AudienceInsightsDimensions) String() string {
 func (*AudienceInsightsDimensions) ProtoMessage() {}
 
 func (x *AudienceInsightsDimensions) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[20]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[20]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1533,7 +1533,7 @@ func (x *AudienceInsightsDimensions) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AudienceInsightsDimensions.ProtoReflect.Descriptor instead.
 func (*AudienceInsightsDimensions) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{20}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{20}
 }
 
 func (x *AudienceInsightsDimensions) GetDimensions() []enums.AudienceInsightsDimensionEnum_AudienceInsightsDimension {
@@ -1562,7 +1562,7 @@ type InsightsAudienceDefinition struct {
 
 func (x *InsightsAudienceDefinition) Reset() {
 	*x = InsightsAudienceDefinition{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[21]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1574,7 +1574,7 @@ func (x *InsightsAudienceDefinition) String() string {
 func (*InsightsAudienceDefinition) ProtoMessage() {}
 
 func (x *InsightsAudienceDefinition) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[21]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[21]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1587,7 +1587,7 @@ func (x *InsightsAudienceDefinition) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use InsightsAudienceDefinition.ProtoReflect.Descriptor instead.
 func (*InsightsAudienceDefinition) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{21}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{21}
 }
 
 func (x *InsightsAudienceDefinition) GetAudience() *InsightsAudience {
@@ -1638,7 +1638,7 @@ type InsightsAudienceDescription struct {
 
 func (x *InsightsAudienceDescription) Reset() {
 	*x = InsightsAudienceDescription{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[22]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1650,7 +1650,7 @@ func (x *InsightsAudienceDescription) String() string {
 func (*InsightsAudienceDescription) ProtoMessage() {}
 
 func (x *InsightsAudienceDescription) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[22]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[22]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1663,7 +1663,7 @@ func (x *InsightsAudienceDescription) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use InsightsAudienceDescription.ProtoReflect.Descriptor instead.
 func (*InsightsAudienceDescription) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{22}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{22}
 }
 
 func (x *InsightsAudienceDescription) GetCountryLocations() []*common.LocationInfo {
@@ -1769,7 +1769,7 @@ type InsightsAudience struct {
 
 func (x *InsightsAudience) Reset() {
 	*x = InsightsAudience{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[23]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1781,7 +1781,7 @@ func (x *InsightsAudience) String() string {
 func (*InsightsAudience) ProtoMessage() {}
 
 func (x *InsightsAudience) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[23]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[23]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1794,7 +1794,7 @@ func (x *InsightsAudience) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use InsightsAudience.ProtoReflect.Descriptor instead.
 func (*InsightsAudience) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{23}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{23}
 }
 
 func (x *InsightsAudience) GetCountryLocations() []*common.LocationInfo {
@@ -1878,7 +1878,7 @@ type AudienceCompositionSection struct {
 
 func (x *AudienceCompositionSection) Reset() {
 	*x = AudienceCompositionSection{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[24]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[24]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1890,7 +1890,7 @@ func (x *AudienceCompositionSection) String() string {
 func (*AudienceCompositionSection) ProtoMessage() {}
 
 func (x *AudienceCompositionSection) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[24]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[24]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1903,7 +1903,7 @@ func (x *AudienceCompositionSection) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AudienceCompositionSection.ProtoReflect.Descriptor instead.
 func (*AudienceCompositionSection) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{24}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{24}
 }
 
 func (x *AudienceCompositionSection) GetDimension() enums.AudienceInsightsDimensionEnum_AudienceInsightsDimension {
@@ -1946,7 +1946,7 @@ type AudienceCompositionAttributeCluster struct {
 
 func (x *AudienceCompositionAttributeCluster) Reset() {
 	*x = AudienceCompositionAttributeCluster{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[25]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[25]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -1958,7 +1958,7 @@ func (x *AudienceCompositionAttributeCluster) String() string {
 func (*AudienceCompositionAttributeCluster) ProtoMessage() {}
 
 func (x *AudienceCompositionAttributeCluster) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[25]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[25]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1971,7 +1971,7 @@ func (x *AudienceCompositionAttributeCluster) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use AudienceCompositionAttributeCluster.ProtoReflect.Descriptor instead.
 func (*AudienceCompositionAttributeCluster) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{25}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{25}
 }
 
 func (x *AudienceCompositionAttributeCluster) GetClusterDisplayName() string {
@@ -2016,7 +2016,7 @@ type AudienceCompositionMetrics struct {
 
 func (x *AudienceCompositionMetrics) Reset() {
 	*x = AudienceCompositionMetrics{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[26]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[26]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2028,7 +2028,7 @@ func (x *AudienceCompositionMetrics) String() string {
 func (*AudienceCompositionMetrics) ProtoMessage() {}
 
 func (x *AudienceCompositionMetrics) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[26]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[26]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2041,7 +2041,7 @@ func (x *AudienceCompositionMetrics) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AudienceCompositionMetrics.ProtoReflect.Descriptor instead.
 func (*AudienceCompositionMetrics) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{26}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{26}
 }
 
 func (x *AudienceCompositionMetrics) GetBaselineAudienceShare() float64 {
@@ -2085,7 +2085,7 @@ type AudienceCompositionAttribute struct {
 
 func (x *AudienceCompositionAttribute) Reset() {
 	*x = AudienceCompositionAttribute{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[27]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[27]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2097,7 +2097,7 @@ func (x *AudienceCompositionAttribute) String() string {
 func (*AudienceCompositionAttribute) ProtoMessage() {}
 
 func (x *AudienceCompositionAttribute) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[27]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[27]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2110,7 +2110,7 @@ func (x *AudienceCompositionAttribute) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AudienceCompositionAttribute.ProtoReflect.Descriptor instead.
 func (*AudienceCompositionAttribute) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{27}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{27}
 }
 
 func (x *AudienceCompositionAttribute) GetAttributeMetadata() *common.AudienceInsightsAttributeMetadata {
@@ -2145,7 +2145,7 @@ type KnowledgeGraphEntitySearchOptions_SearchFilter struct {
 
 func (x *KnowledgeGraphEntitySearchOptions_SearchFilter) Reset() {
 	*x = KnowledgeGraphEntitySearchOptions_SearchFilter{}
-	mi := &file_services_audience_insights_service_proto_msgTypes[28]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[28]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2157,7 +2157,7 @@ func (x *KnowledgeGraphEntitySearchOptions_SearchFilter) String() string {
 func (*KnowledgeGraphEntitySearchOptions_SearchFilter) ProtoMessage() {}
 
 func (x *KnowledgeGraphEntitySearchOptions_SearchFilter) ProtoReflect() protoreflect.Message {
-	mi := &file_services_audience_insights_service_proto_msgTypes[28]
+	mi := &file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[28]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2170,7 +2170,7 @@ func (x *KnowledgeGraphEntitySearchOptions_SearchFilter) ProtoReflect() protoref
 
 // Deprecated: Use KnowledgeGraphEntitySearchOptions_SearchFilter.ProtoReflect.Descriptor instead.
 func (*KnowledgeGraphEntitySearchOptions_SearchFilter) Descriptor() ([]byte, []int) {
-	return file_services_audience_insights_service_proto_rawDescGZIP(), []int{8, 0}
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP(), []int{8, 0}
 }
 
 func (x *KnowledgeGraphEntitySearchOptions_SearchFilter) GetEntityCapabilityFilters() []enums.InsightsKnowledgeGraphEntityCapabilitiesEnum_InsightsKnowledgeGraphEntityCapabilities {
@@ -2180,9 +2180,9 @@ func (x *KnowledgeGraphEntitySearchOptions_SearchFilter) GetEntityCapabilityFilt
 	return nil
 }
 
-var File_services_audience_insights_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_audience_insights_service_proto protoreflect.FileDescriptor
 
-var file_services_audience_insights_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDesc = string([]byte{
 	0x0a, 0x41, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x61, 0x75, 0x64, 0x69, 0x65, 0x6e, 0x63, 0x65, 0x5f, 0x69, 0x6e, 0x73,
@@ -2990,19 +2990,19 @@ var file_services_audience_insights_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_audience_insights_service_proto_rawDescOnce sync.Once
-	file_services_audience_insights_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescData []byte
 )
 
-func file_services_audience_insights_service_proto_rawDescGZIP() []byte {
-	file_services_audience_insights_service_proto_rawDescOnce.Do(func() {
-		file_services_audience_insights_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_audience_insights_service_proto_rawDesc), len(file_services_audience_insights_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDesc)))
 	})
-	return file_services_audience_insights_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDescData
 }
 
-var file_services_audience_insights_service_proto_msgTypes = make([]protoimpl.MessageInfo, 29)
-var file_services_audience_insights_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes = make([]protoimpl.MessageInfo, 29)
+var file_google_ads_googleads_v25_services_audience_insights_service_proto_goTypes = []any{
 	(*GenerateInsightsFinderReportRequest)(nil),                                                      // 0: google.ads.googleads.v25.services.GenerateInsightsFinderReportRequest
 	(*GenerateInsightsFinderReportResponse)(nil),                                                     // 1: google.ads.googleads.v25.services.GenerateInsightsFinderReportResponse
 	(*GenerateAudienceCompositionInsightsRequest)(nil),                                               // 2: google.ads.googleads.v25.services.GenerateAudienceCompositionInsightsRequest
@@ -3049,7 +3049,7 @@ var file_services_audience_insights_service_proto_goTypes = []any{
 	(*common.InsightsAudienceAttributeGroup)(nil),                                                    // 43: google.ads.googleads.v25.common.InsightsAudienceAttributeGroup
 	(enums.InsightsKnowledgeGraphEntityCapabilitiesEnum_InsightsKnowledgeGraphEntityCapabilities)(0), // 44: google.ads.googleads.v25.enums.InsightsKnowledgeGraphEntityCapabilitiesEnum.InsightsKnowledgeGraphEntityCapabilities
 }
-var file_services_audience_insights_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_audience_insights_service_proto_depIdxs = []int32{
 	23, // 0: google.ads.googleads.v25.services.GenerateInsightsFinderReportRequest.baseline_audience:type_name -> google.ads.googleads.v25.services.InsightsAudience
 	23, // 1: google.ads.googleads.v25.services.GenerateInsightsFinderReportRequest.specific_audience:type_name -> google.ads.googleads.v25.services.InsightsAudience
 	29, // 2: google.ads.googleads.v25.services.GenerateInsightsFinderReportRequest.insights_application_info:type_name -> google.ads.googleads.v25.common.AdditionalApplicationInfo
@@ -3138,16 +3138,16 @@ var file_services_audience_insights_service_proto_depIdxs = []int32{
 	0,  // [0:65] is the sub-list for field type_name
 }
 
-func init() { file_services_audience_insights_service_proto_init() }
-func file_services_audience_insights_service_proto_init() {
-	if File_services_audience_insights_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_audience_insights_service_proto_init() }
+func file_google_ads_googleads_v25_services_audience_insights_service_proto_init() {
+	if File_google_ads_googleads_v25_services_audience_insights_service_proto != nil {
 		return
 	}
-	file_services_audience_insights_service_proto_msgTypes[4].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[4].OneofWrappers = []any{
 		(*GenerateSuggestedTargetingInsightsRequest_AudienceDefinition)(nil),
 		(*GenerateSuggestedTargetingInsightsRequest_AudienceDescription)(nil),
 	}
-	file_services_audience_insights_service_proto_msgTypes[22].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes[22].OneofWrappers = []any{
 		(*InsightsAudienceDescription_MarketingObjective)(nil),
 		(*InsightsAudienceDescription_AudienceDimensions)(nil),
 	}
@@ -3155,17 +3155,17 @@ func file_services_audience_insights_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_audience_insights_service_proto_rawDesc), len(file_services_audience_insights_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_audience_insights_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   29,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_audience_insights_service_proto_goTypes,
-		DependencyIndexes: file_services_audience_insights_service_proto_depIdxs,
-		MessageInfos:      file_services_audience_insights_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_audience_insights_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_audience_insights_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_audience_insights_service_proto_msgTypes,
 	}.Build()
-	File_services_audience_insights_service_proto = out.File
-	file_services_audience_insights_service_proto_goTypes = nil
-	file_services_audience_insights_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_audience_insights_service_proto = out.File
+	file_google_ads_googleads_v25_services_audience_insights_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_audience_insights_service_proto_depIdxs = nil
 }

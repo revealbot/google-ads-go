@@ -53,7 +53,7 @@ type AppendLeadConversationRequest struct {
 
 func (x *AppendLeadConversationRequest) Reset() {
 	*x = AppendLeadConversationRequest{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -65,7 +65,7 @@ func (x *AppendLeadConversationRequest) String() string {
 func (*AppendLeadConversationRequest) ProtoMessage() {}
 
 func (x *AppendLeadConversationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -78,7 +78,7 @@ func (x *AppendLeadConversationRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AppendLeadConversationRequest.ProtoReflect.Descriptor instead.
 func (*AppendLeadConversationRequest) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *AppendLeadConversationRequest) GetCustomerId() string {
@@ -107,7 +107,7 @@ type AppendLeadConversationResponse struct {
 
 func (x *AppendLeadConversationResponse) Reset() {
 	*x = AppendLeadConversationResponse{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -119,7 +119,7 @@ func (x *AppendLeadConversationResponse) String() string {
 func (*AppendLeadConversationResponse) ProtoMessage() {}
 
 func (x *AppendLeadConversationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -132,7 +132,7 @@ func (x *AppendLeadConversationResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AppendLeadConversationResponse.ProtoReflect.Descriptor instead.
 func (*AppendLeadConversationResponse) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *AppendLeadConversationResponse) GetResponses() []*ConversationOrError {
@@ -156,7 +156,7 @@ type Conversation struct {
 
 func (x *Conversation) Reset() {
 	*x = Conversation{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -168,7 +168,7 @@ func (x *Conversation) String() string {
 func (*Conversation) ProtoMessage() {}
 
 func (x *Conversation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -181,7 +181,7 @@ func (x *Conversation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Conversation.ProtoReflect.Descriptor instead.
 func (*Conversation) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *Conversation) GetLocalServicesLead() string {
@@ -214,7 +214,7 @@ type ConversationOrError struct {
 
 func (x *ConversationOrError) Reset() {
 	*x = ConversationOrError{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -226,7 +226,7 @@ func (x *ConversationOrError) String() string {
 func (*ConversationOrError) ProtoMessage() {}
 
 func (x *ConversationOrError) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -239,7 +239,7 @@ func (x *ConversationOrError) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ConversationOrError.ProtoReflect.Descriptor instead.
 func (*ConversationOrError) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *ConversationOrError) GetAppendLeadConversationResponse() isConversationOrError_AppendLeadConversationResponse {
@@ -301,7 +301,7 @@ type SurveySatisfied struct {
 
 func (x *SurveySatisfied) Reset() {
 	*x = SurveySatisfied{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -313,7 +313,7 @@ func (x *SurveySatisfied) String() string {
 func (*SurveySatisfied) ProtoMessage() {}
 
 func (x *SurveySatisfied) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -326,7 +326,7 @@ func (x *SurveySatisfied) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SurveySatisfied.ProtoReflect.Descriptor instead.
 func (*SurveySatisfied) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *SurveySatisfied) GetSurveySatisfiedReason() enums.LocalServicesLeadSurveySatisfiedReasonEnum_SurveySatisfiedReason {
@@ -357,7 +357,7 @@ type SurveyDissatisfied struct {
 
 func (x *SurveyDissatisfied) Reset() {
 	*x = SurveyDissatisfied{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -369,7 +369,7 @@ func (x *SurveyDissatisfied) String() string {
 func (*SurveyDissatisfied) ProtoMessage() {}
 
 func (x *SurveyDissatisfied) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -382,7 +382,7 @@ func (x *SurveyDissatisfied) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SurveyDissatisfied.ProtoReflect.Descriptor instead.
 func (*SurveyDissatisfied) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *SurveyDissatisfied) GetSurveyDissatisfiedReason() enums.LocalServicesLeadSurveyDissatisfiedReasonEnum_SurveyDissatisfiedReason {
@@ -422,7 +422,7 @@ type ProvideLeadFeedbackRequest struct {
 
 func (x *ProvideLeadFeedbackRequest) Reset() {
 	*x = ProvideLeadFeedbackRequest{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -434,7 +434,7 @@ func (x *ProvideLeadFeedbackRequest) String() string {
 func (*ProvideLeadFeedbackRequest) ProtoMessage() {}
 
 func (x *ProvideLeadFeedbackRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -447,7 +447,7 @@ func (x *ProvideLeadFeedbackRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ProvideLeadFeedbackRequest.ProtoReflect.Descriptor instead.
 func (*ProvideLeadFeedbackRequest) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *ProvideLeadFeedbackRequest) GetResourceName() string {
@@ -520,7 +520,7 @@ type ProvideLeadFeedbackResponse struct {
 
 func (x *ProvideLeadFeedbackResponse) Reset() {
 	*x = ProvideLeadFeedbackResponse{}
-	mi := &file_services_local_services_lead_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -532,7 +532,7 @@ func (x *ProvideLeadFeedbackResponse) String() string {
 func (*ProvideLeadFeedbackResponse) ProtoMessage() {}
 
 func (x *ProvideLeadFeedbackResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_local_services_lead_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -545,7 +545,7 @@ func (x *ProvideLeadFeedbackResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ProvideLeadFeedbackResponse.ProtoReflect.Descriptor instead.
 func (*ProvideLeadFeedbackResponse) Descriptor() ([]byte, []int) {
-	return file_services_local_services_lead_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *ProvideLeadFeedbackResponse) GetCreditIssuanceDecision() enums.LocalServicesLeadCreditIssuanceDecisionEnum_CreditIssuanceDecision {
@@ -555,9 +555,9 @@ func (x *ProvideLeadFeedbackResponse) GetCreditIssuanceDecision() enums.LocalSer
 	return enums.LocalServicesLeadCreditIssuanceDecisionEnum_CreditIssuanceDecision(0)
 }
 
-var File_services_local_services_lead_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_local_services_lead_service_proto protoreflect.FileDescriptor
 
-var file_services_local_services_lead_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDesc = string([]byte{
 	0x0a, 0x43, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x6c, 0x6f, 0x63, 0x61, 0x6c, 0x5f, 0x73, 0x65, 0x72, 0x76, 0x69, 0x63,
@@ -763,19 +763,19 @@ var file_services_local_services_lead_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_local_services_lead_service_proto_rawDescOnce sync.Once
-	file_services_local_services_lead_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescData []byte
 )
 
-func file_services_local_services_lead_service_proto_rawDescGZIP() []byte {
-	file_services_local_services_lead_service_proto_rawDescOnce.Do(func() {
-		file_services_local_services_lead_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_local_services_lead_service_proto_rawDesc), len(file_services_local_services_lead_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDesc)))
 	})
-	return file_services_local_services_lead_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDescData
 }
 
-var file_services_local_services_lead_service_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
-var file_services_local_services_lead_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
+var file_google_ads_googleads_v25_services_local_services_lead_service_proto_goTypes = []any{
 	(*AppendLeadConversationRequest)(nil),  // 0: google.ads.googleads.v25.services.AppendLeadConversationRequest
 	(*AppendLeadConversationResponse)(nil), // 1: google.ads.googleads.v25.services.AppendLeadConversationResponse
 	(*Conversation)(nil),                   // 2: google.ads.googleads.v25.services.Conversation
@@ -790,7 +790,7 @@ var file_services_local_services_lead_service_proto_goTypes = []any{
 	(enums.LocalServicesLeadSurveyAnswerEnum_SurveyAnswer)(0),                         // 11: google.ads.googleads.v25.enums.LocalServicesLeadSurveyAnswerEnum.SurveyAnswer
 	(enums.LocalServicesLeadCreditIssuanceDecisionEnum_CreditIssuanceDecision)(0),     // 12: google.ads.googleads.v25.enums.LocalServicesLeadCreditIssuanceDecisionEnum.CreditIssuanceDecision
 }
-var file_services_local_services_lead_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_local_services_lead_service_proto_depIdxs = []int32{
 	2,  // 0: google.ads.googleads.v25.services.AppendLeadConversationRequest.conversations:type_name -> google.ads.googleads.v25.services.Conversation
 	3,  // 1: google.ads.googleads.v25.services.AppendLeadConversationResponse.responses:type_name -> google.ads.googleads.v25.services.ConversationOrError
 	8,  // 2: google.ads.googleads.v25.services.ConversationOrError.partial_failure_error:type_name -> google.rpc.Status
@@ -811,16 +811,16 @@ var file_services_local_services_lead_service_proto_depIdxs = []int32{
 	0,  // [0:9] is the sub-list for field type_name
 }
 
-func init() { file_services_local_services_lead_service_proto_init() }
-func file_services_local_services_lead_service_proto_init() {
-	if File_services_local_services_lead_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_local_services_lead_service_proto_init() }
+func file_google_ads_googleads_v25_services_local_services_lead_service_proto_init() {
+	if File_google_ads_googleads_v25_services_local_services_lead_service_proto != nil {
 		return
 	}
-	file_services_local_services_lead_service_proto_msgTypes[3].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[3].OneofWrappers = []any{
 		(*ConversationOrError_LocalServicesLeadConversation)(nil),
 		(*ConversationOrError_PartialFailureError)(nil),
 	}
-	file_services_local_services_lead_service_proto_msgTypes[6].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes[6].OneofWrappers = []any{
 		(*ProvideLeadFeedbackRequest_SurveySatisfied)(nil),
 		(*ProvideLeadFeedbackRequest_SurveyDissatisfied)(nil),
 	}
@@ -828,17 +828,17 @@ func file_services_local_services_lead_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_local_services_lead_service_proto_rawDesc), len(file_services_local_services_lead_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_local_services_lead_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   8,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_local_services_lead_service_proto_goTypes,
-		DependencyIndexes: file_services_local_services_lead_service_proto_depIdxs,
-		MessageInfos:      file_services_local_services_lead_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_local_services_lead_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_local_services_lead_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_local_services_lead_service_proto_msgTypes,
 	}.Build()
-	File_services_local_services_lead_service_proto = out.File
-	file_services_local_services_lead_service_proto_goTypes = nil
-	file_services_local_services_lead_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_local_services_lead_service_proto = out.File
+	file_google_ads_googleads_v25_services_local_services_lead_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_local_services_lead_service_proto_depIdxs = nil
 }

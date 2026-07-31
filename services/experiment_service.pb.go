@@ -63,7 +63,7 @@ type MutateExperimentsRequest struct {
 
 func (x *MutateExperimentsRequest) Reset() {
 	*x = MutateExperimentsRequest{}
-	mi := &file_services_experiment_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -75,7 +75,7 @@ func (x *MutateExperimentsRequest) String() string {
 func (*MutateExperimentsRequest) ProtoMessage() {}
 
 func (x *MutateExperimentsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -88,7 +88,7 @@ func (x *MutateExperimentsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateExperimentsRequest.ProtoReflect.Descriptor instead.
 func (*MutateExperimentsRequest) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateExperimentsRequest) GetCustomerId() string {
@@ -138,7 +138,7 @@ type ExperimentOperation struct {
 
 func (x *ExperimentOperation) Reset() {
 	*x = ExperimentOperation{}
-	mi := &file_services_experiment_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -150,7 +150,7 @@ func (x *ExperimentOperation) String() string {
 func (*ExperimentOperation) ProtoMessage() {}
 
 func (x *ExperimentOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -163,7 +163,7 @@ func (x *ExperimentOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ExperimentOperation.ProtoReflect.Descriptor instead.
 func (*ExperimentOperation) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *ExperimentOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -252,7 +252,7 @@ type MutateExperimentsResponse struct {
 
 func (x *MutateExperimentsResponse) Reset() {
 	*x = MutateExperimentsResponse{}
-	mi := &file_services_experiment_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -264,7 +264,7 @@ func (x *MutateExperimentsResponse) String() string {
 func (*MutateExperimentsResponse) ProtoMessage() {}
 
 func (x *MutateExperimentsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -277,7 +277,7 @@ func (x *MutateExperimentsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateExperimentsResponse.ProtoReflect.Descriptor instead.
 func (*MutateExperimentsResponse) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateExperimentsResponse) GetPartialFailureError() *status.Status {
@@ -305,7 +305,7 @@ type MutateExperimentResult struct {
 
 func (x *MutateExperimentResult) Reset() {
 	*x = MutateExperimentResult{}
-	mi := &file_services_experiment_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -317,7 +317,7 @@ func (x *MutateExperimentResult) String() string {
 func (*MutateExperimentResult) ProtoMessage() {}
 
 func (x *MutateExperimentResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -330,7 +330,7 @@ func (x *MutateExperimentResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateExperimentResult.ProtoReflect.Descriptor instead.
 func (*MutateExperimentResult) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateExperimentResult) GetResourceName() string {
@@ -355,7 +355,7 @@ type EndExperimentRequest struct {
 
 func (x *EndExperimentRequest) Reset() {
 	*x = EndExperimentRequest{}
-	mi := &file_services_experiment_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -367,7 +367,7 @@ func (x *EndExperimentRequest) String() string {
 func (*EndExperimentRequest) ProtoMessage() {}
 
 func (x *EndExperimentRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -380,7 +380,7 @@ func (x *EndExperimentRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use EndExperimentRequest.ProtoReflect.Descriptor instead.
 func (*EndExperimentRequest) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *EndExperimentRequest) GetExperiment() string {
@@ -420,7 +420,7 @@ type ListExperimentAsyncErrorsRequest struct {
 
 func (x *ListExperimentAsyncErrorsRequest) Reset() {
 	*x = ListExperimentAsyncErrorsRequest{}
-	mi := &file_services_experiment_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -432,7 +432,7 @@ func (x *ListExperimentAsyncErrorsRequest) String() string {
 func (*ListExperimentAsyncErrorsRequest) ProtoMessage() {}
 
 func (x *ListExperimentAsyncErrorsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -445,7 +445,7 @@ func (x *ListExperimentAsyncErrorsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ListExperimentAsyncErrorsRequest.ProtoReflect.Descriptor instead.
 func (*ListExperimentAsyncErrorsRequest) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *ListExperimentAsyncErrorsRequest) GetResourceName() string {
@@ -486,7 +486,7 @@ type ListExperimentAsyncErrorsResponse struct {
 
 func (x *ListExperimentAsyncErrorsResponse) Reset() {
 	*x = ListExperimentAsyncErrorsResponse{}
-	mi := &file_services_experiment_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -498,7 +498,7 @@ func (x *ListExperimentAsyncErrorsResponse) String() string {
 func (*ListExperimentAsyncErrorsResponse) ProtoMessage() {}
 
 func (x *ListExperimentAsyncErrorsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -511,7 +511,7 @@ func (x *ListExperimentAsyncErrorsResponse) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use ListExperimentAsyncErrorsResponse.ProtoReflect.Descriptor instead.
 func (*ListExperimentAsyncErrorsResponse) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *ListExperimentAsyncErrorsResponse) GetErrors() []*status.Status {
@@ -547,7 +547,7 @@ type GraduateExperimentRequest struct {
 
 func (x *GraduateExperimentRequest) Reset() {
 	*x = GraduateExperimentRequest{}
-	mi := &file_services_experiment_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -559,7 +559,7 @@ func (x *GraduateExperimentRequest) String() string {
 func (*GraduateExperimentRequest) ProtoMessage() {}
 
 func (x *GraduateExperimentRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -572,7 +572,7 @@ func (x *GraduateExperimentRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GraduateExperimentRequest.ProtoReflect.Descriptor instead.
 func (*GraduateExperimentRequest) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *GraduateExperimentRequest) GetExperiment() string {
@@ -610,7 +610,7 @@ type CampaignBudgetMapping struct {
 
 func (x *CampaignBudgetMapping) Reset() {
 	*x = CampaignBudgetMapping{}
-	mi := &file_services_experiment_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -622,7 +622,7 @@ func (x *CampaignBudgetMapping) String() string {
 func (*CampaignBudgetMapping) ProtoMessage() {}
 
 func (x *CampaignBudgetMapping) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -635,7 +635,7 @@ func (x *CampaignBudgetMapping) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CampaignBudgetMapping.ProtoReflect.Descriptor instead.
 func (*CampaignBudgetMapping) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *CampaignBudgetMapping) GetExperimentCampaign() string {
@@ -667,7 +667,7 @@ type ScheduleExperimentRequest struct {
 
 func (x *ScheduleExperimentRequest) Reset() {
 	*x = ScheduleExperimentRequest{}
-	mi := &file_services_experiment_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -679,7 +679,7 @@ func (x *ScheduleExperimentRequest) String() string {
 func (*ScheduleExperimentRequest) ProtoMessage() {}
 
 func (x *ScheduleExperimentRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -692,7 +692,7 @@ func (x *ScheduleExperimentRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ScheduleExperimentRequest.ProtoReflect.Descriptor instead.
 func (*ScheduleExperimentRequest) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *ScheduleExperimentRequest) GetResourceName() string {
@@ -720,7 +720,7 @@ type ScheduleExperimentMetadata struct {
 
 func (x *ScheduleExperimentMetadata) Reset() {
 	*x = ScheduleExperimentMetadata{}
-	mi := &file_services_experiment_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -732,7 +732,7 @@ func (x *ScheduleExperimentMetadata) String() string {
 func (*ScheduleExperimentMetadata) ProtoMessage() {}
 
 func (x *ScheduleExperimentMetadata) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -745,7 +745,7 @@ func (x *ScheduleExperimentMetadata) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ScheduleExperimentMetadata.ProtoReflect.Descriptor instead.
 func (*ScheduleExperimentMetadata) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *ScheduleExperimentMetadata) GetExperiment() string {
@@ -770,7 +770,7 @@ type PromoteExperimentRequest struct {
 
 func (x *PromoteExperimentRequest) Reset() {
 	*x = PromoteExperimentRequest{}
-	mi := &file_services_experiment_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -782,7 +782,7 @@ func (x *PromoteExperimentRequest) String() string {
 func (*PromoteExperimentRequest) ProtoMessage() {}
 
 func (x *PromoteExperimentRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -795,7 +795,7 @@ func (x *PromoteExperimentRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PromoteExperimentRequest.ProtoReflect.Descriptor instead.
 func (*PromoteExperimentRequest) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{11}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *PromoteExperimentRequest) GetResourceName() string {
@@ -823,7 +823,7 @@ type PromoteExperimentMetadata struct {
 
 func (x *PromoteExperimentMetadata) Reset() {
 	*x = PromoteExperimentMetadata{}
-	mi := &file_services_experiment_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[12]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -835,7 +835,7 @@ func (x *PromoteExperimentMetadata) String() string {
 func (*PromoteExperimentMetadata) ProtoMessage() {}
 
 func (x *PromoteExperimentMetadata) ProtoReflect() protoreflect.Message {
-	mi := &file_services_experiment_service_proto_msgTypes[12]
+	mi := &file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[12]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -848,7 +848,7 @@ func (x *PromoteExperimentMetadata) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PromoteExperimentMetadata.ProtoReflect.Descriptor instead.
 func (*PromoteExperimentMetadata) Descriptor() ([]byte, []int) {
-	return file_services_experiment_service_proto_rawDescGZIP(), []int{12}
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *PromoteExperimentMetadata) GetExperiment() string {
@@ -858,9 +858,9 @@ func (x *PromoteExperimentMetadata) GetExperiment() string {
 	return ""
 }
 
-var File_services_experiment_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_experiment_service_proto protoreflect.FileDescriptor
 
-var file_services_experiment_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_experiment_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3a, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x65, 0x78, 0x70, 0x65, 0x72, 0x69, 0x6d, 0x65, 0x6e, 0x74, 0x5f, 0x73,
@@ -1147,19 +1147,19 @@ var file_services_experiment_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_experiment_service_proto_rawDescOnce sync.Once
-	file_services_experiment_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_experiment_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_experiment_service_proto_rawDescData []byte
 )
 
-func file_services_experiment_service_proto_rawDescGZIP() []byte {
-	file_services_experiment_service_proto_rawDescOnce.Do(func() {
-		file_services_experiment_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_experiment_service_proto_rawDesc), len(file_services_experiment_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_experiment_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_experiment_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_experiment_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_experiment_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_experiment_service_proto_rawDesc)))
 	})
-	return file_services_experiment_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_experiment_service_proto_rawDescData
 }
 
-var file_services_experiment_service_proto_msgTypes = make([]protoimpl.MessageInfo, 13)
-var file_services_experiment_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes = make([]protoimpl.MessageInfo, 13)
+var file_google_ads_googleads_v25_services_experiment_service_proto_goTypes = []any{
 	(*MutateExperimentsRequest)(nil),          // 0: google.ads.googleads.v25.services.MutateExperimentsRequest
 	(*ExperimentOperation)(nil),               // 1: google.ads.googleads.v25.services.ExperimentOperation
 	(*MutateExperimentsResponse)(nil),         // 2: google.ads.googleads.v25.services.MutateExperimentsResponse
@@ -1179,7 +1179,7 @@ var file_services_experiment_service_proto_goTypes = []any{
 	(*emptypb.Empty)(nil),                     // 16: google.protobuf.Empty
 	(*longrunningpb.Operation)(nil),           // 17: google.longrunning.Operation
 }
-var file_services_experiment_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_experiment_service_proto_depIdxs = []int32{
 	1,  // 0: google.ads.googleads.v25.services.MutateExperimentsRequest.operations:type_name -> google.ads.googleads.v25.services.ExperimentOperation
 	13, // 1: google.ads.googleads.v25.services.ExperimentOperation.update_mask:type_name -> google.protobuf.FieldMask
 	14, // 2: google.ads.googleads.v25.services.ExperimentOperation.create:type_name -> google.ads.googleads.v25.resources.Experiment
@@ -1207,12 +1207,12 @@ var file_services_experiment_service_proto_depIdxs = []int32{
 	0,  // [0:8] is the sub-list for field type_name
 }
 
-func init() { file_services_experiment_service_proto_init() }
-func file_services_experiment_service_proto_init() {
-	if File_services_experiment_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_experiment_service_proto_init() }
+func file_google_ads_googleads_v25_services_experiment_service_proto_init() {
+	if File_google_ads_googleads_v25_services_experiment_service_proto != nil {
 		return
 	}
-	file_services_experiment_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*ExperimentOperation_Create)(nil),
 		(*ExperimentOperation_Update)(nil),
 		(*ExperimentOperation_Remove)(nil),
@@ -1221,17 +1221,17 @@ func file_services_experiment_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_experiment_service_proto_rawDesc), len(file_services_experiment_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_experiment_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_experiment_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   13,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_experiment_service_proto_goTypes,
-		DependencyIndexes: file_services_experiment_service_proto_depIdxs,
-		MessageInfos:      file_services_experiment_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_experiment_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_experiment_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_experiment_service_proto_msgTypes,
 	}.Build()
-	File_services_experiment_service_proto = out.File
-	file_services_experiment_service_proto_goTypes = nil
-	file_services_experiment_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_experiment_service_proto = out.File
+	file_google_ads_googleads_v25_services_experiment_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_experiment_service_proto_depIdxs = nil
 }

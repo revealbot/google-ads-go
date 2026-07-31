@@ -61,7 +61,7 @@ type MutateKeywordPlansRequest struct {
 
 func (x *MutateKeywordPlansRequest) Reset() {
 	*x = MutateKeywordPlansRequest{}
-	mi := &file_services_keyword_plan_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -73,7 +73,7 @@ func (x *MutateKeywordPlansRequest) String() string {
 func (*MutateKeywordPlansRequest) ProtoMessage() {}
 
 func (x *MutateKeywordPlansRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -86,7 +86,7 @@ func (x *MutateKeywordPlansRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateKeywordPlansRequest.ProtoReflect.Descriptor instead.
 func (*MutateKeywordPlansRequest) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateKeywordPlansRequest) GetCustomerId() string {
@@ -137,7 +137,7 @@ type KeywordPlanOperation struct {
 
 func (x *KeywordPlanOperation) Reset() {
 	*x = KeywordPlanOperation{}
-	mi := &file_services_keyword_plan_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -149,7 +149,7 @@ func (x *KeywordPlanOperation) String() string {
 func (*KeywordPlanOperation) ProtoMessage() {}
 
 func (x *KeywordPlanOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -162,7 +162,7 @@ func (x *KeywordPlanOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use KeywordPlanOperation.ProtoReflect.Descriptor instead.
 func (*KeywordPlanOperation) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *KeywordPlanOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -251,7 +251,7 @@ type MutateKeywordPlansResponse struct {
 
 func (x *MutateKeywordPlansResponse) Reset() {
 	*x = MutateKeywordPlansResponse{}
-	mi := &file_services_keyword_plan_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -263,7 +263,7 @@ func (x *MutateKeywordPlansResponse) String() string {
 func (*MutateKeywordPlansResponse) ProtoMessage() {}
 
 func (x *MutateKeywordPlansResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -276,7 +276,7 @@ func (x *MutateKeywordPlansResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateKeywordPlansResponse.ProtoReflect.Descriptor instead.
 func (*MutateKeywordPlansResponse) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateKeywordPlansResponse) GetPartialFailureError() *status.Status {
@@ -304,7 +304,7 @@ type MutateKeywordPlansResult struct {
 
 func (x *MutateKeywordPlansResult) Reset() {
 	*x = MutateKeywordPlansResult{}
-	mi := &file_services_keyword_plan_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -316,7 +316,7 @@ func (x *MutateKeywordPlansResult) String() string {
 func (*MutateKeywordPlansResult) ProtoMessage() {}
 
 func (x *MutateKeywordPlansResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_keyword_plan_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -329,7 +329,7 @@ func (x *MutateKeywordPlansResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateKeywordPlansResult.ProtoReflect.Descriptor instead.
 func (*MutateKeywordPlansResult) Descriptor() ([]byte, []int) {
-	return file_services_keyword_plan_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateKeywordPlansResult) GetResourceName() string {
@@ -339,9 +339,9 @@ func (x *MutateKeywordPlansResult) GetResourceName() string {
 	return ""
 }
 
-var File_services_keyword_plan_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_keyword_plan_service_proto protoreflect.FileDescriptor
 
-var file_services_keyword_plan_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3c, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x6b, 0x65, 0x79, 0x77, 0x6f, 0x72, 0x64, 0x5f, 0x70, 0x6c, 0x61, 0x6e,
@@ -457,19 +457,19 @@ var file_services_keyword_plan_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_keyword_plan_service_proto_rawDescOnce sync.Once
-	file_services_keyword_plan_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescData []byte
 )
 
-func file_services_keyword_plan_service_proto_rawDescGZIP() []byte {
-	file_services_keyword_plan_service_proto_rawDescOnce.Do(func() {
-		file_services_keyword_plan_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_keyword_plan_service_proto_rawDesc), len(file_services_keyword_plan_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDesc)))
 	})
-	return file_services_keyword_plan_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDescData
 }
 
-var file_services_keyword_plan_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_keyword_plan_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_keyword_plan_service_proto_goTypes = []any{
 	(*MutateKeywordPlansRequest)(nil),  // 0: google.ads.googleads.v25.services.MutateKeywordPlansRequest
 	(*KeywordPlanOperation)(nil),       // 1: google.ads.googleads.v25.services.KeywordPlanOperation
 	(*MutateKeywordPlansResponse)(nil), // 2: google.ads.googleads.v25.services.MutateKeywordPlansResponse
@@ -478,7 +478,7 @@ var file_services_keyword_plan_service_proto_goTypes = []any{
 	(*resources.KeywordPlan)(nil),      // 5: google.ads.googleads.v25.resources.KeywordPlan
 	(*status.Status)(nil),              // 6: google.rpc.Status
 }
-var file_services_keyword_plan_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_keyword_plan_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateKeywordPlansRequest.operations:type_name -> google.ads.googleads.v25.services.KeywordPlanOperation
 	4, // 1: google.ads.googleads.v25.services.KeywordPlanOperation.update_mask:type_name -> google.protobuf.FieldMask
 	5, // 2: google.ads.googleads.v25.services.KeywordPlanOperation.create:type_name -> google.ads.googleads.v25.resources.KeywordPlan
@@ -494,12 +494,12 @@ var file_services_keyword_plan_service_proto_depIdxs = []int32{
 	0, // [0:6] is the sub-list for field type_name
 }
 
-func init() { file_services_keyword_plan_service_proto_init() }
-func file_services_keyword_plan_service_proto_init() {
-	if File_services_keyword_plan_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_keyword_plan_service_proto_init() }
+func file_google_ads_googleads_v25_services_keyword_plan_service_proto_init() {
+	if File_google_ads_googleads_v25_services_keyword_plan_service_proto != nil {
 		return
 	}
-	file_services_keyword_plan_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*KeywordPlanOperation_Create)(nil),
 		(*KeywordPlanOperation_Update)(nil),
 		(*KeywordPlanOperation_Remove)(nil),
@@ -508,17 +508,17 @@ func file_services_keyword_plan_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_keyword_plan_service_proto_rawDesc), len(file_services_keyword_plan_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_keyword_plan_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_keyword_plan_service_proto_goTypes,
-		DependencyIndexes: file_services_keyword_plan_service_proto_depIdxs,
-		MessageInfos:      file_services_keyword_plan_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_keyword_plan_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_keyword_plan_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_keyword_plan_service_proto_msgTypes,
 	}.Build()
-	File_services_keyword_plan_service_proto = out.File
-	file_services_keyword_plan_service_proto_goTypes = nil
-	file_services_keyword_plan_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_keyword_plan_service_proto = out.File
+	file_google_ads_googleads_v25_services_keyword_plan_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_keyword_plan_service_proto_depIdxs = nil
 }

@@ -67,7 +67,7 @@ type MutateAdGroupAdsRequest struct {
 
 func (x *MutateAdGroupAdsRequest) Reset() {
 	*x = MutateAdGroupAdsRequest{}
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -79,7 +79,7 @@ func (x *MutateAdGroupAdsRequest) String() string {
 func (*MutateAdGroupAdsRequest) ProtoMessage() {}
 
 func (x *MutateAdGroupAdsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -92,7 +92,7 @@ func (x *MutateAdGroupAdsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAdGroupAdsRequest.ProtoReflect.Descriptor instead.
 func (*MutateAdGroupAdsRequest) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_ad_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateAdGroupAdsRequest) GetCustomerId() string {
@@ -151,7 +151,7 @@ type AdGroupAdOperation struct {
 
 func (x *AdGroupAdOperation) Reset() {
 	*x = AdGroupAdOperation{}
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -163,7 +163,7 @@ func (x *AdGroupAdOperation) String() string {
 func (*AdGroupAdOperation) ProtoMessage() {}
 
 func (x *AdGroupAdOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -176,7 +176,7 @@ func (x *AdGroupAdOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AdGroupAdOperation.ProtoReflect.Descriptor instead.
 func (*AdGroupAdOperation) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_ad_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *AdGroupAdOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -271,7 +271,7 @@ type MutateAdGroupAdsResponse struct {
 
 func (x *MutateAdGroupAdsResponse) Reset() {
 	*x = MutateAdGroupAdsResponse{}
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -283,7 +283,7 @@ func (x *MutateAdGroupAdsResponse) String() string {
 func (*MutateAdGroupAdsResponse) ProtoMessage() {}
 
 func (x *MutateAdGroupAdsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -296,7 +296,7 @@ func (x *MutateAdGroupAdsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAdGroupAdsResponse.ProtoReflect.Descriptor instead.
 func (*MutateAdGroupAdsResponse) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_ad_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateAdGroupAdsResponse) GetPartialFailureError() *status.Status {
@@ -328,7 +328,7 @@ type MutateAdGroupAdResult struct {
 
 func (x *MutateAdGroupAdResult) Reset() {
 	*x = MutateAdGroupAdResult{}
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -340,7 +340,7 @@ func (x *MutateAdGroupAdResult) String() string {
 func (*MutateAdGroupAdResult) ProtoMessage() {}
 
 func (x *MutateAdGroupAdResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -353,7 +353,7 @@ func (x *MutateAdGroupAdResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateAdGroupAdResult.ProtoReflect.Descriptor instead.
 func (*MutateAdGroupAdResult) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_ad_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateAdGroupAdResult) GetResourceName() string {
@@ -385,7 +385,7 @@ type RemoveAutomaticallyCreatedAssetsRequest struct {
 
 func (x *RemoveAutomaticallyCreatedAssetsRequest) Reset() {
 	*x = RemoveAutomaticallyCreatedAssetsRequest{}
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -397,7 +397,7 @@ func (x *RemoveAutomaticallyCreatedAssetsRequest) String() string {
 func (*RemoveAutomaticallyCreatedAssetsRequest) ProtoMessage() {}
 
 func (x *RemoveAutomaticallyCreatedAssetsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -410,7 +410,7 @@ func (x *RemoveAutomaticallyCreatedAssetsRequest) ProtoReflect() protoreflect.Me
 
 // Deprecated: Use RemoveAutomaticallyCreatedAssetsRequest.ProtoReflect.Descriptor instead.
 func (*RemoveAutomaticallyCreatedAssetsRequest) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_ad_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *RemoveAutomaticallyCreatedAssetsRequest) GetAdGroupAd() string {
@@ -440,7 +440,7 @@ type AssetsWithFieldType struct {
 
 func (x *AssetsWithFieldType) Reset() {
 	*x = AssetsWithFieldType{}
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -452,7 +452,7 @@ func (x *AssetsWithFieldType) String() string {
 func (*AssetsWithFieldType) ProtoMessage() {}
 
 func (x *AssetsWithFieldType) ProtoReflect() protoreflect.Message {
-	mi := &file_services_ad_group_ad_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -465,7 +465,7 @@ func (x *AssetsWithFieldType) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AssetsWithFieldType.ProtoReflect.Descriptor instead.
 func (*AssetsWithFieldType) Descriptor() ([]byte, []int) {
-	return file_services_ad_group_ad_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *AssetsWithFieldType) GetAsset() string {
@@ -482,9 +482,9 @@ func (x *AssetsWithFieldType) GetAssetFieldType() enums.AssetFieldTypeEnum_Asset
 	return enums.AssetFieldTypeEnum_AssetFieldType(0)
 }
 
-var File_services_ad_group_ad_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_ad_group_ad_service_proto protoreflect.FileDescriptor
 
-var file_services_ad_group_ad_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3b, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x61, 0x64, 0x5f, 0x67, 0x72, 0x6f, 0x75, 0x70, 0x5f, 0x61, 0x64, 0x5f,
@@ -674,19 +674,19 @@ var file_services_ad_group_ad_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_ad_group_ad_service_proto_rawDescOnce sync.Once
-	file_services_ad_group_ad_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescData []byte
 )
 
-func file_services_ad_group_ad_service_proto_rawDescGZIP() []byte {
-	file_services_ad_group_ad_service_proto_rawDescOnce.Do(func() {
-		file_services_ad_group_ad_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_ad_group_ad_service_proto_rawDesc), len(file_services_ad_group_ad_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDesc)))
 	})
-	return file_services_ad_group_ad_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDescData
 }
 
-var file_services_ad_group_ad_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
-var file_services_ad_group_ad_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
+var file_google_ads_googleads_v25_services_ad_group_ad_service_proto_goTypes = []any{
 	(*MutateAdGroupAdsRequest)(nil),                        // 0: google.ads.googleads.v25.services.MutateAdGroupAdsRequest
 	(*AdGroupAdOperation)(nil),                             // 1: google.ads.googleads.v25.services.AdGroupAdOperation
 	(*MutateAdGroupAdsResponse)(nil),                       // 2: google.ads.googleads.v25.services.MutateAdGroupAdsResponse
@@ -701,7 +701,7 @@ var file_services_ad_group_ad_service_proto_goTypes = []any{
 	(enums.AssetFieldTypeEnum_AssetFieldType)(0),           // 11: google.ads.googleads.v25.enums.AssetFieldTypeEnum.AssetFieldType
 	(*emptypb.Empty)(nil),                                  // 12: google.protobuf.Empty
 }
-var file_services_ad_group_ad_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_ad_group_ad_service_proto_depIdxs = []int32{
 	1,  // 0: google.ads.googleads.v25.services.MutateAdGroupAdsRequest.operations:type_name -> google.ads.googleads.v25.services.AdGroupAdOperation
 	6,  // 1: google.ads.googleads.v25.services.MutateAdGroupAdsRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	7,  // 2: google.ads.googleads.v25.services.AdGroupAdOperation.update_mask:type_name -> google.protobuf.FieldMask
@@ -724,12 +724,12 @@ var file_services_ad_group_ad_service_proto_depIdxs = []int32{
 	0,  // [0:11] is the sub-list for field type_name
 }
 
-func init() { file_services_ad_group_ad_service_proto_init() }
-func file_services_ad_group_ad_service_proto_init() {
-	if File_services_ad_group_ad_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_ad_group_ad_service_proto_init() }
+func file_google_ads_googleads_v25_services_ad_group_ad_service_proto_init() {
+	if File_google_ads_googleads_v25_services_ad_group_ad_service_proto != nil {
 		return
 	}
-	file_services_ad_group_ad_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*AdGroupAdOperation_Create)(nil),
 		(*AdGroupAdOperation_Update)(nil),
 		(*AdGroupAdOperation_Remove)(nil),
@@ -738,17 +738,17 @@ func file_services_ad_group_ad_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_ad_group_ad_service_proto_rawDesc), len(file_services_ad_group_ad_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_ad_group_ad_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   6,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_ad_group_ad_service_proto_goTypes,
-		DependencyIndexes: file_services_ad_group_ad_service_proto_depIdxs,
-		MessageInfos:      file_services_ad_group_ad_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_ad_group_ad_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_ad_group_ad_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_ad_group_ad_service_proto_msgTypes,
 	}.Build()
-	File_services_ad_group_ad_service_proto = out.File
-	file_services_ad_group_ad_service_proto_goTypes = nil
-	file_services_ad_group_ad_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_ad_group_ad_service_proto = out.File
+	file_google_ads_googleads_v25_services_ad_group_ad_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_ad_group_ad_service_proto_depIdxs = nil
 }

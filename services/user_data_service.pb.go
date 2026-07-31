@@ -57,7 +57,7 @@ type UploadUserDataRequest struct {
 
 func (x *UploadUserDataRequest) Reset() {
 	*x = UploadUserDataRequest{}
-	mi := &file_services_user_data_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -69,7 +69,7 @@ func (x *UploadUserDataRequest) String() string {
 func (*UploadUserDataRequest) ProtoMessage() {}
 
 func (x *UploadUserDataRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_user_data_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -82,7 +82,7 @@ func (x *UploadUserDataRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UploadUserDataRequest.ProtoReflect.Descriptor instead.
 func (*UploadUserDataRequest) Descriptor() ([]byte, []int) {
-	return file_services_user_data_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_user_data_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *UploadUserDataRequest) GetCustomerId() string {
@@ -142,7 +142,7 @@ type UserDataOperation struct {
 
 func (x *UserDataOperation) Reset() {
 	*x = UserDataOperation{}
-	mi := &file_services_user_data_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -154,7 +154,7 @@ func (x *UserDataOperation) String() string {
 func (*UserDataOperation) ProtoMessage() {}
 
 func (x *UserDataOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_user_data_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -167,7 +167,7 @@ func (x *UserDataOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UserDataOperation.ProtoReflect.Descriptor instead.
 func (*UserDataOperation) Descriptor() ([]byte, []int) {
-	return file_services_user_data_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_user_data_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *UserDataOperation) GetOperation() isUserDataOperation_Operation {
@@ -230,7 +230,7 @@ type UploadUserDataResponse struct {
 
 func (x *UploadUserDataResponse) Reset() {
 	*x = UploadUserDataResponse{}
-	mi := &file_services_user_data_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -242,7 +242,7 @@ func (x *UploadUserDataResponse) String() string {
 func (*UploadUserDataResponse) ProtoMessage() {}
 
 func (x *UploadUserDataResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_user_data_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -255,7 +255,7 @@ func (x *UploadUserDataResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UploadUserDataResponse.ProtoReflect.Descriptor instead.
 func (*UploadUserDataResponse) Descriptor() ([]byte, []int) {
-	return file_services_user_data_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_user_data_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *UploadUserDataResponse) GetUploadDateTime() string {
@@ -272,9 +272,9 @@ func (x *UploadUserDataResponse) GetReceivedOperationsCount() int32 {
 	return 0
 }
 
-var File_services_user_data_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_user_data_service_proto protoreflect.FileDescriptor
 
-var file_services_user_data_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_user_data_service_proto_rawDesc = string([]byte{
 	0x0a, 0x39, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x75, 0x73, 0x65, 0x72, 0x5f, 0x64, 0x61, 0x74, 0x61, 0x5f, 0x73, 0x65,
@@ -370,26 +370,26 @@ var file_services_user_data_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_user_data_service_proto_rawDescOnce sync.Once
-	file_services_user_data_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_user_data_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_user_data_service_proto_rawDescData []byte
 )
 
-func file_services_user_data_service_proto_rawDescGZIP() []byte {
-	file_services_user_data_service_proto_rawDescOnce.Do(func() {
-		file_services_user_data_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_user_data_service_proto_rawDesc), len(file_services_user_data_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_user_data_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_user_data_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_user_data_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_user_data_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_user_data_service_proto_rawDesc)))
 	})
-	return file_services_user_data_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_user_data_service_proto_rawDescData
 }
 
-var file_services_user_data_service_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
-var file_services_user_data_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
+var file_google_ads_googleads_v25_services_user_data_service_proto_goTypes = []any{
 	(*UploadUserDataRequest)(nil),                // 0: google.ads.googleads.v25.services.UploadUserDataRequest
 	(*UserDataOperation)(nil),                    // 1: google.ads.googleads.v25.services.UserDataOperation
 	(*UploadUserDataResponse)(nil),               // 2: google.ads.googleads.v25.services.UploadUserDataResponse
 	(*common.CustomerMatchUserListMetadata)(nil), // 3: google.ads.googleads.v25.common.CustomerMatchUserListMetadata
 	(*common.UserData)(nil),                      // 4: google.ads.googleads.v25.common.UserData
 }
-var file_services_user_data_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_user_data_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.UploadUserDataRequest.operations:type_name -> google.ads.googleads.v25.services.UserDataOperation
 	3, // 1: google.ads.googleads.v25.services.UploadUserDataRequest.customer_match_user_list_metadata:type_name -> google.ads.googleads.v25.common.CustomerMatchUserListMetadata
 	4, // 2: google.ads.googleads.v25.services.UserDataOperation.create:type_name -> google.ads.googleads.v25.common.UserData
@@ -403,34 +403,34 @@ var file_services_user_data_service_proto_depIdxs = []int32{
 	0, // [0:4] is the sub-list for field type_name
 }
 
-func init() { file_services_user_data_service_proto_init() }
-func file_services_user_data_service_proto_init() {
-	if File_services_user_data_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_user_data_service_proto_init() }
+func file_google_ads_googleads_v25_services_user_data_service_proto_init() {
+	if File_google_ads_googleads_v25_services_user_data_service_proto != nil {
 		return
 	}
-	file_services_user_data_service_proto_msgTypes[0].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[0].OneofWrappers = []any{
 		(*UploadUserDataRequest_CustomerMatchUserListMetadata)(nil),
 	}
-	file_services_user_data_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*UserDataOperation_Create)(nil),
 		(*UserDataOperation_Remove)(nil),
 	}
-	file_services_user_data_service_proto_msgTypes[2].OneofWrappers = []any{}
+	file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes[2].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_user_data_service_proto_rawDesc), len(file_services_user_data_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_user_data_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_user_data_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   3,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_user_data_service_proto_goTypes,
-		DependencyIndexes: file_services_user_data_service_proto_depIdxs,
-		MessageInfos:      file_services_user_data_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_user_data_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_user_data_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_user_data_service_proto_msgTypes,
 	}.Build()
-	File_services_user_data_service_proto = out.File
-	file_services_user_data_service_proto_goTypes = nil
-	file_services_user_data_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_user_data_service_proto = out.File
+	file_google_ads_googleads_v25_services_user_data_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_user_data_service_proto_depIdxs = nil
 }

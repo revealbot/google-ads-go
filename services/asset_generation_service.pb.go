@@ -69,7 +69,7 @@ type GenerateTextRequest struct {
 
 func (x *GenerateTextRequest) Reset() {
 	*x = GenerateTextRequest{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -81,7 +81,7 @@ func (x *GenerateTextRequest) String() string {
 func (*GenerateTextRequest) ProtoMessage() {}
 
 func (x *GenerateTextRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -94,7 +94,7 @@ func (x *GenerateTextRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateTextRequest.ProtoReflect.Descriptor instead.
 func (*GenerateTextRequest) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *GenerateTextRequest) GetCustomerId() string {
@@ -192,7 +192,7 @@ type GenerateTextResponse struct {
 
 func (x *GenerateTextResponse) Reset() {
 	*x = GenerateTextResponse{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -204,7 +204,7 @@ func (x *GenerateTextResponse) String() string {
 func (*GenerateTextResponse) ProtoMessage() {}
 
 func (x *GenerateTextResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -217,7 +217,7 @@ func (x *GenerateTextResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateTextResponse.ProtoReflect.Descriptor instead.
 func (*GenerateTextResponse) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *GenerateTextResponse) GetGeneratedText() []*GeneratedText {
@@ -240,7 +240,7 @@ type GeneratedText struct {
 
 func (x *GeneratedText) Reset() {
 	*x = GeneratedText{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -252,7 +252,7 @@ func (x *GeneratedText) String() string {
 func (*GeneratedText) ProtoMessage() {}
 
 func (x *GeneratedText) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -265,7 +265,7 @@ func (x *GeneratedText) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GeneratedText.ProtoReflect.Descriptor instead.
 func (*GeneratedText) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *GeneratedText) GetText() string {
@@ -316,7 +316,7 @@ type GenerateImagesRequest struct {
 
 func (x *GenerateImagesRequest) Reset() {
 	*x = GenerateImagesRequest{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -328,7 +328,7 @@ func (x *GenerateImagesRequest) String() string {
 func (*GenerateImagesRequest) ProtoMessage() {}
 
 func (x *GenerateImagesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -341,7 +341,7 @@ func (x *GenerateImagesRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateImagesRequest.ProtoReflect.Descriptor instead.
 func (*GenerateImagesRequest) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *GenerateImagesRequest) GetCustomerId() string {
@@ -459,7 +459,7 @@ type FinalUrlImageGenerationInput struct {
 
 func (x *FinalUrlImageGenerationInput) Reset() {
 	*x = FinalUrlImageGenerationInput{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -471,7 +471,7 @@ func (x *FinalUrlImageGenerationInput) String() string {
 func (*FinalUrlImageGenerationInput) ProtoMessage() {}
 
 func (x *FinalUrlImageGenerationInput) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -484,7 +484,7 @@ func (x *FinalUrlImageGenerationInput) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use FinalUrlImageGenerationInput.ProtoReflect.Descriptor instead.
 func (*FinalUrlImageGenerationInput) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *FinalUrlImageGenerationInput) GetFinalUrl() string {
@@ -506,7 +506,7 @@ type FreeformImageGenerationInput struct {
 
 func (x *FreeformImageGenerationInput) Reset() {
 	*x = FreeformImageGenerationInput{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -518,7 +518,7 @@ func (x *FreeformImageGenerationInput) String() string {
 func (*FreeformImageGenerationInput) ProtoMessage() {}
 
 func (x *FreeformImageGenerationInput) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -531,7 +531,7 @@ func (x *FreeformImageGenerationInput) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use FreeformImageGenerationInput.ProtoReflect.Descriptor instead.
 func (*FreeformImageGenerationInput) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *FreeformImageGenerationInput) GetFreeformPrompt() string {
@@ -556,7 +556,7 @@ type ProductRecontextGenerationImageInput struct {
 
 func (x *ProductRecontextGenerationImageInput) Reset() {
 	*x = ProductRecontextGenerationImageInput{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -568,7 +568,7 @@ func (x *ProductRecontextGenerationImageInput) String() string {
 func (*ProductRecontextGenerationImageInput) ProtoMessage() {}
 
 func (x *ProductRecontextGenerationImageInput) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -581,7 +581,7 @@ func (x *ProductRecontextGenerationImageInput) ProtoReflect() protoreflect.Messa
 
 // Deprecated: Use ProductRecontextGenerationImageInput.ProtoReflect.Descriptor instead.
 func (*ProductRecontextGenerationImageInput) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *ProductRecontextGenerationImageInput) GetPrompt() string {
@@ -610,7 +610,7 @@ type GenerateImagesResponse struct {
 
 func (x *GenerateImagesResponse) Reset() {
 	*x = GenerateImagesResponse{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -622,7 +622,7 @@ func (x *GenerateImagesResponse) String() string {
 func (*GenerateImagesResponse) ProtoMessage() {}
 
 func (x *GenerateImagesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -635,7 +635,7 @@ func (x *GenerateImagesResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GenerateImagesResponse.ProtoReflect.Descriptor instead.
 func (*GenerateImagesResponse) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *GenerateImagesResponse) GetGeneratedImages() []*GeneratedImage {
@@ -660,7 +660,7 @@ type SourceImage struct {
 
 func (x *SourceImage) Reset() {
 	*x = SourceImage{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -672,7 +672,7 @@ func (x *SourceImage) String() string {
 func (*SourceImage) ProtoMessage() {}
 
 func (x *SourceImage) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -685,7 +685,7 @@ func (x *SourceImage) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SourceImage.ProtoReflect.Descriptor instead.
 func (*SourceImage) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *SourceImage) GetImage() isSourceImage_Image {
@@ -728,7 +728,7 @@ type GeneratedImage struct {
 
 func (x *GeneratedImage) Reset() {
 	*x = GeneratedImage{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -740,7 +740,7 @@ func (x *GeneratedImage) String() string {
 func (*GeneratedImage) ProtoMessage() {}
 
 func (x *GeneratedImage) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -753,7 +753,7 @@ func (x *GeneratedImage) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GeneratedImage.ProtoReflect.Descriptor instead.
 func (*GeneratedImage) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *GeneratedImage) GetImageTemporaryUrl() string {
@@ -787,7 +787,7 @@ type AssetGenerationExistingContext struct {
 
 func (x *AssetGenerationExistingContext) Reset() {
 	*x = AssetGenerationExistingContext{}
-	mi := &file_services_asset_generation_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -799,7 +799,7 @@ func (x *AssetGenerationExistingContext) String() string {
 func (*AssetGenerationExistingContext) ProtoMessage() {}
 
 func (x *AssetGenerationExistingContext) ProtoReflect() protoreflect.Message {
-	mi := &file_services_asset_generation_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -812,7 +812,7 @@ func (x *AssetGenerationExistingContext) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AssetGenerationExistingContext.ProtoReflect.Descriptor instead.
 func (*AssetGenerationExistingContext) Descriptor() ([]byte, []int) {
-	return file_services_asset_generation_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *AssetGenerationExistingContext) GetExistingContext() isAssetGenerationExistingContext_ExistingContext {
@@ -862,9 +862,9 @@ func (*AssetGenerationExistingContext_ExistingAssetGroup) isAssetGenerationExist
 func (*AssetGenerationExistingContext_ExistingAdGroupAd) isAssetGenerationExistingContext_ExistingContext() {
 }
 
-var File_services_asset_generation_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_asset_generation_service_proto protoreflect.FileDescriptor
 
-var file_services_asset_generation_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDesc = string([]byte{
 	0x0a, 0x40, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x61, 0x73, 0x73, 0x65, 0x74, 0x5f, 0x67, 0x65, 0x6e, 0x65, 0x72, 0x61,
@@ -1095,19 +1095,19 @@ var file_services_asset_generation_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_asset_generation_service_proto_rawDescOnce sync.Once
-	file_services_asset_generation_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescData []byte
 )
 
-func file_services_asset_generation_service_proto_rawDescGZIP() []byte {
-	file_services_asset_generation_service_proto_rawDescOnce.Do(func() {
-		file_services_asset_generation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_asset_generation_service_proto_rawDesc), len(file_services_asset_generation_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDesc)))
 	})
-	return file_services_asset_generation_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDescData
 }
 
-var file_services_asset_generation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 11)
-var file_services_asset_generation_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes = make([]protoimpl.MessageInfo, 11)
+var file_google_ads_googleads_v25_services_asset_generation_service_proto_goTypes = []any{
 	(*GenerateTextRequest)(nil),                                  // 0: google.ads.googleads.v25.services.GenerateTextRequest
 	(*GenerateTextResponse)(nil),                                 // 1: google.ads.googleads.v25.services.GenerateTextResponse
 	(*GeneratedText)(nil),                                        // 2: google.ads.googleads.v25.services.GeneratedText
@@ -1122,7 +1122,7 @@ var file_services_asset_generation_service_proto_goTypes = []any{
 	(enums.AssetFieldTypeEnum_AssetFieldType)(0),                 // 11: google.ads.googleads.v25.enums.AssetFieldTypeEnum.AssetFieldType
 	(enums.AdvertisingChannelTypeEnum_AdvertisingChannelType)(0), // 12: google.ads.googleads.v25.enums.AdvertisingChannelTypeEnum.AdvertisingChannelType
 }
-var file_services_asset_generation_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_asset_generation_service_proto_depIdxs = []int32{
 	11, // 0: google.ads.googleads.v25.services.GenerateTextRequest.asset_field_types:type_name -> google.ads.googleads.v25.enums.AssetFieldTypeEnum.AssetFieldType
 	10, // 1: google.ads.googleads.v25.services.GenerateTextRequest.existing_generation_context:type_name -> google.ads.googleads.v25.services.AssetGenerationExistingContext
 	12, // 2: google.ads.googleads.v25.services.GenerateTextRequest.advertising_channel_type:type_name -> google.ads.googleads.v25.enums.AdvertisingChannelTypeEnum.AdvertisingChannelType
@@ -1147,25 +1147,25 @@ var file_services_asset_generation_service_proto_depIdxs = []int32{
 	0,  // [0:13] is the sub-list for field type_name
 }
 
-func init() { file_services_asset_generation_service_proto_init() }
-func file_services_asset_generation_service_proto_init() {
-	if File_services_asset_generation_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_asset_generation_service_proto_init() }
+func file_google_ads_googleads_v25_services_asset_generation_service_proto_init() {
+	if File_google_ads_googleads_v25_services_asset_generation_service_proto != nil {
 		return
 	}
-	file_services_asset_generation_service_proto_msgTypes[0].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[0].OneofWrappers = []any{
 		(*GenerateTextRequest_ExistingGenerationContext)(nil),
 		(*GenerateTextRequest_AdvertisingChannelType)(nil),
 	}
-	file_services_asset_generation_service_proto_msgTypes[3].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[3].OneofWrappers = []any{
 		(*GenerateImagesRequest_AdvertisingChannelType)(nil),
 		(*GenerateImagesRequest_FinalUrlGeneration)(nil),
 		(*GenerateImagesRequest_FreeformGeneration)(nil),
 		(*GenerateImagesRequest_ProductRecontextGeneration)(nil),
 	}
-	file_services_asset_generation_service_proto_msgTypes[8].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[8].OneofWrappers = []any{
 		(*SourceImage_ImageData)(nil),
 	}
-	file_services_asset_generation_service_proto_msgTypes[10].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes[10].OneofWrappers = []any{
 		(*AssetGenerationExistingContext_ExistingAssetGroup)(nil),
 		(*AssetGenerationExistingContext_ExistingAdGroupAd)(nil),
 	}
@@ -1173,17 +1173,17 @@ func file_services_asset_generation_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_asset_generation_service_proto_rawDesc), len(file_services_asset_generation_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_asset_generation_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   11,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_asset_generation_service_proto_goTypes,
-		DependencyIndexes: file_services_asset_generation_service_proto_depIdxs,
-		MessageInfos:      file_services_asset_generation_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_asset_generation_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_asset_generation_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_asset_generation_service_proto_msgTypes,
 	}.Build()
-	File_services_asset_generation_service_proto = out.File
-	file_services_asset_generation_service_proto_goTypes = nil
-	file_services_asset_generation_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_asset_generation_service_proto = out.File
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_asset_generation_service_proto_depIdxs = nil
 }

@@ -21,7 +21,7 @@
 package services
 
 import (
-	actions "google.golang.org/genproto/googleapis/ads/googleads/v25/actions"
+	actions "github.com/revealbot/google-ads-go/actions"
 	common "github.com/revealbot/google-ads-go/common"
 	enums "github.com/revealbot/google-ads-go/enums"
 	resources "github.com/revealbot/google-ads-go/resources"
@@ -71,7 +71,7 @@ type SearchGoogleAdsRequest struct {
 
 func (x *SearchGoogleAdsRequest) Reset() {
 	*x = SearchGoogleAdsRequest{}
-	mi := &file_services_google_ads_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -83,7 +83,7 @@ func (x *SearchGoogleAdsRequest) String() string {
 func (*SearchGoogleAdsRequest) ProtoMessage() {}
 
 func (x *SearchGoogleAdsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -96,7 +96,7 @@ func (x *SearchGoogleAdsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchGoogleAdsRequest.ProtoReflect.Descriptor instead.
 func (*SearchGoogleAdsRequest) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *SearchGoogleAdsRequest) GetCustomerId() string {
@@ -171,7 +171,7 @@ type SearchGoogleAdsResponse struct {
 
 func (x *SearchGoogleAdsResponse) Reset() {
 	*x = SearchGoogleAdsResponse{}
-	mi := &file_services_google_ads_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -183,7 +183,7 @@ func (x *SearchGoogleAdsResponse) String() string {
 func (*SearchGoogleAdsResponse) ProtoMessage() {}
 
 func (x *SearchGoogleAdsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -196,7 +196,7 @@ func (x *SearchGoogleAdsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchGoogleAdsResponse.ProtoReflect.Descriptor instead.
 func (*SearchGoogleAdsResponse) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *SearchGoogleAdsResponse) GetResults() []*GoogleAdsRow {
@@ -266,7 +266,7 @@ type SearchGoogleAdsStreamRequest struct {
 
 func (x *SearchGoogleAdsStreamRequest) Reset() {
 	*x = SearchGoogleAdsStreamRequest{}
-	mi := &file_services_google_ads_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -278,7 +278,7 @@ func (x *SearchGoogleAdsStreamRequest) String() string {
 func (*SearchGoogleAdsStreamRequest) ProtoMessage() {}
 
 func (x *SearchGoogleAdsStreamRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -291,7 +291,7 @@ func (x *SearchGoogleAdsStreamRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchGoogleAdsStreamRequest.ProtoReflect.Descriptor instead.
 func (*SearchGoogleAdsStreamRequest) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *SearchGoogleAdsStreamRequest) GetCustomerId() string {
@@ -343,7 +343,7 @@ type SearchGoogleAdsStreamResponse struct {
 
 func (x *SearchGoogleAdsStreamResponse) Reset() {
 	*x = SearchGoogleAdsStreamResponse{}
-	mi := &file_services_google_ads_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -355,7 +355,7 @@ func (x *SearchGoogleAdsStreamResponse) String() string {
 func (*SearchGoogleAdsStreamResponse) ProtoMessage() {}
 
 func (x *SearchGoogleAdsStreamResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -368,7 +368,7 @@ func (x *SearchGoogleAdsStreamResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchGoogleAdsStreamResponse.ProtoReflect.Descriptor instead.
 func (*SearchGoogleAdsStreamResponse) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *SearchGoogleAdsStreamResponse) GetResults() []*GoogleAdsRow {
@@ -788,7 +788,7 @@ type GoogleAdsRow struct {
 
 func (x *GoogleAdsRow) Reset() {
 	*x = GoogleAdsRow{}
-	mi := &file_services_google_ads_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -800,7 +800,7 @@ func (x *GoogleAdsRow) String() string {
 func (*GoogleAdsRow) ProtoMessage() {}
 
 func (x *GoogleAdsRow) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[4]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -813,7 +813,7 @@ func (x *GoogleAdsRow) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GoogleAdsRow.ProtoReflect.Descriptor instead.
 func (*GoogleAdsRow) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{4}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *GoogleAdsRow) GetAccountBudget() *resources.AccountBudget {
@@ -2124,7 +2124,7 @@ type MutateGoogleAdsRequest struct {
 
 func (x *MutateGoogleAdsRequest) Reset() {
 	*x = MutateGoogleAdsRequest{}
-	mi := &file_services_google_ads_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2136,7 +2136,7 @@ func (x *MutateGoogleAdsRequest) String() string {
 func (*MutateGoogleAdsRequest) ProtoMessage() {}
 
 func (x *MutateGoogleAdsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[5]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2149,7 +2149,7 @@ func (x *MutateGoogleAdsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateGoogleAdsRequest.ProtoReflect.Descriptor instead.
 func (*MutateGoogleAdsRequest) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{5}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *MutateGoogleAdsRequest) GetCustomerId() string {
@@ -2204,7 +2204,7 @@ type MutateGoogleAdsResponse struct {
 
 func (x *MutateGoogleAdsResponse) Reset() {
 	*x = MutateGoogleAdsResponse{}
-	mi := &file_services_google_ads_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2216,7 +2216,7 @@ func (x *MutateGoogleAdsResponse) String() string {
 func (*MutateGoogleAdsResponse) ProtoMessage() {}
 
 func (x *MutateGoogleAdsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[6]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2229,7 +2229,7 @@ func (x *MutateGoogleAdsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateGoogleAdsResponse.ProtoReflect.Descriptor instead.
 func (*MutateGoogleAdsResponse) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{6}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *MutateGoogleAdsResponse) GetPartialFailureError() *status.Status {
@@ -2325,7 +2325,7 @@ type MutateOperation struct {
 
 func (x *MutateOperation) Reset() {
 	*x = MutateOperation{}
-	mi := &file_services_google_ads_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -2337,7 +2337,7 @@ func (x *MutateOperation) String() string {
 func (*MutateOperation) ProtoMessage() {}
 
 func (x *MutateOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[7]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -2350,7 +2350,7 @@ func (x *MutateOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateOperation.ProtoReflect.Descriptor instead.
 func (*MutateOperation) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{7}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *MutateOperation) GetOperation() isMutateOperation_Operation {
@@ -3467,7 +3467,7 @@ type MutateOperationResponse struct {
 
 func (x *MutateOperationResponse) Reset() {
 	*x = MutateOperationResponse{}
-	mi := &file_services_google_ads_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[8]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -3479,7 +3479,7 @@ func (x *MutateOperationResponse) String() string {
 func (*MutateOperationResponse) ProtoMessage() {}
 
 func (x *MutateOperationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[8]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[8]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -3492,7 +3492,7 @@ func (x *MutateOperationResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateOperationResponse.ProtoReflect.Descriptor instead.
 func (*MutateOperationResponse) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{8}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *MutateOperationResponse) GetResponse() isMutateOperationResponse_Response {
@@ -4559,7 +4559,7 @@ type SearchSettings struct {
 
 func (x *SearchSettings) Reset() {
 	*x = SearchSettings{}
-	mi := &file_services_google_ads_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[9]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -4571,7 +4571,7 @@ func (x *SearchSettings) String() string {
 func (*SearchSettings) ProtoMessage() {}
 
 func (x *SearchSettings) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[9]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[9]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -4584,7 +4584,7 @@ func (x *SearchSettings) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SearchSettings.ProtoReflect.Descriptor instead.
 func (*SearchSettings) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{9}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *SearchSettings) GetOmitResults() bool {
@@ -4621,7 +4621,7 @@ type MetricAttributes struct {
 
 func (x *MetricAttributes) Reset() {
 	*x = MetricAttributes{}
-	mi := &file_services_google_ads_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[10]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -4633,7 +4633,7 @@ func (x *MetricAttributes) String() string {
 func (*MetricAttributes) ProtoMessage() {}
 
 func (x *MetricAttributes) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[10]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[10]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -4646,7 +4646,7 @@ func (x *MetricAttributes) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MetricAttributes.ProtoReflect.Descriptor instead.
 func (*MetricAttributes) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{10}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *MetricAttributes) GetName() string {
@@ -4676,7 +4676,7 @@ type MetricAttributes_Attribute struct {
 
 func (x *MetricAttributes_Attribute) Reset() {
 	*x = MetricAttributes_Attribute{}
-	mi := &file_services_google_ads_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[11]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -4688,7 +4688,7 @@ func (x *MetricAttributes_Attribute) String() string {
 func (*MetricAttributes_Attribute) ProtoMessage() {}
 
 func (x *MetricAttributes_Attribute) ProtoReflect() protoreflect.Message {
-	mi := &file_services_google_ads_service_proto_msgTypes[11]
+	mi := &file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[11]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -4701,7 +4701,7 @@ func (x *MetricAttributes_Attribute) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MetricAttributes_Attribute.ProtoReflect.Descriptor instead.
 func (*MetricAttributes_Attribute) Descriptor() ([]byte, []int) {
-	return file_services_google_ads_service_proto_rawDescGZIP(), []int{10, 0}
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP(), []int{10, 0}
 }
 
 func (x *MetricAttributes_Attribute) GetKey() string {
@@ -4718,9 +4718,9 @@ func (x *MetricAttributes_Attribute) GetValue() string {
 	return ""
 }
 
-var File_services_google_ads_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_google_ads_service_proto protoreflect.FileDescriptor
 
-var file_services_google_ads_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_google_ads_service_proto_rawDesc = string([]byte{
 	0x0a, 0x3a, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x5f, 0x61, 0x64, 0x73, 0x5f, 0x73,
@@ -8192,19 +8192,19 @@ var file_services_google_ads_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_google_ads_service_proto_rawDescOnce sync.Once
-	file_services_google_ads_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescData []byte
 )
 
-func file_services_google_ads_service_proto_rawDescGZIP() []byte {
-	file_services_google_ads_service_proto_rawDescOnce.Do(func() {
-		file_services_google_ads_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_google_ads_service_proto_rawDesc), len(file_services_google_ads_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_google_ads_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_google_ads_service_proto_rawDesc)))
 	})
-	return file_services_google_ads_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_google_ads_service_proto_rawDescData
 }
 
-var file_services_google_ads_service_proto_msgTypes = make([]protoimpl.MessageInfo, 12)
-var file_services_google_ads_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes = make([]protoimpl.MessageInfo, 12)
+var file_google_ads_googleads_v25_services_google_ads_service_proto_goTypes = []any{
 	(*SearchGoogleAdsRequest)(nil),                                   // 0: google.ads.googleads.v25.services.SearchGoogleAdsRequest
 	(*SearchGoogleAdsResponse)(nil),                                  // 1: google.ads.googleads.v25.services.SearchGoogleAdsResponse
 	(*SearchGoogleAdsStreamRequest)(nil),                             // 2: google.ads.googleads.v25.services.SearchGoogleAdsStreamRequest
@@ -8533,7 +8533,7 @@ var file_services_google_ads_service_proto_goTypes = []any{
 	(*MutateSmartCampaignSettingResult)(nil),                         // 325: google.ads.googleads.v25.services.MutateSmartCampaignSettingResult
 	(*MutateUserListResult)(nil),                                     // 326: google.ads.googleads.v25.services.MutateUserListResult
 }
-var file_services_google_ads_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_google_ads_service_proto_depIdxs = []int32{
 	9,   // 0: google.ads.googleads.v25.services.SearchGoogleAdsRequest.search_settings:type_name -> google.ads.googleads.v25.services.SearchSettings
 	4,   // 1: google.ads.googleads.v25.services.SearchGoogleAdsResponse.results:type_name -> google.ads.googleads.v25.services.GoogleAdsRow
 	12,  // 2: google.ads.googleads.v25.services.SearchGoogleAdsResponse.field_mask:type_name -> google.protobuf.FieldMask
@@ -8873,74 +8873,74 @@ var file_services_google_ads_service_proto_depIdxs = []int32{
 	0,   // [0:326] is the sub-list for field type_name
 }
 
-func init() { file_services_google_ads_service_proto_init() }
-func file_services_google_ads_service_proto_init() {
-	if File_services_google_ads_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_google_ads_service_proto_init() }
+func file_google_ads_googleads_v25_services_google_ads_service_proto_init() {
+	if File_google_ads_googleads_v25_services_google_ads_service_proto != nil {
 		return
 	}
-	file_services_ad_group_ad_label_service_proto_init()
-	file_services_ad_group_ad_service_proto_init()
-	file_services_ad_group_asset_service_proto_init()
-	file_services_ad_group_bid_modifier_service_proto_init()
-	file_services_ad_group_criterion_customizer_service_proto_init()
-	file_services_ad_group_criterion_label_service_proto_init()
-	file_services_ad_group_criterion_service_proto_init()
-	file_services_ad_group_customizer_service_proto_init()
-	file_services_ad_group_label_service_proto_init()
-	file_services_ad_group_service_proto_init()
-	file_services_ad_parameter_service_proto_init()
-	file_services_ad_service_proto_init()
-	file_services_asset_group_asset_service_proto_init()
-	file_services_asset_group_listing_group_filter_service_proto_init()
-	file_services_asset_group_service_proto_init()
-	file_services_asset_group_signal_service_proto_init()
-	file_services_asset_service_proto_init()
-	file_services_asset_set_asset_service_proto_init()
-	file_services_asset_set_service_proto_init()
-	file_services_audience_service_proto_init()
-	file_services_bidding_data_exclusion_service_proto_init()
-	file_services_bidding_seasonality_adjustment_service_proto_init()
-	file_services_bidding_strategy_service_proto_init()
-	file_services_campaign_asset_service_proto_init()
-	file_services_campaign_asset_set_service_proto_init()
-	file_services_campaign_bid_modifier_service_proto_init()
-	file_services_campaign_budget_service_proto_init()
-	file_services_campaign_conversion_goal_service_proto_init()
-	file_services_campaign_criterion_service_proto_init()
-	file_services_campaign_customizer_service_proto_init()
-	file_services_campaign_draft_service_proto_init()
-	file_services_campaign_group_service_proto_init()
-	file_services_campaign_label_service_proto_init()
-	file_services_campaign_service_proto_init()
-	file_services_campaign_shared_set_service_proto_init()
-	file_services_conversion_action_service_proto_init()
-	file_services_conversion_custom_variable_service_proto_init()
-	file_services_conversion_goal_campaign_config_service_proto_init()
-	file_services_conversion_value_rule_service_proto_init()
-	file_services_conversion_value_rule_set_service_proto_init()
-	file_services_custom_conversion_goal_service_proto_init()
-	file_services_customer_asset_service_proto_init()
-	file_services_customer_conversion_goal_service_proto_init()
-	file_services_customer_customizer_service_proto_init()
-	file_services_customer_label_service_proto_init()
-	file_services_customer_negative_criterion_service_proto_init()
-	file_services_customer_service_proto_init()
-	file_services_customizer_attribute_service_proto_init()
-	file_services_experiment_arm_service_proto_init()
-	file_services_experiment_service_proto_init()
-	file_services_keyword_plan_ad_group_keyword_service_proto_init()
-	file_services_keyword_plan_ad_group_service_proto_init()
-	file_services_keyword_plan_campaign_keyword_service_proto_init()
-	file_services_keyword_plan_campaign_service_proto_init()
-	file_services_keyword_plan_service_proto_init()
-	file_services_label_service_proto_init()
-	file_services_recommendation_subscription_service_proto_init()
-	file_services_remarketing_action_service_proto_init()
-	file_services_shared_criterion_service_proto_init()
-	file_services_shared_set_service_proto_init()
-	file_services_smart_campaign_setting_service_proto_init()
-	file_services_user_list_service_proto_init()
-	file_services_google_ads_service_proto_msgTypes[7].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_ad_group_ad_label_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_ad_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_asset_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_bid_modifier_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_criterion_customizer_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_criterion_label_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_criterion_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_customizer_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_label_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_group_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_parameter_service_proto_init()
+	file_google_ads_googleads_v25_services_ad_service_proto_init()
+	file_google_ads_googleads_v25_services_asset_group_asset_service_proto_init()
+	file_google_ads_googleads_v25_services_asset_group_listing_group_filter_service_proto_init()
+	file_google_ads_googleads_v25_services_asset_group_service_proto_init()
+	file_google_ads_googleads_v25_services_asset_group_signal_service_proto_init()
+	file_google_ads_googleads_v25_services_asset_service_proto_init()
+	file_google_ads_googleads_v25_services_asset_set_asset_service_proto_init()
+	file_google_ads_googleads_v25_services_asset_set_service_proto_init()
+	file_google_ads_googleads_v25_services_audience_service_proto_init()
+	file_google_ads_googleads_v25_services_bidding_data_exclusion_service_proto_init()
+	file_google_ads_googleads_v25_services_bidding_seasonality_adjustment_service_proto_init()
+	file_google_ads_googleads_v25_services_bidding_strategy_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_asset_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_asset_set_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_bid_modifier_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_budget_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_conversion_goal_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_criterion_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_customizer_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_draft_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_group_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_label_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_service_proto_init()
+	file_google_ads_googleads_v25_services_campaign_shared_set_service_proto_init()
+	file_google_ads_googleads_v25_services_conversion_action_service_proto_init()
+	file_google_ads_googleads_v25_services_conversion_custom_variable_service_proto_init()
+	file_google_ads_googleads_v25_services_conversion_goal_campaign_config_service_proto_init()
+	file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_init()
+	file_google_ads_googleads_v25_services_conversion_value_rule_set_service_proto_init()
+	file_google_ads_googleads_v25_services_custom_conversion_goal_service_proto_init()
+	file_google_ads_googleads_v25_services_customer_asset_service_proto_init()
+	file_google_ads_googleads_v25_services_customer_conversion_goal_service_proto_init()
+	file_google_ads_googleads_v25_services_customer_customizer_service_proto_init()
+	file_google_ads_googleads_v25_services_customer_label_service_proto_init()
+	file_google_ads_googleads_v25_services_customer_negative_criterion_service_proto_init()
+	file_google_ads_googleads_v25_services_customer_service_proto_init()
+	file_google_ads_googleads_v25_services_customizer_attribute_service_proto_init()
+	file_google_ads_googleads_v25_services_experiment_arm_service_proto_init()
+	file_google_ads_googleads_v25_services_experiment_service_proto_init()
+	file_google_ads_googleads_v25_services_keyword_plan_ad_group_keyword_service_proto_init()
+	file_google_ads_googleads_v25_services_keyword_plan_ad_group_service_proto_init()
+	file_google_ads_googleads_v25_services_keyword_plan_campaign_keyword_service_proto_init()
+	file_google_ads_googleads_v25_services_keyword_plan_campaign_service_proto_init()
+	file_google_ads_googleads_v25_services_keyword_plan_service_proto_init()
+	file_google_ads_googleads_v25_services_label_service_proto_init()
+	file_google_ads_googleads_v25_services_recommendation_subscription_service_proto_init()
+	file_google_ads_googleads_v25_services_remarketing_action_service_proto_init()
+	file_google_ads_googleads_v25_services_shared_criterion_service_proto_init()
+	file_google_ads_googleads_v25_services_shared_set_service_proto_init()
+	file_google_ads_googleads_v25_services_smart_campaign_setting_service_proto_init()
+	file_google_ads_googleads_v25_services_user_list_service_proto_init()
+	file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[7].OneofWrappers = []any{
 		(*MutateOperation_AdGroupAdLabelOperation)(nil),
 		(*MutateOperation_AdGroupAdOperation)(nil),
 		(*MutateOperation_AdGroupAssetOperation)(nil),
@@ -9006,7 +9006,7 @@ func file_services_google_ads_service_proto_init() {
 		(*MutateOperation_SmartCampaignSettingOperation)(nil),
 		(*MutateOperation_UserListOperation)(nil),
 	}
-	file_services_google_ads_service_proto_msgTypes[8].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes[8].OneofWrappers = []any{
 		(*MutateOperationResponse_AdGroupAdLabelResult)(nil),
 		(*MutateOperationResponse_AdGroupAdResult)(nil),
 		(*MutateOperationResponse_AdGroupAssetResult)(nil),
@@ -9076,17 +9076,17 @@ func file_services_google_ads_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_google_ads_service_proto_rawDesc), len(file_services_google_ads_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_google_ads_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_google_ads_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   12,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_google_ads_service_proto_goTypes,
-		DependencyIndexes: file_services_google_ads_service_proto_depIdxs,
-		MessageInfos:      file_services_google_ads_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_google_ads_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_google_ads_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_google_ads_service_proto_msgTypes,
 	}.Build()
-	File_services_google_ads_service_proto = out.File
-	file_services_google_ads_service_proto_goTypes = nil
-	file_services_google_ads_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_google_ads_service_proto = out.File
+	file_google_ads_googleads_v25_services_google_ads_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_google_ads_service_proto_depIdxs = nil
 }

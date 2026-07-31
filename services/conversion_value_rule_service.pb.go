@@ -67,7 +67,7 @@ type MutateConversionValueRulesRequest struct {
 
 func (x *MutateConversionValueRulesRequest) Reset() {
 	*x = MutateConversionValueRulesRequest{}
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -79,7 +79,7 @@ func (x *MutateConversionValueRulesRequest) String() string {
 func (*MutateConversionValueRulesRequest) ProtoMessage() {}
 
 func (x *MutateConversionValueRulesRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[0]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -92,7 +92,7 @@ func (x *MutateConversionValueRulesRequest) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use MutateConversionValueRulesRequest.ProtoReflect.Descriptor instead.
 func (*MutateConversionValueRulesRequest) Descriptor() ([]byte, []int) {
-	return file_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{0}
+	return file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *MutateConversionValueRulesRequest) GetCustomerId() string {
@@ -149,7 +149,7 @@ type ConversionValueRuleOperation struct {
 
 func (x *ConversionValueRuleOperation) Reset() {
 	*x = ConversionValueRuleOperation{}
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -161,7 +161,7 @@ func (x *ConversionValueRuleOperation) String() string {
 func (*ConversionValueRuleOperation) ProtoMessage() {}
 
 func (x *ConversionValueRuleOperation) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[1]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -174,7 +174,7 @@ func (x *ConversionValueRuleOperation) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ConversionValueRuleOperation.ProtoReflect.Descriptor instead.
 func (*ConversionValueRuleOperation) Descriptor() ([]byte, []int) {
-	return file_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{1}
+	return file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *ConversionValueRuleOperation) GetUpdateMask() *fieldmaskpb.FieldMask {
@@ -265,7 +265,7 @@ type MutateConversionValueRulesResponse struct {
 
 func (x *MutateConversionValueRulesResponse) Reset() {
 	*x = MutateConversionValueRulesResponse{}
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -277,7 +277,7 @@ func (x *MutateConversionValueRulesResponse) String() string {
 func (*MutateConversionValueRulesResponse) ProtoMessage() {}
 
 func (x *MutateConversionValueRulesResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[2]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -290,7 +290,7 @@ func (x *MutateConversionValueRulesResponse) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use MutateConversionValueRulesResponse.ProtoReflect.Descriptor instead.
 func (*MutateConversionValueRulesResponse) Descriptor() ([]byte, []int) {
-	return file_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{2}
+	return file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *MutateConversionValueRulesResponse) GetResults() []*MutateConversionValueRuleResult {
@@ -322,7 +322,7 @@ type MutateConversionValueRuleResult struct {
 
 func (x *MutateConversionValueRuleResult) Reset() {
 	*x = MutateConversionValueRuleResult{}
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -334,7 +334,7 @@ func (x *MutateConversionValueRuleResult) String() string {
 func (*MutateConversionValueRuleResult) ProtoMessage() {}
 
 func (x *MutateConversionValueRuleResult) ProtoReflect() protoreflect.Message {
-	mi := &file_services_conversion_value_rule_service_proto_msgTypes[3]
+	mi := &file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -347,7 +347,7 @@ func (x *MutateConversionValueRuleResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use MutateConversionValueRuleResult.ProtoReflect.Descriptor instead.
 func (*MutateConversionValueRuleResult) Descriptor() ([]byte, []int) {
-	return file_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{3}
+	return file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *MutateConversionValueRuleResult) GetResourceName() string {
@@ -364,9 +364,9 @@ func (x *MutateConversionValueRuleResult) GetConversionValueRule() *resources.Co
 	return nil
 }
 
-var File_services_conversion_value_rule_service_proto protoreflect.FileDescriptor
+var File_google_ads_googleads_v25_services_conversion_value_rule_service_proto protoreflect.FileDescriptor
 
-var file_services_conversion_value_rule_service_proto_rawDesc = string([]byte{
+var file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDesc = string([]byte{
 	0x0a, 0x45, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x64, 0x73, 0x2f, 0x67, 0x6f, 0x6f,
 	0x67, 0x6c, 0x65, 0x61, 0x64, 0x73, 0x2f, 0x76, 0x32, 0x35, 0x2f, 0x73, 0x65, 0x72, 0x76, 0x69,
 	0x63, 0x65, 0x73, 0x2f, 0x63, 0x6f, 0x6e, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x5f, 0x76,
@@ -510,19 +510,19 @@ var file_services_conversion_value_rule_service_proto_rawDesc = string([]byte{
 })
 
 var (
-	file_services_conversion_value_rule_service_proto_rawDescOnce sync.Once
-	file_services_conversion_value_rule_service_proto_rawDescData []byte
+	file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescOnce sync.Once
+	file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescData []byte
 )
 
-func file_services_conversion_value_rule_service_proto_rawDescGZIP() []byte {
-	file_services_conversion_value_rule_service_proto_rawDescOnce.Do(func() {
-		file_services_conversion_value_rule_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_services_conversion_value_rule_service_proto_rawDesc), len(file_services_conversion_value_rule_service_proto_rawDesc)))
+func file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescGZIP() []byte {
+	file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescOnce.Do(func() {
+		file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDesc)))
 	})
-	return file_services_conversion_value_rule_service_proto_rawDescData
+	return file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDescData
 }
 
-var file_services_conversion_value_rule_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_services_conversion_value_rule_service_proto_goTypes = []any{
+var file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_goTypes = []any{
 	(*MutateConversionValueRulesRequest)(nil),              // 0: google.ads.googleads.v25.services.MutateConversionValueRulesRequest
 	(*ConversionValueRuleOperation)(nil),                   // 1: google.ads.googleads.v25.services.ConversionValueRuleOperation
 	(*MutateConversionValueRulesResponse)(nil),             // 2: google.ads.googleads.v25.services.MutateConversionValueRulesResponse
@@ -532,7 +532,7 @@ var file_services_conversion_value_rule_service_proto_goTypes = []any{
 	(*resources.ConversionValueRule)(nil),                  // 6: google.ads.googleads.v25.resources.ConversionValueRule
 	(*status.Status)(nil),                                  // 7: google.rpc.Status
 }
-var file_services_conversion_value_rule_service_proto_depIdxs = []int32{
+var file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_depIdxs = []int32{
 	1, // 0: google.ads.googleads.v25.services.MutateConversionValueRulesRequest.operations:type_name -> google.ads.googleads.v25.services.ConversionValueRuleOperation
 	4, // 1: google.ads.googleads.v25.services.MutateConversionValueRulesRequest.response_content_type:type_name -> google.ads.googleads.v25.enums.ResponseContentTypeEnum.ResponseContentType
 	5, // 2: google.ads.googleads.v25.services.ConversionValueRuleOperation.update_mask:type_name -> google.protobuf.FieldMask
@@ -550,12 +550,12 @@ var file_services_conversion_value_rule_service_proto_depIdxs = []int32{
 	0, // [0:8] is the sub-list for field type_name
 }
 
-func init() { file_services_conversion_value_rule_service_proto_init() }
-func file_services_conversion_value_rule_service_proto_init() {
-	if File_services_conversion_value_rule_service_proto != nil {
+func init() { file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_init() }
+func file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_init() {
+	if File_google_ads_googleads_v25_services_conversion_value_rule_service_proto != nil {
 		return
 	}
-	file_services_conversion_value_rule_service_proto_msgTypes[1].OneofWrappers = []any{
+	file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes[1].OneofWrappers = []any{
 		(*ConversionValueRuleOperation_Create)(nil),
 		(*ConversionValueRuleOperation_Update)(nil),
 		(*ConversionValueRuleOperation_Remove)(nil),
@@ -564,17 +564,17 @@ func file_services_conversion_value_rule_service_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_services_conversion_value_rule_service_proto_rawDesc), len(file_services_conversion_value_rule_service_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDesc), len(file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_services_conversion_value_rule_service_proto_goTypes,
-		DependencyIndexes: file_services_conversion_value_rule_service_proto_depIdxs,
-		MessageInfos:      file_services_conversion_value_rule_service_proto_msgTypes,
+		GoTypes:           file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_goTypes,
+		DependencyIndexes: file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_depIdxs,
+		MessageInfos:      file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_msgTypes,
 	}.Build()
-	File_services_conversion_value_rule_service_proto = out.File
-	file_services_conversion_value_rule_service_proto_goTypes = nil
-	file_services_conversion_value_rule_service_proto_depIdxs = nil
+	File_google_ads_googleads_v25_services_conversion_value_rule_service_proto = out.File
+	file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_goTypes = nil
+	file_google_ads_googleads_v25_services_conversion_value_rule_service_proto_depIdxs = nil
 }
